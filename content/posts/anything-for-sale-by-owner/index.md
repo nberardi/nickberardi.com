@@ -22,7 +22,7 @@ tags:
 description: "As I alluded in a post a couple of weeks ago, I have been a bad blogger. And I have neglected my community of readers. However I would like to tell you..."
 ---
 
-[![Anything For Sale By Owner Logo](/nickberardi.com/images/2007/10/logoafsbo1.png)](/nickberardi.com/images/2007/10/logoafsbo1.png "Anything For Sale By Owner Logo")As I alluded in a post a couple of weeks ago, [I have been a bad blogger](http://www.coderjournal.com/2007/09/i-have-been-a-bad-blogger/ "I have Been A Bad Blogger"). And I have neglected my community of readers. However I would like to tell you what I have been doing in the last couple of months while I have been neglecting my blog.
+[![Anything For Sale By Owner Logo](/images/2007/10/logoafsbo1.png)](/images/2007/10/logoafsbo1.png "Anything For Sale By Owner Logo")As I alluded in a post a couple of weeks ago, [I have been a bad blogger](http://www.coderjournal.com/2007/09/i-have-been-a-bad-blogger/ "I have Been A Bad Blogger"). And I have neglected my community of readers. However I would like to tell you what I have been doing in the last couple of months while I have been neglecting my blog.
 
 I recently got involved in creating a startup as the lead developer for an online classifieds site called [Anything For Sale By Owner](http://anythingforsalebyowner.com). From the ground up this was conceived as a middle-ground between craigslist and ebay where every listing would be charged at a static rate of $1.00/month. The $1.00 is a way to week out the crap from craigslist and the death-by-fees from ebay.
 

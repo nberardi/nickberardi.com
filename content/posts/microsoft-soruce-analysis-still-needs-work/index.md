@@ -8,7 +8,7 @@ tags:
 description: "Microsoft just released a tool called Microsoft Source Analysis for C#. Apparently it is a tool they use internally to make sure all their souce code..."
 ---
 
-![Somebody is wrong on the internet](/nickberardi.com/images/2008/05/duty_calls1.png "Somebody is wrong on the internet")Microsoft just released a tool called [Microsoft Source Analysis for C#](https://code.msdn.microsoft.com/Release/ProjectReleases.aspx?ProjectName=sourceanalysis). Apparently it is a tool they use internally to make sure all their souce code looks the same and is easily readable by all those who use it. According to the [blog post that announced this](http://blogs.msdn.com/sourceanalysis/archive/2008/05/23/announcing-the-release-of-microsoft-source-analysis.aspx):
+![Somebody is wrong on the internet](/images/2008/05/duty_calls1.png "Somebody is wrong on the internet")Microsoft just released a tool called [Microsoft Source Analysis for C#](https://code.msdn.microsoft.com/Release/ProjectReleases.aspx?ProjectName=sourceanalysis). Apparently it is a tool they use internally to make sure all their souce code looks the same and is easily readable by all those who use it. According to the [blog post that announced this](http://blogs.msdn.com/sourceanalysis/archive/2008/05/23/announcing-the-release-of-microsoft-source-analysis.aspx):
 
 > Source Analysis comes with a set of default rules analyzers covering approximately 200 best practice rules. These rules are full compatible with the default layout settings in Visual Studio 2005 and Visual Studio 2008.
 > Specifically, these rules cover the following, in no particular order:

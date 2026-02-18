@@ -25,7 +25,7 @@ But before I go into the meat of this article, I want to say that I have nothing
 
 About a week after submitting my final invoice, and I hadn't had any contact with the companies management in the mean time. It all started when I received the following letter from their (SocketLabs) lawyer.
 
-[![pdf](/nickberardi.com/images/2011/06/pdf.jpg "pdf") The PDF I was sent by the lawyer.](/nickberardi.com/images/2011/06/Agreement.pdf)
+[![pdf](/images/2011/06/pdf.jpg "pdf") The PDF I was sent by the lawyer.](/images/2011/06/Agreement.pdf)
 
 Review at your leisure, see if you come to the same conclusions I laid out below.
 

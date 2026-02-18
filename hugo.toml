@@ -1,4 +1,4 @@
-baseURL = 'https://nberardi.github.io/nickberardi.com/'
+baseURL = 'https://nickberardi.com/'
 languageCode = 'en-us'
 title = 'Nick Berardi'
 theme = 'PaperMod'

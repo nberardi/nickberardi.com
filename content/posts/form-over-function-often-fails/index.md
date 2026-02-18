@@ -14,7 +14,7 @@ description: "Have you ever been asked to program something as simple as this ch
 
 Have you ever been asked to program something as simple as this chain lock for a door:
 
-![Door Chain Lock](/nickberardi.com/images/2009/07/door_chain_n183-590.jpg "Door Chain Lock")
+![Door Chain Lock](/images/2009/07/door_chain_n183-590.jpg "Door Chain Lock")
 
 And after it has gone through the design process, usability groups, your corporate intigration team, and any Tom, Dick, or Harry that wants to put their finger print on the project to get credit.  You end up with something like this:
 

@@ -29,7 +29,7 @@ The **third step** and the key to getting everything to build the same on the bu
 - C:\Program Files (x86)\MSBuild
 - C:\Program Files (x86)\Reference Assemblies
 
-![Copy Directories](/nickberardi.com/images/2014/Apr/copy_directories.png)
+![Copy Directories](/images/2014/Apr/copy_directories.png)
 
 > **Note:** I prefer to zip up the directories prior to copying them to the build server, because it makes the process faster and less error prone. Then when they are on my build server, I just unzip the directories into the correct path.
 

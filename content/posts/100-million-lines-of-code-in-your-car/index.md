@@ -27,6 +27,6 @@ If GM had developed technology like Microsoft, we would all be driving cars with
 
 Believe it or not #1 from above is happening to a friend of mine on his 5 Series BMW.  And well we are all accepting #10 as a great feature on new cars.  In fact my new 2009 Acura TL, that I just bought, has a button like the one pictured below.
 
-![Acura Start Button](/nickberardi.com/images/2009/03/2773995391_f92a3d0cc911.jpg "Acura Start Button")
+![Acura Start Button](/images/2009/03/2773995391_f92a3d0cc911.jpg "Acura Start Button")
 
 Isn't it ironic how we laughed at these 10 statments a number of years ago?

@@ -10,4 +10,4 @@ description: "If your goal is to take over the world by pure force of your codin
 
 If your goal is to take over the world by pure force of your coding skill and you are tired of all those namby-pamby coding languages and frameworks, you should try Java Evil Edition.
 
-[![Java Evil Edition](/nickberardi.com/images/2007/05/java-evil-edition1.png)](/nickberardi.com/images/2007/05/java-evil-edition1.png "Java Evil Edition")
+[![Java Evil Edition](/images/2007/05/java-evil-edition1.png)](/images/2007/05/java-evil-edition1.png "Java Evil Edition")

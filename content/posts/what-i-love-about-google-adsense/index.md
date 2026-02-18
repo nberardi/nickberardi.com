@@ -12,7 +12,7 @@ Received this message today from Google AdSense.
 
 ---
 
-![Google AdSense logo](http://www.google.com/nickberardi.com/images/logos/adsense_logo.gif)
+![Google AdSense logo](http://www.google.com/images/logos/adsense_logo.gif)
 
 We performed an analysis on xyz.com and found a great opportunity to increase your AdSense earnings. We recommend that you change your 120x600 ad units to 160x600's on xyz.com. Here is an example of where we found this opportunity: xyz.com/
 

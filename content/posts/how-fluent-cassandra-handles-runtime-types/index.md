@@ -34,13 +34,13 @@ To understand why this is happening we first must talk about how Cassandra store
 
 The **Name** with *CompareWith* type is set in the configuration and can be **ASCII**, **UTF8**, **LexicalUUID**, **TimeUUID**, **Long**, or **Bytes**.  In other words in the .NET world they can be **string**, **Guid, DateTime**, **long**, or **byte[]**.  The **Value** can only be the Bytes or byte[] type.  And the Timestamp is used for synchronization between Cassandra servers and shouldn’t be directly controlled.  To relate back to the type conversion problem that I mentioned above, we need to take a deeper look at what happens to the **Value** property of the column when it is set and saved.
 
-[![image](/nickberardi.com/images//2010/06/image_thumb1.png "image")](/nickberardi.com/images/2010/06/image1.png)
+[![image](/images//2010/06/image_thumb1.png "image")](/images/2010/06/image1.png)
 
 From when you set a property to your chosen type to when it is saved in Cassandra it goes through a two steps that you probably aren’t aware of, first the type is serialized and stored in Fluent Cassandra's flexible BytesType that is intelligent enough to understand how to serialize common runtime types in to binary so that you as the developer doesn’t have to worry about interacting with the Cassandra database at a low level.  This intelligent type system is also the major driver behind the ASCII, UTF8, LexicalUUID, TimeUUID, Long, and Bytes type that also help serialize the **Name** property of the column correctly.
 
 However the issue as alluded to in the beginning of the article comes when you are retrieving the object out of Fluent Cassandra.
 
-[![image](/nickberardi.com/images/2010/06/image_thumb2.png "image")](/nickberardi.com/images/2010/06/image2.png)
+[![image](/images/2010/06/image_thumb2.png "image")](/images/2010/06/image2.png)
 
 Fluent Cassandra when pulling a column out of the database only has the binary data to work with, and thus doesn’t know which of the runtime types to convert it to.  That is why we need to explicitly tell Fluent Cassandra what type we need this property to be desterilized to.  We do that by casting the property to the type we want it retrieved as, to build on the example above we would get the column values in the following way:
 

@@ -9,7 +9,7 @@ tags:
 description: "Philly Code Camp 2011.1 will be held April 9th at DeVry in Fort Washington. And we have a great line up of tracks this year, even a couple new web related..."
 ---
 
-![](/nickberardi.com/images/2011/01/uncle_sam_2-300x280.jpg "Uncle Sam")**Philly Code Camp 2011.1** will be held **April 9th** at DeVry in Fort Washington. And we have a great line up of tracks this year, even a couple new web related tracks lead by John Petersen and Marc Ziss.
+![](/images/2011/01/uncle_sam_2-300x280.jpg "Uncle Sam")**Philly Code Camp 2011.1** will be held **April 9th** at DeVry in Fort Washington. And we have a great line up of tracks this year, even a couple new web related tracks lead by John Petersen and Marc Ziss.
 
 We always have a great turn out of interested and eager developers because **we have great topics, presented by even greater speakers**, and that is why **we cannot do it with out you, the speaker**.  So if you are interested in submitting a topic for one of the following tracks:
 
@@ -38,6 +38,6 @@ So if one of these tracks is your area of expertise or you have a great interest
 
 And clicking the “Add new item” button at the bottom of the page:
 
-![image](/nickberardi.com/images/2010/08/image.png "image")
+![image](/images/2010/08/image.png "image")
 
 We look forward to your submissions.  Because with out you, the speaker, Code Camp doesn’t work.

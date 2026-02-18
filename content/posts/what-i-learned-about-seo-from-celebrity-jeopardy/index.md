@@ -36,7 +36,7 @@ I really tried to find a good example of one of the famous Sean Connery mess ups
 
 As you can see Norm MacDonald playing the character of Burt Reynolds transforms the category in Celebrity Jeopordy!, on purpose for comedy reasons. In my analogy Google is going to be the Burt Reynolds of your search, however instead of finding the wrong words on purpose it is going to do it because it is a dumb machine that does what it is asked even if the results are not contextually accurate.
 
-[![An Album Cover Google Example](/nickberardi.com/images/2008/05/an-album-cover-google-example1.png "An Album Cover Google Example")](http://www.google.com/search?q=an+album+cover+SNL)
+[![An Album Cover Google Example](/images/2008/05/an-album-cover-google-example1.png "An Album Cover Google Example")](http://www.google.com/search?q=an+album+cover+SNL)
 
 Notice in the image above, in the highlighted words, Google finds both "An Album Cover" and "Anal Bum Cover". This is because Google understands that the words you may be looking for don't always fall in the same order and spacing as the exact phase you are looking for. This is something that SEO experts have known for a long and try to control so that their content shows in the top spot for the keywords they designed in to the page.
 

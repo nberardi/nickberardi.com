@@ -19,7 +19,7 @@ except ImportError:
     from markdownify import markdownify as md
 
 
-IMAGE_PREFIX = '/nickberardi.com/images/'
+IMAGE_PREFIX = '/images/'
 
 def clean_html_entities(text):
     """Decode HTML entities"""

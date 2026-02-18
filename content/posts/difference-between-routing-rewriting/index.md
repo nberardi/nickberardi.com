@@ -17,7 +17,7 @@ As most of you are probably aware, if you read my blog enough, I am the sole dev
 
 While Jeff only focuses on the reasons related to SEO, there are many other reasons to make your URL’s “look-and-feel” a high priority.  One that is often touted as a wonderful reason to use a URL Rewriter is to produce pretty looking URL’s, and even though this one of many reasons to use a rewriter, it is really a small part of why you want to have a URL Rewriter in your arsenal as a web developer.  Other reasons include forcing your domain to a constant www vs non-www address, having helper URL’s such as <http://www.microsoft.com/sql> that redirect to their actual location, and [many others](http://www.addedbytes.com/for-beginners/url-rewriting-for-beginners/).
 
-[![routing_engine](/nickberardi.com/images/2010/03/routing_engine_thumb1.jpg "routing_engine")](/nickberardi.com/images/2010/03/routing_engine1.jpg)
+[![routing_engine](/images/2010/03/routing_engine_thumb1.jpg "routing_engine")](/images/2010/03/routing_engine1.jpg)
 
 However, since Microsoft released the [System.Web.Routing](http://msdn.microsoft.com/en-us/library/system.web.routing.aspx) framework the benefits for using a URL Rewriter have been blurred, because the routing framework gives developers more of an ability to control the URL and thus create prettier URL’s than have traditionally been possible.  Because of this overlap of efforts, in the router and rewriter, in making a more readable URL a misunderstand has been created about the functions and benefits that each provide to the modern web developer.
 

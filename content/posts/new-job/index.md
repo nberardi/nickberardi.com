@@ -14,7 +14,7 @@ Philadelphia has given so much to me, I received my first professional job here,
 
 At this point in this post you are probably saying "stop babbling and tell us what the job is." Well the job that I am going to be taking on and moving to Seattle to pursue is a job with Amazon.com as a Software Development Manager in charge of the Windows and Mac Desktop applications for [Amazon Cloud Drive](https://www.amazon.com/clouddrive).
 
-![Amazon Cloud Drive](/nickberardi.com/images/2014/Jul/amazon_cloud_drive_logo.gif)
+![Amazon Cloud Drive](/images/2014/Jul/amazon_cloud_drive_logo.gif)
 
 If you don't know what the Amazon Cloud Drive is, it can best be described as a hard drive in the cloud that allows users to enjoy, save and share their most cherished digital assets. It is in the same class of applications as Dropbox, Microsoft OneDrive, Google Drive, or the recently announced Apple iCloud Drive. It is currently a very hot area of tech to be in right now.
 

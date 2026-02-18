@@ -17,7 +17,7 @@ One of the many techno-geek religious arguments that comes up a lot is which web
 > By using one server to load this page (not being tested) then calling a page from a dedicated IIS6 server into an iframe and a second page from a dedicated Apache server into a second iframe. The entire process is using PHP scripting and mysql data to store the results. To eliminate cache hits on both test servers, the page being returned to the iframe is dynamically created each time from a php script.
 > After the pages are completely loaded, an ajax call is made to the primary server to record the times back into the sql database for statistics. All three servers are the same physically and in the same rack and network. Bandwidth is not a measurement issue, since only the execution of the php script is being measured.
 
-I have taken the liberty of making a [screen shot of the following site](http://209.20.129.8/testgraph.php "Graph of IIS 6 vs Apache Results") just in case it is taken down. The screen show is dated **2007-06-30**.[![IIS 6 vs Apache Graph](/nickberardi.com/images/2007/06/iis-vs-apache1.png)](/nickberardi.com/images/2007/06/iis-vs-apache1.png "IIS 6 vs Apache Graph")
+I have taken the liberty of making a [screen shot of the following site](http://209.20.129.8/testgraph.php "Graph of IIS 6 vs Apache Results") just in case it is taken down. The screen show is dated **2007-06-30**.[![IIS 6 vs Apache Graph](/images/2007/06/iis-vs-apache1.png)](/images/2007/06/iis-vs-apache1.png "IIS 6 vs Apache Graph")
 
 I have included the results below for the same reason.
 

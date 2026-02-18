@@ -12,11 +12,11 @@ description: "I was very excited to see that after several months of work Phil a
 
 I was very excited to see that after several months of work [Phil](http://haacked.com) and [Paul](http://blog.paulbetts.org/) finally [released](https://github.com/blog/1127-github-for-windows) their much talked about [GitHub client for Windows](http://windows.github.com). It has a great Metro style, and is very fluid and functional.  Here is an example of what my client looks like
 
-![](/nickberardi.com/images/2012/05/GitHub-Client.png "GitHub Client")
+![](/images/2012/05/GitHub-Client.png "GitHub Client")
 
 As you can see it is very clean, and there are no typical windows borders or title bar which is common for Metro styled apps. As I was exploring the app, I stumbled on the fact that if you are using PowerShell as your default shell.
 
-![](/nickberardi.com/images/2012/05/GitHub-Client-Default-Console.png "GitHub Client Default Console")
+![](/images/2012/05/GitHub-Client-Default-Console.png "GitHub Client Default Console")
 
 You can actually customize the PowerShell profile used by the app to be different and separate from your default Windows PowerShell profile. This can be useful if you want to install a separate set of modules or configure it in a different way than your default Windows PowerShell profile. To do this you create the PowerShell profile in the following path.
 

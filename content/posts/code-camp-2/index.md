@@ -22,7 +22,7 @@ You can download the software seen in this presentation at:
 
 And Sara Ford's best selling [book on the subject](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20), appropriately called **Microsoft Visual Studio Tips**.
 
-[![sara-ford-visual-studio-tips](/nickberardi.com/images/2009/04/sara-ford-visual-studio-tips.jpg "sara-ford-visual-studio-tips")](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20)
+[![sara-ford-visual-studio-tips](/images/2009/04/sara-ford-visual-studio-tips.jpg "sara-ford-visual-studio-tips")](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20)
 
 And because she is such an awesome person all the royalties from the book are going to a scholarship fund to help pay for the the costs of **[sending Hurricane Katrina survivors to college](http://www.mgccc.cc.ms.us/news/book_raises_scholarship_money_for_MGCCC_students.php)**. So if you are interested [go pick up a copy](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20).
 

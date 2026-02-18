@@ -24,4 +24,4 @@ As far as I can see nothing is really new with the application.  The only notic
 
 You can download iTunes in the normal places, either through your updator or [from their website](http://www.apple.com/itunes/download/).  My recommendation is to wait to see, if you don't need the new functionality.
 
-[![](/nickberardi.com/images/2008/07/itunes-771.png "iTunes 7.7")](/nickberardi.com/images/2008/07/itunes-771.png)
+[![](/images/2008/07/itunes-771.png "iTunes 7.7")](/images/2008/07/itunes-771.png)

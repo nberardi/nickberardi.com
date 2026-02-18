@@ -40,16 +40,16 @@ Now lets setup the smart host using our SMTP Relay provided by SocketLabs. To se
 
 1. In **IIS Manager**, **right-click** the SMTP virtual server, and then **click Properties**.
 
-![Untitled](/nickberardi.com/images/2010/10/Untitled_thumb.png "Untitled")
+![Untitled](/images/2010/10/Untitled_thumb.png "Untitled")
 
 1. Click the **Delivery tab**, and **click Advanced**.
 2. In the **Smart host** box, type the name of the smart host server. In this case it is “**smtp1000.socketlabs-od.com**” You can type a string to represent a name or enter an IP address.
 
-![Untitled](/nickberardi.com/images/2010/10/Untitled_thumb1.png "Untitled")
+![Untitled](/images/2010/10/Untitled_thumb1.png "Untitled")
 
 1. **Click OK** and then **click Outbound Security** on the Delivery tab. And **enter in your authentication credentials** sent to you by SocketLabs.
 
-![Untitled](/nickberardi.com/images/2010/10/Untitled_thumb2.png "Untitled")
+![Untitled](/images/2010/10/Untitled_thumb2.png "Untitled")
 
 1. We are done
 
@@ -78,7 +78,7 @@ As you can see on line 7 the message was sent to my local host server, and then 
 
 And here is my favorite part, the emails show up on the graph.
 
-[![Untitled](/nickberardi.com/images/2010/10/Untitled_thumb3.png "Untitled")](/nickberardi.com/images/2010/10/Untitled3.png)
+[![Untitled](/images/2010/10/Untitled_thumb3.png "Untitled")](/images/2010/10/Untitled3.png)
 
 *Note: If you have never setup a localhost SMTP server on Windows before. Make sure that you grant “127.0.0.1” or “localhost” the ability to relay mail through the localhost server. Sounds odd, but this is a necessary step in my experience. To do this click the Access tab, click the Relay button, click the Add button, and then enter the IP address “127.0.0.1” in to the IP Address text box, and click OK. Then just keep clicking OK to exit out of the properties screen.*
 

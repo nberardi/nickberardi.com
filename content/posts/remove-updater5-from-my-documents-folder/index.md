@@ -15,8 +15,8 @@ Well I finally figured out how to remove the **Updater5** folder from your **My 
 Follow the couple steps I have outlined below and the Updater5 folder will be out of your life forever.
 
 1. Go to `C:\Program Files\Common Files\Adobe\Updater5`
-2. Run AdobeUpdaterInstallMgr.exe and wait for the progress bar to finish and show you the following screen. [![Adobe Updater Window](/nickberardi.com/images/2007/02/adobeupdate1.png)](/nickberardi.com/images/2007/02/adobeupdate1.png "Adobe Updater Window")
-3. Then click **Browse button** and change it to any directory you want as shown below.[![Adobe Updater Preferences Window](/nickberardi.com/images/2007/02/adobeupdatepreferences1.png)](/nickberardi.com/images/2007/02/adobeupdatepreferences1.png "Adobe Updater Preferences Window")
+2. Run AdobeUpdaterInstallMgr.exe and wait for the progress bar to finish and show you the following screen. [![Adobe Updater Window](/images/2007/02/adobeupdate1.png)](/images/2007/02/adobeupdate1.png "Adobe Updater Window")
+3. Then click **Browse button** and change it to any directory you want as shown below.[![Adobe Updater Preferences Window](/images/2007/02/adobeupdatepreferences1.png)](/images/2007/02/adobeupdatepreferences1.png "Adobe Updater Preferences Window")
 4. Now click the **OK button** and you are done.
 
 And now you should never see the **Updater5** folder in your **My Documents** folder ever again. This solution has worked both on my Windows XP as well as Windows Vista boxes that I have tried it on. For Mac users you can try hunting down the same updater program and going through the steps however I don't have a step-by-step guide for you.

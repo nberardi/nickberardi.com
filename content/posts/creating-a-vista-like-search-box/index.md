@@ -21,16 +21,16 @@ In this post we are going to go over what it takes to create a control, and more
 The first thing to do when creating a new control for Windows Forms is determine all the states of the control. In our case the control states are rather simple:
 
 **Inactive:**   
-[![Vista (Inactive)](/nickberardi.com/images/2007/03/vista-inactive1.png)](/nickberardi.com/images/2007/03/vista-inactive1.png "Vista (Inactive)")
+[![Vista (Inactive)](/images/2007/03/vista-inactive1.png)](/images/2007/03/vista-inactive1.png "Vista (Inactive)")
 
 **Active:**   
-[![Vista (Active)](/nickberardi.com/images/2007/03/vista-active1.png)](/nickberardi.com/images/2007/03/vista-active1.png "Vista (Active)")
+[![Vista (Active)](/images/2007/03/vista-active1.png)](/images/2007/03/vista-active1.png "Vista (Active)")
 
 **Text Entered:**   
-[![Vista (Text Entered)](/nickberardi.com/images/2007/03/vista-textentered1.png)](/nickberardi.com/images/2007/03/vista-textentered1.png "Vista (Text Entered)")
+[![Vista (Text Entered)](/images/2007/03/vista-textentered1.png)](/images/2007/03/vista-textentered1.png "Vista (Text Entered)")
 
 **Button Active:**   
-[![Vista (Button Active)](/nickberardi.com/images/2007/03/vista-buttonactive1.png)](/nickberardi.com/images/2007/03/vista-buttonactive1.png "Vista (Button Active)")
+[![Vista (Button Active)](/images/2007/03/vista-buttonactive1.png)](/images/2007/03/vista-buttonactive1.png "Vista (Button Active)")
 
 ## Creating the Search Box
 
@@ -239,24 +239,24 @@ searchText.TextChanged += delegate(object sender, EventArgs e) {
 The following may note be the exact look and feel of Windows Vista, mostly for technical reasons, but there are also some legal ones too. However for the most part you should find the functionality the same.
 
 **Inactive:**   
-[![My Code (Inactive)](/nickberardi.com/images/2007/03/mycode-inactive1.png)](/nickberardi.com/images/2007/03/mycode-inactive1.png "My Code (Inactive)")
+[![My Code (Inactive)](/images/2007/03/mycode-inactive1.png)](/images/2007/03/mycode-inactive1.png "My Code (Inactive)")
 
 **Active:**   
-[![My Code (Active)](/nickberardi.com/images/2007/03/mycode-active1.png)](/nickberardi.com/images/2007/03/mycode-active1.png "My Code (Active)")
+[![My Code (Active)](/images/2007/03/mycode-active1.png)](/images/2007/03/mycode-active1.png "My Code (Active)")
 
 **Text Entered:**   
-[![My Code (Text Entered)](/nickberardi.com/images/2007/03/mycode-textentered1.png)](/nickberardi.com/images/2007/03/mycode-textentered1.png "My Code (Text Entered)")
+[![My Code (Text Entered)](/images/2007/03/mycode-textentered1.png)](/images/2007/03/mycode-textentered1.png "My Code (Text Entered)")
 
 **Button Active:**   
-[![My Code (Button Active)](/nickberardi.com/images/2007/03/mycode-buttonactive1.png)](/nickberardi.com/images/2007/03/mycode-buttonactive1.png "My Code (Button Active)")
+[![My Code (Button Active)](/images/2007/03/mycode-buttonactive1.png)](/images/2007/03/mycode-buttonactive1.png "My Code (Button Active)")
 
 ## Application & Source
 
 The following is a download of the application and the source of the code that we just went over. Please use the following source code in anyway that you see necessary, just please give my self, Nick Berardi, and this post reference when you use it in its current or modified form. This code comes with no warranty, and for legal reasons is not supported by me.
 
 - **Application**
-  [Vista Search Box Application](/nickberardi.com/images/2007/03/vistasearchbox1.zip "Vista Search Box Application")
+  [Vista Search Box Application](/images/2007/03/vistasearchbox1.zip "Vista Search Box Application")
 - **Source**
-  [Vista Search Box Source](/nickberardi.com/images/2007/03/vistasearchbox-source1.zip "Vista Search Box Source")
+  [Vista Search Box Source](/images/2007/03/vistasearchbox-source1.zip "Vista Search Box Source")
 
 If you have any questions or comments about this article or the code please feel free to reply below.

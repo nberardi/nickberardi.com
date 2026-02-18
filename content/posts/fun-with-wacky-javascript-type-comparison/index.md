@@ -69,4 +69,4 @@ document.write("</tbody></table>");
 
 I think [Scott really hit the nail on the head](http://twitter.com/lazycoder/statuses/3287262166) when he said this about JavaScript coercion.
 
-[![LazyCoder (Scott Koon) on JavaScript Coercion](/nickberardi.com/images/2009/08/lazycoder-on-javascript-coercion1.png "LazyCoder (Scott Koon) on JavaScript Coercion")](http://twitter.com/lazycoder/statuses/3287262166)
+[![LazyCoder (Scott Koon) on JavaScript Coercion](/images/2009/08/lazycoder-on-javascript-coercion1.png "LazyCoder (Scott Koon) on JavaScript Coercion")](http://twitter.com/lazycoder/statuses/3287262166)

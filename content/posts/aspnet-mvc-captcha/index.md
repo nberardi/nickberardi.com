@@ -23,7 +23,7 @@ The following creates the CAPTCHA image on the page, that looks like the image b
 <%= Html.TextBox("captcha") %>
 ```
 
-[![Example of CAPTCHA](/nickberardi.com/images/2008/03/captcha1.png)](/nickberardi.com/images/2008/03/captcha1.png "Example of CAPTCHA")
+[![Example of CAPTCHA](/images/2008/03/captcha1.png)](/images/2008/03/captcha1.png "Example of CAPTCHA")
 
 The following is how the CAPTCHA is validated:
 
@@ -136,7 +136,7 @@ public static string CaptchaImage(this HtmlHelper helper, int height, int width)
 
 The rest of the source can be downloaded, if you are interested:
 
-- [CAPTCHA Source](/nickberardi.com/images/2008/03/captcha1.zip "CAPTCHA Source")
+- [CAPTCHA Source](/images/2008/03/captcha1.zip "CAPTCHA Source")
 
 I have tested this to work with in the guidelines that I need, which are pretty broad. However if you find a circumstance where this won't work please let me know and I would be happy to integrate it in to this code.
 

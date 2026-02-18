@@ -41,7 +41,7 @@ To start, we need to pick up where we left off in my previous [smart host blog p
 1. Click the **Delivery tab**, and **click Outbound connections**.
 2. In the **Outbound Connections** dialog, set the **TCP port** to “2525” as picture below
 
-[![outbound-connections](/nickberardi.com/images/2010/10/outboundconnections_thumb.png "outbound-connections")](/nickberardi.com/images/2010/10/outboundconnections.png)
+[![outbound-connections](/images/2010/10/outboundconnections_thumb.png "outbound-connections")](/images/2010/10/outboundconnections.png)
 
 4.  **Click OK** and then **then you are done**.
 

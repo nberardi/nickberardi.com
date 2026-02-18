@@ -78,6 +78,6 @@ This is the file that I had to change the one method from internal to public so 
 This file replaces the `WebConfigurationFacebookSection.cs` of the Facebook.NET source.
 
 **Download:** [FacebookSection.cs](http://code.google.com/p/coderjournal/source/browse/trunk/Posts/2008/6/FacebookSection.cs)   
-**Download:** [Facebook.NET Binaries For MVC](/nickberardi.com/images/2008/06/facebooknet1.zip)
+**Download:** [Facebook.NET Binaries For MVC](/images/2008/06/facebooknet1.zip)
 
 So that is all that you should need in order to start working with Facebook Applications in MVC. Note that it is still a good idea to include the FacebookApplication control on your pages because it is still needed. The primary goal of the source code above was to allow the use the the FacebookSession in the Action methods. If you have any questions please post them below.
