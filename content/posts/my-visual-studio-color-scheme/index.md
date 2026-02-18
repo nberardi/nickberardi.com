@@ -10,7 +10,7 @@ As a developer I spend probably way too much time in front of Visual Studio, and
 
 While [most of the top styles](http://studiostyles.info/schemes) are dark themes, I was delighted to see that [Jeff Atwoods theme](http://studiostyles.info/schemes/coding-horror-2010) was in the top 10 as of writing this and it was a light theme. I don't particularity like the dark themes, but they seem to be popular with a certain crowd, and I can't really fault people for using what helps them be a more productive coder. But my preferences are with a lighter theme, actually a slightly modified Visual Studio default theme.
 
-[![](/nickberardi.com/nickberardi.com/images/2010/05/coderjournal-vs-settings1.png "coderjournal-vs-settings")](http://www.studiostyles.info/schemes/coderjournal)
+[![](/nickberardi.com/images/2010/05/coderjournal-vs-settings1.png "coderjournal-vs-settings")](http://www.studiostyles.info/schemes/coderjournal)
 
 The reason I eventually stumbled across this set of colors and styles was out of necessity of quickly seeing the different elements in the code with out having to study the code too hard.  Here are the basics:
 
@@ -24,6 +24,6 @@ The two elements of my style that standout the most are the Magenta colored Inte
 
 Like it or hate it this Visual Studio scheme represents me.
 
-[![](/nickberardi.com/nickberardi.com/images/2010/05/coderjournal-vs-settings-line1.png "coderjournal-vs-settings-line")](http://www.studiostyles.info/schemes/coderjournal)
+[![](/nickberardi.com/images/2010/05/coderjournal-vs-settings-line1.png "coderjournal-vs-settings-line")](http://www.studiostyles.info/schemes/coderjournal)
 
 If you like it, or think it is a good starting point for your preferences, please feel free to download it from here, <http://www.studiostyles.info/schemes/coderjournal>

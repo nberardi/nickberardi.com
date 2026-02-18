@@ -57,7 +57,7 @@ The solution I choose was influenced by a number of factors, a couple that will 
 
 So because of what I listed above I needed to create two web servers to host www.coderjournal.com, which I will talk about later on in this article. One of the servers is the public interface to www.coderjournal.com, which I will call *frontend*, and the other is the Backend WordPress web server, which I will call *backend* that only handles standard WordPress with the ugly URL's listed above, this one is not public. The picture will demonstrate the structure better than I can explain.
 
-[![Coder Journal Web Structure](/nickberardi.com/nickberardi.com/images/2008/02/coder-journal-structure1.png)](/nickberardi.com/nickberardi.com/images/2008/02/coder-journal-structure1.png "Coder Journal Web Structure")
+[![Coder Journal Web Structure](/nickberardi.com/images/2008/02/coder-journal-structure1.png)](/nickberardi.com/images/2008/02/coder-journal-structure1.png "Coder Journal Web Structure")
 
 As you can see, from the above picture, all requests to WordPress are handled by the frontend server for this blog. This all happens through a technique known as [Reverse Proxy](http://en.wikipedia.org/wiki/Reverse_proxy).
 

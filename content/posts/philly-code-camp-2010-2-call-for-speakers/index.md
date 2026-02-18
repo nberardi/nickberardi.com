@@ -31,6 +31,6 @@ If one of these tracks is your area of expertise or you have a great interest in
 
 And clicking the “Add new item” button at the bottom of the page:
 
-![image](/nickberardi.com/nickberardi.com/images/2010/08/image.png "image")
+![image](/nickberardi.com/images/2010/08/image.png "image")
 
 We look forward to your submissions.  Because with out you, the speaker, Code Camp doesn’t work.

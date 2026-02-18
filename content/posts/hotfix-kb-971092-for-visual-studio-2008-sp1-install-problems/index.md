@@ -8,7 +8,7 @@ description: "I was bitten by a weird Windows Update problem where update KB9710
 
 I was bitten by a weird Windows Update problem where update KB971092 would continually install and then keep trying to install even though it successfully completes.  Some or most of you that have Visual Studio 2008 SP1 installed will probably have a similar problem.  So I though I would pass on this information from [Neno Loje](http://msmvps.com/blogs/vstsblog/archive/2009/07/29/hotfix-kb-971092-for-visual-studio-2008-sp1-install-problems.aspx) about how to fix it.
 
-![WindowsUpdate](/nickberardi.com/nickberardi.com/images/2009/08/WindowsUpdate1.jpg "WindowsUpdate")**Applies to**:
+![WindowsUpdate](/nickberardi.com/images/2009/08/WindowsUpdate1.jpg "WindowsUpdate")**Applies to**:
 
 > Security Update for Microsoft Visual Studio 2008 Service Pack 1 (KB971092)
 

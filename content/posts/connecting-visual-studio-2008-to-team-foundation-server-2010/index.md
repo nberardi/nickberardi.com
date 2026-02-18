@@ -16,11 +16,11 @@ After installing Visual Studio 2010 Ultimate on my laptop and setting up TFS 201
 However I ran into a ton of problems trying to get Visual Studio 2008 connected to TFS 2010.  I eventually had to resort hacking the registry to get everything to work as it should.  Here are the steps I used:
 
 1. Click Add Existing Team Project Button   
-   [![step-1](/nickberardi.com/nickberardi.com/images/2010/02/step1_thumb1.png "step-1")](/nickberardi.com/nickberardi.com/images/2010/02/step11.png)
+   [![step-1](/nickberardi.com/images/2010/02/step1_thumb1.png "step-1")](/nickberardi.com/images/2010/02/step11.png)
 2. Click Servers Button
 3. Click Add... Button
 4. Type in full server name **with collection specified and trailing slash**, it complains if there is no trailing slash   
-   [![step-4](/nickberardi.com/nickberardi.com/images/2010/02/step4_thumb1.png "step-4")](/nickberardi.com/nickberardi.com/images/2010/02/step41.png)    
+   [![step-4](/nickberardi.com/images/2010/02/step4_thumb1.png "step-4")](/nickberardi.com/images/2010/02/step41.png)    
    *If you actually try to use this to select projects to edit, everything will look like it went smooth.  However you will notice that no projects actually show up in the Team Explorer*
 5. Close Visual Studio
 6. Remove the trailing slash from the registry key of the server you just added here:   

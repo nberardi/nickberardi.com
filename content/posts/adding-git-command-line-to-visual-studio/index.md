@@ -29,7 +29,7 @@ The first thing we need to do is to add Git to our external tools in Visual Stud
 
 When the screen is open you are going to want to click the “Add” button and fill in the values to look like the screen shot below:
 
-[![image](/nickberardi.com/nickberardi.com/images/2011/03/image_thumb.png "image")](/nickberardi.com/nickberardi.com/images/2011/03/image.png)
+[![image](/nickberardi.com/images/2011/03/image_thumb.png "image")](/nickberardi.com/images/2011/03/image.png)
 
 *note: that I am running this from a 64-bit install of Windows 7, if you are using a 32-bit install your Program Files directory will not have the “ (x86)” on the end.*
 
@@ -41,7 +41,7 @@ If you are anything like me you will prefer a keyboard shortcut for opening up t
 
 In the *Show commands containing* text box enter the following in to the text box “**Tools.ExternalCommand2**” and then in the *Press shortcut keys* text box press the corresponding keyboard shortcut that you want assigned.  (I choose *CTRL+0*)  Then press the “Assign” button and then the “OK” button to exit the “Options” screen.
 
-[![image](/nickberardi.com/nickberardi.com/images/2011/03/image_thumb1.png "image")](/nickberardi.com/nickberardi.com/images/2011/03/image1.png)
+[![image](/nickberardi.com/images/2011/03/image_thumb1.png "image")](/nickberardi.com/images/2011/03/image1.png)
 
 ### tl;dr
 

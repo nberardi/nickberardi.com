@@ -22,7 +22,7 @@ OpenID according to the official OpenID site is [explained as the following](htt
 > OpenID eliminates the need for multiple usernames across different websites, simplifying your online experience.
 > You get to choose the OpenID Provider that best meets your needs and most importantly that you trust. At the same time, your OpenID can stay with you, no matter which Provider you move to. And best of all, the OpenID technology is not proprietary and is completely free.
 
-[![](/nickberardi.com/nickberardi.com/images/2008/05/openid1.png "openid")](/nickberardi.com/nickberardi.com/images/2008/05/openid1.png)
+[![](/nickberardi.com/images/2008/05/openid1.png "openid")](/nickberardi.com/images/2008/05/openid1.png)
 
 To facilitate my prediction, of most of you using OpenID by the end of the year, I am going to give you 2 easy steps to turn your blog, or any website, in to a OpenID gateway. That will work for OpenID 1.0, 1.1, and 2.0 versions of the protocol.
 
@@ -45,7 +45,7 @@ The second thing is pretty easy to accomplish and just involves adding some meta
 
 After that is done you just need to type your blogs/websites URL in to any OpenID text box. Most of the OpenID authentication text boxes look like the following (with the little OpenID logo in the left of the text box):
 
-[![](/nickberardi.com/nickberardi.com/images/2008/05/openid-input1.png "openid-input")](/nickberardi.com/nickberardi.com/images/2008/05/openid-input1.png)
+[![](/nickberardi.com/images/2008/05/openid-input1.png "openid-input")](/nickberardi.com/images/2008/05/openid-input1.png)
 
 You probably already have an OpenID authentication account that you can use right this moment. Some of the common ones that most internet users have and don't even realize are (just replace *{username}*):
 

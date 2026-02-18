@@ -10,4 +10,4 @@ description: "Now this is actually useful information, not just a stream of usel
 
 Now this is actually useful information, not just a stream of useless numbers with no context or history to them.
 
-![](/nickberardi.com/nickberardi.com/images/2012/06/Windows-8-Delete.png "Windows 8 Delete")
+![](/nickberardi.com/images/2012/06/Windows-8-Delete.png "Windows 8 Delete")

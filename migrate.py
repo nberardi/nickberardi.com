@@ -30,20 +30,16 @@ def clean_html_entities(text):
 
 def convert_image_paths(content):
     """Convert Ghost image paths to Hugo static paths"""
-    # Convert Ghost's /content/images/ references
-    content = re.sub(r'/content/images/', IMAGE_PREFIX, content)
-    # Convert hosted images that point to the old domain structure
-    content = re.sub(r'https?://(?:www\.)?coderjournal\.com/uploads/', IMAGE_PREFIX, content)
-    content = re.sub(r'https?://(?:www\.)?coderjournal\.com/archives/', IMAGE_PREFIX, content)
-    # Normalize protocol-relative or direct src paths
-    content = re.sub(r'src="images/', f'src="{IMAGE_PREFIX}', content)
-    content = re.sub(r'src="//www\.coderjournal\.com/uploads/', f'src="{IMAGE_PREFIX}', content)
-    # Catch any remaining /images/ that aren't yet prefixed (without duplicating)
-    prefix_pattern = re.compile(rf'(?<!{re.escape(IMAGE_PREFIX)})/images/')
-    content = prefix_pattern.sub(IMAGE_PREFIX, content)
+    # Normalize all legacy URLs to /images/
+    content = re.sub(r'https?://[^/]+/content/images/', '/images/', content)
+    content = re.sub(r'/content/images/', '/images/', content)
+    content = re.sub(r'https?://(?:www\.)?coderjournal\.com/(?:uploads|archives)/', '/images/', content)
+    content = re.sub(r'/nickberardi\.com/images/', '/images/', content)
+    content = re.sub(r'src="images/', 'src="/images/', content)
+    content = re.sub(r'src="//[^/]+/uploads/', 'src="/images/', content)
+    # Apply the current repo prefix
+    content = content.replace('/images/', IMAGE_PREFIX)
     return content
-
-
 def html_to_markdown(html_content):
     """Convert HTML to Markdown"""
     if not html_content:

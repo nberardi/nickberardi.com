@@ -10,7 +10,7 @@ Today I just noticed that [my blog’s CDN (Google AppEngine)](http://www.coderj
 
 The good news however is that I now know that my blog gracefully downgrades and is still very readable without JavaScript or CSS running.
 
-[![gracefully-failing](/nickberardi.com/nickberardi.com/images/2010/01/gracefullyfailing_thumb1.png "gracefully-failing")](/nickberardi.com/nickberardi.com/images/2010/01/gracefullyfailing1.png)
+[![gracefully-failing](/nickberardi.com/images/2010/01/gracefullyfailing_thumb1.png "gracefully-failing")](/nickberardi.com/images/2010/01/gracefullyfailing1.png)
 
 This is an important test you should run on your blog.  Because this is how search bots, screen readers, and blocked content users will see your blog.  A couple tips to keep in mind when designing your website, in order for it to be readable when under any of the circumstances that I previous listed are:
 

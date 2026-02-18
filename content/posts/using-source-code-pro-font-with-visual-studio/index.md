@@ -10,7 +10,7 @@ tags:
 description: "You may or may not be aware but Adobe released a new font a couple of days ago. Who cares right, you are not a graphics designer, you sling code for a..."
 ---
 
-![](/nickberardi.com/nickberardi.com/images/2012/09/SourceCodeSplash1.png "Source Code Pro Font")
+![](/nickberardi.com/images/2012/09/SourceCodeSplash1.png "Source Code Pro Font")
 
 You may or may not be aware but [Adobe released a new font](http://blogs.adobe.com/typblography/2012/09/source-code-pro.html) a couple of days ago. Who cares right, you are not a graphics designer, you sling code for a living. Well you should care about this font. Adobe has released a font that has been optimized for coding. And I am here to tell you it is a beautiful font.
 
@@ -32,8 +32,8 @@ Given that I am always looking for the perfect coding environment, I decided to 
 
 Here are examples of **Consolas** (on the top) side-by-side with **Source Code Pro** (on the bottom).
 
-[![](/nickberardi.com/nickberardi.com/images/2012/09/Consolas.png "Consolas")](/nickberardi.com/nickberardi.com/images/2012/09/Consolas.png)  
-[![](/nickberardi.com/nickberardi.com/images/2012/09/Source-Code-Pro.png "Source Code Pro")](/nickberardi.com/nickberardi.com/images/2012/09/Source-Code-Pro.png)
+[![](/nickberardi.com/images/2012/09/Consolas.png "Consolas")](/nickberardi.com/images/2012/09/Consolas.png)  
+[![](/nickberardi.com/images/2012/09/Source-Code-Pro.png "Source Code Pro")](/nickberardi.com/images/2012/09/Source-Code-Pro.png)
 
 *You can click on each image and open them up in new tabs in your browser, and switch back and forth to see the subtle changes between the two. It should also be noted that Consolas is running at 10 pt and Source Code Pro is running at 9 pt, which seem to produce the same size characters on my machine.*
 

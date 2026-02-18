@@ -16,11 +16,11 @@ This design has to be experienced because me describing it doesn't do it justice
 
 ### US Version
 
-[![Dell Vostro US Version](/nickberardi.com/nickberardi.com/images/2008/05/dell-us-vostro1.png "dell-us-vostro")](/nickberardi.com/nickberardi.com/images/2008/05/dell-us-vostro1.png)
+[![Dell Vostro US Version](/nickberardi.com/images/2008/05/dell-us-vostro1.png "dell-us-vostro")](/nickberardi.com/images/2008/05/dell-us-vostro1.png)
 
 ### UK Version
 
-[![Dell Vostro UK Version](/nickberardi.com/nickberardi.com/images/2008/05/dell-uk-vostro1.png "dell-uk-vostro")](/nickberardi.com/nickberardi.com/images/2008/05/dell-uk-vostro1.png)
+[![Dell Vostro UK Version](/nickberardi.com/images/2008/05/dell-uk-vostro1.png "dell-uk-vostro")](/nickberardi.com/images/2008/05/dell-uk-vostro1.png)
 
 Somebody may want to mention this blunder on [Dell Idea Storm](http://www.ideastorm.com).
 

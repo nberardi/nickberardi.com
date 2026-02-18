@@ -16,7 +16,7 @@ One of the important things about web programming, especially when using AJAX, f
 
 One of the companies that has gone way beyond standard application responsiveness is a company called [thirteen23](http://www.thirteen23.com).  They put an amazing level of detail and thought in to every action that the user performs.  A great example of their skilful approach to application development is a WPF Twitter client they call [Blu](http://www.thirteen23.com/experiences/desktop/blu/).  An example of the level of thought they provide is their reply feature they offer.
 
-[![thirteen23_blu](/nickberardi.com/nickberardi.com/images/2009/11/thirteen23_blu_thumb1.png "thirteen23_blu")](/nickberardi.com/nickberardi.com/images/2009/11/thirteen23_blu21.png)
+[![thirteen23_blu](/nickberardi.com/images/2009/11/thirteen23_blu_thumb1.png "thirteen23_blu")](/nickberardi.com/images/2009/11/thirteen23_blu21.png)
 
 Not only are they solving a problem with this user interaction, but they are providing a feedback mechanism, with animation and context switching, to the user.  If you haven’t already download the Blu client, you should definitely take a look at it, and notice all the subtle usability features that make it a really great tool.
 
@@ -28,7 +28,7 @@ I don’t even think I could achieve what thirteen23 has achieved with Blu or ev
 
 The first thing I have is this pretty graph with a couple of inputs and an *Update* button.
 
-[![graph](/nickberardi.com/nickberardi.com/images/2009/11/graph_thumb1.png "graph")](/nickberardi.com/nickberardi.com/images/2009/11/graph1.png)
+[![graph](/nickberardi.com/images/2009/11/graph_thumb1.png "graph")](/nickberardi.com/images/2009/11/graph1.png)
 
 When I click the update button is does a standard [jQuery.get(…)](http://docs.jquery.com/Ajax/jQuery.get) command against my web server to pull the new graph data.  However depending on the date range, which dictates the number of plot points I need to pull for the graph, it can take anywhere from a half second to 5 seconds to pull all the data necessary to show the graph. A half second isn’t bad, because that is just about fast enough where they consider the new graph showing up a adequate response to their action of clicking the *Update* button.  However 5 seconds is really pushing their patients.  So in order to give the feeling of something is really happening because of their button click, we need to provide a feedback mechanism.  The feedback mechanism I choose to implement was a standard loading window.
 
@@ -71,7 +71,7 @@ The next thing I did was add in the CSS that would render my loading window in a
 
 After I had the necessary markup and styles in place, the *update-loading* element I added to the HTML looked like this:
 
-[![loading_panel](/nickberardi.com/nickberardi.com/images/2009/11/loading_panel_thumb1.png "loading_panel")](/nickberardi.com/nickberardi.com/images/2009/11/loading_panel1.png)
+[![loading_panel](/nickberardi.com/images/2009/11/loading_panel_thumb1.png "loading_panel")](/nickberardi.com/images/2009/11/loading_panel1.png)
 
 Now I can move on to creating the actual user interaction.
 
@@ -103,6 +103,6 @@ The second thing you should take note of is that I do a quick fade in of 200 mil
 
 And here is what the final result looks like, after adding only a handful of code to my already existing application.
 
-[![graph_loading](/nickberardi.com/nickberardi.com/images/2009/11/graph_loading_thumb1.png "graph_loading")](/nickberardi.com/nickberardi.com/images/2009/11/graph_loading1.png)
+[![graph_loading](/nickberardi.com/images/2009/11/graph_loading_thumb1.png "graph_loading")](/nickberardi.com/images/2009/11/graph_loading1.png)
 
 Not bad huh?  And it didn’t even require any process change to my already working application.  It was really that easy, so you really have no excuse for not adding a little flare and usability to your web application.  Your users will thank you by lowering their anxiety level a little by not having to wonder if that button they just clicked actually did anything.

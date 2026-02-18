@@ -38,15 +38,15 @@ For the purpose of this section I will be using Visual Studio 2008 Team Developm
 
 After Visual Studio is open we need to create a new project (File > New > Project), see Figure 2-16 for an example.
 
-[caption id="attachment\_448" align="alignnone" width="459" caption="Figure 2-16"]![Figure 2-16](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02161.png "Create New Project")[/caption]
+[caption id="attachment\_448" align="alignnone" width="459" caption="Figure 2-16"]![Figure 2-16](/nickberardi.com/images/2009/01/410950-f02161.png "Create New Project")[/caption]
 
 Doing this will put you in the *New Project* screen, which you will then select your preferred language (in our case Visual C#).  From there we need to select Web @@> ASP.NET MVC Web Application, as depicted in Figure 2-17.
 
-[caption id="attachment\_449" align="alignnone" width="699" caption="Figure 2-17"]![Figure 2-17](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02171.png "New Project Screen")[/caption]
+[caption id="attachment\_449" align="alignnone" width="699" caption="Figure 2-17"]![Figure 2-17](/nickberardi.com/images/2009/01/410950-f02171.png "New Project Screen")[/caption]
 
 I am going to leave all the project configuration fields set to their default values as shown in Figure 2-17, you may configure them however you desire.  When you are done click **OK**, and you will see the screen shown in Figure 2-18.
 
-[caption id="attachment\_450" align="alignnone" width="489" caption="Figure 2-18"]![Figure 2-18](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02181.png "MVC Unit Test Screen")[/caption]
+[caption id="attachment\_450" align="alignnone" width="489" caption="Figure 2-18"]![Figure 2-18](/nickberardi.com/images/2009/01/410950-f02181.png "MVC Unit Test Screen")[/caption]
 
 You have probably not seen a screen like this before, even if you have done ASP.NET Web Forms development.  It is totally new to the ASP.NET MVC project creation process, and it automatically creates a unit testing project based on the default MVC project.
 
@@ -54,15 +54,15 @@ As an added feature it also allows you to select the testing framework that you 
 
 You can choose to create a unit project, or wait till a later time if desired.  For the purpose of this demonstration I am going to create a unit test project using *MbUnit v3* from the drop down.  When you are done click **OK**, and you will see a *Solution Explorer* that looks like Figure 2-19.
 
-[caption id="attachment\_451" align="alignnone" width="276" caption="Figure 2-19"]![Figure 2-19](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02191.png "MVC Solution")[/caption]
+[caption id="attachment\_451" align="alignnone" width="276" caption="Figure 2-19"]![Figure 2-19](/nickberardi.com/images/2009/01/410950-f02191.png "MVC Solution")[/caption]
 
 This is what the default folder and file structure looks like for the ASP.NET MVC project, it has a separate folder for Models, Views (as seen in Figure 2-21), and Controllers (as seen in Figure 2-20).  As well as a set of default folders for storing JavaScript, CSS, or anything else you would want to deliver from your web application (as seen in Figure 2-22).
 
-[caption id="attachment\_452" align="alignnone" width="276" caption="Figure 2-20"]![Figure 2-20](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02201.png "MVC Solution Controllers")[/caption]
+[caption id="attachment\_452" align="alignnone" width="276" caption="Figure 2-20"]![Figure 2-20](/nickberardi.com/images/2009/01/410950-f02201.png "MVC Solution Controllers")[/caption]
 
 There are two controllers created by default.  The HomeController is used to render the home page and the about page.  The AccountController is used to authenticate a user with the standard ASP.NET membership provider.  These two controllers provide you everything you need to create a very basic web application.
 
-[caption id="attachment\_453" align="alignnone" width="276" caption="Figure 2-21"]![Figure 2-21](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02211.png "MVC Solution Views")[/caption]
+[caption id="attachment\_453" align="alignnone" width="276" caption="Figure 2-21"]![Figure 2-21](/nickberardi.com/images/2009/01/410950-f02211.png "MVC Solution Views")[/caption]
 
 For the views there is a mirroring of the controllers created.  One for Account and another for Home, in these folders there are aspx files that are call views.  Each of these views mirror an action method from the controller, by default.  As you will see later in this book there is a many to many relationship between the views and action methods.  In that an action method can map to multiple views and a view can have multiple action methods that use it.  Let's not get to in-depth about the mapping of views and action methods at this point, because we will cover this in great detail later in this chapter and future chapters when implementing our application.
 
@@ -94,7 +94,7 @@ The last thing I want to talk about before we move on to the rest of the files i
 
 It contains both configuration information for IIS 7, <system.webServer />, and IIS 6 and lower, <system.web />.  So you will be covered on which ever server you decide to deploy your MVC application to.
 
-[caption id="attachment\_454" align="alignnone" width="276" caption="Figure 2-22"]![Figure 2-22](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02221.png "MVC Solution Static Files")[/caption]
+[caption id="attachment\_454" align="alignnone" width="276" caption="Figure 2-22"]![Figure 2-22](/nickberardi.com/images/2009/01/410950-f02221.png "MVC Solution Static Files")[/caption]
 
 The rest of the solution files, includes JavaScript, Style Sheets, and other ASP.NET files that you should be familiar with.  The JavaScript files that are included by default are Microsoft AJAX and jQuery, as well as debug version of the files.
 
@@ -143,7 +143,7 @@ public void Page_Load(object sender, System.EventArgs e)
 
 The final thing I want to cover is what the default ASP.NET MVC application design looks like when running in a browser, you can see an example of this in Figure 2-23.
 
-[caption id="attachment\_455" align="alignnone" width="792" caption="Figure 2-23"]![Figure 2-23](/nickberardi.com/nickberardi.com/images/2009/01/410950-f02231.png "Default MVC Screen Shot")[/caption]
+[caption id="attachment\_455" align="alignnone" width="792" caption="Figure 2-23"]![Figure 2-23](/nickberardi.com/images/2009/01/410950-f02231.png "Default MVC Screen Shot")[/caption]
 
 It is a pretty basic layout, but it is a good example of the Home and Account controllers and can be used to render to and interact with the browser.
 

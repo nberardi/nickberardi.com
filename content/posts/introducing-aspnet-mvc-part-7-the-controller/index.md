@@ -84,7 +84,7 @@ The default controller factory in the ASP.NET MVC Framework, the DefaultControll
 
 These criteria can best be seen in the default solution that we saw earlier in this chapter. Let's take another look at the controllers, as seen in Figure 2-25.
 
-[caption id="attachment\_457" align="alignnone" width="276" caption="Figure 2-25"]![Figure 2-25](/nickberardi.com/nickberardi.com/images/2009/02/410950-f0225.png "The Controllers")[/caption]
+[caption id="attachment\_457" align="alignnone" width="276" caption="Figure 2-25"]![Figure 2-25](/nickberardi.com/images/2009/02/410950-f0225.png "The Controllers")[/caption]
 
 All of those criteria may have made the process of adding a new controller sound complex, but really all that you need to do to accomplish this is add a new code file to the Controllers directory and make sure the object in the code file inherits the Controller object from the System.Web.Mvc namespace.
 

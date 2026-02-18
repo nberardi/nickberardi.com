@@ -15,7 +15,7 @@ As I announced yesterday I will be [speaking at the Philly Code Camp 2009.1](htt
 
 I did a quick search of the internet last night, on this subject, and everything seemed to point to [Sara Ford as the defacto standard on Visual Studio tips](http://blogs.msdn.com/saraford/archive/tags/Visual+Studio+2008+Tip+of+the+Day/default.aspx).  She even has a best selling [book on the subject](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20), appropriately called **Microsoft Visual Studio Tips**.
 
-[![sara-ford-visual-studio-tips](/nickberardi.com/nickberardi.com/images/2009/03/sara-ford-visual-studio-tips1.jpg "sara-ford-visual-studio-tips")](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20)
+[![sara-ford-visual-studio-tips](/nickberardi.com/images/2009/03/sara-ford-visual-studio-tips1.jpg "sara-ford-visual-studio-tips")](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20)
 
 And because she is such an awesome person all the royalties from the book are going to a scholarship fund to help pay for the the costs of **[sending Hurricane Katrina survivors to college](http://www.mgccc.cc.ms.us/news/book_raises_scholarship_money_for_MGCCC_students.php)**. So if you are interested [go pick up a copy](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20).
 

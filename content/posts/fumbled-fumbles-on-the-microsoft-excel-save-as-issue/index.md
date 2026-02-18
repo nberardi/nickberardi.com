@@ -15,7 +15,7 @@ I read a [Digg post](http://digg.com/microsoft/Microsoft_Fumbles_No_SAVE_AS_butt
 
 See if anybody can find the **Big Save As Button** on the picture below.
 
-[![Microsoft Office Excel 2007 Save As](/nickberardi.com/nickberardi.com/images/2007/04/microsoft-office-2007-excel-save-as1.png)](/nickberardi.com/nickberardi.com/images/2007/04/microsoft-office-2007-excel-save-as1.png "Microsoft Office Excel 2007 Save As")
+[![Microsoft Office Excel 2007 Save As](/nickberardi.com/images/2007/04/microsoft-office-2007-excel-save-as1.png)](/nickberardi.com/images/2007/04/microsoft-office-2007-excel-save-as1.png "Microsoft Office Excel 2007 Save As")
 
 As one commenter on this article put it:
 

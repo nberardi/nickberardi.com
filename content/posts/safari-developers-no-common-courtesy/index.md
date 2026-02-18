@@ -20,15 +20,15 @@ As you might have gathered from the title Apple has [screwed](http://www.coderjo
 
 Like any good .NET developer I had the XML file format being opened by Visual Studio, it has a nice viewing, and editing interface that is hard to beat. Today I saw their was a QuickTime update while watching the Facebook Conferences presentation in [anticipation of my previous post today](http://www.coderjournal.com/2008/04/create-facebook-application-mvc/). So as I decided to do the update, what a nightmare that has turned out to be. First of all it was 70 MB download, because Apple also decided that iTunes and Safari needed to be downloaded with Quicktime, and bundled them all together. Then it decides to take over all my documents in my system, including HTML, XML, and a bunch of other web related documents. See below.
 
-[![](/nickberardi.com/nickberardi.com/images/2008/04/wtf-apple-worst-developers-ever1.png "WTF Apple Worst Developers Ever")](/nickberardi.com/nickberardi.com/images/2008/04/wtf-apple-worst-developers-ever1.png)
+[![](/nickberardi.com/images/2008/04/wtf-apple-worst-developers-ever1.png "WTF Apple Worst Developers Ever")](/nickberardi.com/images/2008/04/wtf-apple-worst-developers-ever1.png)
 
 Then to boot their XML "Rendering" sucks.
 
-[![Safari XML Rendering Sucks](/nickberardi.com/nickberardi.com/images/2008/04/safari-xml-rendering-sucks1.png "Safari XML Rendering Sucks")](/nickberardi.com/nickberardi.com/images/2008/04/safari-xml-rendering-sucks1.png)
+[![Safari XML Rendering Sucks](/nickberardi.com/images/2008/04/safari-xml-rendering-sucks1.png "Safari XML Rendering Sucks")](/nickberardi.com/images/2008/04/safari-xml-rendering-sucks1.png)
 
 Hey news flash Steve Jobs this is how a real browser renders XML, and does a damn fine job at it.
 
-[![IE XML Rendering Doesn't Suck](/nickberardi.com/nickberardi.com/images/2008/04/ie-xml-rendering-doesnt-suck1.png "IE XML Rendering Doesn't Suck")](/nickberardi.com/nickberardi.com/images/2008/04/ie-xml-rendering-doesnt-suck1.png)
+[![IE XML Rendering Doesn't Suck](/nickberardi.com/images/2008/04/ie-xml-rendering-doesnt-suck1.png "IE XML Rendering Doesn't Suck")](/nickberardi.com/images/2008/04/ie-xml-rendering-doesnt-suck1.png)
 
 At least if you are going to take over my system, and forcibly put your software on my computer, the very least you could do is not make it suck. Is that too much to ask.
 

@@ -16,11 +16,11 @@ Brad talked to us about what drove this decision with in Microsoft and some of
 
 The patch can be seen here:
 
-[![](/nickberardi.com/nickberardi.com/images/2012/04/Untitled.png "Untitled")](http://aspnetwebstack.codeplex.com/SourceControl/changeset/changes/6e7594781f71)
+[![](/nickberardi.com/images/2012/04/Untitled.png "Untitled")](http://aspnetwebstack.codeplex.com/SourceControl/changeset/changes/6e7594781f71)
 
 And the announcement of the accept request can be seen here by Marcin Dobosz:
 
-[![](/nickberardi.com/nickberardi.com/images/2012/04/Twitter-@marcind-Just-accepted-the-first-co-....png "Twitter - @marcind- Just accepted the first co ...")](https://twitter.com/#!/marcind/status/187028192366829568)
+[![](/nickberardi.com/images/2012/04/Twitter-@marcind-Just-accepted-the-first-co-....png "Twitter - @marcind- Just accepted the first co ...")](https://twitter.com/#!/marcind/status/187028192366829568)
 
 After talking about the open sourcing of the Web Stack we dove in to the new ASP.NET Web API, which is a "newish" technology. The Web API was previously known as WCF, but it has been refactored and modernized into what is now called ASP.NET Web API.  The Web API has been designed to be first stop and best framework for creating web based API's using a RESTful style. We had many questions relating to this new framework and Brad was able to answer them all and gave us many technical details about the design and process that the new Web API adheres to. Listening to Brad talk about the technology behind Web API is going to be very helpful for any .NET RESTful developers out there that will be starting new project soon, so if you have the time I highly recommend this podcast.
 

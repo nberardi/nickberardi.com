@@ -8,7 +8,7 @@ tags:
 description: "Many of you probably don't know this, but I have been working on a golf related app called Caddio, off and on for more than a year. The app is finally to..."
 ---
 
-![Caddio Login Screen](/nickberardi.com/nickberardi.com/images/2014/May/login.png) Many of you probably don't know this, but I have been working on a golf related app called [Caddio](http://caddio.com), off and on for more than a year. The app is finally to a point where it is starting to pay off, because it is starting to receive the recognition and accolaids that every developer hopes for.
+![Caddio Login Screen](/nickberardi.com/images/2014/May/login.png) Many of you probably don't know this, but I have been working on a golf related app called [Caddio](http://caddio.com), off and on for more than a year. The app is finally to a point where it is starting to pay off, because it is starting to receive the recognition and accolaids that every developer hopes for.
 
 The [latest article about Caddio is a writeup from SportTechie](http://www.sporttechie.com/2014/05/22/caddio-app-provides-crowdsourced-knowledge-of-golf-courses/), and my favorite quote from the and music to my ears is this paragraph I pulled from the article:
 
@@ -18,4 +18,4 @@ If you are a golfer or just an enthusiest, and want to [check Caddio out](http:/
 
 If interested here are a couple more screenshots:
 
-![Caddio Tip Screen](/nickberardi.com/nickberardi.com/images/2014/May/tip.png) ![Caddio Course Screen](/nickberardi.com/nickberardi.com/images/2014/May/course_screen.png) ![Caddio User Profile Screen](/nickberardi.com/nickberardi.com/images/2014/May/user_profile.png)
+![Caddio Tip Screen](/nickberardi.com/images/2014/May/tip.png) ![Caddio Course Screen](/nickberardi.com/images/2014/May/course_screen.png) ![Caddio User Profile Screen](/nickberardi.com/images/2014/May/user_profile.png)

@@ -59,7 +59,7 @@ Lets take a look at what the meta data looks like for this page.
 
 Lets first take a look at what the Facebook Lint tools can pick up from the information already provided in these Meta tags.  The Facebook Lint tool shows what information it can extract out of your page, for when it posts the information to your users Facebook wall when they click for example the Like button.
 
-[![facebook-lint-debug](/nickberardi.com/nickberardi.com/images/2011/01/facebook-lint-debug_thumb.png "facebook-lint-debug")](/nickberardi.com/nickberardi.com/images/2011/01/facebook-lint-debug.png)
+[![facebook-lint-debug](/nickberardi.com/images/2011/01/facebook-lint-debug_thumb.png "facebook-lint-debug")](/nickberardi.com/images/2011/01/facebook-lint-debug.png)
 
 To view this same information as of writing this post you can visit the Facebook Lint tool too.
 
@@ -135,13 +135,13 @@ As a test I clicked a couple of the like buttons on my website, so that you coul
 
 **News Feed**
 
-**![](/nickberardi.com/nickberardi.com/images/2011/01/facebook-news-feed.png "facebook-news-feed")**
+**![](/nickberardi.com/images/2011/01/facebook-news-feed.png "facebook-news-feed")**
 
 As you can see both of my likes statements were grouped together and property attributed to my blog "Nick Berardi's Coder Journal".  So Facebook is able to use the meta information that we provide to create nice and fluent statements for the friends in the graph to see.  It also creates a nice compact statement that doesn't create a lot of redundant information for friends who may be interested in what I like.
 
 **Profile Feed**
 
-**![](/nickberardi.com/nickberardi.com/images/2011/01/facebook-profile-page.png "facebook-profile-page")**
+**![](/nickberardi.com/images/2011/01/facebook-profile-page.png "facebook-profile-page")**
 
 On the profile page it is a different story, because on the profile page it is more important to communicate each individual like statement instead of saving space.  So each one is attributed individually in the order which I said I liked them.
 
