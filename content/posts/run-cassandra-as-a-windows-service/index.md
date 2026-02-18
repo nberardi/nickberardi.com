@@ -27,7 +27,7 @@ If you haven’t done so already please read my [jump start for Windows users on
 
 The second step is also an easy one, you need to download a package called *RunAsService*, which provides the ability to run any program as a Windows Service.
 
-- [**Download RunAsService.zip**](http://coderjournal.com/uploads/2010/06/RunAsService.zip)
+- [**Download RunAsService.zip**](/images/2010/06/RunAsService.zip)
 
 After you have downloaded the file extract the contents to a directory of your choosing.  (I extracted it to **c:\RunAsService**)
 

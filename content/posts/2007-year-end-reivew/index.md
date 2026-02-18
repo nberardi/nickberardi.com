@@ -9,7 +9,7 @@ tags:
 description: "As you can see from the graph above everybody has helped make this a very successful year for Coder Journal. Some information that I have been able to..."
 ---
 
-[![Coder Journal 2007 Traffic](http://coderjournal.com/uploads/2008/01/coderjournal-2007-traffic1.png)](http://coderjournal.com/uploads/2008/01/coderjournal-2007-traffic1.png "Coder Journal 2007 Traffic")
+[![Coder Journal 2007 Traffic](/images/2008/01/coderjournal-2007-traffic1.png)](/images/2008/01/coderjournal-2007-traffic1.png "Coder Journal 2007 Traffic")
 
 As you can see from the graph above everybody has helped make this a very successful year for Coder Journal. Some information that I have been able to compile is:
 

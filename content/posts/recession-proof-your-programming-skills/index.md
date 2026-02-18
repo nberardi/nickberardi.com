@@ -27,7 +27,7 @@ In this economy you have to do everything to keep your skills fresh and current 
 
 ### Learn ASP.NET MVC
 
-[![](http://ecx.images-amazon.com/images/I/51Jz48cCnNL.jpg)](http://www.amazon.com/gp/product/0470384611?tag=coderjournal-20) [![Final Cover Photo](http://coderjournal.com/uploads/2009/04/final-book-cover1.jpg)](http://www.amazon.com/gp/product/0470410957?tag=coderjournal-20)
+[![](http://ecx.images-amazon.com/images/I/51Jz48cCnNL.jpg)](http://www.amazon.com/gp/product/0470384611?tag=coderjournal-20) [![Final Cover Photo](/images/2009/04/final-book-cover1.jpg)](http://www.amazon.com/gp/product/0470410957?tag=coderjournal-20)
 
 *didn't think I would leave my book out, did you?* ;)
 

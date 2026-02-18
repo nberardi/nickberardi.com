@@ -9,7 +9,7 @@ tags:
 description: "As you can see from the graph above everybody has helped make this another very successful year for Coder Journal. The green line is last years visitors,..."
 ---
 
-![coderjournal-2008-traffic](http://coderjournal.com/uploads/2009/01/coderjournal-2008-traffic1.png "coderjournal-2008-traffic")
+![coderjournal-2008-traffic](/images/2009/01/coderjournal-2008-traffic1.png "coderjournal-2008-traffic")
 
 As you can see from the graph above everybody has helped make this another very successful year for Coder Journal.  The green line [is last years visitors](http://www.coderjournal.com/2008/01/2007-year-end-reivew/), and the blue line is this years visitors.  This increase accounts for a **473.10%** increase over last years visits.  The following is a quick break down for what made this year so successful:
 

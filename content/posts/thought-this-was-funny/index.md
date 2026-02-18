@@ -12,4 +12,4 @@ tags:
   - "Oracle"
 ---
 
-[![](http://coderjournal.com/uploads/2011/06/20110627organizationalcharts1.png "Organization Charts")](http://coderjournal.com/uploads/2011/06/20110627organizationalcharts1.png)
+[![](/images/2011/06/20110627organizationalcharts1.png "Organization Charts")](/images/2011/06/20110627organizationalcharts1.png)

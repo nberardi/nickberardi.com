@@ -12,7 +12,7 @@ I wanted to save this historic post for my blog, post number 250, for a special 
 
 The product that I am talking about is [Microsoft Tag](http://tag.microsoft.com), it is probably not very well known to most of you.  But here is the basic concept.  You are given a image representation of a hyperlink so that it can be easily shared in a visual and usually physical medium such as a poster, banner ad, magazine, or something in print.  Or at least it is marketed that way.  The idea behind it is that you can get information that is relevant to a customer by having them just focus their camera phone on an image that looks like this in any of the mediums I listed a few sentences ago:
 
-[![microsoft-tag](http://coderjournal.com/uploads/2010/06/microsofttag_thumb.gif "microsoft-tag")](http://coderjournal.com/uploads/2010/06/microsofttag.gif)
+[![microsoft-tag](/images/2010/06/microsofttag_thumb.gif "microsoft-tag")](/images/2010/06/microsofttag.gif)
 
 If you would like to try Microsoft Tag out please follow the directions on the tag on your mobile phone.
 
@@ -39,11 +39,11 @@ last.io is:
 
 The first thing you must do when you go to **[last.io](http://last.io)** is to enter in a URL that you want shortened:
 
-[![image](http://coderjournal.com/uploads/2010/06/image_thumb10.png "image")](http://coderjournal.com/uploads/2010/06/image11.png)
+[![image](/images/2010/06/image_thumb10.png "image")](/images/2010/06/image11.png)
 
 After you do this you will be presented with your short url:
 
-[![image](http://coderjournal.com/uploads/2010/06/image_thumb11.png "image")](http://coderjournal.com/uploads/2010/06/image12.png)
+[![image](/images/2010/06/image_thumb11.png "image")](/images/2010/06/image12.png)
 
 You are provided a short URL that will work just the same as any other short URL, by doing a 301 redirect to the location that you entered in.  In the above case the short URL is:
 
@@ -51,7 +51,7 @@ You are provided a short URL that will work just the same as any other short URL
 
 From here if you want a tag you will just need to click on the self explanatory “Click Here To Create A Tag” text on the right hand side of the box.  By do this it will remove the text, un-dim the image, and provide you your fresh new tag.  Which can then be clicked on to see the full size version:
 
-[![image](http://coderjournal.com/uploads/2010/06/image_thumb12.png "image")](http://coderjournal.com/uploads/2010/06/image13.png)
+[![image](/images/2010/06/image_thumb12.png "image")](/images/2010/06/image13.png)
 
 Easy as that.
 

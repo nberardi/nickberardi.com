@@ -10,7 +10,7 @@ tags:
 description: "Firefox 3.0 is going to be released today at 1:00 PM EST and 10:00 AM PST, other times can be found here. This is going to be a huge release where the..."
 ---
 
-[![Mozilla Firefox Logo](http://coderjournal.com/uploads/2008/06/firefox1.jpg "Firefox")](http://coderjournal.com/uploads/2008/06/firefox1.jpg)
+[![Mozilla Firefox Logo](/images/2008/06/firefox1.jpg "Firefox")](/images/2008/06/firefox1.jpg)
 
 Firefox 3.0 is going to be released today at **1:00 PM EST** and **10:00 AM PST**, other times can be [found here](http://www.timeanddate.com/worldclock/fixedtime.html?month=6&day=17&year=2008&hour=10&min=0&sec=0&p1=224&sort=1). This is going to be a huge release where the Mozilla team is going for the Guiness World Record for the most software downloads in one day.
 

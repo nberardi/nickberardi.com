@@ -20,4 +20,4 @@ So today I saw this Google Flash Ad, for John McCain for President, appear on a 
 
 Basically Flash is allowed to have more access because it actually runs as an application on top of the browser instead of through the browser. It is just disturbing that Google doesn't police the advertisements better. It is conceivable that Google could potentially be providing malware via their ad network.
 
-[![](http://coderjournal.com/uploads/2008/04/google-ads1.png "Google Flash Ad Taking Over Browser")](http://coderjournal.com/uploads/2008/04/google-ads1.png)
+[![](/images/2008/04/google-ads1.png "Google Flash Ad Taking Over Browser")](/images/2008/04/google-ads1.png)

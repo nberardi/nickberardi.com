@@ -23,7 +23,7 @@ This hurdle has stopped me from performing some basic queries that I would like 
 
 You need to [download LINQPad](http://www.linqpad.net/), which is a general learning and development tool for composing and executing LINQ queries.  After you have downloaded and installed the application you will have a screen that looks like this:
 
-![LINQPad](http://coderjournal.com/uploads/2010/06/image3.png "LINQPad")
+![LINQPad](/images/2010/06/image3.png "LINQPad")
 
 ### Setting Up Stack Overflow OData
 
@@ -33,33 +33,33 @@ The next step is to add [the OData endpoint](http://data.stackexchange.com/about
 
 This is done by clicking on **Add connection** in the top left of LINQPad.  Which will give you a screen that looks like this:
 
-[![Choose Data Context](http://coderjournal.com/uploads/2010/06/image_thumb3.png "Choose Data Context")](http://coderjournal.com/uploads/2010/06/image4.png)
+[![Choose Data Context](/images/2010/06/image_thumb3.png "Choose Data Context")](/images/2010/06/image4.png)
 
 Select **WCF Data Services** and click **Next**.  You will get a connection screen where you enter the endpoint for Stack Overflow that I described above:
 
-[![LINQPad Connection](http://coderjournal.com/uploads/2010/06/image_thumb4.png "LINQPad Connection")](http://coderjournal.com/uploads/2010/06/image5.png)
+[![LINQPad Connection](/images/2010/06/image_thumb4.png "LINQPad Connection")](/images/2010/06/image5.png)
 
 After entered click **OK**, and you will be taken back to the LINQPad application with a new connection to the Stack Overflow data source that lists all the available tables and fields that you can query.
 
-[![LINQPad w/ Stack Overflow](http://coderjournal.com/uploads/2010/06/image_thumb5.png "LINQPad w/ Stack Overflow")](http://coderjournal.com/uploads/2010/06/image6.png)
+[![LINQPad w/ Stack Overflow](/images/2010/06/image_thumb5.png "LINQPad w/ Stack Overflow")](/images/2010/06/image6.png)
 
 ### Lets Have Some Fun Querying
 
 Lets start with an easy query that we all should know.  **Who is the number 1 Stack Overflow user?**
 
-[![Surprise it is Jon Skeet.](http://coderjournal.com/uploads/2010/06/image_thumb6.png "Surprise it is Jon Skeet.")](http://coderjournal.com/uploads/2010/06/image7.png)
+[![Surprise it is Jon Skeet.](/images/2010/06/image_thumb6.png "Surprise it is Jon Skeet.")](/images/2010/06/image7.png)
 
 **What about which user has the highest number of votes?**
 
-[![Not Jon Skeet, which is surprising.](http://coderjournal.com/uploads/2010/06/image_thumb7.png "Not Jon Skeet, which is surprising.")](http://coderjournal.com/uploads/2010/06/image8.png)
+[![Not Jon Skeet, which is surprising.](/images/2010/06/image_thumb7.png "Not Jon Skeet, which is surprising.")](/images/2010/06/image8.png)
 
 **What about down votes?**
 
-[![Another guy in the UK](http://coderjournal.com/uploads/2010/06/image_thumb8.png "Another guy in the UK")](http://coderjournal.com/uploads/2010/06/image9.png)
+[![Another guy in the UK](/images/2010/06/image_thumb8.png "Another guy in the UK")](/images/2010/06/image9.png)
 
 **Show my insightful comments with a score of 5 or greater?**
 
-[![I only have one :(](http://coderjournal.com/uploads/2010/06/image_thumb9.png "I only have one :(")](http://coderjournal.com/uploads/2010/06/image10.png)
+[![I only have one :(](/images/2010/06/image_thumb9.png "I only have one :(")](/images/2010/06/image10.png)
 
 ### Conclusion
 

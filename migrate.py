@@ -28,10 +28,14 @@ def clean_html_entities(text):
 
 def convert_image_paths(content):
     """Convert Ghost image paths to Hugo static paths"""
-    # Convert /content/images/YYYY/MM/file.ext to /images/YYYY/MM/file.ext
+    # Convert Ghost's /content/images/ references
     content = re.sub(r'/content/images/', '/images/', content)
-    # Also handle relative paths
+    # Convert hosted images that point to the old domain structure
+    content = re.sub(r'https?://(?:www\.)?coderjournal\.com/uploads/', '/images/', content)
+    content = re.sub(r'https?://(?:www\.)?coderjournal\.com/archives/', '/images/', content)
+    # Normalize protocol-relative or direct src paths
     content = re.sub(r'src="images/', 'src="/images/', content)
+    content = re.sub(r'src="//www\.coderjournal\.com/uploads/', 'src="/images/', content)
     return content
 
 

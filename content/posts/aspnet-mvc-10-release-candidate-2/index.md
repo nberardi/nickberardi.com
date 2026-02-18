@@ -12,7 +12,7 @@ tags:
 description: "Phil Haack has announced the availability of ASP.NET MVC 1.0 Release Candidate 2. You can download the new version from Microsoft. Source code and samples..."
 ---
 
-[![Final Cover Photo](http://coderjournal.com/uploads/2009/03/final-book-cover11.jpg "Final Cover Photo")](http://www.amazon.com/gp/product/0470410957?tag=coderjournal-20 "ASP.NET MVC 1.0 Website Design: Problem - Design - Solution")Phil Haack has [announced](http://haacked.com/archive/2009/03/03/aspnetmvc-changes-for-rc2.aspx) the availability of ASP.NET MVC 1.0 Release Candidate 2.
+[![Final Cover Photo](/images/2009/03/final-book-cover11.jpg "Final Cover Photo")](http://www.amazon.com/gp/product/0470410957?tag=coderjournal-20 "ASP.NET MVC 1.0 Website Design: Problem - Design - Solution")Phil Haack has [announced](http://haacked.com/archive/2009/03/03/aspnetmvc-changes-for-rc2.aspx) the availability of ASP.NET MVC 1.0 Release Candidate 2.
 
 You can [download the new version](http://go.microsoft.com/fwlink/?LinkId=144443) from Microsoft. Source code and samples are also available on [the ASP.NET CodePlex workspace](http://aspnet.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=24142#ReleaseFiles).
 

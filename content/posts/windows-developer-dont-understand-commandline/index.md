@@ -12,7 +12,7 @@ When I saw [this post](http://blogs.msdn.com/powershell/archive/2007/11/27/power
 
 The following is an image of PowerShell Plus:
 
-[![Funny Power Shell Commandline](http://coderjournal.com/uploads/2007/11/funny-powershell-commandline1.png)](http://coderjournal.com/uploads/2007/11/funny-powershell-commandline1.png "Funny Power Shell Commandline")
+[![Funny Power Shell Commandline](/images/2007/11/funny-powershell-commandline1.png)](/images/2007/11/funny-powershell-commandline1.png "Funny Power Shell Commandline")
 
 Of the 3 things that make the command window so great, this is how many this application has:
 

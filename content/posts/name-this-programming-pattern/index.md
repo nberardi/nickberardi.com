@@ -25,11 +25,11 @@ In many websites you normally have the same information represented in various d
 ### .NET Kicks Article Card
 
 I call this a card just for the fact that it is a small representation of all the information for this article, much like a business card is a small representation of all the information about a person.   
-[![.NET Kicks Article Card](http://coderjournal.com/uploads/2008/02/dot-net-kicks-model-example1.png)](http://coderjournal.com/uploads/2008/02/dot-net-kicks-model-example1.png ".NET Kicks Article Card")
+[![.NET Kicks Article Card](/images/2008/02/dot-net-kicks-model-example1.png)](/images/2008/02/dot-net-kicks-model-example1.png ".NET Kicks Article Card")
 
 ### .NET Kicks Article
 
-[![.NET Kicks Article](http://coderjournal.com/uploads/2008/02/dot-net-kicks-model-example-21.png)](http://coderjournal.com/uploads/2008/02/dot-net-kicks-model-example-21.png ".NET Kicks Article")
+[![.NET Kicks Article](/images/2008/02/dot-net-kicks-model-example-21.png)](/images/2008/02/dot-net-kicks-model-example-21.png ".NET Kicks Article")
 
 Notice how most of the information is similar between the two images above. We know they are similar because it is the same information represented from the database in different views. However the main difference is the amount of information show. Obviously it would be a massive overkill to load the users who kicked the story, and comments, when all that is required is the card view for the front page. I imagine most of this is not new to many of my readers, because SQL lets you create your datasets (models) however you want at will, the real trick in software development is creating the finite number of objects for the infinite number of datasets that SQL can return. That is what I am trying to address with "The Modeling Pattern", creating a finite number of objects that makes sense based on the views I need for my application, because you obviously don't want to dirty load all the properties for performance reasons. This is how I would code the above in "The Modeling Pattern".
 

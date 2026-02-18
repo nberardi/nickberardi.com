@@ -14,15 +14,15 @@ One of their developers decided to take some shortcuts and started copying Fluen
 
 The developer who did this, [Pawel Kaplanski](https://github.com/pawel-kaplanski), contributed a couple issues and some minor code that ultimately had to be rewritten to FluentCassandra back in September 2012.  You can see that he does work for Datastax here and that the only thing he has done for open source software ever to contribute a few minor things to FluentCassandra over a 3 day period in September. *(side note: I would hope that a company like Datastax who loves open source software, would hire developers who love open source software, however that doesn't appear to be the case with Pawel who seems to only troll for code to make his day job easier)*
 
-![copycat-pawel-kaplanski](http://coderjournal.com/uploads/2013/02/copycat-pawel-kaplanski.png)
+![copycat-pawel-kaplanski](/images/2013/02/copycat-pawel-kaplanski.png)
 
 Pawel was first introduced to me back in September by Michael Figuiere. In the email Michael was explaining to me that Pawel was going to be helping me out on FluentCassandra while working on their own client library.  Which was wonderful news for me, because I always appreciate help, I thought this was a win-win for everybody involved. But as you can see from the above Github interactions, Pawel didn't quite live up to his end of the bargain, and as I will show next in seemed to only be a win for Pawel.
 
-![email](http://coderjournal.com/uploads/2013/02/email.png)
+![email](/images/2013/02/email.png)
 
 So lets get down to the dirty stuff.  Which I have started to [track in an issue on FluentCassandra](https://github.com/managedfusion/fluentcassandra/issues/114).  The first and most egregious copying of code, and the part of FluentCassandra that has literally taken many many weeks of my time, over the past year, in tweaking and getting just right is the LINQ Expression Evaluator.
 
-![compare1](http://coderjournal.com/uploads/2013/02/compare1.png)
+![compare1](/images/2013/02/compare1.png)
 
 As you can see in this picture the white spaces in the indicator on the left hand side is code that was copied.  These pieces of code contain the exact method names, program code, positions, and everything, so it is undoubtedly copied as a whole and then tweaked for his own needs.  This is just lazy and dishonest.
 
@@ -40,12 +40,12 @@ No attribution at all for our hard work:
 
 The last one is the most interesting because it dates when he copied the FluentCassandra source code as somewhere between August 25 and September 6.  Which line up nicely to his 3 days that he looked at FluentCassandra.  I know this date range because I [removed DateTimePrecise from the code base on September 6](https://github.com/managedfusion/fluentcassandra/commits/master/src/System/DateTimePrecise.cs) because it had a nasty bug in it.
 
-![history-datetimeprecise](http://coderjournal.com/uploads/2013/02/history-datetimeprecise.png)
+![history-datetimeprecise](/images/2013/02/history-datetimeprecise.png)
 
-To be clear I am just very irritated that Datastax promised some help to FluentCassandra and the only help we seem to have gotten was a developer who decided to steal our code and not contribute anything back.  And the two bugs that Pawel opened on FluentCassandra were bugs that he fixed in his own copy of the source code, but couldn't be bothered to contribute back to FluentCassandra.  That takes a real set of brass ones to be that blatant.![pawel-issues](http://coderjournal.com/uploads/2013/02/pawel-issues.png)
+To be clear I am just very irritated that Datastax promised some help to FluentCassandra and the only help we seem to have gotten was a developer who decided to steal our code and not contribute anything back.  And the two bugs that Pawel opened on FluentCassandra were bugs that he fixed in his own copy of the source code, but couldn't be bothered to contribute back to FluentCassandra.  That takes a real set of brass ones to be that blatant.![pawel-issues](/images/2013/02/pawel-issues.png)
 
 There is one bright spot and really all that I ask for, developer [kcieslinski](https://github.com/kcieslinski) [does actually attribute FluentCassandra](https://github.com/datastax/csharp-driver/blob/master/Cassandra/BigDecimal.cs)when he copied the BigDecimal code.
 
-![kcieslinski](http://coderjournal.com/uploads/2013/02/kcieslinski.png)
+![kcieslinski](/images/2013/02/kcieslinski.png)
 
 That simple one line is all that I ever ask for.

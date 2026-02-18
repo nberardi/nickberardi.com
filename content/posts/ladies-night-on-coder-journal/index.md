@@ -23,12 +23,12 @@ Usually to gauge the effectiveness of a relative score, like the percent of girl
 
 The results of this, non scientific, study was very disturbing. Mostly because about 3 out of 25 people who visit WoW on the internet is a female, which blows me away because I was expecting something like 1/50.
 
-[![](http://coderjournal.com/uploads/2008/07/girls-worldofwarcraft-com1.png "girls-worldofwarcraft-com")](http://coderjournal.com/uploads/2008/07/girls-worldofwarcraft-com1.png)
+[![](/images/2008/07/girls-worldofwarcraft-com1.png "girls-worldofwarcraft-com")](/images/2008/07/girls-worldofwarcraft-com1.png)
 
 This means means the World of War craft beat out Jeff, Joel, and Scott, and Phil is slightly above the WoW site at about a 5% lead.
 
 The numbers for Oprah was about what I expected, and probably align very closely to her TV numbers with about 85% of her viewers being female.
 
-[![](http://coderjournal.com/uploads/2008/07/girls-oprah-com1.png "girls-oprah-com")](http://coderjournal.com/uploads/2008/07/girls-oprah-com1.png)
+[![](/images/2008/07/girls-oprah-com1.png "girls-oprah-com")](/images/2008/07/girls-oprah-com1.png)
 
 If anybody has a better website, than World of Warcraft, for me to compare these guys against please let me know.

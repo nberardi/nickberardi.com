@@ -36,18 +36,18 @@ After you have a confirmed account, you can start your stop watch for the 5 minu
 
 1. Sign in to the console: [https://console.aws.amazon.com/s3/home](https://console.aws.amazon.com/s3/home "https://console.aws.amazon.com/s3/home")
 2. Click the **Amazon CloudFront tab**, and you will see a screen that looks like this:
-   [![empty-aws-console](http://coderjournal.com/uploads/2010/12/empty-aws-console_thumb.png "empty-aws-console")](http://coderjournal.com/uploads/2010/12/empty-aws-console.png)
+   [![empty-aws-console](/images/2010/12/empty-aws-console_thumb.png "empty-aws-console")](/images/2010/12/empty-aws-console.png)
 3. Click the **Create Distribution** button, and this screen will appear:
-   [![create-aws-cloudfront](http://coderjournal.com/uploads/2010/12/create-aws-cloudfront_thumb.png "create-aws-cloudfront")](http://coderjournal.com/uploads/2010/12/create-aws-cloudfront.png)
+   [![create-aws-cloudfront](/images/2010/12/create-aws-cloudfront_thumb.png "create-aws-cloudfront")](/images/2010/12/create-aws-cloudfront.png)
 4. Select **Other…** from the **Origin** drop down.
 5. In the **Bucket Name** enter the domain that you want to mirror, in my case it is **coderjournal.com**.
 6. If you want to use a CNAME for your mirroring CDN, which is totally optional, enter it in the **CNAMEs** textbox, in my case it is **cj.mf.io**.
 7. Make sure **Distribution Status** is set to **Enabled**.
 8. After all fields are filled in it will look something like this:
-   [![filled-in-aws-cloudfront](http://coderjournal.com/uploads/2010/12/filled-in-aws-cloudfront_thumb.png "filled-in-aws-cloudfront")](http://coderjournal.com/uploads/2010/12/filled-in-aws-cloudfront.png)
+   [![filled-in-aws-cloudfront](/images/2010/12/filled-in-aws-cloudfront_thumb.png "filled-in-aws-cloudfront")](/images/2010/12/filled-in-aws-cloudfront.png)
 9. Click the **Create** button, and you are done.
 10. When the **State** says **Deployed** you are ready to start serving your content from you new mirroring CDN.
-    [![filled-aws-cloudfront](http://coderjournal.com/uploads/2010/12/filled-aws-cloudfront_thumb.png "filled-aws-cloudfront")](http://coderjournal.com/uploads/2010/12/filled-aws-cloudfront.png)
+    [![filled-aws-cloudfront](/images/2010/12/filled-aws-cloudfront_thumb.png "filled-aws-cloudfront")](/images/2010/12/filled-aws-cloudfront.png)
 11. If you decided to use a CNAME for the CDN, just take the **Domain Name** field on the left hand column and enter that for the CNAME in your DNS.
 
 Stop your stopwatches, we are done.
@@ -70,7 +70,7 @@ To incorporate this in to your web applications just start using the new mirrore
 
 Obviously applications and usages differ but as an example of how dirt cheap this service is in my opinion.  Here is the break down for the whopping $1.22 that I have racked up this month so far:
 
-[![cloud-front-bill](http://coderjournal.com/uploads/2010/12/cloud-front-bill_thumb.png "cloud-front-bill")](http://coderjournal.com/uploads/2010/12/cloud-front-bill.png)
+[![cloud-front-bill](/images/2010/12/cloud-front-bill_thumb.png "cloud-front-bill")](/images/2010/12/cloud-front-bill.png)
 
 ## Conclusion
 

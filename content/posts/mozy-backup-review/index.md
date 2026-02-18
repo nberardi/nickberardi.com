@@ -35,7 +35,7 @@ What I personally liked about the service was how easy it was to get going, with
 
 The Mozy backup process runs as a Windows Service, so it is unobtrusive and you can just start up your computer and forget it is even running.
 
-[![Mozy Backing Up](http://coderjournal.com/uploads/2007/04/mozy-backing-up.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-backing-up1.png "Mozy Backing Up") [![Mozy Status](http://coderjournal.com/uploads/2007/04/mozy-status.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-status1.png "Mozy Status")
+[![Mozy Backing Up](/images/2007/04/mozy-backing-up.thumbnail1.png)](/images/2007/04/mozy-backing-up1.png "Mozy Backing Up") [![Mozy Status](/images/2007/04/mozy-status.thumbnail1.png)](/images/2007/04/mozy-status1.png "Mozy Status")
 
 ## Mozy Website
 
@@ -49,7 +49,7 @@ Mozy does a great job at quickly packaging up your files so they can be download
 
 If you have a slow broadband connection, you can also choose to have them FedEx you files to you on DVD for a nominal price.
 
-[![Mozy My Account](http://coderjournal.com/uploads/2007/04/mozy-myaccount.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-myaccount1.png "Mozy My Account") [![Mozy My Computers](http://coderjournal.com/uploads/2007/04/mozy-mycomputers.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-mycomputers1.png "Mozy My Computers") [![Mozy Restore](http://coderjournal.com/uploads/2007/04/mozy-restore.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-restore1.png "Mozy Restore") [![Mozy Restore 2](http://coderjournal.com/uploads/2007/04/mozy-restore2.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-restore21.png "Mozy Restore 2")
+[![Mozy My Account](/images/2007/04/mozy-myaccount.thumbnail1.png)](/images/2007/04/mozy-myaccount1.png "Mozy My Account") [![Mozy My Computers](/images/2007/04/mozy-mycomputers.thumbnail1.png)](/images/2007/04/mozy-mycomputers1.png "Mozy My Computers") [![Mozy Restore](/images/2007/04/mozy-restore.thumbnail1.png)](/images/2007/04/mozy-restore1.png "Mozy Restore") [![Mozy Restore 2](/images/2007/04/mozy-restore2.thumbnail1.png)](/images/2007/04/mozy-restore21.png "Mozy Restore 2")
 
 ## Mozy Shell Integration
 
@@ -57,13 +57,13 @@ Mozy is integrated in to the Windows Explorer shell, I am using Windows Vista Ul
 
 I would love to see Mozy integrate their restore system with the Windows Vista restore system, it would be a welcomed value-add feature.
 
-[![Mozy Backup Drive](http://coderjournal.com/uploads/2007/04/mozy-backup-drive.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-backup-drive1.png "Mozy Backup Drive") [![Mozy Restore 4](http://coderjournal.com/uploads/2007/04/mozy-restore4.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-restore41.png "Mozy Restore 4") [![Mozy Restore 3](http://coderjournal.com/uploads/2007/04/mozy-restore3.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-restore31.png "Mozy Restore 3")
+[![Mozy Backup Drive](/images/2007/04/mozy-backup-drive.thumbnail1.png)](/images/2007/04/mozy-backup-drive1.png "Mozy Backup Drive") [![Mozy Restore 4](/images/2007/04/mozy-restore4.thumbnail1.png)](/images/2007/04/mozy-restore41.png "Mozy Restore 4") [![Mozy Restore 3](/images/2007/04/mozy-restore3.thumbnail1.png)](/images/2007/04/mozy-restore31.png "Mozy Restore 3")
 
 ## Mozy Configuration
 
 One of my favorite features of the Mozy service is the level of configuration and control I have over how my files are backed up. In addition to the ability to create backup sets, which is the idea of grouping all your *Music* or *Documents* or anything else you want to define in a backup package that can be downloaded. The *Backup Set Editor* has much of the same feel as the *iTunes Dynamic Play List*, which makes it very easy to define some custom and complex rules for you backups.
 
-[![Mozy Config Backup Sets](http://coderjournal.com/uploads/2007/04/mozy-config-backup-sets.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-config-backup-sets1.png "Mozy Config Backup Sets")  [![Mozy Config File System](http://coderjournal.com/uploads/2007/04/mozy-config-file-system.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-config-file-system1.png "Mozy Config File System") [![Mozy Config Schedule](http://coderjournal.com/uploads/2007/04/mozy-config-schedule.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-config-schedule1.png "Mozy Config Schedule") [![Mozy Config Options](http://coderjournal.com/uploads/2007/04/mozy-config-options.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-config-options1.png "Mozy Config Options") [![Mozy Config History](http://coderjournal.com/uploads/2007/04/mozy-config-history.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-config-history1.png "Mozy Config History") [![Mozy Backup Set Editor](http://coderjournal.com/uploads/2007/04/mozy-backup-set-editor.thumbnail1.png)](http://coderjournal.com/uploads/2007/04/mozy-backup-set-editor1.png "Mozy Backup Set Editor")
+[![Mozy Config Backup Sets](/images/2007/04/mozy-config-backup-sets.thumbnail1.png)](/images/2007/04/mozy-config-backup-sets1.png "Mozy Config Backup Sets")  [![Mozy Config File System](/images/2007/04/mozy-config-file-system.thumbnail1.png)](/images/2007/04/mozy-config-file-system1.png "Mozy Config File System") [![Mozy Config Schedule](/images/2007/04/mozy-config-schedule.thumbnail1.png)](/images/2007/04/mozy-config-schedule1.png "Mozy Config Schedule") [![Mozy Config Options](/images/2007/04/mozy-config-options.thumbnail1.png)](/images/2007/04/mozy-config-options1.png "Mozy Config Options") [![Mozy Config History](/images/2007/04/mozy-config-history.thumbnail1.png)](/images/2007/04/mozy-config-history1.png "Mozy Config History") [![Mozy Backup Set Editor](/images/2007/04/mozy-backup-set-editor.thumbnail1.png)](/images/2007/04/mozy-backup-set-editor1.png "Mozy Backup Set Editor")
 
 ## Customer Support:
 

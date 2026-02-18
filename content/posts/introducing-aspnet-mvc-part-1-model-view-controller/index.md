@@ -41,7 +41,7 @@ The MVC pattern has been implemented in most every programming language that is 
 
 Reenskaug explains on this site that "The essential purpose of MVC is to bridge the gap between the human user's mental model and the digital model that exists in the computer."  As illustrated in Figure 2-1.
 
-[caption id="attachment\_387" align="alignnone" width="691" caption="Figure 2-1"]![Figure 2-1](http://coderjournal.com/uploads/2008/12/410950-f02011.png "MVC Diagram")[/caption]
+[caption id="attachment\_387" align="alignnone" width="691" caption="Figure 2-1"]![Figure 2-1](/images/2008/12/410950-f02011.png "MVC Diagram")[/caption]
 
 He goes on to explain that "The ideal MVC solution supports the user illusion of seeing and manipulating the domain information directly.  The structure is useful if the user needs to see the same model element simultaneously in different contexts and/or from different viewpoints."  This is important because it puts the emphasis not on the application, but how the user perceives the data, the controller and view is only a means to the end of allowing the user to visualize the model in other words.
 
@@ -55,7 +55,7 @@ Reenskaug defines the Model-View-Controller in the following way.
 
 The concepts and ideas behind MVC were honestly a little abstract for me when I was first getting started, it took me a while to understand how the Model, View, and Controller where suppose to work together to create an application.  Unfortunately at the time I didn't have a great example that clearly defined the lines between the different parts of the Model, View, and Controller, so I had to learn the hard way.  Lucky for us Jeff Atwood, of codinghorror.com fame, provided an example that really struck a chord with me.  Figure 2-2 is a visual representation of his example.
 
-[caption id="attachment\_388" align="alignnone" width="1097" caption="Figure 2-2"]![Figure 2-2](http://coderjournal.com/uploads/2008/12/410950-f02021.png "MVC Browser Model (Atwood)")[/caption]
+[caption id="attachment\_388" align="alignnone" width="1097" caption="Figure 2-2"]![Figure 2-2](/images/2008/12/410950-f02021.png "MVC Browser Model (Atwood)")[/caption]
 
 This example almost perfectly represents MVC in a way that any web developer with only basic knowledge of HTML and CSS can understand.
 

@@ -17,7 +17,7 @@ Let me start out by explaining, I like many other Americans updated to the iPhon
 
 The fee that I didn't expect to find, was one related to AT&T's bad math, which seems to work out in the favor or AT&T.
 
-![](http://coderjournal.com/uploads/2012/10/image.png "image")
+![](/images/2012/10/image.png "image")
 
 If you look closely at this plan change, they changed the old *"DataPro 2GB for iPhone"* data plan costing **$25.00 a month** for the new *"DataPro 2GB for iPhone on 4G LTE with VVM"* data plan costing **$25.00 a month**.  And some how this change worked out in favor of AT&T to the tune of **$3.33** for essentially what should have been an even swap.
 
@@ -25,7 +25,7 @@ So when I noticed this, I called AT&T and they were quick to turn around and giv
 
 By the way this isn't a rare incident.  This also happened to another account of mine that I also upgraded to an iPhone 5.
 
-![](http://coderjournal.com/uploads/2012/10/image-1.png "image (1)")
+![](/images/2012/10/image-1.png "image (1)")
 
 In this case the change worked out to a **$6.00** fee that goes into AT&T's pockets.
 

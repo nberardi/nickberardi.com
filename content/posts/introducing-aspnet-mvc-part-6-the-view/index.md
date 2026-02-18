@@ -44,7 +44,7 @@ The default ViewEngine in the ASP.NET MVC Framework, the WebFormViewEngine, uses
 
 Let's take another look at the hierarchy that the default view engine uses, as seen in Figure 2-24.
 
-[caption id="attachment\_456" align="alignnone" width="276" caption="Figure 2-24"]![Figure 2-24](http://coderjournal.com/uploads/2009/01/410950-f02241.png "410950-f0224")[/caption]
+[caption id="attachment\_456" align="alignnone" width="276" caption="Figure 2-24"]![Figure 2-24](/images/2009/01/410950-f02241.png "410950-f0224")[/caption]
 
 The view engine treats aspx and ascx files almost equally, so that it is possible to render your HTML from an ascx or user control file, in the same way that an aspx or page file works.  As you can probably imagine there needs to be a hierarchy or order to which an aspx or ascx file is picked from the controller or Shared directory in Figure 2-24.  The default ASP.NET MVC view engine uses the following lookup order, from top to bottom, when trying to determine which view to render.
 

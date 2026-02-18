@@ -104,9 +104,9 @@ For anybody who hasn't used my MVC CAPTCHA control before, you only need to do t
 
 Which generates the following.
 
-[![Example of CAPTCHA](http://coderjournal.com/uploads/2008/06/captcha.png)](http://coderjournal.com/uploads/2008/06/captcha.png "Example of CAPTCHA")
+[![Example of CAPTCHA](/images/2008/06/captcha.png)](/images/2008/06/captcha.png "Example of CAPTCHA")
 
 If you would like to download the latest copy of the MVC CAPTCHA it is available in my MVC Toolkit.
 
-**Download:** [Coder Journal MVC Toolkit](http://coderjournal.com/uploads/2008/06/coderjournal-mvc-toolkit1.zip)   
+**Download:** [Coder Journal MVC Toolkit](/images/2008/06/coderjournal-mvc-toolkit1.zip)   
 **Source:** [Coder Journal MVC Toolkit](http://code.google.com/p/coderjournal/source/browse/trunk/ManagedFusion/Source/)

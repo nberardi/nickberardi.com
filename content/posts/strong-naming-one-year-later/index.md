@@ -21,7 +21,7 @@ Lucky for us, most developers who choose to strongly name their assemblies now a
 
 Lets look at JSON.NET again as our standard bearer.  Mostly do to the fact that it is the most widely used strongly named assembly in NuGet.  Since I last wrote my post almost a year ago, 11 releases have been made, however none of those releases caused breaking changes for any of the NuGet packages that referenced a 4.5.x version when built.  You may ask, "So what changed?"  As I alluded to previously the answer is "Nothing."  NuGet still functions as it did a year ago.  Strong naming still functions as it did a year ago.  .NET assemblies still function the same as they did a year ago.  The strongly named version of Newtonsoft.Json.dll did change either across those 11 releases, it has remained constant at 4.5.0.0.  And that last thing is exactly what was needed to settle down all the referencing problems in NuGet.
 
-![Screen Shot 2013-04-02 at 8.46.28 AM](http://coderjournal.com/uploads/2013/04/Screen-Shot-2013-04-02-at-8.46.28-AM.png)
+![Screen Shot 2013-04-02 at 8.46.28 AM](/images/2013/04/Screen-Shot-2013-04-02-at-8.46.28-AM.png)
 
 As I talked about in my previous post the main difference between strongly named assemblies and plain assemblies is that when you strongly name an assembly the versions have to match for any referencing assembly, for plain assemblies there is no requirement.  If you put out a new release of a strongly named assembly and don't change the version, the assemblies that reference it don't know the difference and are happy to keep using it.
 
