@@ -20,7 +20,7 @@ Scaling ASP.NET Application just got easier with a new technology that Microsoft
 
 So basically it allows you to create a distributed memory cache across your server farm, that allows any computer in the server farm to access the data in the cache. So there is no more issues with storing session data on server farms, or worrying about setting up common SQL stores of temporary data. This is also very practical for reducing database stress on Web 2.0 sites, many of the top Web 2.0 sites use this to reduce reads on the database.   The biggest user of memcached to date is Facebook.  This diagram below gives a basic idea of how distributed caching works.
 
-[![Diagram of Velocity](/images/2008/06/velocity.jpeg "Velocity Diagram")](/images/2008/06/velocity.jpeg)
+[![Diagram of Velocity](/nickberardi.com/nickberardi.com/images/2008/06/velocity.jpeg "Velocity Diagram")](/nickberardi.com/nickberardi.com/images/2008/06/velocity.jpeg)
 
 There have been many Open Source projects for getting memcached working on C#, and most have been pretty successful, but because memcached was designed for the UNIX environment, porting memcached to a Windows Service has always lagged behind the actual releases of the required libraries to get memcached working. Enter Velocity, as the [Velocity team describes](http://blogs.msdn.com/velocity/archive/2008/06/03/microsoft-project-code-named-velocity-followup.aspx):
 

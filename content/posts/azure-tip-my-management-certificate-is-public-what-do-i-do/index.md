@@ -17,7 +17,7 @@ Yesterday [@writeameer](https://twitter.com/writeameer) posted on twitter a sea
 
 Nothing can really be done about the old certificate being out in the public, once it is out there assume somebody has a copy of it. Luckily it is pretty easy to remove these certificates and generate new ones. Here is how you do it:
 
-![Deleting A Certificate](/images/2013/01/Deleting-A-Certificate.png)
+![Deleting A Certificate](/nickberardi.com/nickberardi.com/images/2013/01/Deleting-A-Certificate.png)
 
 1. Go to: <https://manage.windowsazure.com>
 2. Log in using your account credentails.
@@ -28,7 +28,7 @@ Nothing can really be done about the old certificate being out in the public, on
 7. Repeat 5 and 6 until all certificates are deleted.
 8. You can either upload a new certificate, or just wait, a certificate is usually automatically created when you publish your certain types of projects like Web Roles.
 
-![Create New Certificates](/images/2013/01/Create-New-Certificates.png)
+![Create New Certificates](/nickberardi.com/nickberardi.com/images/2013/01/Create-New-Certificates.png)
 
 ---
 

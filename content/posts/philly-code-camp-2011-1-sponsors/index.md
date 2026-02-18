@@ -11,13 +11,13 @@ description: "We are now in the process of accepting sponsors for Philly Code Ca
 
 We are now in the process of accepting sponsors for Philly Code Camp 2011.1.  The charity we are sponsoring this time around is:
 
-![](/images/2010/08/alsf.jpg "Alex's Lemonade Stand")
+![](/nickberardi.com/nickberardi.com/images/2010/08/alsf.jpg "Alex's Lemonade Stand")
 
 So if you would like to count yourself amongst these fabulous companies, please feel free to [contact me to join our family of sponsors](http://coderjournal.com/contact/).  You can find the information about sponsoring Code Camp 2011.1 after the break.
 
 ---
 
-[![](/images/2010/03/image001.jpg "Philly.NET")](http://phillydotnet.org)
+[![](/nickberardi.com/nickberardi.com/images/2010/03/image001.jpg "Philly.NET")](http://phillydotnet.org)
 
 ## Code Camp 2011.1
 

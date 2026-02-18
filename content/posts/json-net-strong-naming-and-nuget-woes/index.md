@@ -34,11 +34,11 @@ Now that you understand the scope of the problem and the library involved, consi
 
 I hope you are starting to realize the boondoggle that is being created here.  Because there are some popular libraries that are slow to update because of their development cycles and the maintainers can't jump on every JSON.NET release every month, and sometimes daily as happened in January 2012.
 
-[![](/images/2012/04/Untitled1.png "Untitled")](http://nuget.org/packages/Newtonsoft.Json)
+[![](/nickberardi.com/nickberardi.com/images/2012/04/Untitled1.png "Untitled")](http://nuget.org/packages/Newtonsoft.Json)
 
 These monthly releases create undue pressure on the community as a whole especially when this library is one of the most referenced libraries on NuGet. And with the ASP.NET and many other teams in Microsoft moving to NuGet as distribution model, **this problem is only going to get worse**. And what are the chances that Microsoft is going to want to update the ASP.NET framework monthly and sometimes daily, based on James continuous release cycles.
 
-![](/images/2012/04/Support-a-cause-Its-all-in-the-wrist-P4LL587-x-large.jpg "Support-a-cause-Its-all-in-the-wrist-P4LL587-x-large")Don't get me wrong, I love it when developers are constantly updating their libraries, but because of **the scope of JSON.NET's use, it is creating a burden on the ecosystem as a whole**. I am not advocating that James stop updating JSON.NET monthly and daily if he sees fit, **what I am advocating is dropping the strong naming of libraries pushed to NuGet**. That is why I am writing this blog post and that is why I am hoping you will support me and my effort to get James to stop signing NuGet assemblies.
+![](/nickberardi.com/nickberardi.com/images/2012/04/Support-a-cause-Its-all-in-the-wrist-P4LL587-x-large.jpg "Support-a-cause-Its-all-in-the-wrist-P4LL587-x-large")Don't get me wrong, I love it when developers are constantly updating their libraries, but because of **the scope of JSON.NET's use, it is creating a burden on the ecosystem as a whole**. I am not advocating that James stop updating JSON.NET monthly and daily if he sees fit, **what I am advocating is dropping the strong naming of libraries pushed to NuGet**. That is why I am writing this blog post and that is why I am hoping you will support me and my effort to get James to stop signing NuGet assemblies.
 
 **Please support me and the community as a whole by voting up this request for JSON.NET to stop being signed on NuGet assemblies.**
 

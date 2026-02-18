@@ -19,7 +19,7 @@ description: "In my first post about JavaScript compression and the different le
 
 In my [first post about JavaScript compression](http://www.coderjournal.com/2010/01/yahoo-yui-compressor-vs-microsoft-ajax-minifier-vs-google-closure-compiler/ "Yahoo YUI Compressor vs. Microsoft AJAX Minifier vs. Google Closure Compiler") and the different levels supported by the three major competitors in the JavaScript minimization, obfuscation, and optimization tools space.  I the article I discussed which tool provided the best compression in regards to the resulting byte count.  And found that Google took the over all crown with Microsoft following very closely behind.  A comment posted on that article by [Eric J. Smith of Code Smith](http://www.codesmithtools.com/), provided a nice lead in to my second article in this series, he posted this comment:
 
-[![Eric J. Smith Comment](/images/2010/01/comment1.png "Eric J. Smith Comment")](http://www.coderjournal.com/2010/01/yahoo-yui-compressor-vs-microsoft-ajax-minifier-vs-google-closure-compiler/#comment-50720)
+[![Eric J. Smith Comment](/nickberardi.com/nickberardi.com/images/2010/01/comment1.png "Eric J. Smith Comment")](http://www.coderjournal.com/2010/01/yahoo-yui-compressor-vs-microsoft-ajax-minifier-vs-google-closure-compiler/#comment-50720)
 
 So if you haven’t guessed it yet by the title and then by Eric’s comment this post is going to be on the optimizations provided by the tools.  So lets get started…
 

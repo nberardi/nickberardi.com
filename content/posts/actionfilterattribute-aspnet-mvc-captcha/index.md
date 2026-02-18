@@ -41,7 +41,7 @@ I added an extension to *HtmlHelper* that generates a text box with *autocomplet
 
 Which generates the following.
 
-[![Example of CAPTCHA](/images/2008/03/captcha2.png)](/images/2008/03/captcha2.png "Example of CAPTCHA")
+[![Example of CAPTCHA](/nickberardi.com/nickberardi.com/images/2008/03/captcha2.png)](/nickberardi.com/nickberardi.com/images/2008/03/captcha2.png "Example of CAPTCHA")
 
 You can view the source code for this on my [Google Code Project](http://code.google.com/p/coderjournal/), everything is available through SVN.
 
@@ -52,4 +52,4 @@ You can view the source code for this on my [Google Code Project](http://code.go
 
 Or you can download the project for you own personal use.
 
-- [ASP.NET MVC CAPTCHA Project](/images/2008/03/mvc-preview-2-captcha1.zip)
+- [ASP.NET MVC CAPTCHA Project](/nickberardi.com/nickberardi.com/images/2008/03/mvc-preview-2-captcha1.zip)

@@ -28,7 +28,7 @@ In my opinion a platform has the following characteristics and so does a Web 2.0
 3. Users can own data and have control over who sees it.
 4. It is an obvious advancement from the previous Web 1.0 version of the software if one exisited.
 
-![http://stackoverflow.com](/images/2008/08/stackoverflow1.png "Stack Overflow")
+![http://stackoverflow.com](/nickberardi.com/nickberardi.com/images/2008/08/stackoverflow1.png "Stack Overflow")
 
 Just as a precursor to the following discussion, I have never heard Jeff proclaim that stack overflow is a Web 2.0 site, so this is just my ramblings.  Jeff has also done an awesome job with the site in a short period of time so everything I am saying now will probably change in the future.
 

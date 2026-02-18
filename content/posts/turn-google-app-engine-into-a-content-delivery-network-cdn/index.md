@@ -82,7 +82,7 @@ Well this is the cool part! You just use the absolute path to your files. For ex
 **Potential Gotcha:** I forgot to mention that currently the files hosted statically are case-sensitive. I have reported this issue to Google, hopefully they will correct it soon. <http://code.google.com/p/googleappengine/issues/detail?id=466>
 
 ```
-<img src="http://static.coderjournal.com/images/ideapipe-logo.png" />
+<img src="http://static.coderjournal.com/nickberardi.com/images/ideapipe-logo.png" />
 ```
 
 It is really that simple. Now comes the cool part that I need your help with, and proof that this is really a true CDN. I would like to see how many different IP Addresses my CDN points to. So far I was able to find the following IP addresses:

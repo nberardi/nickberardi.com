@@ -10,7 +10,7 @@ description: "I have started and stopped this post probably about 10 times now.&
 
 I have started and stopped this post probably about 10 times now.  I just didn’t feel it was that interesting.  But there probably isn’t a better time to capitalize on this post than this week, because of a certain [few](http://www.codinghorror.com/blog/archives/001315.html) [widely](http://haacked.com/archive/2009/12/14/back-in-business-again.aspx) [known](http://blog.stackoverflow.com) bloggers, [who should have known better](http://www.codinghorror.com/blog/archives/001045.html), and had their websites go down with out any backups.
 
-[![codinghorror-down](/images/2009/12/codinghorrordown_thumb1.png "codinghorror-down")](/images/2009/12/codinghorrordown1.png)
+[![codinghorror-down](/nickberardi.com/nickberardi.com/images/2009/12/codinghorrordown_thumb1.png "codinghorror-down")](/nickberardi.com/nickberardi.com/images/2009/12/codinghorrordown1.png)
 
 This post won't be [as flashy as Robs method](http://blog.wekeroad.com/2009/12/15/using-git-as-a-backup-tool), but it has worked very well for my WordPress, MySQL, and Windows deployment for 2 and 1/2 years.  So here is the original post.
 
@@ -163,15 +163,15 @@ ECHO %message% >> %logfile%
 
 The next thing we need to do is setup a schedule for how often we want to run this batch file we have just created.  Just open up the Task Scheduler and click *Create Basic Task…* to bring up the wizard window.
 
-[![task-step1](/images/2009/12/taskstep1_thumb1.png "task-step1")](/images/2009/12/taskstep11.png)
+[![task-step1](/nickberardi.com/nickberardi.com/images/2009/12/taskstep1_thumb1.png "task-step1")](/nickberardi.com/nickberardi.com/images/2009/12/taskstep11.png)
 
 Just continue through the wizard and setup the settings how you want. I choose it to run daily at 1:00 AM.
 
-[![task-step2](/images/2009/12/taskstep2_thumb1.png "task-step2")](/images/2009/12/taskstep21.png)
+[![task-step2](/nickberardi.com/nickberardi.com/images/2009/12/taskstep2_thumb1.png "task-step2")](/nickberardi.com/nickberardi.com/images/2009/12/taskstep21.png)
 
 Make sure to fill in the *Start in* field to be the root of your website, even though it is not the location of your batch file.  This is because the batch file is setup from the perspective of that it will be running in the root of the website.
 
-[![task-step3](/images/2009/12/taskstep3_thumb1.png "task-step3")](/images/2009/12/taskstep31.png)
+[![task-step3](/nickberardi.com/nickberardi.com/images/2009/12/taskstep3_thumb1.png "task-step3")](/nickberardi.com/nickberardi.com/images/2009/12/taskstep31.png)
 
 After you have finished this wizard kick it off once just to make sure everything is running fine.
 

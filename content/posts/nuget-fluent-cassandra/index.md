@@ -10,7 +10,7 @@ description: "Fluent Cassandra is now available via NuGet. If you have never hea
 
 Fluent Cassandra is now available via NuGet.
 
-[![FluentCassandra](/images/2011/02/FluentCassandra_thumb.png "FluentCassandra")](/images/2011/02/FluentCassandra.png)
+[![FluentCassandra](/nickberardi.com/nickberardi.com/images/2011/02/FluentCassandra_thumb.png "FluentCassandra")](/nickberardi.com/nickberardi.com/images/2011/02/FluentCassandra.png)
 
 If you have never heard of FluentCassandra then go here to learn more:
 

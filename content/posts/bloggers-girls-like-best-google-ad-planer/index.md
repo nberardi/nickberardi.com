@@ -28,7 +28,7 @@ Please note that I wanted to also analyze, [Rob Conery](http://blog.wekeroad.com
 
 ### What is Google Ad Planner?
 
-[![](/images/2008/06/google-ad-planner-main-screen1.png "google-ad-planner-main-screen")](/images/2008/06/google-ad-planner-main-screen1.png)[![](/images/2008/06/google-ad-planner-info-sheet1.png "google-ad-planner-info-sheet")](/images/2008/06/google-ad-planner-info-sheet1.png)Google Ad Planner is a free media planning tool that can help you identify websites your audience is likely to visit so you can make better-informed advertising decisions.
+[![](/nickberardi.com/nickberardi.com/images/2008/06/google-ad-planner-main-screen1.png "google-ad-planner-main-screen")](/nickberardi.com/nickberardi.com/images/2008/06/google-ad-planner-main-screen1.png)[![](/nickberardi.com/nickberardi.com/images/2008/06/google-ad-planner-info-sheet1.png "google-ad-planner-info-sheet")](/nickberardi.com/nickberardi.com/images/2008/06/google-ad-planner-info-sheet1.png)Google Ad Planner is a free media planning tool that can help you identify websites your audience is likely to visit so you can make better-informed advertising decisions.
 
 With Google Ad Planner, you can:
 
@@ -44,17 +44,17 @@ According to Google Ad Planner, from least likable by the ladies to most likable
 
 #### 3rd Place - Jeff Attwood
 
-[![](/images/2008/06/girls-codinghorror-com1.png "girls-codinghorror-com")](/images/2008/06/girls-codinghorror-com1.png)
+[![](/nickberardi.com/nickberardi.com/images/2008/06/girls-codinghorror-com1.png "girls-codinghorror-com")](/nickberardi.com/nickberardi.com/images/2008/06/girls-codinghorror-com1.png)
 
 #### 2nd Place - Joel Spolsky and Scott Hanselman
 
-[![](/images/2008/06/girls-joelonsoftware-com1.png "girls-joelonsoftware-com")](/images/2008/06/girls-joelonsoftware-com1.png)
+[![](/nickberardi.com/nickberardi.com/images/2008/06/girls-joelonsoftware-com1.png "girls-joelonsoftware-com")](/nickberardi.com/nickberardi.com/images/2008/06/girls-joelonsoftware-com1.png)
 
-[![](/images/2008/06/girls-hanselman-com1.png "girls-hanselman-com")](/images/2008/06/girls-hanselman-com1.png)
+[![](/nickberardi.com/nickberardi.com/images/2008/06/girls-hanselman-com1.png "girls-hanselman-com")](/nickberardi.com/nickberardi.com/images/2008/06/girls-hanselman-com1.png)
 
 #### 1st Place - Phil Haack
 
-[![](/images/2008/06/girls-haaked-com1.png "girls-haaked-com")](/images/2008/06/girls-haaked-com1.png)
+[![](/nickberardi.com/nickberardi.com/images/2008/06/girls-haaked-com1.png "girls-haaked-com")](/nickberardi.com/nickberardi.com/images/2008/06/girls-haaked-com1.png)
 
 I am not sure how Google Calculates these metrics, but if I had to do an analysis, purely on speculation of why Phil Haack won.  I would conclude the following:
 

@@ -11,21 +11,21 @@ description: "We are now in the process of accepting sponsors for Philly Code Ca
 
 We are now in the process of accepting sponsors for Philly Code Camp 2010.2.  This is our family of partners, with an international reach that have continued to partner ship us over the years, I am sure you have heard of most if not all of them:
 
-![](/images/2010/08/devexpress.png "devexpress") ![](/images/2010/08/hosting.png "hosting")![](/images/2010/08/infragistics.png "infragistics") ![](/images/2010/08/red-gate.png "red-gate") ![](/images/2010/08/telerik.jpg "telerik") ![](/images/2010/08/microsoft.png "microsoft")
+![](/nickberardi.com/nickberardi.com/images/2010/08/devexpress.png "devexpress") ![](/nickberardi.com/nickberardi.com/images/2010/08/hosting.png "hosting")![](/nickberardi.com/nickberardi.com/images/2010/08/infragistics.png "infragistics") ![](/nickberardi.com/nickberardi.com/images/2010/08/red-gate.png "red-gate") ![](/nickberardi.com/nickberardi.com/images/2010/08/telerik.jpg "telerik") ![](/nickberardi.com/nickberardi.com/images/2010/08/microsoft.png "microsoft")
 
 And some of our new sponsors, we are welcoming this year to our family of partners:
 
-![](/images/2010/08/github.png "github")
+![](/nickberardi.com/nickberardi.com/images/2010/08/github.png "github")
 
 And the charity we are sponsoring this time around is:
 
-![](/images/2010/08/alsf.jpg "Alex's Lemonade Stand")
+![](/nickberardi.com/nickberardi.com/images/2010/08/alsf.jpg "Alex's Lemonade Stand")
 
 So if you would like to count yourself amongst these fabulous companies, please feel free to [contact me to join our family of sponsors](http://www.managedfusion.com/info/contact-us.aspx).  You can find the information about sponsoring Code Camp 2010.2 after the break.
 
 ---
 
-[![](/images/2010/03/image001.jpg "Philly.NET")](http://phillydotnet.org)
+[![](/nickberardi.com/nickberardi.com/images/2010/03/image001.jpg "Philly.NET")](http://phillydotnet.org)
 
 ## Code Camp 2010.2
 

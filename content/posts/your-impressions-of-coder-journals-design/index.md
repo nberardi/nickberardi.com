@@ -20,7 +20,7 @@ You can tell me what you think of the colors but honestly much like personal tas
 
 Honestly, if I was to break it down, I just like the look of a Orange, Blue, and Brown, I believe they provide nice contrast to each other and have an almost academic look.  If I was to sum up my style I would say the Power Point Theme *Median*, as seen below, is the closest I have ever seen to *My Personal Style Tastes*.
 
-[![Power Point Example](/images/2008/03/power-point-example1.png)](/images/2008/03/power-point-example1.png "Power Point Example")[![Power Point Example 2](/images/2008/03/power-point-example-21.png)](/images/2008/03/power-point-example-21.png "Power Point Example 2")
+[![Power Point Example](/nickberardi.com/nickberardi.com/images/2008/03/power-point-example1.png)](/nickberardi.com/nickberardi.com/images/2008/03/power-point-example1.png "Power Point Example")[![Power Point Example 2](/nickberardi.com/nickberardi.com/images/2008/03/power-point-example-21.png)](/nickberardi.com/nickberardi.com/images/2008/03/power-point-example-21.png "Power Point Example 2")
 
 So please let me here your comments, about my blog, on:
 

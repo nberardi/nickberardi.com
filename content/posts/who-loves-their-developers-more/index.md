@@ -42,7 +42,7 @@ So lets get started.
 
 ### PHP
 
-![php](/images/2010/08/php.png "php")
+![php](/nickberardi.com/nickberardi.com/images/2010/08/php.png "php")
 
 The PHP documentation for strings was very poor, but I think that is because strings are considered to be a primitive in the PHP world, so all they could do was document other methods that interact with strings.  However, their over all documentation was poor and would have only received one out of five if it wasn’t for the excellent user contributed content and examples that each page has.  I don’t know if the excellent user contributed content was born out of necessity of bad documentation, part of the culture, or a combination of both but it seems to get the job done for the most part.  Besides the content the navigation was horrid, there is not an easy way besides search to find other relating documentation, besides drilling back up the navigation tree, and as far as I could see there wasn’t an easy way to switch to the different versions of PHP if you weren’t using the latest and greatest version.  And they seem to maintain this mid-90’s book paging documentation practice that allows you to continue to the next section of the documentation as if it was divided in to chapters, which really only reinforces the point that they haven’t looked at their UX for probably at least 10 years.  So that all contributed to the following scores:
 
@@ -55,7 +55,7 @@ The PHP documentation for strings was very poor, but I think that is because str
 
 ### Ruby
 
-![ruby](/images/2010/08/ruby.png "ruby")
+![ruby](/nickberardi.com/nickberardi.com/images/2010/08/ruby.png "ruby")
 
 *Note: The documentation provided on Ruby On Rails seems to be a direct copy from* [*Ruby Doc*](http://ruby-doc.org/core/classes/String.html)*.*
 
@@ -70,7 +70,7 @@ The documentation quality was very good, but on the same token very minimal it o
 
 ### Java
 
-![java](/images/2010/08/java.png "java")
+![java](/nickberardi.com/nickberardi.com/images/2010/08/java.png "java")
 
 The documentation quality was very good, however after you get past the header of the document each method is only tersely documented and there were very few code examples or warning to base your decisions on. The UX as you might be able to tell hasn’t been updated probably since Java was released in 1995, their idea of navigation seems to be based on browser frames and one off targeted screens that just show a list of classes for instance in the namespace.  On the other hand the layout was simple, and a power-user could easily jump around the documentation with a few targeted clicks to find out more about the properties vs methods vs constructor.  The URL is very easy for a power-user to navigate through, because the classes and namespaces are right in the URL including the version, so it is everything you need to get right to the documentation you are looking for.  You can easily navigate to other version of the documentation by just changing the version in the URL, which isn’t ideal, but it is better than no method at all.  The only caveat is that the Java versioning isn’t consistent, but they seem to have redirects in place for common mistakes.  This all resulted in the following scores for the documentation:
 
@@ -83,7 +83,7 @@ The documentation quality was very good, however after you get past the header o
 
 ### Objective-C
 
-![obj-c](/images/2010/08/objc.png "obj-c")
+![obj-c](/nickberardi.com/nickberardi.com/images/2010/08/objc.png "obj-c")
 
 The documentation quality is very good, and if I had to guess Apple took the structure of the Java documentation and just added the typical Apple flare to it.  Because most of the elements are laid out in the exact same order as the Java documentation right down to the navigation.  But a plus for Apple is that they got rid of the 90ish navigation techniques and added something a little more modern, but still not that great.  Instead of navigating the document by clicking links you select a drop down which will take you to the part of the documentation you are looking for.  In addition to that they have a nice menu on the right hand side that lets you jump around the class, but nothing more, so you can’t use it to browse the entire library.  One weird thing I encountered which I am still scratching my head at for the reasoning is the *next* button at the top of the page. It seems to take you just to the deprecated methods and then if you click it again takes you to the document update history, seems totally useless to me.  In addition there was no way to switch between versions and the URL structure was the most horrid I have seen, so that all resulted in the following scores:
 
@@ -96,15 +96,15 @@ The documentation quality is very good, and if I had to guess Apple took the str
 
 ### C#
 
-![csharp](/images/2010/08/csharp.png "csharp")
+![csharp](/nickberardi.com/nickberardi.com/images/2010/08/csharp.png "csharp")
 
 *Lightweight*
 
-![csharp2](/images/2010/08/csharp2.png "csharp2")
+![csharp2](/nickberardi.com/nickberardi.com/images/2010/08/csharp2.png "csharp2")
 
 *Classic*
 
-![csharp3](/images/2010/08/csharp3.png "csharp3")
+![csharp3](/nickberardi.com/nickberardi.com/images/2010/08/csharp3.png "csharp3")
 
 *ScriptFree*
 

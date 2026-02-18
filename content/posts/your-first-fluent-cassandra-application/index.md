@@ -44,7 +44,7 @@ The above configuration creates one Column Family (or table in RDBMS speak) call
 
 Next grab a copy of FluentCassandra from <http://github.com/managedfusion/fluentcassandra>
 
-[![image](/images/2010/06/image_thumb.png "image")](/images/2010/06/image.png)
+[![image](/nickberardi.com/nickberardi.com/images/2010/06/image_thumb.png "image")](/nickberardi.com/nickberardi.com/images/2010/06/image.png)
 
 Create your your own console app or use **FluentCassandra.Sandbox** console app provided in the source downloaded.
 

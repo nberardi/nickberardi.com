@@ -48,6 +48,6 @@ Today I decided to release a toolkit that I have been building over the past cou
   I have had a long standing discontent with the Redirect method of the ASP.NET. I have talked about [good use of HTTP Status Codes](http://www.coderjournal.com/2007/04/world-of-http11-status-codes/ "World Of HTTP/1.1 Status Codes") before. There are at least 3 status codes that you want to consider before choosing a response status code of 302. Just to reiterate my post on the subject use 303 to redirect from a form POST, use 307 when you want to redirect to a page that is going to change with each request, use 301 if you want to permanently redirect one URL to another.I created the, Redirect, extension method on HttpResponse so that the status code could be set for the redirect.
 
 **View Source:** [Coder Journal MVC Toolkit Source](http://code.google.com/p/coderjournal/source/browse/trunk/ManagedFusion/Source/)   
-**Download Binary:** [Coder Journal MVC Toolkit Binary](/images/2008/04/coder-journal-mvc-toolkit1.zip)
+**Download Binary:** [Coder Journal MVC Toolkit Binary](/nickberardi.com/nickberardi.com/images/2008/04/coder-journal-mvc-toolkit1.zip)
 
 **Update:** I have updated one bug found.  Both links above contain the updated source and binaries.

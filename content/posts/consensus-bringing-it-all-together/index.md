@@ -51,7 +51,7 @@ Hopefully you have learned as much as I have from creating this app. I came into
 
 Here is what the app looks like running in a couple browsers.
 
-![screenshot of the app running in 2 browsers](/images/2014/Apr/screenshots.png)
+![screenshot of the app running in 2 browsers](/nickberardi.com/nickberardi.com/images/2014/Apr/screenshots.png)
 
 If you want to explore and play with this web app yourself you can visit [consensus.azurewebsites.net](http://consensus.azurewebsites.net) or if you perfer to download and run the code yourself, you can find it here for your forking needs [github.com/nberardi/consensus](https://github.com/nberardi/consensus).
 

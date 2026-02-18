@@ -28,7 +28,7 @@ The program is supported on the following servers:
 
 That leaves out the Home and Media Center editions of Windows Vista and Windows XP, as well as the Web and Enterprise versions of Windows Server 2003.
 
-It offers the following improvements over previous versions:[![Virtual PC 2007](/images/2007/02/virtualpc20071.png)](/images/2007/02/virtualpc20071.png "Virtual PC 2007")
+It offers the following improvements over previous versions:[![Virtual PC 2007](/nickberardi.com/nickberardi.com/images/2007/02/virtualpc20071.png)](/nickberardi.com/nickberardi.com/images/2007/02/virtualpc20071.png "Virtual PC 2007")
 
 - Support for Windows Vista as a host
 - Support for Windows Vista as a guest

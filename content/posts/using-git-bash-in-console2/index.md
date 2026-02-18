@@ -16,4 +16,4 @@ As a long time [mysysgit](http://code.google.com/p/msysgit/) user for all my Git
 - **Icon:** C:\Program Files (x86)\Git\etc\git.ico
 - **Shell:** C:\Windows\SysWOW64\cmd.exe /c ""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"
 
-![](/images/2012/05/Console2.png "Console2")
+![](/nickberardi.com/nickberardi.com/images/2012/05/Console2.png "Console2")

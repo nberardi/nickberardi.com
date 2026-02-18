@@ -16,4 +16,4 @@ A major update has been pushed out for Google Analytics, as described in a post 
 
 I simply love this tool, and the data it provides is invaluable to my day to day operations of this website.
 
-[![New Google Analytics](/images/2007/05/new-analytics1.png)](/images/2007/05/new-analytics1.png "New Google Analytics")
+[![New Google Analytics](/nickberardi.com/nickberardi.com/images/2007/05/new-analytics1.png)](/nickberardi.com/nickberardi.com/images/2007/05/new-analytics1.png "New Google Analytics")

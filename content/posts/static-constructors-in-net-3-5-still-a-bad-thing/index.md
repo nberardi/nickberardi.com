@@ -46,7 +46,7 @@ The scenarios were broken down as follows:
 7. **Static7:** name set in property
 8. **Static8:** name set on field and in constructor
 
-![Static Constructor Test](/images/2009/08/static-constructor-test1.png "Static Constructor Test")I then used reflector to give me the following IL dump of the code.
+![Static Constructor Test](/nickberardi.com/nickberardi.com/images/2009/08/static-constructor-test1.png "Static Constructor Test")I then used reflector to give me the following IL dump of the code.
 
 - [Program.il](http://code.google.com/p/coderjournal/source/browse/trunk/Posts/2009/08/Program.il)
 

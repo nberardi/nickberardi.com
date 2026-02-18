@@ -16,7 +16,7 @@ So today I was reading one of my favorite blogs, [Google Operating System](http:
 
 This is really exciting stuff, especially for many of my clients that just want a quick and dirty form to ask a couple questions of their customers. The bonus is that it comes out in the format everybody wants. Microsoft Excel! Here is what the Offical Blog Post had to say:
 
-> Responses are automatically added to your spreadsheet. You can even keep a closer eye on them by adding the **Google Docs forms gadget** to your iGoogle homepage, created by software engineers Valerie Blechar and Sarah Beth Eisinger (in her first month at Google!). It lists your recent active forms, with new responses highlighted. Add this gadget to your iGoogle page: [![Add to Google](http://gmodules.com/ig/images/plus_google.gif)](http://www.google.com/ig/add?moduleurl=http%3A%2F%2Fwww.google.com%2Fig%2Fmodules%2Fformslist.xml)
+> Responses are automatically added to your spreadsheet. You can even keep a closer eye on them by adding the **Google Docs forms gadget** to your iGoogle homepage, created by software engineers Valerie Blechar and Sarah Beth Eisinger (in her first month at Google!). It lists your recent active forms, with new responses highlighted. Add this gadget to your iGoogle page: [![Add to Google](http://gmodules.com/ig/nickberardi.com/images/plus_google.gif)](http://www.google.com/ig/add?moduleurl=http%3A%2F%2Fwww.google.com%2Fig%2Fmodules%2Fformslist.xml)
 
 To test this out I created my own survey for my readers to tell me how I am doing? Located at: <http://spreadsheets.google.com/viewform?key=pmGAQxFEGHWGV6o0976XeJQ>
 

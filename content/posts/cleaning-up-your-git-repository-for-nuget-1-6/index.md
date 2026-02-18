@@ -23,7 +23,7 @@ Let’s assume that you have a solution that is either already using NuGet, or p
 
 Right click on the *Solution* node in Solution Explorer and select *Enable NuGet Package Restore*.
 
-![Enable NuGet Package Restore Context Menu item](http://docs.nuget.org/docs/Workflows/images/enable-package-restore.png)
+![Enable NuGet Package Restore Context Menu item](http://docs.nuget.org/docs/Workflows/nickberardi.com/images/enable-package-restore.png)
 
 **That's it!** You're all set.
 

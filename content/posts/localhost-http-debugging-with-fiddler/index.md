@@ -28,11 +28,11 @@ I don't know if many of you are aware but the website <http://localhostproxy.com
 
 So if *localhostproxy.com* points to the same local IP address as *localhost*, I figured that I could just use *localhostproxy.com* instead of *localhost* in my projects. I used the following setup:
 
-[![Visual Studio localhostproxy.com Setup](/images/2008/03/visual-studio-somesitecom-setup1.png)](/images/2008/03/visual-studio-somesitecom-setup1.png "Visual Studio localhostproxy.com Setup")
+[![Visual Studio localhostproxy.com Setup](/nickberardi.com/nickberardi.com/images/2008/03/visual-studio-somesitecom-setup1.png)](/nickberardi.com/nickberardi.com/images/2008/03/visual-studio-somesitecom-setup1.png "Visual Studio localhostproxy.com Setup")
 
 With the above setup I was able to get Fiddler to monitor my *localhost* traffic my tricking the network card to go external for the *localhostproxy.com* reference.
 
-[![Fiddler localhostproxy.com](/images/2008/03/fiddler-somesitecom1.png)](/images/2008/03/fiddler-somesitecom1.png "Fiddler localhostproxy.com")
+[![Fiddler localhostproxy.com](/nickberardi.com/nickberardi.com/images/2008/03/fiddler-somesitecom1.png)](/nickberardi.com/nickberardi.com/images/2008/03/fiddler-somesitecom1.png "Fiddler localhostproxy.com")
 
 So basically that is all that I needed to do and it make pretty quick work of getting around the localhost problem.
 

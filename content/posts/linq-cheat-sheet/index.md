@@ -14,4 +14,4 @@ description: "This cheat sheet was compiled by Milan Negovan at http://www.aspne
 
 This cheat sheet was compiled by [Milan Negovan at <http://www.aspnetresources.com/>](http://www.aspnetresources.com/). It is very handy and I recommend everybody download it and print it out.
 
-**Download:** [LINQ Cheat Sheet Document](/images/2008/02/linq-standard-query-operators.pdf "LINQ Standard Query Operators")
+**Download:** [LINQ Cheat Sheet Document](/nickberardi.com/nickberardi.com/images/2008/02/linq-standard-query-operators.pdf "LINQ Standard Query Operators")
