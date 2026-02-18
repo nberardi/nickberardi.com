@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /wp-admin
+Disallow: /wp-content
+Disallow: /wp-includes
+
+Disallow: /wp-trackback.php
+
+Sitemap: http://coderjournal.com/sitemap.xml.gz

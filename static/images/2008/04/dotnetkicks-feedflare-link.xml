@@ -1,0 +1,10 @@
+<FeedFlareUnit>
+    <Catalog>
+        <Title>Dot Net Kicks: .NET links, community driven</Title>
+        <Description>DotNetKicks.com is a community based news site edited by our members. It specialises in .NET development techniques, technologies and tools including ASP.NET, C#, VB.NET, C++, Visual Studio, SubSonic, Open Source, SQL Server, Silverlight &amp; Mono.</Description>
+    </Catalog>
+    <FeedFlare>
+        <Text>Kick It</Text>
+        <Link href="http://www.dotnetkicks.com/submit?url=${link}&amp;title=${title}"/>
+    </FeedFlare>
+</FeedFlareUnit>
