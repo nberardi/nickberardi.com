@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "posts") }}
+
+{{- $tagTerms := where (where site.Pages "Kind" "term") "Data.Plural" "tags" }}
+{{- $current := slice }}
+{{- $historic := slice }}
+{{- range $tagTerms }}
+  {{- $isCurrent := false }}
+  {{- range .Pages }}{{ if gt .Date.Year 2014 }}{{ $isCurrent = true }}{{ end }}{{ end }}
+  {{- $entry := dict "name" .Title "count" (len .Pages) "url" .RelPermalink }}
+  {{- if $isCurrent }}{{ $current = $current | append $entry }}{{ else }}{{ $historic = $historic | append $entry }}{{ end }}
+{{- end }}
+{{- $current = sort $current "count" "desc" }}
+{{- $historic = sort $historic "count" "desc" }}
+
+<main id="main-content" class="nb-shell nb-topics">
+  <h2 class="nb-page-title">Topics</h2>
+  <p class="nb-topics-lede">{{ len $tagTerms }} tags, sized by how much I actually wrote about each one. Most of them are obsolete, which is the honest record of a nineteen-year blog.</p>
+
+  {{- if gt (len $current) 0 }}
+  {{- $maxCurrent := (index $current 0).count }}
+  <div class="nb-kicker nb-kicker-accent">What I write about now</div>
+  <div class="nb-topic-cloud nb-topic-cloud-current">
+    {{- range $current }}
+    {{- $size := math.Round (math.Max 15 (math.Min 42 (add 16 (mul 26 (div (float .count) $maxCurrent))))) }}
+    <a href="{{ .url }}" class="nb-topic-link nb-topic-current" style="font-size:{{ $size }}px">{{ .name }}<sup>{{ .count }}</sup></a>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- if gt (len $historic) 0 }}
+  {{- $maxHistoric := (index $historic 0).count }}
+  <div class="nb-kicker nb-kicker-accent">From the archive &middot; 2007 &mdash; 2014</div>
+  <div class="nb-topic-cloud nb-topic-cloud-historic">
+    {{- range $i, $t := $historic }}
+    {{- if lt $i 13 }}
+    {{- $size := math.Round (math.Max 15 (math.Min 42 (add 16 (mul 26 (div (float $t.count) $maxHistoric))))) }}
+    <a href="{{ $t.url }}" class="nb-topic-link" style="font-size:{{ $size }}px">{{ $t.name }}<sup>{{ $t.count }}</sup></a>
+    {{- end }}
+    {{- end }}
+    {{- if gt (len $historic) 13 }}
+    <span class="nb-topic-more">&hellip;and {{ sub (len $historic) 13 }} more</span>
+    {{- end }}
+  </div>
+  {{- end }}
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

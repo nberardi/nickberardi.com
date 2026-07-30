@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "archive") }}
+
+{{- $allPosts := where site.RegularPages "Section" "posts" }}
+{{- $total := len $allPosts }}
+{{- $years := $allPosts.GroupByDate "2006" "desc" }}
+{{- $yearsAsc := $allPosts.GroupByDate "2006" "asc" }}
+{{- $minYear := "" }}{{- $maxYear := "" }}
+{{- if gt (len $yearsAsc) 0 }}{{ $minYear = (index $yearsAsc 0).Key }}{{ $maxYear = (index $years 0).Key }}{{ end }}
+{{- $maxCount := 0 }}
+{{- range $years }}{{ if gt (len .Pages) $maxCount }}{{ $maxCount = len .Pages }}{{ end }}{{ end }}
+
+<main id="main-content" class="nb-shell nb-archive">
+  <h2 class="nb-page-title">The archive</h2>
+  <p class="nb-archive-lede">{{ $total }} posts between {{ $minYear }} and {{ $maxYear }}, then whatever came after. It is all still here and every original URL still resolves. <span class="nb-accent2">The magenta bar is now.</span></p>
+
+  {{ partial "nb_archive_chart.html" (dict "variant" "archive") }}
+  <p class="nb-chart-note">Hugo builds this from <code>GroupByDate "2006"</code> &mdash; the bar heights are one division, no JavaScript.</p>
+
+  {{- range $years }}
+  <div class="nb-year-section" id="{{ .Key }}">
+    <div class="nb-section-head nb-year-head">
+      <div class="nb-kicker">{{ .Key }}</div>
+      <span class="nb-section-note">{{ len .Pages }} posts{{ if and (eq (len .Pages) $maxCount) (gt $maxCount 0) }} &middot; the busiest year{{ end }}</span>
+    </div>
+    <div class="nb-rule-heavy nb-rule-tight"></div>
+    <div class="nb-year-list">
+      {{- range .Pages }}
+      <a class="nb-year-row" href="{{ .RelPermalink }}">
+        <span class="nb-year-date">{{ .Date | time.Format "01·02" }}</span>
+        <span>{{ .Title }}</span>
+      </a>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

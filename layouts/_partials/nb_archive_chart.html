@@ -1,0 +1,43 @@
+{{- /* Nineteen years of output as bars — pure Hugo arithmetic, no JS. Call with (dict "variant" "home"|"archive") */ -}}
+{{- $variant := .variant | default "home" }}
+{{- $isHome := eq $variant "home" }}
+{{- $scale := cond $isHome 112 160 }}
+{{- $barGap := cond $isHome 10 14 }}
+{{- $labelSize := cond $isHome 11 12 }}
+
+{{- $posts := where site.RegularPages "Section" "posts" }}
+{{- $years := $posts.GroupByDate "2006" "asc" }}
+{{- $max := 0 }}
+{{- range $years }}{{ if gt (len .Pages) $max }}{{ $max = len .Pages }}{{ end }}{{ end }}
+{{- $thisYear := printf "%d" now.Year }}
+
+<div class="nb-chart nb-chart-{{ $variant }}" style="gap:{{ $barGap }}px">
+  {{- range $i, $g := $years }}
+    {{- if gt $i 0 }}
+      {{- $prev := (index $years (sub $i 1)).Key | int }}
+      {{- $cur := $g.Key | int }}
+      {{- if gt (sub $cur $prev) 1 }}
+      <div class="nb-chart-gap{{ if $isHome }} nb-chart-gap-fixed{{ end }}">
+        <span class="nb-chart-flat"></span>
+        {{- if $isHome }}
+        <span class="nb-chart-label" style="font-size:{{ $labelSize }}px">{{ add $prev 1 }}&ndash;{{ mod (sub $cur 1) 100 | printf "%02d" }}<br>quiet</span>
+        {{- else }}
+        <span class="nb-chart-label" style="font-size:{{ $labelSize }}px">{{ add $prev 1 }} &mdash; {{ sub $cur 1 }}<br>eleven quiet years</span>
+        {{- end }}
+      </div>
+      {{- end }}
+    {{- end }}
+    {{- $ratio := div (float (len $g.Pages)) $max }}
+    {{- $h := math.Round (mul $ratio $scale) }}
+    {{- $isNow := eq $g.Key $thisYear }}
+    {{- $step := "step-3" }}
+    {{- if ge $ratio 0.85 }}{{ $step = "step-0" }}
+    {{- else if ge $ratio 0.6 }}{{ $step = "step-1" }}
+    {{- else if ge $ratio 0.35 }}{{ $step = "step-2" }}
+    {{- end }}
+    <a class="nb-chart-bar {{ if $isNow }}is-now{{ else }}{{ $step }}{{ end }}" href="/archive/#{{ $g.Key }}">
+      <span class="nb-chart-fill" style="height:{{ cond $isNow (math.Max $h 12) $h }}px"></span>
+      <em style="font-size:{{ $labelSize }}px">{{ $g.Key }}</em><i style="font-size:{{ $labelSize }}px">{{ len $g.Pages }}</i>
+    </a>
+  {{- end }}
+</div>

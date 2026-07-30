@@ -1,0 +1,15 @@
+{{- /* Three social icons: GitHub, X (Twitter bird), LinkedIn. Call with (dict "size" 24|18) */ -}}
+{{- $size := .size | default 24 }}
+{{- $pad := 8 }}
+{{- if ge $size 24 }}{{ $pad = 10 }}{{ end }}
+<div class="nb-social{{ if lt $size 24 }} nb-social-sm{{ end }}" style="margin-left:-{{ $pad }}px">
+  {{- range site.Params.socialIcons }}
+  {{- $name := .name }}
+  {{- $icon := $name }}
+  {{- $label := $name | title }}
+  {{- if eq $name "twitter" }}{{ $icon = "twitter" }}{{ $label = "X, formerly Twitter" }}{{ end }}
+  {{- if eq $name "github" }}{{ $label = "GitHub" }}{{ end }}
+  {{- if eq $name "linkedin" }}{{ $label = "LinkedIn" }}{{ end }}
+  <a href="{{ .url }}" aria-label="{{ $label }}" title="{{ $label }}" style="padding:{{ $pad }}px" target="_blank" rel="noopener noreferrer me">{{ partial "svg.html" (dict "name" $icon) }}</a>
+  {{- end }}
+</div>

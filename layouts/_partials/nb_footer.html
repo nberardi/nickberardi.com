@@ -1,0 +1,12 @@
+{{- /* Site footer. Call with (dict "page" .) */ -}}
+{{- $page := .page }}
+{{- $isHome := $page.IsHome }}
+<footer class="nb-footer nb-shell{{ if $isHome }} nb-footer-home{{ end }}">
+  <div class="nb-footer-rule"></div>
+  <div class="nb-footer-row">
+    <span>&copy; {{ now.Year }} Nick Berardi</span>
+    {{- if not $isHome }}
+    {{ partial "nb_social.html" (dict "size" 18) }}
+    {{- end }}
+  </div>
+</footer>

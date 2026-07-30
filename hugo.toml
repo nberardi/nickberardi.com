@@ -18,19 +18,19 @@ buildExpired = false
 [params]
   env = 'production'
   title = 'Nick Berardi'
-  description = 'Nick Berardi - Software Developer, Technology Enthusiast'
+  description = 'Nick Berardi - Software engineer, engineering leader, and writer on AI and engineering leadership.'
   author = 'Nick Berardi'
-  
-  defaultTheme = 'auto'
-  disableThemeToggle = false
-  
+
+  defaultTheme = 'light'
+  disableThemeToggle = true
+
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false
   UseHugoToc = true
   disableSpecial1stPost = false
   disableScrollToTop = false
@@ -41,29 +41,7 @@ buildExpired = false
   tocopen = false
 
   [params.profileMode]
-    enabled = true
-    title = 'Nick Berardi'
-    subtitle = 'Software Developer, Technology Enthusiast, and Blogger'
-    imageUrl = ''
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = 'Nick Berardi'
-    
-    [[params.profileMode.buttons]]
-      name = 'Posts'
-      url = '/posts/'
-    
-    [[params.profileMode.buttons]]
-      name = 'Tags'
-      url = '/tags/'
-    
-    [[params.profileMode.buttons]]
-      name = 'About'
-      url = '/about/'
-
-  [params.homeInfoParams]
-    Title = 'Hi there 👋'
-    Content = 'Welcome to my blog'
+    enabled = false
 
   [[params.socialIcons]]
     name = 'github'
@@ -71,11 +49,18 @@ buildExpired = false
 
   [[params.socialIcons]]
     name = 'twitter'
-    url = 'https://twitter.com/nberardi'
+    url = 'https://x.com/nberardi'
 
   [[params.socialIcons]]
     name = 'linkedin'
     url = 'https://linkedin.com/in/nickberardi'
+
+  [params.bio]
+    dayJob = "Alexa+, Amazon"
+    council = "IPAC, Penn State College of IST"
+    philanthropy = "Berardi Student Engagement Center"
+    openSource = "Fluent Cassandra, and others"
+    availableFor = "Talks, panels, advisory"
 
   [params.assets]
     favicon = '/favicon.ico'
@@ -90,34 +75,34 @@ buildExpired = false
 
 [menu]
   [[menu.main]]
-    identifier = 'home'
-    name = 'Home'
-    url = '/'
+    identifier = 'posts'
+    name = 'Writing'
+    url = '/posts/'
     weight = 10
 
   [[menu.main]]
-    identifier = 'posts'
-    name = 'Posts'
-    url = '/posts/'
+    identifier = 'speaking'
+    name = 'Speaking'
+    url = '/speaking/'
     weight = 20
 
   [[menu.main]]
-    identifier = 'tags'
-    name = 'Tags'
-    url = '/tags/'
+    identifier = 'archive'
+    name = 'Archive'
+    url = '/archive/'
     weight = 30
-
-  [[menu.main]]
-    identifier = 'search'
-    name = 'Search'
-    url = '/search/'
-    weight = 40
 
   [[menu.main]]
     identifier = 'about'
     name = 'About'
     url = '/about/'
-    weight = 50
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = true
+    style = 'github'
+    lineNos = false
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
