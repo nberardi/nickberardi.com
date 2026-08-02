@@ -6,13 +6,20 @@ draft: false
 tags:
   - "Google AdSense"
 description: "Received this message today from Google AdSense. We performed an analysis on xyz.com and found a great opportunity to increase your AdSense earnings. We..."
+cover:
+  image: "hero.png"
+  alt: "Google AdSense logo"
+  relative: true
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Received this message today from Google AdSense.
 
 ---
 
-![Google AdSense logo](http://www.google.com/images/logos/adsense_logo.gif)
+![Google AdSense logo](google-adsense-logo.gif)
 
 We performed an analysis on xyz.com and found a great opportunity to increase your AdSense earnings. We recommend that you change your 120x600 ad units to 160x600's on xyz.com. Here is an example of where we found this opportunity: xyz.com/
 

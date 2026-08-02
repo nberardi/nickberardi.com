@@ -9,6 +9,13 @@ tags:
   - "Smart Host"
   - "SMTP"
 description: "Note I cannot endorse the SocketLabs service anymore. Everything below works with any SMTP service. If you would like great alternatives please give the..."
+cover:
+  image: "/images/2010/10/Untitled3.png"
+  alt: "Easy Mail Delivery with a SMTP Smart Host"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 > ### Note

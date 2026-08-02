@@ -7,6 +7,13 @@ tags:
   - "Team Foundation Server"
   - "Visual Studio"
 description: "With the recent release of Visual Studio 2010 RC, I decided to take Team Foundation Server (TFS) 2010 RC for a spin also.&#160; I was really interested in..."
+cover:
+  image: "/images/2010/02/step41.png"
+  alt: "Connecting Visual Studio 2008 to Team Foundation Server 2010"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 With the recent release of Visual Studio 2010 RC, I decided to take Team Foundation Server (TFS) 2010 RC for a spin also.  I was really interested in seeing what new and great features are being offered, because there has been a lot of buzz around this release of TFS.

@@ -8,6 +8,13 @@ tags:
   - "Source Code Pro"
   - "Adobe"
 description: "You may or may not be aware but Adobe released a new font a couple of days ago. Who cares right, you are not a graphics designer, you sling code for a..."
+cover:
+  image: "/images/2012/09/SourceCodeSplash1.png"
+  alt: "Using Source Code Pro Font With Visual Studio"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 ![](/images/2012/09/SourceCodeSplash1.png "Source Code Pro Font")

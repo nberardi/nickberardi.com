@@ -4,6 +4,13 @@ date: 2013-02-16T18:01:12-05:00
 slug: "being-stolen-from-sucks"
 draft: false
 description: "When you put open source software out there in the wild there is a mutual understanding that, you are going to see my source code, and probably take some..."
+cover:
+  image: "/images/2013/02/compare1.png"
+  alt: "compare1"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 When you put open source software out there in the wild there is a mutual understanding that, you are going to see my source code, and probably take some influence from it into your own source code.  Maybe sometimes you even take a little more than influence, and copy some lines of code.  As an open source developer, we all know this is happening and we all know this is alright, encouraged, and to be expected.

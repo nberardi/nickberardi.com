@@ -7,6 +7,13 @@ tags:
   - "Elizabeth Nicole"
   - "Betsy"
 description: "I know I am really late with this post given that my daughter, Elizabeth Nicole (Betsy), was born on November 29, 2010 at 5:06 am. But, in my defense, she..."
+cover:
+  image: "/images/2011/01/47578_10150133416800620_588115619_7897518_5145606_n.jpg"
+  alt: "Baby Elizabeth Nicole Arrives"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I know I am really late with this post given that my daughter, Elizabeth Nicole (Betsy), was **born on November 29, 2010 at 5:06 am**.  But, in my defense, she is my first and she has kept me really busy for the last 5 weeks.  (that is my excuse and I am sticking with it)  And will most definitely keep me busy for the next two decades.

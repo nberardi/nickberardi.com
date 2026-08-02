@@ -8,6 +8,13 @@ tags:
   - "Windows Vista"
   - "Windows XP"
 description: "Microsoft has made the full version of Virtual PC 2007 available for download from their web site. The program is supported on the following servers:..."
+cover:
+  image: "/images/2007/02/virtualpc20071.png"
+  alt: "Virtual PC 2007"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Microsoft has made the full version of Virtual PC 2007 [available for download](http://www.microsoft.com/downloads/details.aspx?FamilyId=04D26402-3199-48A3-AFA2-2DC0B40A73B6&displaylang=en) from their web site.

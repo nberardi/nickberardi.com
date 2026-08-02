@@ -11,6 +11,13 @@ tags:
   - "asp.net mvc"
   - "ASP.NET WebAPI"
 description: "This post requires a little understanding about how strong naming works. It's complicated, but basically here is the jist: When you compile a library..."
+cover:
+  image: "/images/2012/04/Untitled1.png"
+  alt: "JSON.NET Strong Naming And NuGet Woes"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 This post requires a little understanding about how strong naming works. It's complicated, but basically here is the jist:

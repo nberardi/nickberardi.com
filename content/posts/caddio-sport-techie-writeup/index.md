@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Caddio"
 description: "Many of you probably don't know this, but I have been working on a golf related app called Caddio, off and on for more than a year. The app is finally to..."
+cover:
+  image: "/images/2014/May/login.png"
+  alt: "Caddio Login Screen"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 ![Caddio Login Screen](/images/2014/May/login.png) Many of you probably don't know this, but I have been working on a golf related app called [Caddio](http://caddio.com), off and on for more than a year. The app is finally to a point where it is starting to pay off, because it is starting to receive the recognition and accolaids that every developer hopes for.

@@ -8,6 +8,13 @@ tags:
   - "Search Engine"
   - "SEO"
 description: "A major update has been pushed out for Google Analytics, as described in a post on Google Webmaster: Webmaster tools from Google are indispensable for..."
+cover:
+  image: "/images/2007/05/new-analytics1.png"
+  alt: "New Google Analytics"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 A major update has been pushed out for Google Analytics, as described in a post on [Google Webmaster](http://googlewebmastercentral.blogspot.com/2007/05/analytics-another-tool-for-webmasters.html "Analytics - Another tool for webmasters"):

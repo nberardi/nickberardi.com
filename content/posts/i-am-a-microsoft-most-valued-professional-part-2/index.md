@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Microsoft MVP"
 description: "Last year was my first year being involved in the Microsoft MVP program. Over the past year, I have met many great developers through the MVP program and..."
+cover:
+  image: "/images/2012/07/mvp_horizontal_fullcolor.png"
+  alt: "Microsoft Most Valued Professional"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 ![Microsoft Most Valued Professional](/images/2012/07/mvp_horizontal_fullcolor.png)

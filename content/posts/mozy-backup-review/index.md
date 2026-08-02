@@ -4,6 +4,13 @@ date: 2007-04-04T05:33:30-05:00
 slug: "mozy-backup-review"
 draft: false
 description: "Just over 5 months ago I lost a ton of data in the process of a couple stupid moments, this included code I had not backed up, some documents, iTunes..."
+cover:
+  image: "/images/2007/04/mozy-config-backup-sets1.png"
+  alt: "Mozy Backup Review"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Just over 5 months ago I lost a ton of data in the process of a couple stupid moments, this included code I had not backed up, some documents, iTunes music, pictures, and database data that I had been collecting for many years. I was lucky I could get most of this back through some old backups, but I pretty much lost a good months worth of data. From that day on I vowed to never have this happen again, so I started on a hunt to find the best solution for backing up my wifes desktop and my laptop. I first went the route of backing up my laptop to an internal network storage drive, but I with in a few days realized that my data wasn't really protected it was just duplicated and could easily be lost in, god forbid, a house fire. So I knew I needed to pay somebody to keep my data in a place other than my house, so I set out to find the best online backup solution for the smallest budget. It had to be:

@@ -7,6 +7,13 @@ tags:
   - "Coder Journal"
   - "Blog"
 description: "So today it was brought to my attention that the design of my blog needed work. Since good design is a very subjective term, much like good programming:..."
+cover:
+  image: "/images/2008/03/power-point-example-21.png"
+  alt: "Power Point Example 2"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 So today it was brought to my attention that the design of my blog needed work. Since good design is a very subjective term, much like good programming:

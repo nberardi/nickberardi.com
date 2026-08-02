@@ -11,6 +11,13 @@ tags:
   - "Static Constructors"
   - "beforefieldinit"
 description: "Recently at the Philly.NET User Group, Kathleen Dollard gave a great presentation on the use of generics and rethinking object orientation. Both topics..."
+cover:
+  image: "/images/2009/08/static-constructor-test1.png"
+  alt: "Static Constructor Test"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Recently at the Philly.NET User Group, [Kathleen Dollard](http://msmvps.com/blogs/kathleen/) gave [a great presentation on the use of generics and rethinking object orientation](http://www.phillydotnet.org/Default.aspx?tabid=785).  Both topics were very engaging.  But the part of the night that I found most intriguing was a conversation, that I had in a Ruby Tuesdays after the presentation, about the useage of static constructors and if they are still a bad thing to use in your code.

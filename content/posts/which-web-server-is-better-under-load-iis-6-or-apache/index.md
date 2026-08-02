@@ -9,6 +9,13 @@ tags:
   - "Performance"
   - "Web Servers"
 description: "One of the many techno-geek religious arguments that comes up a lot is which web server has a faster response time under load, IIS 6 or Apache? I am happy..."
+cover:
+  image: "/images/2007/06/iis-vs-apache1.png"
+  alt: "IIS 6 vs Apache Graph"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 One of the many techno-geek religious arguments that comes up a lot is which web server has a faster response time under load, IIS 6 or Apache? I am happy to say somebody actually put this to a test using what is known as the Digg-effect, basically a constant hammering of the server to keep it under load. The results may surprise some of the zealots out there and the test might be buried because of an unpopular fact. Here is the [setup from the site](http://www.racegroups.com/reddittest.php?Source=Reddit&Phase=2 "IIS 6 vs Apache"):

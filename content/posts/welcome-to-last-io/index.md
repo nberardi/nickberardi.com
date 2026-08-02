@@ -6,6 +6,13 @@ draft: false
 tags:
   - "last.io"
 description: "I wanted to save this historic post for my blog, post number 250, for a special occasion. And I can’t think of a more special occasion than what I am..."
+cover:
+  image: "/images/2010/06/image13.png"
+  alt: "Welcome To Last.io"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I wanted to save this historic post for my blog, post number 250, for a special occasion.  And I can’t think of a more special occasion than what I am about to announce.  Over the past month or so I have been working on a new web application, in my spare time.  The goal of the web app was to provide a more usable and accessible interface to a product that I believe has great potential beyond what the publisher originally imagined.

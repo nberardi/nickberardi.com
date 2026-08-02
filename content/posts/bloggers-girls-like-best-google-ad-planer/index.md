@@ -11,6 +11,13 @@ tags:
   - "Phil Haack"
   - "Scott Hanselman"
 description: "Today I received an invite to Google Ad Planner. As I was playing around with this new tool, I was really blown away by how much information Google has..."
+cover:
+  image: "/images/2008/06/google-ad-planner-main-screen1.png"
+  alt: "Which Software Blogger Do Girls Like Better?"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Today I received an invite to [Google Ad Planner](http://adwords.blogspot.com/2008/06/introducing-google-ad-planner.html).  As I was playing around with this new tool, I was really blown away by how much information Google has collected on specific websites.  So much so that I wanted to share this tool with my readers, but I couldn't come up with an interesting way to demonstrate the capabilities.  Until I started looking up some of my favorite bloggers and saw the almost embarrassing balance between females and males.

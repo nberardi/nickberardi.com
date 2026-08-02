@@ -14,6 +14,13 @@ tags:
   - "Rant"
   - "Sametime"
 description: "So today I was reading Jeff's Post on The Dramatic Password Reveal, and I had a flash back, to about a year or more ago, when I was working for a large..."
+cover:
+  image: "/images/2008/02/lotus-notes-email1.gif"
+  alt: "Lotus Notes Email"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 So today I was reading [Jeff's Post on The Dramatic Password Reveal](http://www.codinghorror.com/blog/archives/001056.html "The Dramatic Password Reveal"), and I had a flash back, to about a year or more ago, when I was working for a large bank based out of Pittsburgh who shale remain nameless. The flash back was to the usability nightmare that Lotus Notes and Lotus Sametime provided to anybody that had to do a simple task such as sending an e-mail (or Memo in Lotus Notes terminology). I think Jeff summed it up nicely and probably let Lotus Notes off a little easy by calling it a [a massive train wreck](http://lotusnotessucks.4t.com/lnEx01.html).

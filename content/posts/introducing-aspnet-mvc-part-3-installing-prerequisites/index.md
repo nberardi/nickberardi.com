@@ -12,6 +12,13 @@ tags:
   - "asp.net mvc"
   - "Book"
 description: "This is a continuation of my Introduction to ASP.NET MVC series. As I outlined before this is in an effort to write the book and keep blogging, I decided..."
+cover:
+  image: "/images/2009/01/410950-f02031.png"
+  alt: "Figure 2-3"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 This is a continuation of my Introduction to ASP.NET MVC series.  As I outlined before this is in an effort to write [the book](http://www.amazon.com/dp/0470410957/?tag=coderjournal-20 "ASP.NET MVC Website Programming Problem Design Solution (Paperback)") and keep blogging, [I decided to write/blog the last chapter](http://twitter.com/nberardi/status/1052827985), Chapter 2.  I am doing this so I can receive feedback on this chapter as early as possible.  Because this chapter, in my opinion, is probably the most critical of the book, it defines the context around ASP.NET MVC and how it differs from ASP.NET Web Forms, as well as giving a historical perspective of the MVC pattern.

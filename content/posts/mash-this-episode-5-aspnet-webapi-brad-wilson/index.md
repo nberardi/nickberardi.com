@@ -6,6 +6,13 @@ draft: false
 tags:
   - "MashThis"
 description: "In case everybody wasn't aware, and to be honest it is really my fault for not announcing this, but I started a podcast with Lee Dumond, Dustin Davis, and..."
+cover:
+  image: "/images/2012/04/Twitter-@marcind-Just-accepted-the-first-co-....png"
+  alt: "Mash This Episode 5: ASP.NET Web API and Open Source with Brad Wilson"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 *In case everybody wasn't aware, and to be honest it is really my fault for not announcing this, but I started a podcast with [Lee Dumond](http://leedumond.com/), [Dustin Davis](http://www.programmers-unlimited.com/), and [Keyvan Nayyeri](http://keyvan.io/) called the **Mash This Podcast** which can be [found here](http://mashthis.io/) and on [iTunes](http://mashthis.io/itunes).*

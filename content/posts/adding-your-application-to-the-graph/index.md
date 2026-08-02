@@ -8,6 +8,13 @@ tags:
   - "Open Graph Protocol"
   - "Stack Exchange"
 description: "Recently Jeff Attwood asked: Is meta description still relevant? In the question he quoted an anonymous “expert”: Meta descriptions are used by Google..."
+cover:
+  image: "/images/2011/01/facebook-lint-debug.png"
+  alt: "Adding Your Application To The Graph"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Recently [Jeff Attwood asked](http://webmasters.stackexchange.com/questions/7574/is-meta-description-still-relevant):

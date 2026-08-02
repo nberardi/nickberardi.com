@@ -12,6 +12,13 @@ tags:
   - "Velocity"
   - "Web"
 description: "Scaling ASP.NET Application just got easier with a new technology that Microsoft has just released that they have dubbed codename \"Velocity\". This product..."
+cover:
+  image: "/images/2008/06/velocity.jpeg"
+  alt: "Diagram of Velocity"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Scaling ASP.NET Application just got easier with a new technology that Microsoft has just released that they have dubbed [codename "Velocity"](http://blogs.msdn.com/velocity/archive/2008/06/02/introducing-project-codename-velocity.aspx). This product is still in the early stages of development, but it is meant as a direct competitor against memcached. If you are not familiar with memcached, here is how it is described in Wikipedia:

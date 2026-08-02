@@ -11,6 +11,13 @@ tags:
   - "asp.net mvc"
   - "ASP.NET WebAPI"
 description: "It is almost 1 year to the date of when I first posted JSON.NET Strong Naming And NuGet Woes and the NuGet compatibility issues have stabilized This..."
+cover:
+  image: "/images/2013/04/Screen-Shot-2013-04-02-at-8.46.28-AM.png"
+  alt: "Screen Shot 2013-04-02 at 8.46.28 AM"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 It is almost 1 year to the date of when I first posted [JSON.NET Strong Naming And NuGet Woes](http://coderjournal.com/2012/04/json-net-strong-naming-and-nuget-woes/) and the NuGet compatibility issues have stabilized  This stabilization hasn't happened through a change from Microsoft, but a change in how publishers of NuGet packages version their libraries.

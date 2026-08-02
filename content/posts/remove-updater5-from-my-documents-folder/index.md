@@ -8,6 +8,13 @@ tags:
   - "Acrobat"
   - "Adobe"
 description: "Well I finally figured out how to remove the Updater5 folder from your My Documents folder. I have written about this problem, as well as many other..."
+cover:
+  image: "/images/2007/02/adobeupdate1.png"
+  alt: "Adobe Updater Window"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Well I finally figured out how to remove the **Updater5** folder from your **My Documents** folder. I have [written about this problem](http://www.coderjournal.com/2007/01/adobe-what-where-you-thinking/), as well as [many](http://search.yahoo.com/search?p=%22Updater5%22+remove+%22My+Documents%22&ei=UTF-8&fr=moz2) [other](http://www.google.com/search?q=%22Updater5%22+remove+%22My+Documents%22&ie=utf-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a) people, and now here is the solution for us anal retentive people that don't like our My Documents folder cluttered with application artifacts.

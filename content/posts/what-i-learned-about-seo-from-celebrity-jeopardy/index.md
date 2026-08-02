@@ -10,6 +10,13 @@ tags:
   - "Sean Connery"
   - "SEO"
 description: "I was having a conversation with my best friend a few days ago and we got on the subject of our preferences for how URL's are rendered for blogs. I fall..."
+cover:
+  image: "/images/2008/05/an-album-cover-google-example1.png"
+  alt: "An Album Cover Google Example"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I was having a conversation with [my best friend](http://www.codingsmarter.com) a few days ago and we got on the subject of our preferences for how URL's are rendered for blogs.

@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Git"
 description: "After reading Scott Hansleman's post about Console2 I decided to give it a try full time. Overall I have to say I am very impressed and have no intention..."
+cover:
+  image: "/images/2012/05/Console2.png"
+  alt: "Using Git Bash in Console2"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 After reading [Scott Hansleman's post](http://www.hanselman.com/blog/Console2ABetterWindowsCommandPrompt.aspx) about [Console2](http://sourceforge.net/projects/console/) I decided to give it a try full time. Overall I have to say I am very impressed and have no intention on switching back. It really is an impressive application, so if you are interested in trying something different, go to Scott's post and follow his directions on setting it up.

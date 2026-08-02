@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Microsoft MVP"
 description: "Typically I don't like making these self congratulatory posts, but the Microsoft MVP program is one that I respect a lot. The MVP's I know are all top..."
+cover:
+  image: "/images/2012/07/mvp_horizontal_fullcolor.png"
+  alt: "Microsoft Most Valued Professional"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Typically I don't like making these self congratulatory posts, but the [Microsoft MVP](https://mvp.support.microsoft.com/mvpawardintro) program is one that I respect a lot.  The MVP's I know are all top quality individuals and I am proud to be a part of this group for the next year.

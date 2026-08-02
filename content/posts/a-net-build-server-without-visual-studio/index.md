@@ -4,6 +4,13 @@ date: 2014-04-16T09:47:13-05:00
 slug: "a-net-build-server-without-visual-studio"
 draft: false
 description: "Update: Phil Haack has started a petition to get the steps I outlined below into an easy installer. Please support it with your votes. Over the past week..."
+cover:
+  image: "/images/2014/Apr/copy_directories.png"
+  alt: "Copy Directories"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 > **Update:** Phil Haack has started a [petition to get the steps I outlined below into an easy installer](http://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/5786689-support-net-builds-without-requiring-visual-studi). Please support it with your votes.

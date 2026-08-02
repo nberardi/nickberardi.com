@@ -7,6 +7,13 @@ tags:
   - "Git"
   - "NuGet"
 description: "NuGet 1.6 was released today. And with it came some great new features, one that I am particularly excited about is. Using NuGet Without Checking In..."
+cover:
+  image: "hero.png"
+  alt: "Enable NuGet Package Restore menu item"
+  relative: true
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 NuGet 1.6 was [released today](http://docs.nuget.org/docs/release-notes/nuget-1.6). And with it came some great new features, one that I am particularly excited about is.
@@ -23,7 +30,7 @@ Let’s assume that you have a solution that is either already using NuGet, or p
 
 Right click on the *Solution* node in Solution Explorer and select *Enable NuGet Package Restore*.
 
-![Enable NuGet Package Restore Context Menu item](http://docs.nuget.org/docs/Workflows/images/enable-package-restore.png)
+![Enable NuGet Package Restore Context Menu item](enable-package-restore.png)
 
 **That's it!** You're all set.
 

@@ -10,6 +10,13 @@ tags:
   - "Usability"
   - "AJAX"
 description: "One of the important things about web programming, especially when using AJAX, from a usability standpoint is to provide a responsive user interface to..."
+cover:
+  image: "/images/2009/11/graph1.png"
+  alt: "Create an attractive loading panel in jQuery"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 One of the important things about web programming, especially when using AJAX, from a usability standpoint is to provide a responsive user interface to the audience.  This level of responsiveness to the user’s actions can be achieved in many different ways; showing messages, changing colors, adding animation, changing contexts, basically anything that provides a natural transition from the action performed by the user to the reaction by the application to indicate that their action is actually causing something to happen.

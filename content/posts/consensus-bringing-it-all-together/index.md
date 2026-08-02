@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Consensus"
 description: "This post has been a long time in the making. Actually that is sort of a lie, I completely forgot that I promised a 4 part series until my friend Jon..."
+cover:
+  image: "/images/2014/Apr/screenshots.png"
+  alt: "screenshot of the app running in 2 browsers"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 > This post has been a long time in the making. Actually that is sort of a lie, I completely forgot that I promised a 4 part series until my friend [Jon Galloway](https://twitter.com/jongalloway) decided to mention *consensus* in his BUILD 2014 presentation.

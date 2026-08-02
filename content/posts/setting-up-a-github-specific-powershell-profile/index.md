@@ -8,6 +8,13 @@ tags:
   - "GitHub"
   - "powershell"
 description: "I was very excited to see that after several months of work Phil and Paul finally released their much talked about GitHub client for Windows. It has a..."
+cover:
+  image: "/images/2012/05/GitHub-Client.png"
+  alt: "Setting Up A GitHub Specific PowerShell Profile"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I was very excited to see that after several months of work [Phil](http://haacked.com) and [Paul](http://blog.paulbetts.org/) finally [released](https://github.com/blog/1127-github-for-windows) their much talked about [GitHub client for Windows](http://windows.github.com). It has a great Metro style, and is very fluid and functional.  Here is an example of what my client looks like

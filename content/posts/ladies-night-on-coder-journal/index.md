@@ -13,6 +13,13 @@ tags:
   - "Rob Conery"
   - "Scott Hanselman"
 description: "I received a ton of nice comments from Rob, John, Scott, and Phil related to my previous post, What Software Bloggers Do Girls Like Better? Phil even did..."
+cover:
+  image: "/images/2008/07/girls-worldofwarcraft-com1.png"
+  alt: "Ladies Night on Coder Journal"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I received a ton of nice comments from [Rob](http://blog.wekeroad.com/), [John](http://weblogs.asp.net/jgalloway), [Scott](http://www.hanselman.com/), and [Phil](http://www.haacked.com/) related to my previous post, [What Software Bloggers Do Girls Like Better?](http://www.coderjournal.com/2008/06/bloggers-girls-like-best-google-ad-planer/) Phil even did a nice [follow up post](http://haacked.com/archive/2008/06/27/oh-yes-itrsquos-ladies-night.aspx), with some good humor gloating, until the end where his wife let the air out of his sails; like only a wife can do.

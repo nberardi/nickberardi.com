@@ -6,6 +6,13 @@ draft: false
 tags:
   - "powershell"
 description: "When I saw this post over on the Windows PowerShell Developers Blog. It really occurred to me for the first time that Windows Developers don't understand..."
+cover:
+  image: "/images/2007/11/funny-powershell-commandline1.png"
+  alt: "Funny Power Shell Commandline"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 When I saw [this post](http://blogs.msdn.com/powershell/archive/2007/11/27/powershell-plus-beta-available.aspx "PowerShell Plus Beta Available") over on the Windows PowerShell Developers Blog. It really occurred to me for the first time that Windows Developers don't understand the simplicity, power, and elegance that comes from a command line window. Our \*NIX brothers have been saying this for years and I just took it for granted that everybody universally understood how great the command line was.
