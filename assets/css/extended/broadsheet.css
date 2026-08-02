@@ -369,7 +369,10 @@ textarea.input { min-height: 90px; resize: vertical; }
 .tag-outline { border: 1px solid var(--color-accent); color: var(--color-accent); }
 
 /* — navigation — */
-.nav {
+/* .header-nav targets PaperMod's stock header (used on fallback pages like
+   404 and search that have no nb_header override); PaperMod renamed its
+   .nav class to .header-nav upstream, so both are kept in sync here. */
+.nav, .header-nav {
   display: flex; align-items: center; gap: var(--space-4);
   padding: var(--space-3) var(--space-4);
   border-bottom: none;
@@ -378,8 +381,9 @@ textarea.input { min-height: 90px; resize: vertical; }
   font-family: var(--font-heading); font-weight: var(--font-heading-weight);
   font-size: 18px; margin-right: auto;
 }
-.nav a { color: inherit; text-decoration: none; font-size: 14px; }
-.nav a:hover, .nav a[aria-current='page'] { color: var(--color-accent); }
+.nav a, .header-nav a { color: inherit; text-decoration: none; font-size: 14px; }
+.nav a:hover, .header-nav a:hover,
+.nav a[aria-current='page'], .header-nav a[aria-current='page'] { color: var(--color-accent); }
 
 /* — tables — */
 .table { width: 100%; border-collapse: collapse; font-size: 14px; }
