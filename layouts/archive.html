@@ -21,8 +21,7 @@
   <p class="nb-archive-lede">{{ $total }} posts between {{ $minYear }} and {{ $maxYear }}, then whatever came after. It is all still here and every original URL still resolves. <span class="nb-accent2">The magenta bar is now.</span></p>
 
   {{ partial "nb_archive_chart.html" (dict "variant" "archive") }}
-  <p class="nb-chart-note">Hugo builds this from <code>GroupByDate "2006"</code> &mdash; the bar heights are one division, no JavaScript.</p>
-
+  
   {{- range $years }}
   <div class="nb-year-section" id="{{ .Key }}">
     <div class="nb-section-head nb-year-head">
