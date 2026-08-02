@@ -8,6 +8,13 @@ tags:
   - "OpenSearch"
   - "Stackoverflow"
 description: "If you already didn’t have enough reasons to use Google Chrome, I found out that it now has brought the goodness of a one textbox search solution to all..."
+cover:
+  image: "/images/2010/11/StackOverflow-OpenSearch-1.png"
+  alt: "Searching Stack Overflow The Easy Way (Another Reason To Use Google Chrome)"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 If you already didn’t have enough reasons to use Google Chrome, I found out that it now has brought the goodness of a one textbox search solution to all sites [that support the opensearch specification](http://www.opensearch.org), including Stack Overflow, not just the one currently registered with the browser, which by default is usually Google.  This is a new to me feature, and I am using Google Chrome 7, so if anybody has any information on when this was released I would love to know.

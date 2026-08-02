@@ -9,6 +9,13 @@ tags:
   - "URL Rewriter"
   - "URL Routing"
 description: "As most of you are probably aware, if you read my blog enough, I am the sole developer of a URL Rewriter that I have tried to keep extensible and relevant..."
+cover:
+  image: "/images/2010/03/routing_engine1.jpg"
+  alt: "The difference between Routing and Rewriting"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 As most of you are probably aware, if you read my blog enough, I am the sole developer of a [URL Rewriter](http://urlrewriter.codeplex.com) that I have tried to keep extensible and relevant to the problems that modern web developers face when exposing their applications to the web, by allowing them to have more control over the only interface that matters on the web … **THE URL**.  The benefits of a URL Rewriter have been [explained many times](http://www.hanselman.com/blog/GooglePageRanksConsideredSubtle.aspx), [by many people](http://www.codinghorror.com/blog/2007/02/url-rewriting-to-prevent-duplicate-urls.html), so I am not going to add just another rant to the web about keeping your URL’s clean for the search engines.  I will just leave you with [Jeff’s explanation](http://www.codinghorror.com/blog/2007/02/url-rewriting-to-prevent-duplicate-urls.html) of why you shouldn’t ignore the URL.

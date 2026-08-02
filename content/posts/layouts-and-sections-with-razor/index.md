@@ -7,6 +7,13 @@ tags:
   - "Razor"
   - "ASP.NET MVC 3"
 description: "Yesterday night I had decided, that this morning I was going to sit down and write a post on the uses of the IsSectionDefined method in the Razor syntax,..."
+cover:
+  image: "/images/2010/12/image.png"
+  alt: "Layouts And Sections With Razor"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Yesterday night I had decided, that this morning I was going to sit down and write a post on the uses of the *IsSectionDefined* method in the Razor syntax, and how useful it was for determining if views were implementing certain sections in a layout.  (which is very useful and provides a great deal of flexibility in your design)

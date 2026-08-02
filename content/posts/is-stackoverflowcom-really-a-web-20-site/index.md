@@ -9,6 +9,13 @@ tags:
   - "Stackoverflow"
   - "Web 2.0"
 description: "I have been lucky enough to be one of the few and many people that have had the chance to preview the beta of stackoverflow.com. It has a very nice look..."
+cover:
+  image: "/images/2008/08/stackoverflow1.png"
+  alt: "http://stackoverflow.com"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I have been lucky enough to be one of the few and many people that have had the chance to preview the beta of stackoverflow.com. It has a very nice look and feel in my opinion and seems to work very well for an early beta. [Jeff Atwood](http://www.codinghorror.com) deserves major kudos. However I have had one plaguing question?

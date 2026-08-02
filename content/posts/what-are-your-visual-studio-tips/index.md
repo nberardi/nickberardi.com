@@ -9,6 +9,13 @@ tags:
   - "Public Speaking"
   - "Visual Studio"
 description: "As I announced yesterday I will be speaking at the Philly Code Camp 2009.1 on Visual Studio 2008 for beginners. As part of this presentation I want to be..."
+cover:
+  image: "/images/2009/03/sara-ford-visual-studio-tips1.jpg"
+  alt: "sara-ford-visual-studio-tips"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 As I announced yesterday I will be [speaking at the Philly Code Camp 2009.1](http://www.coderjournal.com/2009/03/speaking-at-philly-code-camp-20091/) on Visual Studio 2008 for beginners.  As part of this presentation I want to be able to provide the 10 most valuable tips for beginners using Visual Studio.

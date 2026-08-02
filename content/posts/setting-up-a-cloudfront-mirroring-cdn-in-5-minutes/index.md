@@ -8,6 +8,13 @@ tags:
   - "CDN"
   - "CloudFront"
 description: "Recently I decided it was important to get away from Google App Engine as my CDN, mostly because I have encountered personally and have been told that..."
+cover:
+  image: "/images/2010/12/create-aws-cloudfront.png"
+  alt: "Setting up a CloudFront Mirroring CDN in 5 minutes"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Recently I decided it was important to get away from [Google App Engine as my CDN](http://coderjournal.com/2008/06/turn-google-app-engine-into-a-content-delivery-network-cdn/), mostly because I have encountered personally and have been told that many internal corporate networks are blocking Google App Engine IP’s.  And since most of my content posted to this blog is relevant to developers, who typically work in the corporate world, I decided to make the move.  And boy am I glad I did.

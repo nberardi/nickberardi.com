@@ -11,6 +11,13 @@ tags:
   - "recession proof"
   - "Web"
 description: "In this economy you have to do everything to keep your skills fresh and current so that employers find you a desirable hire. I really though the tips..."
+cover:
+  image: "/images/2009/04/final-book-cover1.jpg"
+  alt: "Final Cover Photo"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 In this economy you have to do everything to keep your skills fresh and current so that employers find you a desirable hire.  I really though the tips provided in [8 Ways to Recession-Proof Your Programming Career](http://www.softwarebyrob.com/2008/12/10/8-ways-to-recession-proof-your-programming-career/) where spot on when this article came out last year.  And now that the TechRepublic has released [10 kills developers will need in the next 5 years](http://blogs.techrepublic.com.com/10things/?p=643).  I have decided to give you some of my favorite Wrox books that align very well to this TechRepublic article.

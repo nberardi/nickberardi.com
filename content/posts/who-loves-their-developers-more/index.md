@@ -10,6 +10,13 @@ tags:
   - "PHP"
   - "Ruby"
 description: "Last night as I was talking with Danny Diaz about the importants of good programming language documentation.&#160; It occurred to me that the level of..."
+cover:
+  image: "/images/2010/08/php.png"
+  alt: "php"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Last night as I was talking with [Danny Diaz](http://smallandmighty.net/) about the importants of good programming language documentation.  It occurred to me that the level of effort a company puts into its documentation is a direct reflection on how it sees the developer in relation to its products.  If there is a lot of thought, love, and detail put into the documentation the company most likely cares very much about the developers experience from cradle to grave.  If the documentation is haphazardly put together and no common UIX efforts were made then the company most likely cares very little about new developers, and only begrudgingly puts documentation online for its seasoned developers because it is the industry norm and is expected of them.

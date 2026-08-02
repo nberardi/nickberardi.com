@@ -8,6 +8,13 @@ tags:
   - "Useability"
   - "Bad Design"
 description: "Today I was reading Engadget like I normally do in the morning to check out all the latest gadgets that they scour the internet for. And I happened across..."
+cover:
+  image: "/images/2008/05/dell-us-vostro1.png"
+  alt: "Dell Vostro US Version"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Today I was reading [Engadget](http://www.engadget.com) like I normally do in the morning to check out all the latest gadgets that they scour the internet for. And I happened across this new [keyboard design that Dell is releasing with their Vostro models in the UK](http://www.engadget.com/2008/05/01/dells-vostro-keyboads-putting-the-hurt-on-uk-touch-typists/). I don't know about you, but I specifically stay clear of keyboards where the backspace key is crunched down to add the backslash key on the top row.  (This is my personal preference, apparently I have to point this out to some of the commentors, because it is not clear by saying "I specifically") But I have never seen this keyboard layout before, where the backslash key is on the bottom left of the keyboard where the "Z" key is suppose to be. I think the usability engineer that designed this keyboard should be fired, that is assuming that Dell didn't randomly toss keys at the keyboard and let them stay where they fell.

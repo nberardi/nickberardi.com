@@ -4,6 +4,13 @@ date: 2010-01-26T05:00:00-05:00
 slug: "gracefully-failing"
 draft: false
 description: "Today I just noticed that my blog’s CDN (Google AppEngine) was failing to resolve. After a little research I realized that WebSense, a corporate web..."
+cover:
+  image: "/images/2010/01/gracefullyfailing1.png"
+  alt: "Gracefully Failing"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Today I just noticed that [my blog’s CDN (Google AppEngine)](http://www.coderjournal.com/2008/06/turn-google-app-engine-into-a-content-delivery-network-cdn/) was failing to resolve.  After a little research I realized that [WebSense](http://www.websense.com/content/home.aspx), a corporate web filtering software and scourge of intranet users that need to be productive, had decided that the IP Address range that Google AppEngine uses should be completely blocked.  And because most corporate IT departments just blindly apply the WebSense rules that they are sent, with out first verifying that they make sense; my blog is completely without JavaScript and CSS on these corporate networks.

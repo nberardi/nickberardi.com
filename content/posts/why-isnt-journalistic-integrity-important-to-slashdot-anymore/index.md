@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Database"
 description: "Slashdot has been around for over a decade now and many tech nerds first cut their teeth on Slashdot as an information source for everything tech related,..."
+cover:
+  image: "hero.png"
+  alt: "XKCD comic titled Exploits of a Mom"
+  relative: true
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Slashdot has been around for over a decade now and many tech nerds first cut their teeth on Slashdot as an information source for everything tech related, because it predated the blogging revolution by almost a half decade.  I can say with an almost certainty that every person who visits my blog each day, has at one point in their life read Slashdot.  I know this because, many of you like myself, for many years Slashdot was the first place you visited in the morning to checkout the latest nerd-news, and it was such an honor if one of your stories actually made it the front page.  Everything was bliss because the editors of Slashdot really tried to get good content to the viewers of the site, the editors were a little slanted towards the LAMP stack, but at least the content that made it to the front page was accurate.
@@ -21,7 +28,7 @@ Now like most journalism, no facts are checked, and stories are pushed through i
 
 Every person that reads my blog should have a basic understanding of why this title is 180 degrees out of whack with the actual article that is quoted.  If not here is the short description of what in this article, on Slashdot, is totally wrong and the editor who approved it **kdawson** should be fired for gross negligence.  Luckily most of the comments on the Slashdot article show a more intelligence and greater understanding of the actual problem than the Slashdot poster and editor.  But you shouldn't have to read between the lines to get the actual story from the Slashdot article.
 
-![](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+![](exploits-of-a-mom.png)
 
 First of all SQL injections are a result of bad programming and are platform independent.  And are usually the result of concatenating a SQL string together in code instead of using parameters in your SQL queries.  So as you can imagine scripting languages like PHP and Old ASP have a ton of problems with SQL injection, which is unfortunate because these two languages are in the top 5 languages that run the web, luckily Old ASP has been decreasing because of ASP.NET.  However just to reiterate SQL injection can happen in any language on any platform because there are bad developers that use everything language and every platform.
 

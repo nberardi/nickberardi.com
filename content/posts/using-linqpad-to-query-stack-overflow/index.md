@@ -9,6 +9,13 @@ tags:
   - "OData"
   - "Stackoverflow; Stack Exchange"
 description: "Update (2010-12-30): I have updated the OData URI locations below, because of a recent move and re-architecture by the StackExchange team. In case you..."
+cover:
+  image: "/images/2010/06/image3.png"
+  alt: "LINQPad"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 **Update (2010-12-30): I have updated the OData URI locations below, because of a [recent move and re-architecture](http://blog.stackoverflow.com/2010/12/re-launching-stack-exchange-data-explorer/) by the StackExchange team.**

@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Stackoverflow"
 description: "I woke up this morning, showered, and checked Stack Overflow. Like I do every morning except this morning was different, Stack Overflow is down. What am I..."
+cover:
+  image: "/images/2008/11/stackoverflow-down-21.png"
+  alt: "Stack Overflow Down..."
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I woke up this morning, showered, and checked [Stack Overflow](http://www.stackoverflow.com). Like I do every morning except this morning was different, Stack Overflow is down.  What am I going to do to waste time on the computer today, now I really have to focus and have nothing to procrastinate on.  I guess I am going to get [more of my book done today](http://www.coderjournal.com/2008/10/asp-net-mvc-has-changed-my-life/).

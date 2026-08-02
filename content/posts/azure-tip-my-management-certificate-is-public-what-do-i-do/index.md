@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Azure"
 description: "Yesterday @writeameer posted on twitter a search query, using the new GitHub Code Search, showing that there are a whole lot of users on GitHub that have..."
+cover:
+  image: "/images/2013/01/Create-New-Certificates.png"
+  alt: "Create New Certificates"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Yesterday [@writeameer](https://twitter.com/writeameer) posted on twitter a search query, using the new [GitHub Code Search](https://github.com/blog/1381-a-whole-new-code-search), showing that there are a whole lot of users on GitHub that have exposed their management certificates to the public.  If you are not aware a management certificate gives you access to administer your Azure account using the Windows Azure SDK tools.  Which among other things allows you to publish, change, delete, or basically cause total havoc if it fell in to the wrong hands in your Azure account.

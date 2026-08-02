@@ -17,6 +17,13 @@ tags:
   - "Web"
   - "wordpress"
 description: "First off I would like to say that many of my readers are very intelligent, they picked up on a one line sentence in my last post about my new design and..."
+cover:
+  image: "/images/2008/02/coder-journal-structure1.png"
+  alt: "Coder Journal Web Structure"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 First off I would like to say that many of my readers are very intelligent, they picked up on a one line sentence in [my last post](http://www.coderjournal.com/2008/01/new-year-makeover-wordpress-seo-sem/ "Coder Journal’s New Year Make Over") about my new design and Coder Journal switching from Linux to Windows.

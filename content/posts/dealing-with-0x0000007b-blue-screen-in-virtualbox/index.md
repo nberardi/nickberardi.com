@@ -6,6 +6,13 @@ draft: false
 tags:
   - "VirtualBox"
 description: "One of the great things about VirtualBox is that it allows you to open up, mount, and run any hard drive from the other 3 major manufactures. VMWare,..."
+cover:
+  image: "/images/2012/03/VirtualBox-SATA.png"
+  alt: "Dealing With 0x0000007B Blue Screen in VirtualBox"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 One of the great things about VirtualBox is that it allows you to open up, mount, and run any hard drive from the other 3 major manufactures.  VMWare, Microsoft, and Parallels.  However one of the bad things is that there are no automated utilities that just make them work like some of the manufactures provide.  And a common issue that I have always run into, especially when converting from VMWare to VirtualBox is this error.

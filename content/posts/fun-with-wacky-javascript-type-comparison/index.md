@@ -7,6 +7,13 @@ tags:
   - "JavaScript"
   - "JavaScript"
 description: "I recently had a conversation with Scoot Koon (LazyCoder) over Twitter about the wacky JavaScript type comparisons that are allowed. I was interested to..."
+cover:
+  image: "/images/2009/08/lazycoder-on-javascript-coercion1.png"
+  alt: "LazyCoder (Scott Koon) on JavaScript Coercion"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I recently had a conversation with [Scoot Koon (LazyCoder)](http://www.lazycoder.com) over [Twitter](http://twitter.com/lazycoder) about the [wacky JavaScript type comparisons](http://twitter.com/nberardi/status/3285947110) that are allowed.  I was interested to see what weird oddities would come out if I compared the whole type system against it self.  So I sat down and wrote a simple JavaScript routine to do just that, and the below reference table is the output of that routine.

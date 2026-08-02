@@ -6,6 +6,13 @@ draft: false
 tags:
   - ".NET"
 description: "Today I had the question come up about some wonky behavior with retrieving data from Cassandra for non-string types.&#160; Here is the issue in a..."
+cover:
+  image: "/images/2010/06/image1.png"
+  alt: "How Fluent Cassandra Handles Runtime Types"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Today I had the question come up about some wonky behavior with retrieving data from Cassandra for non-string types.  Here is the issue in a nut-shell:

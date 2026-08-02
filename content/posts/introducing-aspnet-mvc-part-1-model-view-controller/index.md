@@ -13,6 +13,13 @@ tags:
   - "asp.net mvc"
   - "Book"
 description: "About a month and a half ago I announced that I am writing a book, I was really overwhelmed by the amount of support that I received from this..."
+cover:
+  image: "/images/2008/12/410950-f02011.png"
+  alt: "Figure 2-1"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 About a month and a half ago I announced that [I am writing a book](http://www.coderjournal.com/2008/10/asp-net-mvc-has-changed-my-life/), I was really overwhelmed by the amount of support that I received from this announcement.  Both myself and Al are really looking forward to the day when this book ships, and we start receiving real feedback on all our hard work.  However, both of us would like to start receiving feedback as soon as possible, so...

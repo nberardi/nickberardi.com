@@ -12,6 +12,13 @@ tags:
   - "The Modeling Pattern"
   - "Web"
 description: "Recently I have been working very hard on getting a new Web 2.0 initiative off the ground. With most new initiatives I like to start out by looking for..."
+cover:
+  image: "/images/2008/02/dot-net-kicks-model-example-21.png"
+  alt: ".NET Kicks Article"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Recently I have been working very hard on getting a new Web 2.0 initiative off the ground. With most new initiatives I like to start out by looking for software development patterns that will help me standardize my structure as well as make the programming experience common for any new members that are brought on the team. However I recently ran in to a [structural "pattern"](http://sourcemaking.com/structural_patterns) that seems like it is pretty simple and it addresses a common problem in software development. I researched as much as possible on all [the common pattern websites](http://sourcemaking.com/) that I visit and even went as far as posting on [ASP.NET Forums](http://forums.asp.net/t/1212932.aspx) to see if anybody could help me, give it a name. If this "pattern" hasn't been named yet I am going to be shocked.

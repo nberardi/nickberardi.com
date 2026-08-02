@@ -9,6 +9,13 @@ tags:
   - "philly.net"
   - "Public Speaking"
 description: "Here is my presentation from Code Camp 2009.1: You can download the software seen in this presentation at: Microsoft Visual Studio Express..."
+cover:
+  image: "/images/2009/04/sara-ford-visual-studio-tips.jpg"
+  alt: "sara-ford-visual-studio-tips"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Here is my presentation from Code Camp 2009.1:

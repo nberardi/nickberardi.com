@@ -7,6 +7,13 @@ tags:
   - "Git"
   - "Visual Studio"
 description: "If you are an avid Git user like I am, but also happen to work in a Visual Studio environment, you know that getting to your Git Bash command prompt is..."
+cover:
+  image: "/images/2011/03/image1.png"
+  alt: "Adding Git Command Line To Visual Studio"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 If you are an avid Git user like I am, but also happen to work in a Visual Studio environment, you know that getting to your Git Bash command prompt is anything but easy. My typical process looks probably something like yours:

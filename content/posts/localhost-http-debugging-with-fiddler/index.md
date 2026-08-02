@@ -11,6 +11,13 @@ tags:
   - "somesite.com"
   - "127.0.0.1"
 description: "I have been a huge fan of Fiddler the HTTP Debugging Proxy for a couple years now. However one thing that always bugged me about any network debugging..."
+cover:
+  image: "/images/2008/03/fiddler-somesitecom1.png"
+  alt: "Fiddler localhostproxy.com"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I have been a huge fan of [Fiddler the HTTP Debugging Proxy](http://www.fiddlertool.com/fiddler/) for a couple years now. However one thing that always bugged me about any network debugging tool was the fact that it could not debug *localhost* or *127.0.0.1*. However I just found a solution while racking my brain for a way to debug one of my local projects.

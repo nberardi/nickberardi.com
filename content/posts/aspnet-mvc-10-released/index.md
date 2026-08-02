@@ -7,6 +7,13 @@ tags:
   - "Web"
   - "asp.net mvc"
 description: "It was just announced at MIX09 that ASP.NET MVC 1.0 has been released for general use and is out of the Release Candidate phase. There has been no word on..."
+cover:
+  image: "/images/2009/03/final-book-cover12.jpg"
+  alt: "Final Cover Photo"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 [![Final Cover Photo](/images/2009/03/final-book-cover12.jpg "Final Cover Photo")](http://www.amazon.com/gp/product/0470410957?tag=coderjournal-20 "ASP.NET MVC 1.0 Website Design: Problem - Design - Solution")It was just announced at MIX09 that ASP.NET MVC 1.0 has been released for general use and is out of the Release Candidate phase.  There has been no word on the [changes form RC 2](http://www.coderjournal.com/2009/03/aspnet-mvc-10-release-candidate-2/) to this release version.  But I will keep this post updated as I learn more.  Also as of writing this the download hasn't been posted to CodePlex either, but I am sure that it will be posted pretty soon.

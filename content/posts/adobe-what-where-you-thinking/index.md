@@ -8,6 +8,13 @@ tags:
   - "Acrobat"
   - "Adobe"
 description: "Recently I upgraded Adobe Acrobat Reader 8.0. I would first like to say that I found the new updated user interface a very nice experience. However there..."
+cover:
+  image: "/images/2007/02/adobe.PNG"
+  alt: "Adobe what where you thinking?"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 [![](/images/2007/02/adobe.PNG)](/images/2007/02/adobe.PNG)Recently I upgraded **Adobe Acrobat Reader 8.0**. I would first like to say that I found the new updated user interface a very nice experience. However there was one problem with the experience and it had nothing to do with the Adobe Acrobat Reader 8.0, it had to do with the Adobe Update Manager.

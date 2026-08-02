@@ -6,6 +6,13 @@ draft: false
 tags:
   - "backup"
 description: "I have started and stopped this post probably about 10 times now.&#160; I just didn’t feel it was that interesting.&#160; But there probably isn’t a..."
+cover:
+  image: "/images/2009/12/codinghorrordown1.png"
+  alt: "Server Backup On The Cheap: Backup For Less Than $10.00 A Year"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I have started and stopped this post probably about 10 times now.  I just didn’t feel it was that interesting.  But there probably isn’t a better time to capitalize on this post than this week, because of a certain [few](http://www.codinghorror.com/blog/archives/001315.html) [widely](http://haacked.com/archive/2009/12/14/back-in-business-again.aspx) [known](http://blog.stackoverflow.com) bloggers, [who should have known better](http://www.codinghorror.com/blog/archives/001045.html), and had their websites go down with out any backups.

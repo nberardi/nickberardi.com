@@ -12,6 +12,13 @@ tags:
   - "Safari"
   - "XML"
 description: "Common courtesy is very important for all application developers to follow especially when they are dealing with users settings. Especially for common..."
+cover:
+  image: "/images/2008/04/wtf-apple-worst-developers-ever1.png"
+  alt: "WTF Apple, Show Some Common Courtesy"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Common courtesy is very important for all application developers to follow especially when they are dealing with users settings. Especially for common file formats, where the user has probably already set up their preferences how they like. And most importantly to not piss off your install base.

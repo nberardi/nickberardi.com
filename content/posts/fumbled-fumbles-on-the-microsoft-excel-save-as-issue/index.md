@@ -9,6 +9,13 @@ tags:
   - "Office"
   - "Stupid User Tricks"
 description: "I read a Digg post today, that some how made it to the front page, that just made me laugh. The author of the post was obviously very ignorant in his..."
+cover:
+  image: "/images/2007/04/microsoft-office-2007-excel-save-as1.png"
+  alt: "Microsoft Office Excel 2007 Save As"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 I read a [Digg post](http://digg.com/microsoft/Microsoft_Fumbles_No_SAVE_AS_button_in_Excel_2007 "http://digg.com/microsoft/Microsoft_Fumbles_No_SAVE_AS_button_in_Excel_2007") today, that some how made it to the front page, that just made me laugh. The author of [the post](http://www.fumbled.org/2007/04/18/microsoft-mistake-no-save-as-button-in-excel-2007/) was obviously very ignorant in his approach and lazy on research that went in to his blog post.

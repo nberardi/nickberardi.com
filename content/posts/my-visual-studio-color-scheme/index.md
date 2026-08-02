@@ -4,6 +4,13 @@ date: 2010-05-03T16:44:39-05:00
 slug: "my-visual-studio-color-scheme"
 draft: false
 description: "As a developer I spend probably way too much time in front of Visual Studio, and if you are like me you start optimizing the color schemes, fonts, and..."
+cover:
+  image: "/images/2010/05/coderjournal-vs-settings1.png"
+  alt: "Download My Visual Studio Color Scheme"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 As a developer I spend probably way too much time in front of Visual Studio, and if you are like me you start optimizing the color schemes, fonts, and layout of code for maximum readability. And it is a huge pain in the butt if you have to port these settings and preferences across multiple computers for work, home, and whatever other computer you sometimes program at. That is why I was delighted to stumble across [studiostyles.info](http://studiostyles.info), which allows you to configure the color schemes of Visual Studio. It even generates compatible settings files for Visual Studio 2005, 2008, and 2010, so there is no more need to keep multiple settings files in sync across your machines for the different flavors of Visual Studio you program in.

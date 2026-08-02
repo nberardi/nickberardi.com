@@ -10,6 +10,13 @@ tags:
   - "Acrobat"
   - "Adobe"
 description: "Do you hate having to go to umpteen sites just to download your essential software to get your computer running? Do you hate then having to again go to..."
+cover:
+  image: "/images/2007/03/google-updater1.png"
+  alt: "Google Updater Installed Software Screen"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 *Do you hate having to go to umpteen sites just to download your essential software to get your computer running?*   

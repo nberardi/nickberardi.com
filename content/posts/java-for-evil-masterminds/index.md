@@ -6,6 +6,13 @@ draft: false
 tags:
   - "Java"
 description: "If your goal is to take over the world by pure force of your coding skill and you are tired of all those namby-pamby coding languages and frameworks, you..."
+cover:
+  image: "/images/2007/05/java-evil-edition1.png"
+  alt: "Java Evil Edition"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 If your goal is to take over the world by pure force of your coding skill and you are tired of all those namby-pamby coding languages and frameworks, you should try Java Evil Edition.

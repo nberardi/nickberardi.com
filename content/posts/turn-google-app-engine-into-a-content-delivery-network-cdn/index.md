@@ -13,6 +13,13 @@ tags:
   - "SEO"
   - "Web"
 description: "As anybody who has run a growing website or blog knows, response time is going to get worse with the more users you have visiting your site. The users..."
+cover:
+  image: "hero.png"
+  alt: "IdeaPipe logo"
+  relative: true
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 As anybody who has run a growing website or blog knows, response time is going to get worse with the more users you have visiting your site. The users come from all angles, RSS feeds, homepage visits, search engine visits, people sealing your static files that you host, and pretty much anything else that can be served over HTTP. The solution to this problem is to off load your static content on to a Content Delivery Network or CDN. CDN providers cost a lot of money though, so it is nothing for us mere mortals with one server can afford.

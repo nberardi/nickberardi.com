@@ -8,6 +8,13 @@ tags:
   - "Verizon"
   - "Windows Vista"
 description: "When Windows Vista first came out nearly 3 months ago, I had a difficult time getting my XV-6700 PDA Phone from Verizon to connect to my laptop as a CDMA..."
+cover:
+  image: "/images/2007/02/driverdiff1.png"
+  alt: "Winmodem Smartphone Driver Diff"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 When Windows Vista first came out nearly 3 months ago, I had a difficult time getting my XV-6700 PDA Phone from Verizon to connect to my laptop as a CDMA Modem. After much searching and reading of Microsoft KB articles I realized this driver had been floating around the Smartphone world since 2002. However Microsoft had changed the way they wanted winmodem drivers written around the time of Windows XP SP1, however Windows XP was still backwards compatible. However when Windows Vista was released they made the new driver format the rule, and thus the reason the 7 year old driver will not work.

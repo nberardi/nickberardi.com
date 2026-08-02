@@ -14,13 +14,20 @@ tags:
   - "Review"
   - "Web"
 description: "Every developer has their favorite tool collection that they must have in order to survive while developing software. The list below is indispensable in..."
+cover:
+  image: "hero.png"
+  alt: "Creative Commons Attribution-NonCommercial-ShareAlike license badge"
+  relative: true
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Every developer has their favorite tool collection that they must have in order to survive while developing software. The list below is indispensable in my day-to-day activities and that is why I am sharing it with my readers. My list was inspired by [Scott Hanselman's](http://www.hanselman.com/tools) own list of tools that he uses. However I would be really interested to see what Scott's actual list is since it would be almost impossible to touch each and every tool once a week as he claims. Because many of them serve the same purpose.
 
 The goal of my list is to keep the tool list up to date with my current tool set. So if I stop using a tool it will drop to the bottom of the list in a section called *Not Using Anymore*.
 
-> [![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) This list is licensed under a slightly different license than the rest of my site. So please do not reproduce this work in it's entirety. I would rather you link to <http://www.coderjournal.com/essential-software/>, because work like this takes much of my time. And I am going to do everything that I can to make sure the links stay relevant and up to date. You have this pledge from me, because the links below are also my source for downloading these tools.
+> [![Creative Commons License](creative-commons-license.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) This list is licensed under a slightly different license than the rest of my site. So please do not reproduce this work in it's entirety. I would rather you link to <http://www.coderjournal.com/essential-software/>, because work like this takes much of my time. And I am going to do everything that I can to make sure the links stay relevant and up to date. You have this pledge from me, because the links below are also my source for downloading these tools.
 
 ### Development Tools
 

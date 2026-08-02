@@ -10,6 +10,13 @@ tags:
   - "SQL Server"
   - "Windows Vista"
 description: "Microsoft with out much fan far released service pack 2 for SQL Server 2005. There is a whole laundry list of new features and bug fixes listed on MSDN...."
+cover:
+  image: "/images/2007/02/sql-server-2005-vista-user-provisioning1.png"
+  alt: "SQL Server 2005 Vista User Provisioning"
+  relative: false
+  hidden: false
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Microsoft with out much fan far released service pack 2 for SQL Server 2005. There is a whole laundry list of new features and bug fixes listed on [MSDN](http://msdn2.microsoft.com/en-us/library/bb283536.aspx). However one of the biggest features at least for early adopters is the support for Windows Vista both x86 and x64 versions of the operating system. This release brings with it a great new tools for Windows Vista that are not available for previous operating systems.
