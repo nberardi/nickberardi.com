@@ -1,0 +1,52 @@
+{{- /*
+  Open Graph card — the site default (ADDENDUM-3 §4, design 1a). Bare 1200x630
+  page, never linked from the real site. Built ONCE by hand:
+    hugo && npm run og:default
+  which screenshots this page to static/og-default.png and you commit the
+  result — it is not regenerated on every CI build (only the per-post cards
+  are). Re-run it and re-commit if the tagline or wordmark ever changes.
+  Output path: /ogcard.html (see the OGCARD entry under
+  outputs.home in hugo.toml).
+*/ -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ site.Title }}</title>
+{{- $tokens := resources.Get "css/extended/broadsheet.css" }}
+{{- $card := resources.Get "css/og-card.css" }}
+{{- $css := (slice $tokens $card) | resources.Concat "css/ogcard-default.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- $pp := resources.Get "js/print-plates.js" | minify | fingerprint }}
+<script src="{{ $pp.RelPermalink }}"></script>
+</head>
+<body>
+<div class="og-card"><div class="og-default">
+  <div class="og-default-main">
+    <div>
+      <div class="og-default-top">
+        <span class="og-kicker">nickberardi.com</span>
+        <span class="og-kicker-quiet">Est. 2007</span>
+      </div>
+      <div class="og-rule"></div>
+    </div>
+    <div class="og-default-copy">
+      <div class="cmyk-head og-wordmark">
+        <span class="paper">Nick<br>Berardi</span>
+        <span class="plate plate-c" aria-hidden="true">Nick<br>Berardi</span>
+        <span class="plate plate-m" aria-hidden="true">Nick<br>Berardi</span>
+        <span class="plate plate-y" aria-hidden="true">Nick<br>Berardi</span>
+      </div>
+      <p class="og-tagline">Software engineer. Runs a large engineering team. Writing here since 2007.</p>
+    </div>
+  </div>
+  <figure class="cmyk og-default-portrait">
+    <img src="/images/headshot.png" alt="Illustrated pen-and-ink portrait of Nick Berardi">
+    <img class="sep-c" src="/images/headshot.png" alt="" aria-hidden="true">
+    <img class="sep-m" src="/images/headshot.png" alt="" aria-hidden="true">
+    <img class="sep-y" src="/images/headshot.png" alt="" aria-hidden="true">
+    <img class="sep-k" src="/images/headshot.png" alt="" aria-hidden="true">
+  </figure>
+</div></div>
+</body>
+</html>

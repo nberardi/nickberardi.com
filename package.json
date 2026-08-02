@@ -1,0 +1,13 @@
+{
+  "name": "nickberardi.com",
+  "private": true,
+  "description": "Build tooling for nickberardi.com (Hugo site). Not a runtime package.",
+  "scripts": {
+    "og:render": "node scripts/render-og-cards.mjs",
+    "og:default": "node scripts/render-og-default.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.3"
+  }
+}
