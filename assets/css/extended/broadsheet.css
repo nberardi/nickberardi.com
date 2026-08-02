@@ -119,10 +119,11 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: var(--font-headi
    The plate offsets live with the deck's projection-scale CSS, since
    misregistration is sized to the output. */
 .cmyk{position:relative;overflow:hidden;background:var(--color-bg)}
-.cmyk img:first-child{opacity:0} /* layout sizer AND the alt-bearing image — opacity
+.cmyk > img:first-child{opacity:0} /* layout sizer AND the alt-bearing image — opacity
   keeps it in the accessibility tree (visibility:hidden would drop the figure's only
-  description); fully transparent, it adds nothing to the multiply backdrop */
-.cmyk img+img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
+  description); fully transparent, it adds nothing to the multiply backdrop. Limit
+  this to direct children so the one-image .print treatment below remains visible. */
+.cmyk > img+img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
 .cmyk .sep-c{filter:url(#sep-c)}
 .cmyk .sep-m{filter:url(#sep-m)}
 .cmyk .sep-y{filter:url(#sep-y)}
