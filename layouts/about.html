@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "about") }}
+
+{{- $total := len (where site.RegularPages "Section" "posts") }}
+
+<main id="main-content" class="nb-shell nb-about">
+  <div class="nb-kicker nb-kicker-accent2">About</div>
+  <div class="nb-standing-head">
+    <div class="cmyk-head"><span class="paper">Enhance the</span><span class="plate plate-c" aria-hidden="true">Enhance the</span><span class="plate plate-m" aria-hidden="true">Enhance the</span><span class="plate plate-y" aria-hidden="true">Enhance the</span></div>
+    <div class="cmyk-head"><span class="paper">human race.</span><span class="plate plate-c" aria-hidden="true">human race.</span><span class="plate plate-m" aria-hidden="true">human race.</span><span class="plate plate-y" aria-hidden="true">human race.</span></div>
+    <div class="cmyk-head nb-standing-head-italic"><span class="paper">Don&rsquo;t replace it.</span><span class="plate plate-c" aria-hidden="true">Don&rsquo;t replace it.</span><span class="plate plate-m" aria-hidden="true">Don&rsquo;t replace it.</span><span class="plate plate-y" aria-hidden="true">Don&rsquo;t replace it.</span></div>
+  </div>
+
+  <div class="nb-rail-about">
+    <div class="nb-about-body">
+      {{ .Content }}
+      <div class="nb-about-actions">
+        <a class="btn btn-primary" href="mailto:me@nickberardi.com">me@nickberardi.com</a>
+        <a class="btn btn-secondary" href="/speaking/">Speaking &amp; advisory</a>
+      </div>
+    </div>
+
+    <div class="nb-about-side">
+      <figure class="cmyk" style="width:340px;aspect-ratio:4/5;margin-bottom:8px">
+        <img src="/images/headshot.png" alt="Illustrated pen-and-ink portrait of Nick Berardi">
+        <img class="sep-c" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-m" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-y" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-k" src="/images/headshot.png" alt="" aria-hidden="true">
+      </figure>
+      <figcaption class="nb-portrait-caption">Drawn in ink, printed in four plates.</figcaption>
+
+      <div class="nb-kicker nb-kicker-accent">On the record</div>
+      <table class="table nb-bio-table nb-bio-table-about">
+        <tbody>
+          <tr><td>Day job</td><td>{{ site.Params.bio.dayJob }}</td></tr>
+          <tr><td>Council</td><td>{{ site.Params.bio.council }}</td></tr>
+          <tr><td>Philanthropy</td><td>{{ site.Params.bio.philanthropy }}</td></tr>
+          <tr><td>Open source</td><td>{{ site.Params.bio.openSource }}</td></tr>
+          <tr><td>Writing since</td><td>2007 &middot; {{ $total }} posts</td></tr>
+        </tbody>
+      </table>
+
+      <div class="nb-kicker nb-kicker-accent">Elsewhere</div>
+      <div class="nb-about-links">
+        {{- range site.Params.socialIcons }}
+        {{- $label := .name | title }}
+        {{- $handle := path.Base .url }}
+        {{- if eq .name "twitter" }}{{ $label = "X" }}{{ $handle = printf "@%s" $handle }}{{ end }}
+        {{- if eq .name "github" }}{{ $label = "GitHub" }}{{ end }}
+        {{- if eq .name "linkedin" }}{{ $label = "LinkedIn" }}{{ end }}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me">{{ $label }} &middot; {{ $handle }}</a>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

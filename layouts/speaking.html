@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "speaking") }}
+
+<main id="main-content" class="nb-shell nb-speaking">
+  <h2 class="nb-page-title">Speaking &amp; advisory</h2>
+  {{- with .Params.lede }}<p class="nb-speaking-lede">{{ . }}</p>{{- end }}
+
+  <div class="nb-rail-speaking">
+    <div class="nb-speaking-main">
+      <div class="nb-kicker nb-kicker-accent">What I talk about</div>
+      <div class="nb-talks">
+        {{- range .Params.talks }}
+        <div class="nb-talk">
+          <div class="nb-talk-title">{{ .title }}</div>
+          <p class="nb-talk-desc">{{ .description }}</p>
+        </div>
+        {{- end }}
+      </div>
+
+      <div class="nb-kicker nb-kicker-accent">Recent appearances</div>
+      {{- if .Params.appearances }}
+      <ul class="nb-appearances">
+        {{- range .Params.appearances }}
+        <li><a href="{{ .link }}">{{ .title }}</a> &mdash; {{ .event }}, {{ .date }}</li>
+        {{- end }}
+      </ul>
+      {{- else }}
+      <p class="nb-placeholder-note">Placeholder &mdash; send me your last handful of talks, panels and podcasts (event, date, title, link) and this becomes a real list. It is the single most persuasive thing on this page for an event organizer, so it is worth filling in.</p>
+      {{- end }}
+    </div>
+
+    <div class="nb-speaking-side">
+      <div class="nb-kicker nb-kicker-accent">Formats</div>
+      <table class="table nb-bio-table nb-formats-table">
+        <tbody>
+          {{- range .Params.formats }}
+          <tr><td>{{ .label }}</td><td>{{ .value }}</td></tr>
+          {{- end }}
+        </tbody>
+      </table>
+
+      <div class="nb-kicker nb-kicker-accent">Advisory</div>
+      <div class="nb-advisory">
+        {{ .Content }}
+      </div>
+      <a class="btn btn-primary btn-block" href="mailto:me@nickberardi.com">me@nickberardi.com</a>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

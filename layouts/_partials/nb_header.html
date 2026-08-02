@@ -1,0 +1,28 @@
+{{- /* Masthead + primary nav. Call with (dict "page" . "active" "posts"|"speaking"|"archive"|"about"|"") */ -}}
+{{- $page := .page }}
+{{- $active := .active }}
+{{- $isHome := $page.IsHome }}
+<div class="nb-masthead nb-shell">
+  <div class="nb-masthead-row">
+    {{- if $isHome }}
+    <div class="nb-id">
+      <h1 class="nb-name nb-name-home">Nick Berardi</h1>
+      <p class="nb-tagline">Software engineer. Runs a large engineering team. Writing here since 2007.</p>
+    </div>
+    {{- else }}
+    <div class="nb-id">
+      <a href="{{ "/" | relLangURL }}" class="nb-name-link"><h1 class="nb-name nb-name-sub">Nick Berardi</h1></a>
+    </div>
+    {{- end }}
+    <nav class="nb-nav{{ if not $isHome }} nb-nav-sub{{ end }}" aria-label="Primary">
+      {{- range site.Menus.main }}
+      {{- if eq .Identifier $active }}
+      <a href="{{ .URL }}" aria-current="page" class="is-current">{{ .Name }}</a>
+      {{- else }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+      {{- end }}
+    </nav>
+  </div>
+  <div class="nb-bar" aria-hidden="true"></div>
+</div>

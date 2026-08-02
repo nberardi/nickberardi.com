@@ -1,0 +1,2 @@
+{{- $pp := resources.Get "js/print-plates.js" | minify | fingerprint }}
+<script src="{{ $pp.RelPermalink }}" integrity="{{ $pp.Data.Integrity }}" defer></script>

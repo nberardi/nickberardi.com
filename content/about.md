@@ -3,22 +3,15 @@ title: "About"
 layout: "about"
 url: "/about/"
 summary: "About Nick Berardi"
+description: "Software engineer, engineering leader, and writer on AI and engineering leadership."
 ---
 
-# About Nick Berardi
+That is the whole editorial line, and it is the reason this site exists again. AI is going to change every aspect of how we look at life &mdash; I am genuinely, unreasonably excited about it &mdash; and the only version worth building is the one that leaves a person more capable at the end of the day than they were at the start.
 
-Hi, I'm Nick Berardi, a software developer and technology enthusiast. This blog is a collection of my thoughts, experiences, and technical writings about software development, technology, and the web.
+I am a software engineer. That is the part that has never changed. I started publishing here in 2007 because I could not shut up about ASP.NET routing, and I kept going for seven years and 327 posts. These days my job title says executive and my calendar agrees, but the thing I actually am is the person who still wants to know how it works underneath.
 
-Over the years, I've worked with various technologies including ASP.NET, C#, JavaScript, and open-source projects. I'm passionate about building great software and sharing what I learn along the way.
+Right now that means **Alexa+ at Amazon** &mdash; ambient assistance that has to earn its place in somebody's kitchen, which is a much harder bar than a benchmark. Before that, a long run of building teams and shipping systems that mostly nobody sees.
 
-## Connect With Me
+Outside the day job, the two things I am proudest of are not software. The **Berardi Student Engagement Center** exists because students need somewhere to actually be together, and I got to help fund it. And I serve on **IPAC**, the Industrial & Professional Advisory Council at Penn State's College of IST, which is a formal way of saying I get to argue with faculty about what the next generation of engineers should be taught.
 
-- **GitHub**: [nberardi](https://github.com/nberardi)
-- **Twitter/X**: [@nberardi](https://twitter.com/nberardi)
-- **LinkedIn**: [nickberardi](https://linkedin.com/in/nickberardi)
-
-## About This Blog
-
-This blog was originally started in 2007 and has evolved over the years. It's been migrated from Ghost to Hugo to continue sharing content in a modern, fast, and maintainable way.
-
-Thanks for visiting!
+Then there is the archive. Eleven quiet years where I was building things I could not write about. It is all still here, every original URL intact, and I have no interest in pretending the old opinions were smarter than they were.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "posts") }}
+
+<main id="main-content" class="nb-shell nb-single">
+  <div class="nb-single-head">
+    <div class="nb-breadcrumb"><a href="/posts/">Writing</a>&nbsp;/&nbsp;<a href="/archive/#{{ .Date.Year }}">{{ .Date.Year }}</a></div>
+    <h2 class="nb-post-heading">{{ .Title }}</h2>
+    {{- with .Description }}<div class="nb-post-lede">{{ . }}</div>{{- end }}
+    <div class="nb-dateline">{{ partial "post_meta.html" . }}</div>
+  </div>
+
+  <div class="nb-single-rail">
+    <div class="nb-article">
+      {{ .Content }}
+    </div>
+
+    <div class="nb-single-side">
+      {{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
+      {{- if ge (len $headers) 1 }}
+      <div class="nb-kicker nb-kicker-accent">On this page</div>
+      <div class="nb-toc">{{ .TableOfContents }}</div>
+      {{- end }}
+      {{- with .GetTerms "tags" }}
+      <div class="nb-kicker nb-kicker-accent">Filed under</div>
+      <div class="nb-tag-row nb-tag-row-wrap">
+        {{- range . }}
+        <a class="tag tag-neutral" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+
+  {{- $older := .NextInSection }}
+  {{- $newer := .PrevInSection }}
+  {{- if or $older $newer }}
+  <div class="nb-prevnext-wrap">
+    <div class="nb-rule-heavy nb-rule-flush"></div>
+    <div class="nb-prevnext">
+      <a class="nb-prevnext-cell nb-prevnext-prev {{ if not $older }}is-empty{{ end }}" {{ with $older }}href="{{ .RelPermalink }}"{{ end }}>
+        {{- with $older }}
+        <div class="nb-prevnext-label">&larr; Previous</div>
+        <div class="nb-prevnext-title">{{ .Title }}</div>
+        {{- end }}
+      </a>
+      <a class="nb-prevnext-cell nb-prevnext-next {{ if not $newer }}is-empty{{ end }}" {{ with $newer }}href="{{ .RelPermalink }}"{{ end }}>
+        {{- with $newer }}
+        <div class="nb-prevnext-label">Next &rarr;</div>
+        <div class="nb-prevnext-title">{{ .Title }}</div>
+        {{- end }}
+      </a>
+    </div>
+  </div>
+  {{- end }}
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

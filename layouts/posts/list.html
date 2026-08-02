@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "posts") }}
+
+{{- $allPosts := where site.RegularPages "Section" "posts" }}
+{{- $total := len $allPosts }}
+{{- $tagTerms := where site.Pages "Kind" "term" }}
+{{- $tagTerms = where $tagTerms "Data.Plural" "tags" }}
+{{- $tagCounts := slice }}
+{{- range $tagTerms }}{{ $tagCounts = $tagCounts | append (dict "name" .Title "count" (len .Pages) "url" .RelPermalink) }}{{ end }}
+{{- $tagCounts = sort $tagCounts "count" "desc" }}
+
+<main id="main-content" class="nb-shell nb-writing">
+  <div class="nb-writing-head">
+    <div>
+      <h2 class="nb-page-title">Writing</h2>
+      <div class="nb-page-sub">{{ $total }} posts since 2007.</div>
+    </div>
+    <div class="nb-tag-row">
+      {{- range $i, $t := first 3 $tagCounts }}
+      <a class="tag {{ if eq $i 0 }}tag-accent{{ else }}tag-neutral{{ end }}" href="{{ $t.url }}">{{ $t.name }} {{ $t.count }}</a>
+      {{- end }}
+      <a class="tag tag-outline" href="/tags/">All {{ len site.Taxonomies.tags }} topics</a>
+    </div>
+  </div>
+
+  <div class="nb-rail-writing">
+    <div class="nb-writing-main">
+      {{- $pages := $allPosts }}
+      {{- $paginator := .Paginate $pages }}
+      {{- range ($paginator.Pages.GroupByDate "2006") }}
+      <div class="nb-year-group">
+        <div class="nb-section-head nb-year-head">
+          <div class="nb-kicker">{{ .Key }}</div>
+          <span class="nb-section-note">{{ len .Pages }} posts</span>
+        </div>
+        <div class="nb-rule-heavy"></div>
+        <div class="nb-post-rows">
+          {{- range .Pages }}
+          <a class="nb-post-row" href="{{ .RelPermalink }}">
+            <span class="nb-post-date">{{ .Date | time.Format "2006·01·02" }}</span>
+            <span>
+              <span class="nb-post-title">{{ .Title }}</span>
+              <span class="nb-post-desc">{{ .Description }} <span class="nb-post-time">{{ .ReadingTime }} min</span></span>
+            </span>
+          </a>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
+      <div class="nb-pagination">
+        <span class="nb-pagination-note">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+        <div class="nb-pagination-actions">
+          {{- if $paginator.HasPrev }}
+          <a class="btn btn-secondary" href="{{ $paginator.Prev.URL | absURL }}">&larr; Newer posts</a>
+          {{- end }}
+          {{- if $paginator.HasNext }}
+          <a class="btn btn-secondary" href="{{ $paginator.Next.URL | absURL }}">Older posts &rarr;</a>
+          {{- end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="nb-writing-rail">
+      {{- $years := ($allPosts.GroupByDate "2006" "desc") }}
+      <div class="nb-kicker nb-kicker-accent">Jump to a year</div>
+      <div class="nb-year-chips">
+        {{- range $years }}
+        <a class="tag tag-neutral" href="/archive/#{{ .Key }}">{{ .Key }}</a>
+        {{- end }}
+      </div>
+      <div class="nb-kicker nb-kicker-accent">The archive</div>
+      {{- $first := ($allPosts.GroupByDate "2006" "asc") }}
+      {{- $minYear := "" }}{{- $maxYear := "" }}
+      {{- if gt (len $first) 0 }}{{ $minYear = (index $first 0).Key }}{{ $maxYear = (index $years 0).Key }}{{ end }}
+      <p class="nb-archive-note">{{ $total }} posts between {{ $minYear }} and {{ $maxYear }}, on {{ range $i, $t := first 4 $tagCounts }}{{ if $i }}{{ if eq $i 3 }} and {{ else }}, {{ end }}{{ end }}{{ $t.name }}{{ end }}. Every original URL still resolves.</p>
+      <a class="btn btn-secondary" href="/archive/">Browse by year</a>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

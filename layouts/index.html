@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "") }}
+
+<main id="main-content" class="nb-shell nb-home">
+  <div class="nb-ledger">
+    <div class="nb-ledger-left">
+      <figure class="cmyk" style="width:352px;aspect-ratio:1/1;margin-bottom:8px">
+        <img src="/images/headshot.png" alt="Illustrated pen-and-ink portrait of Nick Berardi">
+        <img class="sep-c" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-m" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-y" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-k" src="/images/headshot.png" alt="" aria-hidden="true">
+      </figure>
+      <figcaption class="nb-portrait-caption">Four plates, out of register by design.</figcaption>
+
+      <div class="nb-kicker nb-kicker-accent">On the record</div>
+      <table class="table nb-bio-table">
+        <tbody>
+          <tr><td>Day job</td><td>{{ site.Params.bio.dayJob }}</td></tr>
+          <tr><td>Council</td><td>{{ site.Params.bio.council }}</td></tr>
+          <tr><td>Philanthropy</td><td>{{ site.Params.bio.philanthropy }}</td></tr>
+          <tr><td>Open source</td><td>{{ site.Params.bio.openSource }}</td></tr>
+          <tr><td>Available for</td><td>{{ site.Params.bio.availableFor }}</td></tr>
+        </tbody>
+      </table>
+
+      <div class="nb-kicker nb-kicker-accent nb-kicker-tight">Elsewhere</div>
+      {{ partial "nb_social.html" (dict "size" 24) }}
+
+      <div class="nb-kicker nb-kicker-accent">The position</div>
+      <p class="nb-position">AI is going to change every aspect of how we look at life. I am here for all of it &mdash; on the condition that we build it to enhance the human race rather than to quietly replace it. <a href="/about/">The long version &rarr;</a></p>
+    </div>
+
+    <div class="nb-ledger-right">
+      {{- $posts := where site.RegularPages "Section" "posts" }}
+      {{- $total := len $posts }}
+      {{- $years := sub now.Year 2007 }}
+      {{- $words := slice "zero" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine" "ten" "eleven" "twelve" "thirteen" "fourteen" "fifteen" "sixteen" "seventeen" "eighteen" "nineteen" "twenty" "twenty-one" "twenty-two" "twenty-three" "twenty-four" "twenty-five" "twenty-six" "twenty-seven" "twenty-eight" "twenty-nine" "thirty" }}
+      {{- $yearsWord := printf "%d" $years }}
+      {{- if and (ge $years 0) (lt $years (len $words)) }}{{ $yearsWord = index $words $years | humanize }}{{ end }}
+      <div class="nb-section-head">
+        <div class="nb-kicker">Writing</div>
+        <span class="nb-section-note">{{ $yearsWord }} years, newest first</span>
+      </div>
+      <div class="nb-rule-heavy"></div>
+
+      <div class="nb-post-rows">
+        {{- range first 4 $posts }}
+        <a class="nb-post-row" href="{{ .RelPermalink }}">
+          <span class="nb-post-date">{{ .Date | time.Format "2006·01·02" }}</span>
+          <span>
+            <span class="nb-post-title">{{ .Title }}</span>
+            <span class="nb-post-desc">{{ .Description }} <span class="nb-post-time">{{ .ReadingTime }} min</span></span>
+          </span>
+        </a>
+        {{- end }}
+      </div>
+
+      <div class="nb-more-row">
+        <a class="btn btn-secondary" href="/posts/">More &middot; all {{ $total }} posts &rarr;</a>
+      </div>
+
+      <div class="nb-section-head nb-archive-head">
+        <div class="nb-kicker">The archive, by year</div>
+        <span class="nb-section-note-lg">{{ $total }} posts &middot; {{ len site.Taxonomies.tags }} tags &middot; every original URL intact</span>
+      </div>
+      <div class="nb-rule-heavy nb-rule-archive"></div>
+
+      {{ partial "nb_archive_chart.html" (dict "variant" "home") }}
+
+      <div class="nb-archive-foot">
+        <div class="nb-archive-caption">Eleven quiet years. I was busy building things I could not write about. <span class="nb-accent2">The magenta bar is now.</span></div>
+        <a class="btn btn-secondary" href="/archive/">Browse by year</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>
