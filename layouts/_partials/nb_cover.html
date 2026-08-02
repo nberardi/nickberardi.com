@@ -1,0 +1,40 @@
+{{- /*
+  Post cover: the full-width band and the sticky-rail handoff plate.
+  Renders nothing (and wires no JS) on posts without cover.image.
+
+  Call twice from single.html, both wrapped by the same {{ with .Params.cover }}
+  isn't required here — the partial checks .Params.cover.image itself:
+    {{ partial "nb_cover.html" (dict "page" . "part" "band") }}  before the two-column grid
+    {{ partial "nb_cover.html" (dict "page" . "part" "rail") }}  first thing inside .nb-post-rail
+*/ -}}
+{{- $page := .page -}}
+{{- $part := .part -}}
+{{- with $page.Params.cover -}}
+{{- $cover := . -}}
+{{- with $page.Resources.GetMatch $cover.image -}}
+{{- $img := .Resize "1800x q82" -}}
+{{- if eq $part "band" }}
+<figure class="cmyk nb-cover-band" data-nb-cover-band>
+  <div class="print">
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $cover.alt }}">
+  </div>
+</figure>
+{{- else if eq $part "rail" }}
+<div class="nb-rail-cover" data-nb-rail-cover>
+  <figure class="cmyk nb-rail-cover-plate">
+    <div class="print">
+      <img src="{{ $img.RelPermalink }}" alt="">
+    </div>
+  </figure>
+  {{- with $cover.caption }}
+  <div class="nb-cover-caption" aria-hidden="true">{{ . }}</div>
+  {{- end }}
+</div>
+{{- with $cover.caption }}
+<div class="nb-cover-caption nb-cover-caption-band" data-nb-band-caption>{{ . }}</div>
+{{- end }}
+{{- $coverJS := resources.Get "js/nb-cover.js" | minify | fingerprint }}
+<script src="{{ $coverJS.RelPermalink }}" integrity="{{ $coverJS.Data.Integrity }}" defer></script>
+{{- end -}}
+{{- end -}}
+{{- end -}}

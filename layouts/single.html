@@ -7,9 +7,11 @@
 <a href="#main-content" class="nb-skip-link">Skip to content</a>
 {{ partial "nb_header.html" (dict "page" . "active" "posts") }}
 
-<main id="main-content" class="nb-shell nb-single">
+<main id="main-content" class="nb-shell nb-single{{ if .Params.cover.image }} nb-single-has-cover{{ end }}">
+  {{- partial "nb_cover.html" (dict "page" . "part" "band") }}
   <div class="nb-post-grid">
     <div class="nb-post-rail">
+      {{- partial "nb_cover.html" (dict "page" . "part" "rail") }}
       {{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
       {{- if ge (len $headers) 1 }}
       <div class="nb-kicker nb-kicker-accent">On this page</div>
