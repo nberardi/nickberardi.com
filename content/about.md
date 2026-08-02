@@ -13,5 +13,3 @@ I am a software engineer. That is the part that has never changed. I started pub
 Right now that means **Alexa+ at Amazon** &mdash; ambient assistance that has to earn its place in somebody's kitchen, which is a much harder bar than a benchmark. Before that, a long run of building teams and shipping systems that mostly nobody sees.
 
 Outside the day job, the two things I am proudest of are not software. The **Berardi Student Engagement Center** exists because students need somewhere to actually be together, and I got to help fund it. And I serve on **IPAC**, the Industrial & Professional Advisory Council at Penn State's College of IST, which is a formal way of saying I get to argue with faculty about what the next generation of engineers should be taught.
-
-Then there is the archive. Eleven quiet years where I was building things I could not write about. It is all still here, every original URL intact, and I have no interest in pretending the old opinions were smarter than they were.
