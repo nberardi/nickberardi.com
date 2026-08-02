@@ -1,8 +1,20 @@
-{{- /* Full post row: date, title, description + reading time. Call with a Page: {{ partial "nb_post_row.html" . }} */ -}}
-<a class="nb-post-row" href="{{ .RelPermalink }}">
+{{- /* Full post row: date, title, description + reading time, plus a cover thumb when the post has one.
+   Call with a Page: {{ partial "nb_post_row.html" . }} */ -}}
+{{- $coverImg := "" -}}
+{{- with .Params.cover -}}
+{{- $coverImg = $.Resources.GetMatch .image -}}
+{{- end -}}
+<a class="nb-post-row{{ if $coverImg }} nb-post-row--cover{{ end }}" href="{{ .RelPermalink }}">
   <span class="nb-post-date">{{ .Date | time.Format "2006·01·02" }}</span>
   <span>
     <span class="nb-post-title">{{ .Title }}</span>
     <span class="nb-post-desc">{{ .Description }} <span class="nb-post-time">{{ .ReadingTime }} min</span></span>
   </span>
+  {{- with $coverImg }}
+  <figure class="cmyk nb-post-row-cover">
+    <div class="print">
+      <img src="{{ (.Resize "1800x q82").RelPermalink }}" alt="">
+    </div>
+  </figure>
+  {{- end }}
 </a>

@@ -82,6 +82,8 @@ body { font-family: var(--font-body); }
 .nb-post-title { display: block; font-size: 21px; font-weight: 600; line-height: 1.16; margin-bottom: 4px; }
 .nb-post-desc { display: block; font-size: 13.5px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
 .nb-post-time { color: var(--color-accent-700); }
+.nb-post-row--cover { grid-template-columns: 96px 1fr 168px; align-items: start; }
+.nb-post-row-cover { width: 168px; aspect-ratio: 3/2; margin: 0; }
 
 /* ---------- archive chart (nb_archive_chart.html) ---------- */
 .nb-chart { display: flex; align-items: flex-end; }
@@ -134,7 +136,31 @@ main.nb-writing { padding-top: 38px; }
 
 /* ================== Single post ================== */
 main.nb-single { padding-top: 38px; }
+main.nb-single-has-cover { padding-top: 0; }
 .nb-post-grid { display: grid; grid-template-columns: 196px 1fr; gap: 44px; }
+
+/* ---- cover: full-width band + sticky-rail handoff (ADDENDUM-3 §2) ---- */
+.nb-cover-band { height: 340px; width: calc(100% + 88px); margin-inline: -44px; margin-bottom: 30px; }
+@media (max-width: 900px) {
+  .nb-cover-band {
+    height: clamp(180px, 34vw, 340px);
+    margin-inline: calc(-1 * var(--space-4)); width: calc(100% + (2 * var(--space-4)));
+  }
+}
+.nb-cover-band .print, .nb-rail-cover-plate .print, .nb-post-row-cover .print { position: absolute; inset: 0; height: 100%; }
+.cmyk .print img { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+.nb-rail-cover { opacity: 0; transform: translateY(-8px); max-height: 0; overflow: hidden;
+  transition: opacity .3s ease, transform .3s ease, max-height .3s ease; }
+.nb-rail-cover[data-shown] { opacity: 1; transform: none; max-height: 340px; }
+.nb-rail-cover-plate { width: 196px; aspect-ratio: 4/5; margin: 0 0 8px; }
+.nb-cover-caption { font-size: 11px; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+.nb-rail-cover .nb-cover-caption { padding-bottom: 30px; }
+.nb-cover-caption-band { margin: 0 0 30px; transition: opacity .2s ease; }
+@media (prefers-reduced-motion: reduce) {
+  .nb-rail-cover { transition: none; }
+  .nb-cover-caption-band { transition: none; }
+}
 
 .nb-post-rail { position: sticky; top: 24px; align-self: start; }
 .nb-post-dateline { font-size: 12.5px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
