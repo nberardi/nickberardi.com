@@ -1,0 +1,32 @@
+{{- /* Every page now always resolves to a 1200x630 OG card (see templates/opengraph.html),
+   so the Twitter/X card type is always summary_large_image — no cover-or-not branch needed. */ -}}
+<meta name="twitter:card" content="summary_large_image">
+
+{{- $isPost := and (eq .Kind "page") (eq .Section "posts") -}}
+{{- if $isPost }}
+  {{- $slug := path.Base (strings.TrimSuffix "/" .RelPermalink) }}
+  <meta name="twitter:image" content="{{ printf "/og/%s.png" $slug | absURL }}">
+{{- else }}
+  <meta name="twitter:image" content="{{ "og-default.png" | absURL }}">
+{{- end }}
+
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta name="twitter:title" content="{{ . }}">
+{{- end }}
+
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+  <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
+{{- end }}
+
+{{- $twitterSite := "" }}
+{{- with site.Params.social }}
+  {{- if reflect.IsMap . }}
+    {{- with .twitter }}
+      {{- $content := . }}
+      {{- if not (strings.HasPrefix . "@") }}
+        {{- $content = printf "@%v" . }}
+      {{- end }}
+      <meta name="twitter:site" content="{{ $content }}">
+    {{- end }}
+  {{- end }}
+{{- end }}

@@ -1,0 +1,67 @@
+{{- /*
+  Open Graph card for a single post (ADDENDUM-3 §4, design 2b). Bare 1200x630
+  page, never linked from the real site — rendered by scripts/render-og-cards.mjs
+  into /og/<slug>.png at build time. Output path: /posts/<slug>/ogcard.html
+  (see the OGCARD output format + the posts-section cascade in hugo.toml).
+*/ -}}
+{{- $long := gt (len .Title) 60 -}}
+{{- $cover := "" -}}
+{{- with .Params.cover }}{{ $cover = $.Resources.GetMatch .image }}{{ end -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ .Title }}</title>
+{{- $tokens := resources.Get "css/extended/broadsheet.css" }}
+{{- $card := resources.Get "css/og-card.css" }}
+{{- $css := (slice $tokens $card) | resources.Concat "css/ogcard-post.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- $pp := resources.Get "js/print-plates.js" | minify | fingerprint }}
+<script src="{{ $pp.RelPermalink }}"></script>
+</head>
+<body>
+<div class="og-card"><div class="og-post">
+  {{- with $cover }}
+  <figure class="cmyk og-panel">
+    <div class="print"><img src="{{ (.Resize "1800x q82").RelPermalink }}" alt=""></div>
+  </figure>
+  {{- end }}
+  <div class="og-post-head">
+    <div class="og-post-head-row">
+      <span class="og-kicker">Writing</span>
+      <span class="og-kicker-quiet">{{ $.Date | time.Format "2 January 2006" }}</span>
+    </div>
+    <div class="og-rule"></div>
+  </div>
+  <div class="og-body">
+    <div class="cmyk-head og-headline{{ if $long }} is-long{{ end }}">
+      <span class="paper">{{ .Title }}</span>
+      <span class="plate plate-c" aria-hidden="true">{{ .Title }}</span>
+      <span class="plate plate-m" aria-hidden="true">{{ .Title }}</span>
+      <span class="plate plate-y" aria-hidden="true">{{ .Title }}</span>
+    </div>
+    {{- $desc := .Description | default (.Summary | plainify | truncate 200) }}
+    <p class="og-desc{{ if not $cover }} is-wide{{ end }}">{{ $desc }}</p>
+  </div>
+  <div class="og-byline-row">
+    <div class="og-byline">
+      <figure class="cmyk og-avatar">
+        <img src="/images/headshot.png" alt="Nick Berardi">
+        <img class="sep-c" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-m" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-y" src="/images/headshot.png" alt="" aria-hidden="true">
+        <img class="sep-k" src="/images/headshot.png" alt="" aria-hidden="true">
+      </figure>
+      <span class="og-byline-name">Nick Berardi<span class="sep">&nbsp;&nbsp;/&nbsp;&nbsp;nickberardi.com</span></span>
+    </div>
+    {{- with .GetTerms "tags" }}
+    <div class="og-tags">
+      {{- range $i, $t := first 3 . }}
+      <span class="tag {{ if eq $i 0 }}tag-accent{{ else }}tag-neutral{{ end }}">{{ $t.Title }}</span>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</div></div>
+</body>
+</html>

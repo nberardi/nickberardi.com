@@ -39,8 +39,24 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Cache Playwright browser
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - name: Install Playwright's Chromium
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+      - name: Install Playwright's Chromium system deps
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -50,7 +66,28 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Cache Open Graph card renders
+        uses: actions/cache@v4
+        with:
+          path: .og-cache
+          key: og-cards-${{ github.run_id }}
+          restore-keys: |
+            og-cards-
+      - name: Render per-post Open Graph cards
+        run: npm run og:render
+      - name: Backfill any post still missing an OG card
+        if: always()
+        run: |
+          shopt -s nullglob
+          mkdir -p public/og
+          for dir in public/posts/*/; do
+            slug="$(basename "$dir")"
+            if [ ! -f "public/og/$slug.png" ]; then
+              echo "backfilling default card for $slug"
+              cp static/og-default.png "public/og/$slug.png"
+            fi
+          done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

@@ -102,6 +102,20 @@ Check:
 
 `hugo --minify` runs a full production-equivalent build if you want a final check.
 
+## Open Graph Cards
+
+Every page emits `og:image`/`twitter:image` — a 1200×630 card for social/chat unfurls (issue #12, ADDENDUM-3 §4). You don't need to do anything for a normal post; this is automatic.
+
+- **How it works:** `layouts/posts/single.ogcard.html` is a bare per-post card template (Hugo's `OGCARD` output format, `hugo.toml`). The build (`.github/workflows/hugo.yml`) runs `npm run og:render` (`scripts/render-og-cards.mjs`) after `hugo`, which screenshots each post's card into `public/og/<slug>.png` with headless Chromium (Playwright). Renders are cached by content hash (`.og-cache/`, restored across CI runs) so an unchanged post doesn't re-render.
+- **Fail-soft:** if a render fails, that post falls back to the shared `static/og-default.png` — never a broken image. A second, independent workflow step backfills any post still missing a card after the render step, even if the whole render step crashed.
+- **Every non-post page** (home, About, Speaking, Archive, Topics, Search, 404) and any post with no `cover.image` uses the same `static/og-default.png`.
+- **The default card is not auto-generated.** It's built once by hand and committed:
+  ```bash
+  hugo && npm run og:default   # writes static/og-default.png
+  ```
+  Re-run this and commit the result if the wordmark or tagline (`layouts/index.ogcard.html`) ever changes. Nothing else regenerates it.
+- **Local preview:** `/ogcard.html` and `/posts/<slug>/ogcard.html` render the raw card pages in `hugo server`, useful for eyeballing a layout change before it goes through Playwright.
+
 ## Deploy
 
 1. Commit the post bundle (and nothing else unintended — check `git status`).

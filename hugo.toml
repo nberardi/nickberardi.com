@@ -110,8 +110,14 @@ buildExpired = false
     style = 'github'
     lineNos = false
 
+[outputFormats.OGCARD]
+  mediaType = 'text/html'
+  baseName = 'ogcard'
+  isPlainText = false
+  notAlternative = true
+
 [outputs]
-  home = ['HTML', 'RSS', 'JSON']
+  home = ['HTML', 'RSS', 'JSON', 'OGCARD']
 
 [taxonomies]
   category = 'categories'
