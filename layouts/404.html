@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "") }}
+
+{{- $recentPosts := first 3 (where site.RegularPages "Section" "posts") }}
+{{- $tagTerms := where (where site.Pages "Kind" "term") "Data.Plural" "tags" }}
+{{- $tagEntries := slice }}
+{{- range $tagTerms }}
+  {{- $tagEntries = $tagEntries | append (dict "name" .Title "count" (len .Pages) "url" .RelPermalink) }}
+{{- end }}
+{{- $tagEntries = sort $tagEntries "count" "desc" }}
+{{- $topTags := first 5 $tagEntries }}
+
+<main id="main-content" class="nb-shell nb-404">
+  <div class="nb-404-hero">
+    <div class="nb-404-numeral">404</div>
+    <div>
+      <div class="nb-kicker nb-kicker-accent2">Page not found</div>
+      <h2 class="nb-404-heading">There is nothing published at this address.</h2>
+      <p class="nb-404-lede">Nineteen years of posts have been through three publishing systems, and every original URL is supposed to still resolve. If a link on this site brought you here, that one is on me.</p>
+      <div class="nb-404-actions">
+        <a class="btn btn-primary" href="{{ "/posts/" | relLangURL }}">Read the latest</a>
+        <a class="btn btn-secondary" href="{{ "/search/" | relLangURL }}">Search the archive</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="nb-404-rail">
+    <div>
+      <div class="nb-section-head">
+        <div class="nb-kicker">Recently published</div>
+        <a class="nb-404-rail-link" href="{{ "/posts/" | relLangURL }}">All writing</a>
+      </div>
+      <div class="nb-rule-heavy"></div>
+      <div class="nb-post-rows">
+        {{- range $recentPosts }}
+        {{ partial "nb_post_row.html" . }}
+        {{- end }}
+      </div>
+    </div>
+    <div>
+      <div class="nb-kicker nb-kicker-accent">Or start from a topic</div>
+      <div class="nb-tag-row nb-tag-row-wrap">
+        {{- range $topTags }}
+        <a class="tag tag-neutral" href="{{ .url }}">{{ .name }} {{ .count }}</a>
+        {{- end }}
+      </div>
+      <p class="nb-404-note">Convinced something should be here? <a href="{{ "/about/" | relLangURL }}">Tell me what you were looking for.</a></p>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

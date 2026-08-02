@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "search") }}
+
+{{- $total := len (where site.RegularPages "Section" "posts") }}
+{{- $tagTerms := where (where site.Pages "Kind" "term") "Data.Plural" "tags" }}
+{{- $tagEntries := slice }}
+{{- range $tagTerms }}
+  {{- $tagEntries = $tagEntries | append (dict "name" .Title "count" (len .Pages) "url" .RelPermalink) }}
+{{- end }}
+{{- $tagEntries = sort $tagEntries "count" "desc" }}
+{{- $topTags := first 5 $tagEntries }}
+
+<main id="main-content" class="nb-shell nb-search">
+  <h2 class="nb-page-title">Search</h2>
+  <p class="nb-search-lede">Fuzzy match across every title, summary and topic &mdash; {{ $total }} posts, 2007 to now. Results narrow as you type.</p>
+
+  <div class="nb-search-rail">
+    <div>
+      <div id="searchbox">
+        <input id="searchInput" class="input" type="search" disabled
+          placeholder="{{ .Params.placeholder | default (printf "%s ↵" .Title) }}"
+          aria-label="Search posts" autocomplete="off" maxlength="64">
+
+        <div class="nb-section-head" id="searchStatus" hidden>
+          <div class="nb-kicker" id="searchCount"></div>
+          <span class="nb-section-note" id="searchRankNote">Ranked by match, then date</span>
+        </div>
+        <div class="nb-rule-heavy" id="searchRule" hidden></div>
+        <ul id="searchResults" class="nb-post-rows" aria-label="Search results"></ul>
+        <p class="nb-search-empty-note" id="searchEmptyMsg" hidden></p>
+      </div>
+    </div>
+
+    <div>
+      <div class="nb-kicker nb-kicker-accent">Try a topic instead</div>
+      <div class="nb-tag-row nb-tag-row-wrap">
+        {{- range $topTags }}
+        <a class="tag tag-neutral" href="{{ .url }}">{{ .name }} {{ .count }}</a>
+        {{- end }}
+      </div>
+      <div class="nb-kicker nb-kicker-accent nb-search-kicker-spaced">Nothing matching?</div>
+      <p class="nb-search-note">The index covers titles, summaries and topics &mdash; not full post bodies. For those, the <a href="{{ "/archive/" | relLangURL }}">year archive</a> is often faster.</p>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>
