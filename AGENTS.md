@@ -4,7 +4,7 @@ Instructions for publishing a new post to [nickberardi.com](https://nickberardi.
 
 ## Site Overview
 
-- **Generator:** [Hugo](https://gohugo.io) (extended), built in CI with Hugo 0.155.3
+- **Generator:** [Hugo](https://gohugo.io) (extended), built in CI with Hugo 0.164.0
 - **Theme:** [PaperMod](https://github.com/adityatelange/hugo-PaperMod), installed as a git submodule at `themes/PaperMod` — clone with `git clone --recurse-submodules` or run `git submodule update --init` after a plain clone
 - **Hosting:** GitHub Pages, custom domain `nickberardi.com`
 - **Deployment:** Automatic. `.github/workflows/hugo.yml` builds (`hugo --gc --minify`, `TZ=America/New_York`) and deploys on every push to `main`. The site is live a few minutes after merge.
