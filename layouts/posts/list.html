@@ -42,13 +42,7 @@
         <div class="nb-rule-heavy"></div>
         <div class="nb-post-rows">
           {{- range .Pages }}
-          <a class="nb-post-row" href="{{ .RelPermalink }}">
-            <span class="nb-post-date">{{ .Date | time.Format "2006·01·02" }}</span>
-            <span>
-              <span class="nb-post-title">{{ .Title }}</span>
-              <span class="nb-post-desc">{{ .Description }} <span class="nb-post-time">{{ .ReadingTime }} min</span></span>
-            </span>
-          </a>
+          {{ partial "nb_post_row.html" . }}
           {{- end }}
         </div>
       </div>
