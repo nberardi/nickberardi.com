@@ -14,4 +14,4 @@ Right now that means **Alexa+ at Amazon** &mdash; ambient assistance that has to
 
 Outside the day job, the two things I am proudest of are not software. The **Berardi Student Engagement Center** exists because students need somewhere to actually be together, and I got to help fund it. And I serve on **IPAC**, the Industrial & Professional Advisory Council at Penn State's College of IST, which is a formal way of saying I get to argue with faculty about what the next generation of engineers should be taught.
 
-Then there is the archive. Eleven quiet years where I was building things I could not write about. It is all still here, every original URL intact, and I have no interest in pretending the old opinions were smarter than they were.
+Then there is the archive. 327 posts from 2007 to 2014, then eleven years where I did not write anything at all. It is still up, every old URL still resolves, and no, the ASP.NET MVC opinions do not hold up.

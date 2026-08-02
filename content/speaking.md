@@ -2,7 +2,7 @@
 title: "Speaking & advisory"
 layout: "speaking"
 url: "/speaking/"
-summary: "Speaking, advisory, and appearances."
+summary: "Speaking and advisory."
 description: "Keynotes, panels, and advisory work on AI, engineering leadership, and building assistance people actually trust."
 lede: "I like rooms where somebody disagrees with me. If you are putting one together about AI and the people who build software, I am probably interested."
 talks:
@@ -23,7 +23,6 @@ formats:
     value: "By arrangement"
   - label: "Travel"
     value: "US, selectively international"
-appearances: []
 ---
 
 A small number of advisory seats, for teams building agents that real people have to live with. I am most useful early, on the questions of what to build and who is accountable for it &mdash; less useful as a logo.

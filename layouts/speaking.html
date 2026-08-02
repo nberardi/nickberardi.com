@@ -22,17 +22,6 @@
         </div>
         {{- end }}
       </div>
-
-      <div class="nb-kicker nb-kicker-accent">Recent appearances</div>
-      {{- if .Params.appearances }}
-      <ul class="nb-appearances">
-        {{- range .Params.appearances }}
-        <li><a href="{{ .link }}">{{ .title }}</a> &mdash; {{ .event }}, {{ .date }}</li>
-        {{- end }}
-      </ul>
-      {{- else }}
-      <p class="nb-placeholder-note">Placeholder &mdash; send me your last handful of talks, panels and podcasts (event, date, title, link) and this becomes a real list. It is the single most persuasive thing on this page for an event organizer, so it is worth filling in.</p>
-      {{- end }}
     </div>
 
     <div class="nb-speaking-side">

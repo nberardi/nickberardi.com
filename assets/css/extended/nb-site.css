@@ -229,8 +229,6 @@ main.nb-speaking { padding-top: 38px; }
 .nb-talks { display: flex; flex-direction: column; gap: 22px; margin-bottom: 44px; }
 .nb-talk-title { font-size: 22px; font-weight: 600; line-height: 1.2; margin-bottom: 5px; }
 .nb-talk-desc { font-size: 15.5px; line-height: 1.6; margin: 0; max-width: 40em; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
-.nb-placeholder-note { margin: 0; font-size: 13.5px; line-height: 1.55; font-style: italic; color: var(--color-accent-2-700); }
-.nb-appearances { margin: 0; padding-left: 1.1em; font-size: 14px; line-height: 1.6; }
 .nb-advisory { font-size: 15px; line-height: 1.6; }
 .nb-advisory p:first-of-type { margin-bottom: 14px; }
 .nb-advisory p:last-of-type { margin-bottom: 22px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
