@@ -133,36 +133,43 @@ main.nb-writing { padding-top: 38px; }
 .nb-archive-note { font-size: 14px; line-height: 1.55; margin: 0 0 14px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
 
 /* ================== Single post ================== */
-main.nb-single { padding-top: 34px; }
-.nb-breadcrumb { font-size: 12.5px; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 18px; }
-.nb-breadcrumb a { color: inherit; }
-.nb-post-heading { font-size: 46px; letter-spacing: -0.026em; line-height: 1.06; margin: 0 0 14px; max-width: 26ch; }
-.nb-post-lede { font-size: 17px; line-height: 1.5; max-width: 40em; margin-bottom: 12px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
-.nb-dateline { font-size: 12.5px; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
-.nb-single-rail { display: grid; grid-template-columns: 600px 260px; gap: 56px; margin-top: 38px; }
+main.nb-single { padding-top: 38px; }
+.nb-post-grid { display: grid; grid-template-columns: 196px 1fr; gap: 44px; }
 
-.nb-article { font-size: 17px; line-height: 1.65; }
-.nb-article > p:first-of-type { font-size: 20px; line-height: 1.5; margin-bottom: 22px; }
-.nb-article p { margin: 0 0 18px; }
-.nb-article h2, .nb-article h3, .nb-article h4 { font-size: 26px; letter-spacing: -0.016em; margin: 34px 0 12px; }
-.nb-article blockquote { margin: 0 0 20px; padding-left: 22px; border: 0; font-size: 19px; line-height: 1.5; font-style: italic; color: color-mix(in srgb, var(--color-text) 80%, transparent); }
-.nb-article blockquote p { margin: 0; font-size: inherit; line-height: inherit; }
-.nb-article pre {
+.nb-post-rail { position: sticky; top: 24px; align-self: start; }
+.nb-post-dateline { font-size: 12.5px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+.nb-post-rail-tags { margin-bottom: 30px; }
+
+.nb-breadcrumb { font-size: 12.5px; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 14px; }
+.nb-breadcrumb a { color: inherit; }
+.nb-post-heading { font-size: 46px; letter-spacing: -0.026em; line-height: 1.06; margin: 0 0 14px; max-width: 18ch; }
+.nb-post-lede { font-size: 18px; line-height: 1.5; max-width: 34em; margin-bottom: 26px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
+
+/* Measure lives on the text elements themselves, never on .nb-post-body — an em value
+   set on the wrapper would resolve against the wrapper's own (inherited, smaller) font-size. */
+.nb-post-body > p, .nb-post-body > ul, .nb-post-body > ol { max-width: 34em; font-size: 17.5px; line-height: 1.64; margin: 0 0 18px; }
+.nb-post-body > p:first-of-type { font-size: 20px; line-height: 1.5; margin-bottom: 22px; }
+.nb-post-body > ul, .nb-post-body > ol { padding-left: 1.2em; }
+.nb-post-body > h2, .nb-post-body > h3, .nb-post-body > h4 { max-width: 34em; font-size: 26px; letter-spacing: -0.016em; margin: 34px 0 12px; }
+.nb-post-body > blockquote { max-width: 38em; margin: 0 0 20px; padding-left: 22px; border: 0; font-size: 20px; line-height: 1.5; font-style: italic; color: color-mix(in srgb, var(--color-text) 80%, transparent); }
+.nb-post-body blockquote p { margin: 0; font-size: inherit; line-height: inherit; }
+.nb-post-body > figure, .nb-post-body > pre, .nb-post-body > .highlight, .nb-post-body > table { max-width: none; }
+.nb-post-body pre {
   background: var(--color-surface); padding: 14px 16px; border-radius: var(--radius-md);
   font-size: 13px; line-height: 1.6; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   overflow-x: auto;
 }
-.nb-article code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
-.nb-article :not(pre) > code { background: var(--color-surface); padding: .12em .35em; border-radius: var(--radius-sm); font-size: .9em; }
-.nb-article a { color: var(--color-accent-700); }
-.nb-article ul, .nb-article ol { padding-left: 1.2em; margin: 0 0 18px; }
-.nb-article img { max-width: 100%; }
+.nb-post-body code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.nb-post-body :not(pre) > code { background: var(--color-surface); padding: .12em .35em; border-radius: var(--radius-sm); font-size: .9em; }
+.nb-post-body a { color: var(--color-accent-700); }
+.nb-post-body img { max-width: 100%; }
 
 .halftone-figure { margin: 0 0 20px; }
 .halftone-figure .halftone { aspect-ratio: 16/9; background: var(--color-neutral-200); }
 .halftone-figure .halftone img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.nb-post-body figcaption { margin-top: 6px; }
 
-.nb-toc { margin-bottom: 34px; font-size: 13.5px; }
+.nb-toc { margin-bottom: 30px; font-size: 13px; }
 .nb-toc :is(nav, ul) { list-style: none; margin: 0; padding: 0; }
 .nb-toc > * > ul, .nb-toc > ul { display: flex; flex-direction: column; gap: 8px; }
 .nb-toc ul ul { margin-top: 8px; padding-left: 14px; display: flex; flex-direction: column; gap: 8px; }
@@ -206,6 +213,21 @@ main.nb-topics { padding-top: 38px; }
 .nb-topic-link sup { font-size: 11px; font-weight: 400; color: color-mix(in srgb, var(--color-text) 45%, transparent); margin-left: 3px; }
 .nb-topic-more { font-size: 15px; color: color-mix(in srgb, var(--color-text) 55%, transparent); font-style: italic; }
 
+/* ================== Topic (term) ================== */
+main.nb-term { padding-top: 34px; }
+.nb-term-head-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; margin-bottom: 6px; flex-wrap: wrap; }
+.nb-term-title { font-size: 52px; letter-spacing: -0.026em; line-height: 1; margin: 0; }
+.nb-term-kicker { margin: 0; padding-bottom: 7px; }
+.nb-term-blurb { font-size: 16px; line-height: 1.55; max-width: 44em; margin-top: 14px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
+.nb-term-blurb p { margin: 0; }
+.nb-rail-term { display: grid; grid-template-columns: 1fr 260px; gap: 56px; margin-top: 34px; }
+.nb-term-rule { margin-bottom: 14px; }
+.nb-term-compact-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+.nb-term-compact-grid .nb-year-row { grid-template-columns: 56px 1fr; }
+.nb-term-cooccur { margin-bottom: 34px; }
+.nb-term-table { margin-bottom: 26px; }
+.nb-term-table td:first-child { width: 52%; color: color-mix(in srgb, var(--color-text) 55%, transparent); font-size: 12px; }
+
 /* ================== About ================== */
 main.nb-about { padding-top: 60px; }
 .nb-standing-head {
@@ -239,16 +261,27 @@ main.nb-speaking { padding-top: 38px; }
 @media (max-width: 900px) {
   .nb-shell { padding-inline: var(--space-4); }
   .nb-masthead-row { align-items: flex-start; }
-  .nb-ledger, .nb-rail-writing, .nb-single-rail, .nb-rail-about, .nb-rail-speaking {
+  .nb-ledger, .nb-rail-writing, .nb-rail-about, .nb-rail-speaking, .nb-rail-term {
     grid-template-columns: 1fr;
   }
   .nb-standing-head { font-size: clamp(40px, 11vw, 80px); }
-  .nb-year-list { grid-template-columns: 1fr; }
+  .nb-year-list, .nb-term-compact-grid { grid-template-columns: 1fr; }
   .nb-post-row { grid-template-columns: 1fr; gap: 2px; }
   .nb-post-date { padding-top: 0; }
   .nb-prevnext { grid-template-columns: 1fr; }
   .nb-prevnext-prev { border-right: 0; border-bottom: 1px solid var(--color-divider); }
   .nb-prevnext-next { text-align: left; padding-left: 0; }
+
+  /* single post: rail (ToC/tags/dateline) drops below the article, not above */
+  .nb-post-grid { grid-template-columns: 1fr; gap: 0; }
+  .nb-post-rail { position: static; order: 2; margin-top: 34px; }
+  .nb-post-main { order: 1; }
+  .nb-post-lede,
+  .nb-post-body > p, .nb-post-body > ul, .nb-post-body > ol,
+  .nb-post-body > h2, .nb-post-body > h3, .nb-post-body > h4,
+  .nb-post-body > blockquote {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {

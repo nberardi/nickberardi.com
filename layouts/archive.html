@@ -32,10 +32,7 @@
     <div class="nb-rule-heavy nb-rule-tight"></div>
     <div class="nb-year-list">
       {{- range .Pages }}
-      <a class="nb-year-row" href="{{ .RelPermalink }}">
-        <span class="nb-year-date">{{ .Date | time.Format "01·02" }}</span>
-        <span>{{ .Title }}</span>
-      </a>
+      {{ partial "nb_post_row_compact.html" . }}
       {{- end }}
     </div>
   </div>

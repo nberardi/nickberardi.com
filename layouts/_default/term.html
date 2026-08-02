@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+<head>
+{{- partial "head.html" . }}
+</head>
+<body id="top">
+<a href="#main-content" class="nb-skip-link">Skip to content</a>
+{{ partial "nb_header.html" (dict "page" . "active" "posts") }}
+
+{{- $term := . }}
+{{- $name := .Data.Term }}
+{{- $pages := .Pages }}
+{{- $total := len $pages }}
+
+{{- $groupsDesc := $pages.GroupByDate "2006" }}
+{{- $groupsAsc := $pages.GroupByDate "2006" "asc" }}
+{{- $firstYear := "" }}{{- $lastYear := "" }}
+{{- if gt (len $groupsAsc) 0 }}
+  {{- $firstYear = (index $groupsAsc 0).Key }}
+  {{- $lastYear = (index $groupsDesc 0).Key }}
+{{- end }}
+{{- $recentFloor := sub now.Year 1 }}
+
+{{- $firstPost := index $pages 0 }}
+{{- $lastPost := index $pages 0 }}
+{{- range $pages }}
+  {{- if .Date.Before $firstPost.Date }}{{ $firstPost = . }}{{ end }}
+  {{- if .Date.After $lastPost.Date }}{{ $lastPost = . }}{{ end }}
+{{- end }}
+
+{{- $scratch := newScratch }}
+{{- range $pages }}
+  {{- range .GetTerms "tags" }}
+    {{- if ne .Data.Term $name }}{{ $scratch.Add "coterms" (slice .) }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- $allCo := $scratch.Get "coterms" }}
+{{- $coSeen := slice }}
+{{- $coCounted := slice }}
+{{- range $allCo }}
+  {{- $coTerm := . }}
+  {{- $coName := $coTerm.Data.Term }}
+  {{- if not (in $coSeen $coName) }}
+    {{- $coSeen = $coSeen | append $coName }}
+    {{- $cnt := 0 }}
+    {{- range $allCo }}{{ if eq .Data.Term $coName }}{{ $cnt = add $cnt 1 }}{{ end }}{{ end }}
+    {{- $isCurrentEra := false }}
+    {{- range $coTerm.Pages }}{{ if gt .Date.Year 2014 }}{{ $isCurrentEra = true }}{{ end }}{{ end }}
+    {{- $coCounted = $coCounted | append (dict "name" $coName "count" $cnt "url" $coTerm.RelPermalink "current" $isCurrentEra) }}
+  {{- end }}
+{{- end }}
+{{- $coCounted = sort $coCounted "count" "desc" }}
+{{- $coTop := first 6 $coCounted }}
+
+{{- $totalTags := len site.Taxonomies.tags }}
+{{- $rank := 0 }}
+{{- $nameLower := lower $name }}
+{{- range $i, $t := site.Taxonomies.tags.ByCount }}
+  {{- if eq (lower $t.Name) $nameLower }}{{ $rank = add $i 1 }}{{ end }}
+{{- end }}
+
+<main id="main-content" class="nb-shell nb-term">
+  <div class="nb-breadcrumb"><a href="/posts/">Writing</a>&nbsp;/&nbsp;<a href="/tags/">Topics</a></div>
+  <div class="nb-term-head-row">
+    <h2 class="nb-term-title">{{ $name }}</h2>
+    <div class="nb-kicker nb-kicker-accent nb-term-kicker">Topic &middot; {{ $total }} posts &middot; {{ $firstYear }} &mdash; {{ $lastYear }}</div>
+  </div>
+  {{- with .Content }}
+  <div class="nb-term-blurb">{{ . }}</div>
+  {{- end }}
+
+  <div class="nb-rail-term">
+    <div>
+      {{- range $groupsDesc }}
+      {{- $group := . }}
+      {{- $isRecent := ge (int $group.Key) $recentFloor }}
+      <div class="nb-year-group">
+        <div class="nb-section-head nb-year-head">
+          <div class="nb-kicker">{{ $group.Key }}</div>
+          <span class="nb-section-note">{{ len $group.Pages }} posts</span>
+        </div>
+        <div class="nb-rule-heavy nb-term-rule"></div>
+        {{- if $isRecent }}
+        <div class="nb-post-rows">
+          {{- range $group.Pages }}
+          {{ partial "nb_post_row.html" . }}
+          {{- end }}
+        </div>
+        {{- else }}
+        <div class="nb-term-compact-grid">
+          {{- range $group.Pages }}
+          {{ partial "nb_post_row_compact.html" . }}
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+
+    <div class="nb-term-side">
+      {{- if gt (len $coTop) 0 }}
+      <div class="nb-kicker nb-kicker-accent">Often filed with</div>
+      <div class="nb-tag-row nb-tag-row-wrap nb-term-cooccur">
+        {{- range $coTop }}
+        <a class="tag {{ if .current }}tag-accent{{ else }}tag-neutral{{ end }}" href="{{ .url }}">{{ .name }} {{ .count }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+      <div class="nb-kicker nb-kicker-accent">This topic</div>
+      <table class="table nb-term-table">
+        <tbody>
+          <tr><td>First post</td><td>{{ $firstPost.Date | time.Format "Jan 2006" }}</td></tr>
+          <tr><td>Most recent</td><td>{{ $lastPost.Date | time.Format "Jan 2006" }}</td></tr>
+          <tr><td>Rank</td><td>{{ humanize $rank }} of {{ $totalTags }}</td></tr>
+        </tbody>
+      </table>
+      <a class="btn btn-secondary" href="/tags/">All {{ $totalTags }} topics</a>
+    </div>
+  </div>
+</main>
+
+{{ partial "nb_footer.html" (dict "page" .) }}
+</body>
+</html>

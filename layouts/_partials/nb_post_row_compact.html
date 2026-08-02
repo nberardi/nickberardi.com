@@ -1,0 +1,5 @@
+{{- /* Compact post row: short date, title only. Call with a Page: {{ partial "nb_post_row_compact.html" . }} */ -}}
+<a class="nb-year-row" href="{{ .RelPermalink }}">
+  <span class="nb-year-date">{{ .Date | time.Format "01·02" }}</span>
+  <span>{{ .Title }}</span>
+</a>
