@@ -6,13 +6,6 @@ draft: false
 tags:
   - "Google AdSense"
 description: "Received this message today from Google AdSense. We performed an analysis on xyz.com and found a great opportunity to increase your AdSense earnings. We..."
-cover:
-  image: "hero.png"
-  alt: "Google AdSense logo"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 Received this message today from Google AdSense.

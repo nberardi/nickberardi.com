@@ -7,7 +7,7 @@ tags:
   - "Database"
 description: "Slashdot has been around for over a decade now and many tech nerds first cut their teeth on Slashdot as an information source for everything tech related,..."
 cover:
-  image: "hero.png"
+  image: "exploits-of-a-mom.png"
   alt: "XKCD comic titled Exploits of a Mom"
   relative: true
   hidden: false

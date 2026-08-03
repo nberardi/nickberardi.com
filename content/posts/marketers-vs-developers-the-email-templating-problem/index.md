@@ -8,13 +8,6 @@ tags:
   - "Email Templating"
   - "Marketers"
 description: "For as long as I can remember the standard mail merge process has always been one dimensional in that you are doing little more than poking holes in your..."
-cover:
-  image: "hero.png"
-  alt: "Email marketing illustration"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 ![Importance of Email Marketing.jpg (300×300)](email-marketing.jpg)For as long as I can remember the **standard mail merge process has always been one dimensional** in that you are doing little more than poking holes in your document and filling them in with a flat data source of some sort.  Which is wonderful for non-technical people looking to **send out a quick email to their list and fill in a couple fields to make the email more personal**.  But while easy for non-technical people to use, **doesn’t usually meet the needs of more complex email** that needs to be sent out, like invoices which need modern programming features such as loops and conditional statements.

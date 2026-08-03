@@ -14,7 +14,7 @@ tags:
   - "Web"
 description: "As anybody who has run a growing website or blog knows, response time is going to get worse with the more users you have visiting your site. The users..."
 cover:
-  image: "hero.png"
+  image: "ideapipe-logo.png"
   alt: "IdeaPipe logo"
   relative: true
   hidden: false

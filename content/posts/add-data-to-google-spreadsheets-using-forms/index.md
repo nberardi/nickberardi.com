@@ -8,13 +8,6 @@ tags:
   - "Google"
   - "Google Docs"
 description: "So today I was reading one of my favorite blogs, Google Operating System, and I saw an interesting development on the Google Docs front. Google..."
-cover:
-  image: "hero.png"
-  alt: "Add to Google button"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 So today I was reading one of my favorite blogs, [Google Operating System](http://googlesystem.blogspot.com/2008/02/add-data-to-google-spreadsheets-using.html "Add Data to Google Spreadsheets Using Forms"), and I saw an interesting development on the [Google Docs](http://docs.google.com) front.
