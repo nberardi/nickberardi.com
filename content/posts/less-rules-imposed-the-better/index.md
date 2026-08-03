@@ -4,7 +4,6 @@ date: 2007-06-01T05:56:45-05:00
 slug: "less-rules-imposed-the-better"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Better Coding"
 description: "Recently I read an article from Jeff Atwood, where he basically claimed the brevity leads to better code. Personally I think his example he gave: if (s ==..."

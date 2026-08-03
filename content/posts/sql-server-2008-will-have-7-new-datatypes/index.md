@@ -4,7 +4,6 @@ date: 2007-06-26T08:57:49-05:00
 slug: "sql-server-2008-will-have-7-new-datatypes"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Database"
   - "Microsoft"

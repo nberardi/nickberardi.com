@@ -6,7 +6,7 @@ draft: false
 tags:
   - ".NET"
   - "Cassandra"
-  - "database"
+  - "Database"
   - "NoSQL"
 description: "As your are probably aware by now if you follow my Twitter status or have looked in to some of my recent posts.&#160; I am developing a library called..."
 ---

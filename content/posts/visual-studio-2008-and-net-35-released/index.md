@@ -4,7 +4,6 @@ date: 2007-11-19T16:07:27-05:00
 slug: "visual-studio-2008-and-net-35-released"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Framework 3.5"
   - "Microsoft"

@@ -4,7 +4,7 @@ date: 2009-03-18T03:17:11-05:00
 slug: "the-state-of-altnet"
 draft: false
 tags:
-  - ".Net"
+  - ".NET"
   - "ALT.NET"
 description: "Over the past 6 months I have been trying to really quantify what it means to be using ALT.NET practices. And I can honestly say that I still honestly..."
 ---

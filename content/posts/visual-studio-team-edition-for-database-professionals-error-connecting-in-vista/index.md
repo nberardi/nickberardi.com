@@ -4,7 +4,6 @@ date: 2007-03-01T17:44:33-05:00
 slug: "visual-studio-team-edition-for-database-professionals-error-connecting-in-vista"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Database"
   - "Microsoft"

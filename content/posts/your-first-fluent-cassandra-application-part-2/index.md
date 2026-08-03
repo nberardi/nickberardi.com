@@ -6,7 +6,7 @@ draft: false
 tags:
   - ".NET"
   - "Cassandra"
-  - "database"
+  - "Database"
   - "NoSQL"
 description: "Last time I demonstrated how to create your first Fluent Cassandra app. After we finished learning about how to create records and save them to the..."
 ---

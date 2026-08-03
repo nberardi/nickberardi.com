@@ -4,7 +4,6 @@ date: 2007-07-11T07:18:26-05:00
 slug: "wii-debugging-your-net-code-on-linux"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
 description: "It's official MainSoft developers have too much time on their hands. I personally think so, but if you are one of those coders who always wished they..."
 ---

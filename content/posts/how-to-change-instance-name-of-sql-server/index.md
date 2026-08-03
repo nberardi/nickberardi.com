@@ -4,7 +4,7 @@ date: 2008-02-11T03:16:55-05:00
 slug: "how-to-change-instance-name-of-sql-server"
 draft: false
 tags:
-  - "database"
+  - "Database"
   - "How To"
   - "NAT"
   - "Network"

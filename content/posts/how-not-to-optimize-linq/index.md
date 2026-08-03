@@ -6,7 +6,7 @@ draft: false
 tags:
   - ".NET"
   - "C#"
-  - "database"
+  - "Database"
   - "IdeaPipe"
   - "LINQ"
 description: "About a month ago I was experimenting with different ways to optimize my LINQ queries against the IdeaPipe database, in order to improve the read times. I..."

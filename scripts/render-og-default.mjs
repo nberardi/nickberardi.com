@@ -50,6 +50,9 @@ async function main() {
   try {
     const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, reducedMotion: 'reduce' });
     await page.goto(`http://localhost:${PORT}/ogcard.html`, { waitUntil: 'networkidle' });
+    // Known failure modes A and B (redline sheet 5) — see render-og-cards.mjs.
+    await page.waitForSelector('#broadsheet-print-plates', { state: 'attached', timeout: 5000 });
+    await page.evaluate(() => document.fonts.ready);
     const shot = await page.screenshot({ clip: { x: 0, y: 0, width: 1200, height: 630 } });
     await page.close();
     await sharp(shot).png({ palette: true }).toFile(OUT_PATH);

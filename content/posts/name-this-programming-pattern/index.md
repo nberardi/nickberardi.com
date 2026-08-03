@@ -5,7 +5,7 @@ slug: "name-this-programming-pattern"
 draft: false
 tags:
   - ".NET"
-  - "database"
+  - "Database"
   - "MVC"
   - "Programming"
   - "Software Patterns"

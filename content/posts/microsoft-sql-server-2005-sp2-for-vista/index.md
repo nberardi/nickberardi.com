@@ -4,7 +4,7 @@ date: 2007-02-28T16:45:38-05:00
 slug: "microsoft-sql-server-2005-sp2-for-vista"
 draft: false
 tags:
-  - "database"
+  - "Database"
   - "Microsoft"
   - "Security"
   - "SQL Server"

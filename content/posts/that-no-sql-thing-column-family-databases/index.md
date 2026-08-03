@@ -5,7 +5,7 @@ slug: "that-no-sql-thing-column-family-databases"
 draft: false
 tags:
   - "Cassandra"
-  - "database"
+  - "Database"
 description: "Just wanted to mention a very well written post that explains Column Family Databases, like that of Cassandra, in the most straight forward way that I..."
 ---
 
