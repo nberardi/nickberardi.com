@@ -4,9 +4,19 @@
   into /og/<slug>.png at build time. Output path: /posts/<slug>/ogcard.html
   (see the OGCARD output format + the posts-section cascade in hugo.toml).
 */ -}}
-{{- $long := gt (len .Title) 60 -}}
+{{- /* Initial rung from title length (redline sheet 3 + sheet 4's >120 edge case).
+   nb-og-fit.js may escalate/de-escalate this by one rung at render time. */ -}}
+{{- $titleLen := len .Title -}}
+{{- $rung := cond (le $titleLen 24) "rung-0"
+    (cond (le $titleLen 44) "rung-1"
+    (cond (le $titleLen 72) "rung-2"
+    (cond (le $titleLen 100) "rung-3"
+    (cond (le $titleLen 120) "rung-4" "rung-5")))) -}}
 {{- $cover := "" -}}
-{{- with .Params.cover }}{{ $cover = $.Resources.GetMatch .image }}{{ end -}}
+{{- with .Params.cover -}}
+  {{- $cover = $.Resources.GetMatch .image -}}
+  {{- if not .alt }}{{ errorf "post %q has cover.image but no cover.alt — required, not optional (redline sheet 4)" $.File.Path }}{{ end -}}
+{{- end -}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,14 +44,18 @@
     <div class="og-rule"></div>
   </div>
   <div class="og-body">
-    <div class="cmyk-head og-headline{{ if $long }} is-long{{ end }}">
+    <div class="cmyk-head og-headline {{ $rung }}">
       <span class="paper">{{ .Title }}</span>
       <span class="plate plate-c" aria-hidden="true">{{ .Title }}</span>
       <span class="plate plate-m" aria-hidden="true">{{ .Title }}</span>
       <span class="plate plate-y" aria-hidden="true">{{ .Title }}</span>
     </div>
-    {{- $desc := .Description | default (.Summary | plainify | truncate 200) }}
-    <p class="og-desc{{ if not $cover }} is-wide{{ end }}">{{ $desc }}</p>
+    {{- /* Empty is fine — omit the block, never substitute body text (redline
+       sheet 4: most of the 327 legacy posts have no description, and their
+       card is this layout with the description block simply absent). */}}
+    {{- with .Description }}
+    <p class="og-desc">{{ . }}</p>
+    {{- end }}
   </div>
   <div class="og-byline-row">
     <div class="og-byline">
@@ -63,5 +77,7 @@
     {{- end }}
   </div>
 </div></div>
+{{- $fit := resources.Get "js/nb-og-fit.js" | minify | fingerprint }}
+<script src="{{ $fit.RelPermalink }}"></script>
 </body>
 </html>

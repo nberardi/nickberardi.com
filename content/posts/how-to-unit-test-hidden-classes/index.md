@@ -4,7 +4,6 @@ date: 2007-03-14T06:38:59-05:00
 slug: "how-to-unit-test-hidden-classes"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
 description: "Unit testing is an important part of developing high quality software. Many of you are probably not familiar with the term Unit Testing. Wikipedia defines..."
 ---

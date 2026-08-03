@@ -4,7 +4,6 @@ date: 2007-05-11T10:06:12-05:00
 slug: "understanding-c-operator"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Framework 2.0"
 description: "The ?? operator returns the left-hand operand if it is not null, or else it returns the right operand. int? i = null; int count = i ?? 0; The value that..."

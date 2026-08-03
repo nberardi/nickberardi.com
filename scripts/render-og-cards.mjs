@@ -123,6 +123,12 @@ async function main() {
           reducedMotion: 'reduce',
         });
         await page.goto(`http://localhost:${PORT}/posts/${slug}/ogcard.html`, { waitUntil: 'networkidle', timeout: 15000 });
+        // Known failure modes A and B (redline sheet 5): a flat black headline
+        // (the print-plates.js SVG defs weren't in the document yet) or a
+        // fallback serif (Source Serif 4 wasn't ready). networkidle alone
+        // doesn't guarantee either, so wait for them explicitly.
+        await page.waitForSelector('#broadsheet-print-plates', { state: 'attached', timeout: 5000 });
+        await page.evaluate(() => document.fonts.ready);
         const shot = await page.screenshot({ clip: { x: 0, y: 0, width: 1200, height: 630 } });
         await page.close();
         // sRGB PNG per requirement #1; palette-quantize since these are flat

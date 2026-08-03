@@ -4,7 +4,6 @@ date: 2007-12-07T11:04:29-05:00
 slug: "seo-c-sharp-extenion-methods"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Framework 3.5"
   - "SEO"

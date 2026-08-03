@@ -4,7 +4,7 @@ date: 2009-03-03T18:04:46-05:00
 slug: "aspnet-mvc-10-release-candidate-2"
 draft: false
 tags:
-  - "database"
+  - "Database"
   - "Web"
   - "Wrox"
   - "asp.net mvc"

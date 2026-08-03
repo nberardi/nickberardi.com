@@ -4,7 +4,6 @@ date: 2007-02-21T12:05:13-05:00
 slug: "proper-use-idisposable"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Framework 1.0"
 description: "The System.IDisposable interface is a very useful interface to understand if you are concerned about performance in your application. Microsoft says the..."

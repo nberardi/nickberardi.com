@@ -4,7 +4,6 @@ date: 2007-03-07T06:00:44-05:00
 slug: "visual-studio-2005-update-for-windows-vista"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Microsoft"
   - "Windows Vista"

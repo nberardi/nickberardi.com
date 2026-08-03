@@ -4,7 +4,7 @@ date: 2008-08-25T06:32:01-05:00
 slug: "deadlocked-read-committed-snapshot-explained"
 draft: false
 tags:
-  - "database"
+  - "Database"
   - "LINQ"
   - "read committed snapshot"
   - "SQL Server"

@@ -5,7 +5,7 @@ slug: "anything-for-sale-by-owner"
 draft: false
 tags:
   - ".NET"
-  - "database"
+  - "Database"
   - "Framework 2.0"
   - "Google"
   - "IIS"

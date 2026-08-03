@@ -20,12 +20,32 @@ html, body { margin: 0; padding: 0; }
 .og-post { padding: 52px 64px 46px; display: flex; flex-direction: column; justify-content: space-between; height: 100%; position: relative; }
 .og-post-head { position: relative; }
 .og-post-head-row { display: flex; gap: 20px; align-items: baseline; }
-.og-headline { position: relative; font-size: 72px; letter-spacing: -.028em; line-height: 1.04; max-width: 15ch; margin: 0 0 22px; }
-.og-headline.is-long { font-size: 60px; letter-spacing: -.026em; line-height: 1.06; max-width: 24ch; margin-bottom: 20px; }
+/* The headline ladder (redline sheet 3) — picked by title character count,
+   never by whether the post has a cover (failure mode E). Six rungs: the
+   five from the approved comps, plus the >120-char emergency rung from
+   sheet 4's edge-case table (46px/30ch; that row doesn't give its own
+   line-height/letter-spacing, so it carries rung-4's rather than invent
+   numbers nobody measured). nb-og-fit.js escalates/de-escalates between
+   rungs at render time against the two assertions on sheet 3: at least
+   30% of card height, never more than three lines. */
+.og-headline { position: relative; margin: 0 0 22px; }
+.og-headline.rung-0 { font-size: 128px; max-width: 14ch; line-height: 1.02; letter-spacing: -.034em; }
+.og-headline.rung-1 { font-size: 96px; max-width: 13ch; line-height: 1.00; letter-spacing: -.032em; }
+.og-headline.rung-2 { font-size: 76px; max-width: 21ch; line-height: 1.04; letter-spacing: -.028em; }
+.og-headline.rung-3 { font-size: 60px; max-width: 26ch; line-height: 1.08; letter-spacing: -.026em; }
+.og-headline.rung-4 { font-size: 52px; max-width: 28ch; line-height: 1.10; letter-spacing: -.024em; }
+.og-headline.rung-5 { font-size: 46px; max-width: 30ch; line-height: 1.10; letter-spacing: -.024em; }
 .og-body { position: relative; }
-.og-desc { font-size: 24px; line-height: 1.45; max-width: 38ch; margin: 0; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
-.og-desc.is-wide { max-width: 44ch; }
-.og-byline-row { position: relative; display: flex; justify-content: space-between; align-items: flex-end; }
+/* 44ch regardless of cover (failure mode E — sheets 1 and 2 are the same
+   layout); clamped to three lines with a real ellipsis past that, rather
+   than tracking the 200-char threshold from sheet 4 separately — the two
+   come out the same and this one also catches unusually wide characters. */
+.og-desc {
+  font-size: 26px; line-height: 1.42; max-width: 44ch; margin: 0;
+  color: color-mix(in srgb, var(--color-text) 68%, transparent);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.og-byline-row { position: relative; display: flex; justify-content: space-between; align-items: baseline; }
 .og-byline { display: flex; gap: 20px; align-items: center; }
 .og-byline-name { font-size: 21px; }
 .og-byline-name .sep { color: color-mix(in srgb, var(--color-text) 45%, transparent); }

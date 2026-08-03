@@ -4,7 +4,6 @@ date: 2007-07-09T10:32:52-05:00
 slug: "evolution-of-linq-and-its-impact-c-30"
 draft: false
 tags:
-  - ".Net"
   - ".NET"
   - "Database"
   - "Framework 3.0"
