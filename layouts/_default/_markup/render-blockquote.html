@@ -1,0 +1,42 @@
+{{- /*
+  Blockquote render hook — post-images redline, sheet 7. Markdown can't tell
+  a quoted post (tweet/toot/comment) from a pull quote pulled out of the
+  post's own prose; both are `>` blockquotes. Convention, keyed off content:
+  a quoted post's LAST line is an attribution — an em dash followed by a
+  link (— Name (@handle), <permalink>). A blockquote with no such line is a
+  pull quote. Never guessed from length or position.
+
+  GFM alerts (`> [!NOTE]`) aren't part of this convention and aren't used
+  on the site today; pass them through untouched rather than misclassifying.
+*/ -}}
+{{- if eq .Type "alert" }}
+<blockquote class="nb-alert">
+  {{- with .AlertTitle }}<p class="nb-alert-title">{{ . }}</p>{{- end }}
+  {{ .Text }}
+</blockquote>
+{{- else -}}
+{{- $text := .Text -}}
+{{- $body := "" -}}
+{{- $attribution := "" -}}
+{{- /* Case A: attribution is its own paragraph (a blank line before it in
+     the markdown) — the last <p>…</p> block is entirely the attribution. */ -}}
+{{- $mA := findRESubmatch `(?s)^(.*)<p>\s*((?:&mdash;|—)\s.*)</p>\s*$` $text 1 -}}
+{{- /* Case B: attribution is the last line of the same paragraph (a soft
+     line break, no blank line) — the common case for a pasted tweet. The
+     split lands mid-paragraph, so the body half needs its </p> put back. */ -}}
+{{- $mB := findRESubmatch `(?s)^(.*)\n\s*((?:&mdash;|—)\s.*)</p>\s*$` $text 1 -}}
+{{- if $mA -}}
+  {{- $group := index $mA 0 -}}
+  {{- $body = index $group 1 -}}
+  {{- $attribution = index $group 2 -}}
+{{- else if $mB -}}
+  {{- $group := index $mB 0 -}}
+  {{- $body = printf "%s</p>" (index $group 1) -}}
+  {{- $attribution = index $group 2 -}}
+{{- end -}}
+{{- if $attribution -}}
+<blockquote class="nb-quote">{{ $body | safeHTML }}<footer class="nb-quote-attr">{{ $attribution | safeHTML }}</footer></blockquote>
+{{- else -}}
+<blockquote class="nb-pull-quote">{{ $text }}</blockquote>
+{{- end -}}
+{{- end -}}

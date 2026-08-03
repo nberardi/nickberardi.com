@@ -185,7 +185,7 @@ main.nb-single-has-cover { padding-top: 0; }
    post has, so it never moves), cover plate, ON THIS PAGE, FILED UNDER. One
    gap value between blocks; the dateline and the article kicker share the
    grid's first row on every post regardless of which optional blocks exist. */
-.nb-post-rail { position: sticky; top: 24px; align-self: start; }
+.nb-post-rail { position: sticky; top: 32px; align-self: start; }
 .nb-rail-block { margin-bottom: 40px; }
 .nb-post-rail .nb-kicker { margin-bottom: 12px; }
 .nb-post-dateline { font-size: 13px; line-height: 1.5; margin-bottom: 40px; }
@@ -195,11 +195,17 @@ main.nb-single-has-cover { padding-top: 0; }
 
 .nb-breadcrumb { font-size: 12.5px; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 14px; }
 .nb-breadcrumb a { color: inherit; }
-.nb-post-heading { letter-spacing: -0.026em; margin: 0 0 14px; max-width: 18ch; }
-.nb-post-heading--1 { font-size: 62px; line-height: 1.04; }
-.nb-post-heading--2 { font-size: 54px; line-height: 1.06; }
-.nb-post-heading--3 { font-size: 46px; line-height: 1.09; }
-.nb-post-heading--4 { font-size: 40px; line-height: 1.12; }
+/* Headline ladder (post-images redline, sheet 6) — measure widens as the
+   size drops, or the lower rungs (more, and longer, characters per title)
+   blow past the three-line ceiling: a flat measure across every rung
+   wrapped a 60-char/46px title to four lines and a 91-char/40px title to
+   five. Each rung's ch value is sized to its own bucket's longest real
+   title, same fix shape as the OG card ladder in the OG redline. */
+.nb-post-heading { letter-spacing: -0.026em; margin: 0 0 14px; }
+.nb-post-heading--1 { font-size: 62px; line-height: 1.04; max-width: 20ch; }
+.nb-post-heading--2 { font-size: 54px; line-height: 1.06; max-width: 24ch; }
+.nb-post-heading--3 { font-size: 46px; line-height: 1.09; max-width: 24ch; }
+.nb-post-heading--4 { font-size: 40px; line-height: 1.12; max-width: 32ch; }
 .nb-post-lede { font-size: 18px; line-height: 1.5; max-width: 34em; margin-bottom: 26px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
 
 /* Measure lives on the text elements themselves, never on .nb-post-body — an em value
@@ -208,8 +214,34 @@ main.nb-single-has-cover { padding-top: 0; }
 .nb-post-body > p:first-of-type { font-size: 20px; line-height: 1.5; margin-bottom: 22px; }
 .nb-post-body > ul, .nb-post-body > ol { padding-left: 1.2em; }
 .nb-post-body > h2, .nb-post-body > h3, .nb-post-body > h4 { max-width: 34em; font-size: 26px; letter-spacing: -0.016em; margin: 34px 0 12px; }
-.nb-post-body > blockquote { max-width: 38em; margin: 0 0 20px; padding-left: 22px; border: 0; font-size: 20px; line-height: 1.5; font-style: italic; color: color-mix(in srgb, var(--color-text) 80%, transparent); }
-.nb-post-body blockquote p { margin: 0; font-size: inherit; line-height: inherit; }
+
+/* Blockquotes (post-images redline, sheet 7) — render-blockquote.html classes
+   each blockquote by content: a quoted post (tweet/toot/comment) carries an
+   attribution as its last line, a pull quote from the post's own prose does
+   not. Same source markup, two different treatments; never guessed. */
+.nb-post-body > blockquote { margin: 0 0 20px; border: 0; }
+.nb-post-body > blockquote p { margin: 0; font-size: inherit; line-height: inherit; }
+
+.nb-post-body > .nb-quote {
+  max-width: 34em; padding-left: 36px;
+  font-size: 17px; line-height: 1.55; font-style: italic;
+  color: var(--color-text);
+}
+.nb-post-body > .nb-quote a { color: var(--color-accent-700); }
+.nb-quote-attr {
+  margin-top: 10px; font-size: 13px; line-height: 1.5; font-style: normal;
+  color: color-mix(in srgb, var(--color-text) 55%, transparent);
+}
+.nb-quote-attr a { color: inherit; }
+
+.nb-post-body > .nb-pull-quote {
+  max-width: 34em; margin: 40px 0; padding-left: 0;
+  font-size: 24px; line-height: 1.35; font-style: italic;
+  color: var(--color-text);
+}
+
+.nb-alert { max-width: 34em; margin: 0 0 20px; padding: 14px 18px; border-left: 3px solid var(--color-accent); background: var(--color-surface); }
+.nb-alert-title { font-weight: 600; margin: 0 0 6px; font-style: normal; }
 /* Wider than the 34em text measure, but still bounded by the article track —
    NOT unbounded, or a figure/pre with a naturally wide child (a long code
    line, an oversized legacy image) blows out the page width. The narrower
