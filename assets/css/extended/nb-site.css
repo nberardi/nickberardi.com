@@ -166,7 +166,7 @@ main.nb-single-has-cover { padding-top: 0; }
 .cmyk .print img { display: block; width: auto; max-width: 100%; height: auto; }
 
 .nb-rail-cover { opacity: 0; transform: translateY(-8px); max-height: 0; overflow: hidden;
-  transition: opacity .3s ease, transform .3s ease, max-height .3s ease; }
+  margin-bottom: 40px; transition: opacity .3s ease, transform .3s ease, max-height .3s ease; }
 .nb-rail-cover[data-shown] { opacity: 1; transform: none; max-height: 340px; }
 .nb-rail-cover-plate-crop { width: 196px; aspect-ratio: 4/5; margin: 0 0 8px; }
 /* the 1.6–2.4:1 rail plate is a small fixed-width design element, not body
@@ -175,19 +175,31 @@ main.nb-single-has-cover { padding-top: 0; }
 .nb-rail-cover-plate-fit .print img { width: 100%; max-width: none; }
 .nb-cover-caption { font-size: 11px; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
 .nb-rail-cover .nb-cover-caption { padding-bottom: 30px; }
-.nb-cover-caption-band { margin: 0 0 30px; transition: opacity .2s ease; }
+.nb-cover-caption-band { margin: 0 0 40px; transition: opacity .2s ease; }
 @media (prefers-reduced-motion: reduce) {
   .nb-rail-cover { transition: none; }
   .nb-cover-caption-band { transition: none; }
 }
 
+/* Rail — a fixed ladder, top to bottom, always: dateline (the one block every
+   post has, so it never moves), cover plate, ON THIS PAGE, FILED UNDER. One
+   gap value between blocks; the dateline and the article kicker share the
+   grid's first row on every post regardless of which optional blocks exist. */
 .nb-post-rail { position: sticky; top: 24px; align-self: start; }
-.nb-post-dateline { font-size: 12.5px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
-.nb-post-rail-tags { margin-bottom: 30px; }
+.nb-rail-block { margin-bottom: 40px; }
+.nb-post-rail .nb-kicker { margin-bottom: 12px; }
+.nb-post-dateline { font-size: 13px; line-height: 1.5; margin-bottom: 40px; }
+.nb-post-dateline-date { color: color-mix(in srgb, var(--color-text) 62%, transparent); }
+.nb-post-dateline-meta { color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.nb-post-rail-tags { margin-bottom: 0; }
 
 .nb-breadcrumb { font-size: 12.5px; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 14px; }
 .nb-breadcrumb a { color: inherit; }
-.nb-post-heading { font-size: 46px; letter-spacing: -0.026em; line-height: 1.06; margin: 0 0 14px; max-width: 18ch; }
+.nb-post-heading { letter-spacing: -0.026em; margin: 0 0 14px; max-width: 18ch; }
+.nb-post-heading--1 { font-size: 62px; line-height: 1.04; }
+.nb-post-heading--2 { font-size: 54px; line-height: 1.06; }
+.nb-post-heading--3 { font-size: 46px; line-height: 1.09; }
+.nb-post-heading--4 { font-size: 40px; line-height: 1.12; }
 .nb-post-lede { font-size: 18px; line-height: 1.5; max-width: 34em; margin-bottom: 26px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
 
 /* Measure lives on the text elements themselves, never on .nb-post-body — an em value

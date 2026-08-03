@@ -11,26 +11,35 @@
   {{- partial "nb_cover.html" (dict "page" . "part" "band") }}
   <div class="nb-post-grid">
     <div class="nb-post-rail">
+      <div class="nb-post-dateline nb-rail-block">
+        <span class="nb-post-dateline-date">{{ .Date | time.Format "2 January 2006" }}</span><br>
+        <span class="nb-post-dateline-meta">{{ .ReadingTime }} min &middot; {{ lang.FormatNumberCustom 0 .WordCount }} words</span>
+      </div>
       {{- partial "nb_cover.html" (dict "page" . "part" "rail") }}
       {{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
       {{- if ge (len $headers) 2 }}
-      <div class="nb-kicker nb-kicker-accent">On this page</div>
-      <div class="nb-toc">{{ .TableOfContents }}</div>
-      {{- end }}
-      {{- with .GetTerms "tags" }}
-      <div class="nb-kicker nb-kicker-accent">Filed under</div>
-      <div class="nb-tag-row nb-tag-row-wrap nb-post-rail-tags">
-        {{- range . }}
-        <a class="tag tag-neutral" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{- end }}
+      <div class="nb-rail-block">
+        <div class="nb-kicker nb-kicker-accent">On this page</div>
+        <div class="nb-toc">{{ .TableOfContents }}</div>
       </div>
       {{- end }}
-      <div class="nb-post-dateline">{{ .Date | time.Format "2 January 2006" }}<br>{{ .ReadingTime }} min &middot; {{ lang.FormatNumberCustom 0 .WordCount }} words</div>
+      {{- with .GetTerms "tags" }}
+      <div class="nb-rail-block">
+        <div class="nb-kicker nb-kicker-accent">Filed under</div>
+        <div class="nb-tag-row nb-tag-row-wrap nb-post-rail-tags">
+          {{- range . }}
+          <a class="tag tag-neutral" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
     </div>
 
     <div class="nb-post-main">
       <div class="nb-breadcrumb"><a href="/posts/">Writing</a>&nbsp;/&nbsp;<a href="/archive/#{{ .Date.Year }}">{{ .Date.Year }}</a></div>
-      <h2 class="nb-post-heading">{{ .Title }}</h2>
+      {{- $titleLen := len .Title -}}
+      {{- $headRung := cond (le $titleLen 28) "1" (cond (le $titleLen 44) "2" (cond (le $titleLen 62) "3" "4")) -}}
+      <h2 class="nb-post-heading nb-post-heading--{{ $headRung }}">{{ .Title }}</h2>
       {{- with .Description }}<div class="nb-post-lede">{{ . }}</div>{{- end }}
       <div class="nb-post-body">
         {{ .Content }}
