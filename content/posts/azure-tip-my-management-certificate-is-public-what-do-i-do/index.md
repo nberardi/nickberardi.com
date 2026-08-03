@@ -5,7 +5,7 @@ slug: "azure-tip-my-management-certificate-is-public-what-do-i-do"
 draft: false
 tags:
   - "Azure"
-description: "Yesterday @writeameer posted on twitter a search query, using the new GitHub Code Search, showing that there are a whole lot of users on GitHub that have..."
+description: "A Twitter search over GitHub's new code search turned up a pile of exposed Azure management certificates — here's how to revoke yours and cut a new one."
 cover:
   image: "/images/2013/01/Create-New-Certificates.png"
   alt: "Create New Certificates"
@@ -17,7 +17,7 @@ cover:
 
 Yesterday [@writeameer](https://twitter.com/writeameer) posted on twitter a search query, using the new [GitHub Code Search](https://github.com/blog/1381-a-whole-new-code-search), showing that there are a whole lot of users on GitHub that have exposed their management certificates to the public.  If you are not aware a management certificate gives you access to administer your Azure account using the Windows Azure SDK tools.  Which among other things allows you to publish, change, delete, or basically cause total havoc if it fell in to the wrong hands in your Azure account.
 
-> @[robconery](https://twitter.com/robconery) Azure for free![github.com/search?p=2&q=M…](https://t.co/uonlTx5v "https://github.com/search?p=2&q=ManagementCertificate%3D%22&ref=searchresults&type=Code")
+> @[robconery](https://twitter.com/robconery) Azure for free! [github.com/search?p=2&q=M…](https://t.co/uonlTx5v "https://github.com/search?p=2&q=ManagementCertificate%3D%22&ref=searchresults&type=Code")
 > — writeameer (@writeameer) [January 24, 2013](https://twitter.com/writeameer/status/294269807547805696)
 
 ### So what can be done about this?

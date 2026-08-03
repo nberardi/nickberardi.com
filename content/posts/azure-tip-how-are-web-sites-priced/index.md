@@ -5,7 +5,7 @@ slug: "azure-tip-how-are-web-sites-priced"
 draft: false
 tags:
   - "Azure"
-description: "One of the questions that comes up often related to Azure Websites is: How are Web Sites priced? To understand how they are priced you have to understand..."
+description: "Azure Web Sites pricing comes down to three tiers — Free, Shared, and Reserved — and how much of the underlying virtual machine you actually get to yourself."
 ---
 
 ![Azure Websites](/images/2013/01/Azure-Websites.png)

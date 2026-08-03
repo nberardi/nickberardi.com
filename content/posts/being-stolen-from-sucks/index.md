@@ -3,7 +3,7 @@ title: "Being Stolen From Sucks"
 date: 2013-02-16T18:01:12-05:00
 slug: "being-stolen-from-sucks"
 draft: false
-description: "When you put open source software out there in the wild there is a mutual understanding that, you are going to see my source code, and probably take some..."
+description: "A Datastax developer copied whole files from FluentCassandra without attribution — that's not \"influence,\" it's outright code theft."
 cover:
   image: "/images/2013/02/compare1.png"
   alt: "compare1"

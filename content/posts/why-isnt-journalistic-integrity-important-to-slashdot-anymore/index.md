@@ -5,7 +5,7 @@ slug: "why-isnt-journalistic-integrity-important-to-slashdot-anymore"
 draft: false
 tags:
   - "Database"
-description: "Slashdot has been around for over a decade now and many tech nerds first cut their teeth on Slashdot as an information source for everything tech related,..."
+description: "Slashdot ran a wildly misleading headline on a routine SQL-injection story — and its own comments understood the problem better than the editor who approved it."
 cover:
   image: "exploits-of-a-mom.png"
   alt: "XKCD comic titled Exploits of a Mom"
@@ -28,7 +28,7 @@ Now like most journalism, no facts are checked, and stories are pushed through i
 
 Every person that reads my blog should have a basic understanding of why this title is 180 degrees out of whack with the actual article that is quoted.  If not here is the short description of what in this article, on Slashdot, is totally wrong and the editor who approved it **kdawson** should be fired for gross negligence.  Luckily most of the comments on the Slashdot article show a more intelligence and greater understanding of the actual problem than the Slashdot poster and editor.  But you shouldn't have to read between the lines to get the actual story from the Slashdot article.
 
-![](exploits-of-a-mom.png)
+![XKCD comic 327, "Exploits of a Mom"](exploits-of-a-mom.png)
 
 First of all SQL injections are a result of bad programming and are platform independent.  And are usually the result of concatenating a SQL string together in code instead of using parameters in your SQL queries.  So as you can imagine scripting languages like PHP and Old ASP have a ton of problems with SQL injection, which is unfortunate because these two languages are in the top 5 languages that run the web, luckily Old ASP has been decreasing because of ASP.NET.  However just to reiterate SQL injection can happen in any language on any platform because there are bad developers that use everything language and every platform.
 
