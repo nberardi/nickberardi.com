@@ -34,7 +34,9 @@ These different letters that show up are essentially your best friend, and they 
 
 Under each of these menus is a context sensitive menu for all the options available to you to create, refactor, navigate, and sometimes test your code that you are hovering over.  All this being said, if you have the time and the inclination to learn the keyboard commands, you should, because it just adds a speed component to the same productivity you have by clicking around with the mouse.
 
-![](/images/2011/06/Clippy-150x150.jpg "Clippy")The other great thing about the JustCode approach is that it is not totally in your face always reminding you that you are running JustCode such as CodeRush and ReSharper do. Maybe this is a bad marketing decision to not constantly remind the customer of the product they are using, but to me the out of the way approach of JustCode is a positive bonus.
+![](/images/2011/06/Clippy-150x150.jpg "Clippy")
+
+The other great thing about the JustCode approach is that it is not totally in your face always reminding you that you are running JustCode such as CodeRush and ReSharper do. Maybe this is a bad marketing decision to not constantly remind the customer of the product they are using, but to me the out of the way approach of JustCode is a positive bonus.
 
 JustCode is essentially my friend that only pops up and says "I can help you out with that problem" when I request the help, instead of the annoying friend that is always hanging around reminding you they are there and interjecting unhelpful non-sense when you don’t need their help. Just like Clippy did in Microsoft Office.
 

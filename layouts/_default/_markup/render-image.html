@@ -1,3 +1,11 @@
+{{- /*
+  Body image render hook — post-images redline. Treatment is a property of
+  the image's class, decided by nb_image_class.html: cover.class-style
+  override via {class="..."} on the markdown image, else default-by-extension.
+  Only a photograph may crop (never in the body — that's the aspect-preserving
+  .cmyk .print construction, opt into a wider {bleed=true} track), everything
+  else prints untreated at min(intrinsic, track width), never upscaled.
+*/ -}}
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
 {{- if not $u.IsAbs -}}
@@ -12,7 +20,31 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-<figure class="halftone-figure">
-  <div class="halftone"><img src="{{ $src }}" alt="{{ .Text }}" loading="lazy"></div>
-  {{- with .Title }}<figcaption>{{ . }}</figcaption>{{- else }}{{- with $.Text }}<figcaption>{{ . }}</figcaption>{{- end }}{{- end }}
+
+{{- $ext := strings.TrimPrefix "." (path.Ext $u.Path) -}}
+{{- $override := index .Attributes "class" -}}
+{{- $class := partial "nb_image_class.html" (dict "override" $override "ext" $ext) -}}
+{{- $bleed := and (eq $class "photograph") (eq (index .Attributes "bleed") "true") -}}
+
+{{- $caption := "" -}}
+{{- with .Title }}{{ $caption = . }}{{- else }}{{- with $.Text }}{{ $caption = . }}{{- end }}{{- end -}}
+
+{{- $figClass := "nb-figure" -}}
+{{- if eq $class "mark" }}{{ $figClass = printf "%s nb-figure-mark" $figClass }}{{ else if $bleed }}{{ $figClass = printf "%s nb-figure-bleed" $figClass }}{{ end -}}
+
+{{- if eq $class "photograph" }}
+<figure class="cmyk {{ $figClass }}">
+  <div class="print"><img src="{{ $src }}" alt="{{ .Text }}" loading="lazy"></div>
+  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{- end }}
 </figure>
+{{- else if eq $class "screenshot" }}
+<figure class="halftone {{ $figClass }}">
+  <img src="{{ $src }}" alt="{{ .Text }}" loading="lazy">
+  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{- end }}
+</figure>
+{{- else }}
+<figure class="{{ $figClass }}">
+  <img src="{{ $src }}" alt="{{ .Text }}" loading="lazy">
+  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{- end }}
+</figure>
+{{- end -}}

@@ -19,7 +19,9 @@ cover:
   hiddenInList: false
 ---
 
-![](/images/2008/09/chrome-logo1.png "chrome-logo")So when Google announced they had a new browser that was going to break down all the barriers of the internet and the desktop I got excited at the prospects of what they were going to do and what this new user interaction would be. Well today they finally announced the release of the browser and made it public at:
+![](/images/2008/09/chrome-logo1.png "chrome-logo")
+
+So when Google announced they had a new browser that was going to break down all the barriers of the internet and the desktop I got excited at the prospects of what they were going to do and what this new user interaction would be. Well today they finally announced the release of the browser and made it public at:
 
 <http://www.google.com/chrome>
 

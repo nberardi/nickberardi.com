@@ -8,7 +8,9 @@ tags:
 description: "One of the questions that comes up often related to Azure Websites is: How are Web Sites priced? To understand how they are priced you have to understand..."
 ---
 
-![Azure Websites](/images/2013/01/Azure-Websites.png)One of the questions that comes up often related to Azure Websites is: **How are Web Sites priced?**
+![Azure Websites](/images/2013/01/Azure-Websites.png)
+
+One of the questions that comes up often related to Azure Websites is: **How are Web Sites priced?**
 
 To [understand how they are priced](http://www.windowsazure.com/en-us/pricing/calculator/) you have to understand what a Web Site is to Azure. To Azure a Web Site, in its most simple definition, is: A single app pool tied to a single site running in IIS on a virtual machine.
 

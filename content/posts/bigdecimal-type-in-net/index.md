@@ -17,7 +17,7 @@ Java's BigDecimal can scale from a number that is as small as 1 byte to as many 
 
 Here is what I came up with, which you can [also find on GitHub's Gist](https://gist.github.com/2667136).
 
-```
+```csharp
 using System;  
 using System.Numerics;
 

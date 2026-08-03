@@ -1,0 +1,14 @@
+{{- /*
+  Code block render hook — post-images redline, sheet 5. A code block is a
+  press object: it prints in the process inks (see the .nb-code rules in
+  nb-site.css) and carries a copy button. The language label comes straight
+  from the fence info string and is omitted when the fence has none; an
+  unfenced block still gets the panel and the button, just no colour
+  (guessSyntax is off in hugo.toml, so Chroma never guesses one in).
+*/ -}}
+{{- $result := transform.HighlightCodeBlock . -}}
+<figure class="nb-code">
+  {{- with .Type }}<div class="nb-code-lang">{{ . }}</div>{{- end }}
+  <button class="nb-code-copy" type="button" data-nb-code-copy aria-live="polite" aria-label="Copy code to clipboard">Copy</button>
+  <pre><code>{{ $result.Inner }}</code></pre>
+</figure>

@@ -139,21 +139,40 @@ main.nb-single { padding-top: 38px; }
 main.nb-single-has-cover { padding-top: 0; }
 .nb-post-grid { display: grid; grid-template-columns: 196px 1fr; gap: 44px; }
 
-/* ---- cover: full-width band + sticky-rail handoff (ADDENDUM-3 §2) ---- */
-.nb-cover-band { height: 340px; width: calc(100% + 88px); margin-inline: -44px; margin-bottom: 30px; }
+/* ---- cover: full-width band + sticky-rail handoff, treatment set by image class
+   (photograph = crop-frame .cmyk; screenshot = .halftone, fit not cropped;
+   line-art/diagram = untreated, fit not cropped) — see post-images redline. ---- */
+.nb-cover-band {
+  position: relative; overflow: hidden;
+  height: var(--nb-band-h, 340px); width: calc(100% + 88px); margin-inline: -44px; margin-bottom: 30px;
+}
 @media (max-width: 900px) {
   .nb-cover-band {
-    height: clamp(180px, 34vw, 340px);
+    height: clamp(180px, 34vw, var(--nb-band-h, 340px));
     margin-inline: calc(-1 * var(--space-4)); width: calc(100% + (2 * var(--space-4)));
   }
 }
-.nb-cover-band .print, .nb-rail-cover-plate .print, .nb-post-row-cover .print { position: absolute; inset: 0; height: 100%; }
-.cmyk .print img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.nb-cover-band > img { display: block; width: 100%; height: 100%; }
+.nb-cover-band-fit { background: var(--color-surface); }
+.nb-cover-band-fit > img { object-fit: contain; }
+
+.nb-post-row-cover .print { position: absolute; inset: 0; height: 100%; }
+.nb-post-row-cover .print img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.nb-post-row-cover-fit { display: flex; align-items: center; justify-content: center; background: var(--color-surface); }
+.nb-post-row-cover-fit img { max-width: 100%; max-height: 100%; display: block; }
+
+/* .print elsewhere (body photographs) is aspect-preserving — the image sets
+   its own height and is never upscaled past its intrinsic size. */
+.cmyk .print img { display: block; width: auto; max-width: 100%; height: auto; }
 
 .nb-rail-cover { opacity: 0; transform: translateY(-8px); max-height: 0; overflow: hidden;
   transition: opacity .3s ease, transform .3s ease, max-height .3s ease; }
 .nb-rail-cover[data-shown] { opacity: 1; transform: none; max-height: 340px; }
-.nb-rail-cover-plate { width: 196px; aspect-ratio: 4/5; margin: 0 0 8px; }
+.nb-rail-cover-plate-crop { width: 196px; aspect-ratio: 4/5; margin: 0 0 8px; }
+/* the 1.6–2.4:1 rail plate is a small fixed-width design element, not body
+   content — unlike a body photograph, it always fills its 196px box. */
+.nb-rail-cover-plate-fit { width: 196px; margin: 0 0 8px; }
+.nb-rail-cover-plate-fit .print img { width: 100%; max-width: none; }
 .nb-cover-caption { font-size: 11px; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
 .nb-rail-cover .nb-cover-caption { padding-bottom: 30px; }
 .nb-cover-caption-band { margin: 0 0 30px; transition: opacity .2s ease; }
@@ -179,21 +198,88 @@ main.nb-single-has-cover { padding-top: 0; }
 .nb-post-body > h2, .nb-post-body > h3, .nb-post-body > h4 { max-width: 34em; font-size: 26px; letter-spacing: -0.016em; margin: 34px 0 12px; }
 .nb-post-body > blockquote { max-width: 38em; margin: 0 0 20px; padding-left: 22px; border: 0; font-size: 20px; line-height: 1.5; font-style: italic; color: color-mix(in srgb, var(--color-text) 80%, transparent); }
 .nb-post-body blockquote p { margin: 0; font-size: inherit; line-height: inherit; }
-.nb-post-body > figure, .nb-post-body > pre, .nb-post-body > .highlight, .nb-post-body > table { max-width: none; }
-.nb-post-body pre {
-  background: var(--color-surface); padding: 14px 16px; border-radius: var(--radius-md);
-  font-size: 13px; line-height: 1.6; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  overflow-x: auto;
-}
-.nb-post-body code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
-.nb-post-body :not(pre) > code { background: var(--color-surface); padding: .12em .35em; border-radius: var(--radius-sm); font-size: .9em; }
+/* Wider than the 34em text measure, but still bounded by the article track —
+   NOT unbounded, or a figure/pre with a naturally wide child (a long code
+   line, an oversized legacy image) blows out the page width. The narrower
+   per-class caps below (.nb-code, .nb-figure-mark, .nb-figure-bleed) need
+   the extra specificity of the .nb-post-body ancestor to win over this. */
+.nb-post-body > figure, .nb-post-body > pre, .nb-post-body > table { max-width: 100%; }
 .nb-post-body a { color: var(--color-accent-700); }
 .nb-post-body img { max-width: 100%; }
 
-.halftone-figure { margin: 0 0 20px; }
-.halftone-figure .halftone { aspect-ratio: 16/9; background: var(--color-neutral-200); }
-.halftone-figure .halftone img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.nb-post-body figcaption { margin-top: 6px; }
+/* inline code: unchanged regardless of the code-block work below — never syntax-coloured */
+.nb-post-body :not(pre) > code {
+  background: color-mix(in srgb, var(--color-text) 7%, transparent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.92em; padding: 1px 4px; border-radius: var(--radius-sm);
+}
+
+/* ================== Code blocks (post-images redline, sheet 5) ==================
+   A code block is a press object — it prints in the five process-ink roles below,
+   the one sanctioned place both accents (and the derived ochre) appear together.
+   Chroma renders with its default classes (noClasses = false in hugo.toml, no
+   Chroma style) — this table IS the stylesheet. render-codeblock.html wraps the
+   output in figure.nb-code with the language label and the copy button. */
+.nb-post-body .nb-code { max-width: 792px; }
+.nb-code {
+  --code-ochre: color-mix(in srgb, var(--color-process-yellow) 52%, var(--color-text));
+  position: relative; margin: 30px 0; background: var(--color-surface);
+  border-radius: var(--radius-md);
+}
+.nb-code pre {
+  margin: 0; padding: 34px 24px 22px; overflow-x: auto;
+  font: 400 13px/1.62 ui-monospace, SFMono-Regular, Menlo, monospace;
+  tab-size: 4; color: var(--color-text);
+}
+.nb-code pre code { background: none; padding: 0; font: inherit; }
+.nb-code-lang {
+  position: absolute; top: 9px; left: 24px; z-index: 1;
+  font: 600 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: .1em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 45%, transparent); pointer-events: none;
+}
+.nb-code-copy {
+  position: absolute; top: 8px; right: 8px; z-index: 1; display: inline-flex; align-items: center;
+  font: 600 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .1em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 60%, transparent); background: var(--color-bg);
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+  padding: 6px 9px; cursor: pointer; opacity: 0;
+  transition: opacity .15s ease, color .15s ease, border-color .15s ease;
+}
+.nb-code:hover .nb-code-copy, .nb-code:focus-within .nb-code-copy { opacity: 1; }
+.nb-code-copy:hover { color: var(--color-accent-700); border-color: var(--color-accent); }
+.nb-code-copy:active { color: var(--color-accent-800); background: var(--color-accent-100); }
+.nb-code-copy:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; opacity: 1; }
+.nb-code-copy[data-done] { color: var(--color-accent-2-700); border-color: var(--color-accent-2); }
+@media (hover: none), (pointer: coarse) { .nb-code-copy { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .nb-code-copy { transition: none; } }
+
+.nb-code .k, .nb-code .kd, .nb-code .kt, .nb-code .kr, .nb-code .kn, .nb-code .na { color: var(--color-accent-700); }
+.nb-code .s, .nb-code .s1, .nb-code .s2, .nb-code .sc, .nb-code .sb, .nb-code .se { color: var(--color-accent-2-700); }
+.nb-code .c, .nb-code .c1, .nb-code .cm, .nb-code .cs, .nb-code .cp { color: color-mix(in srgb, var(--color-text) 48%, transparent); font-style: italic; }
+.nb-code .m, .nb-code .mi, .nb-code .mf, .nb-code .mh, .nb-code .no, .nb-code .kc, .nb-code .l { color: var(--code-ochre); }
+.nb-code .nc, .nb-code .nf, .nb-code .nn, .nb-code .nt, .nb-code .nx { font-weight: 600; }
+
+/* ---- body figures — flush-left, never cropped, never upscaled past 1x.
+   .nb-figure is the shared box; treatment (.cmyk crop-preserving .print,
+   or .halftone) is added alongside it by class, never both. ---- */
+.nb-figure { margin: 30px 0; width: fit-content; max-width: 100%; }
+.nb-figure img { display: block; width: auto; max-width: 100%; height: auto; }
+.nb-figure.cmyk .print { width: auto; }
+.nb-post-body .nb-figure-mark { max-width: 240px; }
+/* bleed only raises the ceiling to the 1120px sheet width — a bled image is
+   still rendered at min(intrinsic, 1120), never forced to fill it. */
+.nb-post-body .nb-figure-bleed { max-width: calc(100vw - 88px); margin-left: -240px; }
+@media (max-width: 900px) {
+  .nb-post-body .nb-figure-bleed {
+    max-width: calc(100% + (2 * var(--space-4)));
+    margin-left: calc(-1 * var(--space-4));
+  }
+}
+.nb-figure figcaption {
+  font-size: 12.5px; line-height: 1.5; margin-top: 8px; max-width: 100%;
+  color: color-mix(in srgb, var(--color-text) 55%, transparent);
+}
 
 .nb-toc { margin-bottom: 30px; font-size: 13px; }
 .nb-toc :is(nav, ul) { list-style: none; margin: 0; padding: 0; }

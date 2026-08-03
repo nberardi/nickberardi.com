@@ -13,7 +13,7 @@
     <div class="nb-post-rail">
       {{- partial "nb_cover.html" (dict "page" . "part" "rail") }}
       {{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
-      {{- if ge (len $headers) 1 }}
+      {{- if ge (len $headers) 2 }}
       <div class="nb-kicker nb-kicker-accent">On this page</div>
       <div class="nb-toc">{{ .TableOfContents }}</div>
       {{- end }}
