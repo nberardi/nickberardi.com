@@ -1,0 +1,23 @@
+{{- /*
+  Broadsheet image class — decides treatment for any image on the site.
+  One of: photograph | screenshot | line-art | diagram | mark.
+
+  Call with (dict "override" $override "ext" $ext):
+    override — an explicit class string (front matter cover.class, or a body
+               image's {class="..."} attribute); empty string if none given.
+    ext      — the file extension, no leading dot (e.g. "png", "jpg").
+
+  Default-by-extension: .jpg/.jpeg -> photograph; everything else -> line-art.
+  A wrong guess must fail toward NO treatment — an untreated photograph is
+  a plain picture, a treated diagram is a defect — so anything that isn't
+  unambiguously a photograph defaults to the untreated line-art class.
+*/ -}}
+{{- $override := .override -}}
+{{- $ext := lower (.ext | default "") -}}
+{{- $class := "line-art" -}}
+{{- if $override -}}
+  {{- $class = $override -}}
+{{- else if or (eq $ext "jpg") (eq $ext "jpeg") -}}
+  {{- $class = "photograph" -}}
+{{- end -}}
+{{ return $class }}

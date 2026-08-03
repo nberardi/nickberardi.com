@@ -34,11 +34,15 @@ I refer to Lotus Suite of Products as the AOL for the Corporate World for a coup
 3. Lotus notes constantly crashed my computer. AOL did the same.
 4. Lotus notes had a built in proprietary IM client called Sametime. So did AOL. (See [Lotus Sametime](/images/2008/02/lotus-sametime1.jpg "Lotus Sametime"))
 5. If you think of everything you company has implimented, time tracking, specialized databases, calendars, task lists, corporate web, internet browsing, etc. You can bet Lotus notes has half assed that feature in to their product some how. Much like AOL did before they realized people hated that.
-6. [![Lotus Notes Login](/images/2008/02/lotus-notes-login1.gif)](/images/2008/02/lotus-notes-login1.gif "Lotus Notes Login")The login screen. No real gripe with AOL about this, at least AOL didn't have hieroglyphics.
+6. [![Lotus Notes Login](/images/2008/02/lotus-notes-login1.gif)](/images/2008/02/lotus-notes-login1.gif "Lotus Notes Login")
+
+The login screen. No real gripe with AOL about this, at least AOL didn't have hieroglyphics.
    > This dialog box contains several security "features":
    > - The hieroglyphics on the left of the dialog box are supposed to distract anyone who is peering over your shoulder trying to learn your password as you type.
    > - The number of characters you type is hidden; a random number of X's appear instead of one asterisk per character.Is any of this nonsense really necessary? If I want to learn someone's password as he or she types it, I will look at the keyboard, not the screen!
-7. [![Lotus Notes Email](/images/2008/02/lotus-notes-email1.gif)](/images/2008/02/lotus-notes-email1.gif "Lotus Notes Email")The inefficient use of screen real estate. We all take writing an e-mail for granted with our nice large boxes for TO, CC, Subject, and Attachments. However in the Lotus Notes world your name and some numbers that only mean something to Lotus Notes takes up half of the real estate. I can only image this is in case you forget who you are.
+7. [![Lotus Notes Email](/images/2008/02/lotus-notes-email1.gif)](/images/2008/02/lotus-notes-email1.gif "Lotus Notes Email")
+
+The inefficient use of screen real estate. We all take writing an e-mail for granted with our nice large boxes for TO, CC, Subject, and Attachments. However in the Lotus Notes world your name and some numbers that only mean something to Lotus Notes takes up half of the real estate. I can only image this is in case you forget who you are.
 
 Is it any wonder why it's often referred to as a train wreck of colossal proportions.
 

@@ -49,7 +49,9 @@ The last one is the most interesting because it dates when he copied the FluentC
 
 ![history-datetimeprecise](/images/2013/02/history-datetimeprecise.png)
 
-To be clear I am just very irritated that Datastax promised some help to FluentCassandra and the only help we seem to have gotten was a developer who decided to steal our code and not contribute anything back.  And the two bugs that Pawel opened on FluentCassandra were bugs that he fixed in his own copy of the source code, but couldn't be bothered to contribute back to FluentCassandra.  That takes a real set of brass ones to be that blatant.![pawel-issues](/images/2013/02/pawel-issues.png)
+To be clear I am just very irritated that Datastax promised some help to FluentCassandra and the only help we seem to have gotten was a developer who decided to steal our code and not contribute anything back.  And the two bugs that Pawel opened on FluentCassandra were bugs that he fixed in his own copy of the source code, but couldn't be bothered to contribute back to FluentCassandra.  That takes a real set of brass ones to be that blatant.
+
+![pawel-issues](/images/2013/02/pawel-issues.png)
 
 There is one bright spot and really all that I ask for, developer [kcieslinski](https://github.com/kcieslinski) [does actually attribute FluentCassandra](https://github.com/datastax/csharp-driver/blob/master/Cassandra/BigDecimal.cs)when he copied the BigDecimal code.
 

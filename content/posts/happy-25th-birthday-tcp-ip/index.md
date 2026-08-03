@@ -24,7 +24,8 @@ When you visit "facebook.com" you ask facebook's servers (computers) to show you
 
 is a "protocol" built on top of IP (every TCP/IP packet has an IP portion). TCP's entire job is ensuring that the connection occurs in an organized matter. To understand TCP's purpose, let's reconsider the package analogy. Say you have to send a script over the "normal" snail mail, and for whatever reason you have to send it in 2 separate packages. This occurs in TCP/IP all the time. So, it's up to the receiver to arrange the individual packages into one whole package. TCP/IP connections have been handled with TCP/IP handshakes since January 1, 1983.
 
-Check out a more technical description of [January 1 tcp/ip](http://january-1-tcp-ip.blogspot.com/2007/12/january-1-83-tcpip.html)   
+Check out a more technical description of [January 1 tcp/ip](http://january-1-tcp-ip.blogspot.com/2007/12/january-1-83-tcpip.html)
+
 ![](al-gore-portrait.jpg)
 
 Al Gore invented the Internet in 1994 to combat global warming. :)

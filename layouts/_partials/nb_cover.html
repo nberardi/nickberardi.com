@@ -2,10 +2,16 @@
   Post cover: the full-width band and the sticky-rail handoff plate.
   Renders nothing (and wires no JS) on posts without cover.image.
 
-  Call twice from single.html, both wrapped by the same {{ with .Params.cover }}
-  isn't required here — the partial checks .Params.cover.image itself:
+  Call twice from single.html:
     {{ partial "nb_cover.html" (dict "page" . "part" "band") }}  before the two-column grid
     {{ partial "nb_cover.html" (dict "page" . "part" "rail") }}  first thing inside .nb-post-rail
+
+  Treatment is a property of what the image IS (its class), not of where it
+  sits — see nb_image_class.html and the post-images redline. Only a
+  photograph may be cropped, and only a photograph/screenshot gets a print
+  treatment; a rail plate only ever appears for a photograph, and only when
+  its source aspect is 2.4:1 or narrower (a sliver of a panorama says
+  nothing). "mark" is not a valid cover class — reject at build.
 */ -}}
 {{- $page := .page -}}
 {{- $part := .part -}}
@@ -13,28 +19,61 @@
 {{- $cover := . -}}
 {{- with $page.Resources.GetMatch $cover.image -}}
 {{- $img := .Resize "1800x q82" -}}
-{{- if eq $part "band" }}
-<figure class="cmyk nb-cover-band" data-nb-cover-band>
-  <div class="print">
+{{- $ext := strings.TrimPrefix "." (path.Ext $cover.image) -}}
+{{- $class := partial "nb_image_class.html" (dict "override" $cover.class "ext" $ext) -}}
+{{- if eq $class "mark" -}}
+  {{- warnf "%s: cover.class is %q — a mark is not a cover; no cover rendered" $page.File.Path $class -}}
+{{- else -}}
+{{- $aspect := div (mul $img.Width 1.0) $img.Height -}}
+
+{{- if eq $part "band" -}}
+  {{- if eq $class "photograph" }}
+  <figure class="cmyk nb-cover-band" data-nb-cover-band>
     <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $cover.alt }}">
-  </div>
-</figure>
-{{- else if eq $part "rail" }}
-<div class="nb-rail-cover" data-nb-rail-cover>
-  <figure class="cmyk nb-rail-cover-plate">
-    <div class="print">
-      <img src="{{ $img.RelPermalink }}" alt="">
-    </div>
+    <img class="sep-c" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+    <img class="sep-m" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+    <img class="sep-y" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+    <img class="sep-k" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
   </figure>
+  {{- else -}}
+  {{- $h := math.Max 200 (math.Min 420 (div 1120.0 $aspect)) -}}
+  <figure class="nb-cover-band nb-cover-band-fit{{ if eq $class "screenshot" }} halftone{{ end }}" style="--nb-band-h:{{ $h }}px" data-nb-cover-band>
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $cover.alt }}">
+  </figure>
+  {{- end -}}
+
+{{- else if eq $part "rail" -}}
+  {{- $ratePlate := and (eq $class "photograph") (le $aspect 2.4) -}}
+  {{- if $ratePlate }}
+  <div class="nb-rail-cover" data-nb-rail-cover>
+    {{- with $cover.caption }}
+    <div class="nb-cover-caption" aria-hidden="true">{{ . }}</div>
+    {{- end }}
+    {{- if le $aspect 1.6 }}
+    <figure class="cmyk nb-rail-cover-plate nb-rail-cover-plate-crop">
+      <img src="{{ $img.RelPermalink }}" alt="{{ $cover.alt }}">
+      <img class="sep-c" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+      <img class="sep-m" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+      <img class="sep-y" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+      <img class="sep-k" src="{{ $img.RelPermalink }}" alt="" aria-hidden="true">
+    </figure>
+    {{- else }}
+    <figure class="cmyk nb-rail-cover-plate nb-rail-cover-plate-fit">
+      <div class="print"><img src="{{ $img.RelPermalink }}" alt="{{ $cover.alt }}"></div>
+    </figure>
+    {{- end }}
+  </div>
   {{- with $cover.caption }}
-  <div class="nb-cover-caption" aria-hidden="true">{{ . }}</div>
+  <div class="nb-cover-caption nb-cover-caption-band" data-nb-band-caption>{{ . }}</div>
   {{- end }}
-</div>
-{{- with $cover.caption }}
-<div class="nb-cover-caption nb-cover-caption-band" data-nb-band-caption>{{ . }}</div>
-{{- end }}
-{{- $coverJS := resources.Get "js/nb-cover.js" | minify | fingerprint }}
-<script src="{{ $coverJS.RelPermalink }}" integrity="{{ $coverJS.Data.Integrity }}" defer></script>
+  {{- $coverJS := resources.Get "js/nb-cover.js" | minify | fingerprint }}
+  <script src="{{ $coverJS.RelPermalink }}" integrity="{{ $coverJS.Data.Integrity }}" defer></script>
+  {{- else -}}
+  {{- with $cover.caption }}
+  <div class="nb-cover-caption nb-cover-caption-band">{{ . }}</div>
+  {{- end }}
+  {{- end -}}
+{{- end -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}

@@ -106,9 +106,14 @@ buildExpired = false
 
 [markup]
   [markup.highlight]
-    noClasses = true
-    style = 'github'
+    noClasses = false
     lineNos = false
+    guessSyntax = false
+    tabWidth = 4
+  [markup.goldmark.parser]
+    wrapStandaloneImageWithinParagraph = false
+    [markup.goldmark.parser.attribute]
+      block = true
 
 [outputFormats.OGCARD]
   mediaType = 'text/html'

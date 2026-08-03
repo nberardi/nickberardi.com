@@ -35,7 +35,9 @@ Please note that I wanted to also analyze, [Rob Conery](http://blog.wekeroad.com
 
 ### What is Google Ad Planner?
 
-[![](/images/2008/06/google-ad-planner-main-screen1.png "google-ad-planner-main-screen")](/images/2008/06/google-ad-planner-main-screen1.png)[![](/images/2008/06/google-ad-planner-info-sheet1.png "google-ad-planner-info-sheet")](/images/2008/06/google-ad-planner-info-sheet1.png)Google Ad Planner is a free media planning tool that can help you identify websites your audience is likely to visit so you can make better-informed advertising decisions.
+[![](/images/2008/06/google-ad-planner-main-screen1.png "google-ad-planner-main-screen")](/images/2008/06/google-ad-planner-main-screen1.png)[![](/images/2008/06/google-ad-planner-info-sheet1.png "google-ad-planner-info-sheet")](/images/2008/06/google-ad-planner-info-sheet1.png)
+
+Google Ad Planner is a free media planning tool that can help you identify websites your audience is likely to visit so you can make better-informed advertising decisions.
 
 With Google Ad Planner, you can:
 

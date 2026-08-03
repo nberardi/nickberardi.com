@@ -17,4 +17,6 @@ cover:
   hiddenInList: false
 ---
 
-[![](yahoo-ad-placement.jpg)](http://www.flickr.com/photos/jkenning/464845773/ "photo sharing")Only a geek would find this funny. And if you really don't understand it then you may want to brush up on your [HTTP Status Codes](http://tools.ietf.org/html/rfc2616#section-10.4.5 "HTTP 404").
+[![](yahoo-ad-placement.jpg)](http://www.flickr.com/photos/jkenning/464845773/ "photo sharing")
+
+Only a geek would find this funny. And if you really don't understand it then you may want to brush up on your [HTTP Status Codes](http://tools.ietf.org/html/rfc2616#section-10.4.5 "HTTP 404").

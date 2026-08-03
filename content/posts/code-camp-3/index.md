@@ -11,7 +11,9 @@ tags:
 description: "As I indicated a couple weeks ago I was going to be speaking at the Philly Code Camp 2009.2. If you weren't there you missed a great day of learning about..."
 ---
 
-![Zune HD](/images/2009/10/pr_zune_hd_f1.jpg "Zune HD")As I [indicated a couple weeks ago](http://www.coderjournal.com/2009/09/philly-code-camp-2009-2/) I was going to be speaking at the Philly Code Camp 2009.2. If you weren't there you missed a great day of learning about many of the new technologies that are going to matter to you, as a developer, in the next 12 months. Not all of the topics were Microsoft related or even Developer related, for the first time this year there was an Enterprise IT track, targeting specifically you network admins. So Code Camp next year is something you should pay attention too, even if you are not a developer.
+![Zune HD](/images/2009/10/pr_zune_hd_f1.jpg "Zune HD")
+
+As I [indicated a couple weeks ago](http://www.coderjournal.com/2009/09/philly-code-camp-2009-2/) I was going to be speaking at the Philly Code Camp 2009.2. If you weren't there you missed a great day of learning about many of the new technologies that are going to matter to you, as a developer, in the next 12 months. Not all of the topics were Microsoft related or even Developer related, for the first time this year there was an Enterprise IT track, targeting specifically you network admins. So Code Camp next year is something you should pay attention too, even if you are not a developer.
 
 Also the Beginner Track was broken in to two different tracks this year, Beginner I (which I was apart of) is designed for those of you who are brand new to software development and want to get a feel for the tools, Beginner II is designed for those of you who already have a handle on the tools and want to start learning a little more about developing software. Both are great tracks and both had a very good showing, so if you know a high school student, college student, or seasoned learner that wants to start developing software, they should stay tuned and check back with the [Philly.NET website](http://www.phillydotnet.org) in late March 2010.
 

@@ -1,8 +1,11 @@
 {{- /* Full post row: date, title, description + reading time, plus a cover thumb when the post has one.
    Call with a Page: {{ partial "nb_post_row.html" . }} */ -}}
 {{- $coverImg := "" -}}
+{{- $coverClass := "" -}}
 {{- with .Params.cover -}}
 {{- $coverImg = $.Resources.GetMatch .image -}}
+{{- $ext := strings.TrimPrefix "." (path.Ext .image) -}}
+{{- $coverClass = partial "nb_image_class.html" (dict "override" .class "ext" $ext) -}}
 {{- end -}}
 <a class="nb-post-row{{ if $coverImg }} nb-post-row--cover{{ end }}" href="{{ .RelPermalink }}">
   <span class="nb-post-date">{{ .Date | time.Format "2006·01·02" }}</span>
@@ -11,10 +14,16 @@
     <span class="nb-post-desc">{{ .Description }} <span class="nb-post-time">{{ .ReadingTime }} min</span></span>
   </span>
   {{- with $coverImg }}
+  {{- if eq $coverClass "photograph" }}
   <figure class="cmyk nb-post-row-cover">
     <div class="print">
       <img src="{{ (.Resize "1800x q82").RelPermalink }}" alt="">
     </div>
   </figure>
+  {{- else if ne $coverClass "mark" }}
+  <figure class="nb-post-row-cover nb-post-row-cover-fit{{ if eq $coverClass "screenshot" }} halftone{{ end }}">
+    <img src="{{ (.Resize "1800x q82").RelPermalink }}" alt="">
+  </figure>
+  {{- end }}
   {{- end }}
 </a>
