@@ -14,13 +14,6 @@ tags:
   - "Review"
   - "Web"
 description: "Every developer has their favorite tool collection that they must have in order to survive while developing software. The list below is indispensable in..."
-cover:
-  image: "hero.png"
-  alt: "Creative Commons Attribution-NonCommercial-ShareAlike license badge"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 Every developer has their favorite tool collection that they must have in order to survive while developing software. The list below is indispensable in my day-to-day activities and that is why I am sharing it with my readers. My list was inspired by [Scott Hanselman's](http://www.hanselman.com/tools) own list of tools that he uses. However I would be really interested to see what Scott's actual list is since it would be almost impossible to touch each and every tool once a week as he claims. Because many of them serve the same purpose.

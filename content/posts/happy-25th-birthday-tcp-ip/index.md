@@ -10,13 +10,6 @@ tags:
   - "Al Gore"
   - "Birthday"
 description: "I didn't know this until today, but ARPANET adopted TCP/IP as the official communication protocol between computers on January 1st, 1983. I found this..."
-cover:
-  image: "hero.png"
-  alt: "Official portrait of Al Gore"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 I didn't know this until today, but ARPANET adopted TCP/IP as the official communication protocol between computers on January 1st, 1983. I found this break down of the [two protocols which form TCP/IP](http://january-1-tcp-ip.blogspot.com/2007/12/11-on-this-day-in-history-transmission.html "1/1: On this day in history, transmission control protocol..."). The IP protocol and the TCP protocol is explained below:

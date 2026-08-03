@@ -9,13 +9,6 @@ tags:
   - "Windows Mobile"
   - "Beta"
 description: "I just downloaded Opera 9.5 Mobile for my Windows Mobile phone. And I have one thing to say. Wow! This brings a more standard compliant browser to your..."
-cover:
-  image: "hero.png"
-  alt: "Opera Mobile 9.5 icon"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 I just downloaded Opera 9.5 Mobile for my Windows Mobile phone. And I have one thing to say. Wow! This brings a more standard compliant browser to your phone to replace the aging Pocket Internet Explorer. Opera 9.5 Mobile event beats the iPhone version of Safari in the ACID 2 and ACID 3 tests, so it is an amazing experience to finally get the full web, as it was intended, on my mobile device.

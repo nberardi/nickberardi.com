@@ -6,13 +6,6 @@ draft: false
 tags:
   - "Podcast"
 description: "First of all we have to say a big thank you to Kerry Street for suggesting the name Seriously Open. It was the best name by far, and I think it nicely..."
-cover:
-  image: "hero.png"
-  alt: "Glimpse project logo"
-  relative: true
-  hidden: false
-  hiddenInSingle: false
-  hiddenInList: false
 ---
 
 First of all we have to say a big thank you to [Kerry Street](https://twitter.com/kcstreet) for suggesting the name [**Seriously Open**](http://seriouslyopen.com/). It was the best name by far, and I think it nicely condenses what we are trying to portray with our podcast.

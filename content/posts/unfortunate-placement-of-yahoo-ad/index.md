@@ -9,7 +9,7 @@ tags:
   - "Yahoo"
 description: "Only a geek would find this funny. And if you really don't understand it then you may want to brush up on your HTTP Status Codes."
 cover:
-  image: "hero.png"
+  image: "yahoo-ad-placement.jpg"
   alt: "A Yahoo advertisement placed beside a 404 error"
   relative: true
   hidden: false
