@@ -2,3 +2,5 @@
 <script src="{{ $pp.RelPermalink }}" integrity="{{ $pp.Data.Integrity }}" defer></script>
 {{- $cc := resources.Get "js/nb-code-copy.js" | minify | fingerprint }}
 <script src="{{ $cc.RelPermalink }}" integrity="{{ $cc.Data.Integrity }}" defer></script>
+{{- $nz := resources.Get "js/nb-zoom.js" | minify | fingerprint }}
+<script src="{{ $nz.RelPermalink }}" integrity="{{ $nz.Data.Integrity }}" defer></script>

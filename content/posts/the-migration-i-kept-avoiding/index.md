@@ -53,6 +53,7 @@ More recently, I opened [Claude Design](https://claude.com/product/design) and s
 I spent my time deciding what felt like me instead of translating every opinion into HTML and CSS. The result feels personal rather than assembled from a theme, which is all I wanted.
 
 ![The redesigned nickberardi.com homepage, with an illustrated portrait and an editorial-style list of posts.](nickberardi-homepage-2026-08-04.jpg)
+{class="screenshot"}
 
 *The current nickberardi.com homepage. The content survived the migration, and the design finally feels like it belongs to me.*
 

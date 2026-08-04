@@ -1,6 +1,8 @@
 /* nb-site.css — page-specific styles for the Broadsheet redesign of nickberardi.com.
-   Tokens and components (buttons, tags, tables, cmyk, halftone) come from broadsheet.css;
-   this file is layout, typography placement, and page furniture. */
+   Tokens and components (buttons, tags, tables, cmyk) come from broadsheet.css; this
+   file is layout, typography placement, and page furniture. .halftone is defined in
+   broadsheet.css but is not used anywhere on the site (post-images redline, r5) — only
+   a photograph is ever plated, everything else (screenshot included) renders clean. */
 
 /* ---------- base ---------- */
 html { background: var(--color-bg); }
@@ -140,8 +142,8 @@ main.nb-single-has-cover { padding-top: 0; }
 .nb-post-grid { display: grid; grid-template-columns: 196px 1fr; gap: 44px; }
 
 /* ---- cover: full-width band + sticky-rail handoff, treatment set by image class
-   (photograph = crop-frame .cmyk; screenshot = .halftone, fit not cropped;
-   line-art/diagram = untreated, fit not cropped) — see post-images redline. ---- */
+   (photograph = crop-frame .cmyk; every other class — screenshot, line-art,
+   diagram — is clean and fit, never cropped) — see post-images redline. ---- */
 .nb-cover-band {
   position: relative; overflow: hidden;
   height: var(--nb-band-h, 340px); width: calc(100% + 88px); margin-inline: -44px; margin-bottom: 30px;
@@ -305,8 +307,10 @@ main.nb-single-has-cover { padding-top: 0; }
 .nb-code .nc, .nb-code .nf, .nb-code .nn, .nb-code .nt, .nb-code .nx { font-weight: 600; }
 
 /* ---- body figures — flush-left, never cropped, never upscaled past 1x.
-   .nb-figure is the shared box; treatment (.cmyk crop-preserving .print,
-   or .halftone) is added alongside it by class, never both. ---- */
+   .nb-figure is the shared box; the only treatment ever added alongside it
+   is .cmyk's crop-preserving .print, and only for a photograph — every
+   other class renders clean: no filter, no border, no radius, no shadow,
+   cursor:zoom-in the only affordance (post-images redline, sheet 8). ---- */
 .nb-figure { margin: 30px 0; width: fit-content; max-width: 100%; }
 .nb-figure img { display: block; width: auto; max-width: 100%; height: auto; }
 .nb-figure.cmyk .print { width: auto; }
@@ -324,6 +328,49 @@ main.nb-single-has-cover { padding-top: 0; }
   font-size: 12.5px; line-height: 1.5; margin-top: 8px; max-width: 100%;
   color: color-mix(in srgb, var(--color-text) 55%, transparent);
 }
+
+/* Zoom trigger — every body figure's image is wrapped in this button
+   (render-image.html). Reset to a plain, shrink-wrapped frame around the
+   image; nb-zoom.js arms the cursor once it confirms the image is actually
+   displayed smaller than its natural size and the viewport isn't mobile. */
+.nb-figure > .nb-zoom-trigger {
+  display: block; width: fit-content; max-width: 100%;
+  margin: 0; padding: 0; border: 0; background: none;
+  line-height: 0; text-align: left; cursor: default;
+}
+.nb-figure > .nb-zoom-trigger[data-zoomable="1"] { cursor: zoom-in; }
+.nb-figure > .nb-zoom-trigger img { pointer-events: none; }
+
+/* Zoom overlay — one reusable node, created and destroyed by nb-zoom.js.
+   Scaled to fit the viewport, never a 1:1 copy that overflows it; never
+   plated, regardless of the triggering figure's own treatment. */
+.nb-zoom-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 14px; padding: 44px; box-sizing: border-box;
+  background: rgba(32, 30, 29, .86);
+  -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+  opacity: 0; transition: opacity .14s ease;
+}
+.nb-zoom-overlay[data-open] { opacity: 1; }
+.nb-zoom-overlay[data-reduce-motion] { transition: none; }
+.nb-zoom-figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; max-width: 100%; max-height: 100%; }
+.nb-zoom-image {
+  display: block; width: auto; height: auto;
+  max-width: calc(100vw - 88px); max-height: calc(100vh - 140px);
+  object-fit: contain; box-shadow: 0 12px 48px rgba(0, 0, 0, .5);
+}
+.nb-zoom-caption {
+  font: 400 13px/1.5 var(--font-body); color: rgba(255, 255, 255, .7);
+  margin: 0; max-width: 60ch; text-align: center;
+}
+.nb-zoom-close {
+  position: fixed; top: 18px; right: 22px; width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center;
+  background: none; border: 0; color: rgba(255, 255, 255, .85); cursor: pointer; padding: 0;
+}
+.nb-zoom-close:hover { color: #fff; }
+.nb-zoom-close:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 
 .nb-toc { margin-bottom: 30px; font-size: 13px; }
 .nb-toc :is(nav, ul) { list-style: none; margin: 0; padding: 0; }

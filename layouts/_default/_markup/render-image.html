@@ -1,10 +1,20 @@
 {{- /*
-  Body image render hook — post-images redline. Treatment is a property of
-  the image's class, decided by nb_image_class.html: cover.class-style
-  override via {class="..."} on the markdown image, else default-by-extension.
-  Only a photograph may crop (never in the body — that's the aspect-preserving
-  .cmyk .print construction, opt into a wider {bleed=true} track), everything
-  else prints untreated at min(intrinsic, track width), never upscaled.
+  Body image render hook — post-images redline (superseded r5, 4 Aug: sheet 8).
+  Treatment is a property of the image's class, decided by nb_image_class.html:
+  cover.class-style override via {class="..."} on the markdown image, else
+  default-by-extension. Only a photograph is ever plated (.cmyk) or cropped —
+  never in the body, that's the aspect-preserving .cmyk .print construction,
+  opt into a wider {bleed=true} track. Every other class — screenshot, line
+  art, diagram, mark — renders clean: no filter, no border, no radius, no
+  shadow, at min(intrinsic, track width), never upscaled. .halftone is not
+  used anywhere on the site any more.
+
+  Every figure is also a zoom target: wrapped in a real <button data-zoom>
+  that a single delegated listener (nb-zoom.js) opens into a fit-to-window
+  overlay. The button is inert with JS off — the image underneath is still
+  a complete, whole picture — and nb-zoom.js itself only arms the cursor and
+  the click handler once it has confirmed the image is actually larger than
+  its display size and the viewport isn't mobile.
 */ -}}
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
@@ -28,23 +38,24 @@
 
 {{- $caption := "" -}}
 {{- with .Title }}{{ $caption = . }}{{- else }}{{- with $.Text }}{{ $caption = . }}{{- end }}{{- end -}}
+{{- $zoomAlt := $caption }}
+{{- if not $zoomAlt }}{{ $zoomAlt = .Text }}{{ end -}}
 
 {{- $figClass := "nb-figure" -}}
 {{- if eq $class "mark" }}{{ $figClass = printf "%s nb-figure-mark" $figClass }}{{ else if $bleed }}{{ $figClass = printf "%s nb-figure-bleed" $figClass }}{{ end -}}
 
 {{- if eq $class "photograph" }}
 <figure class="cmyk {{ $figClass }}">
-  <div class="print"><img src="{{ $src }}" alt="{{ .Text }}" loading="lazy"></div>
-  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{- end }}
-</figure>
-{{- else if eq $class "screenshot" }}
-<figure class="halftone {{ $figClass }}">
-  <img src="{{ $src }}" alt="{{ .Text }}" loading="lazy">
+  <button type="button" class="nb-zoom-trigger" data-zoom="{{ $src }}" data-zoom-alt="{{ $zoomAlt }}" aria-label="View full size">
+    <div class="print"><img src="{{ $src }}" alt="{{ .Text }}" loading="lazy"></div>
+  </button>
   {{- with $caption }}<figcaption>{{ . }}</figcaption>{{- end }}
 </figure>
 {{- else }}
 <figure class="{{ $figClass }}">
-  <img src="{{ $src }}" alt="{{ .Text }}" loading="lazy">
+  <button type="button" class="nb-zoom-trigger" data-zoom="{{ $src }}" data-zoom-alt="{{ $zoomAlt }}" aria-label="View full size">
+    <img src="{{ $src }}" alt="{{ .Text }}" loading="lazy">
+  </button>
   {{- with $caption }}<figcaption>{{ . }}</figcaption>{{- end }}
 </figure>
 {{- end -}}
