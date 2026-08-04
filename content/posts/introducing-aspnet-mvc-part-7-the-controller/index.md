@@ -17,13 +17,13 @@ This is a continuation of my Introduction to ASP.NET MVC series. As I outlined b
 
 In the next several posts we will cover the following parts of Chapter 2 from [the book](http://www.amazon.com/dp/0470410957/?tag=coderjournal-20 "ASP.NET MVC Website Programming Problem Design Solution (Paperback)"):
 
-- [The Model-View-Controller Pattern](http://www.coderjournal.com/2008/12/introducing-aspnet-mvc-part-1-model-view-controller/)
-- [ASP.NET MVC vs. ASP.NET Web Forms](http://www.coderjournal.com/2008/12/introducing-aspnet-mvc-part-2-aspnet-mvc-vs-webforms/)
-- [Installing the Prerequisites](http://www.coderjournal.com/2009/01/introducing-aspnet-mvc-part-3-installing-prerequisites/)
-- [Your First ASP.NET MVC Project](http://www.coderjournal.com/2009/01/introducing-aspnet-mvc-part-4-first-aspnet-mvc-project/)
-- [The Model](http://www.coderjournal.com/2009/01/introducing-aspnet-mvc-part-5-the-model/)
-- [The View](http://www.coderjournal.com/2009/01/introducing-aspnet-mvc-part-6-the-view/)
-- [The Controller](http://www.coderjournal.com/2009/02/introducing-aspnet-mvc-part-7-the-controller/)
+- [The Model-View-Controller Pattern](/posts/introducing-aspnet-mvc-part-1-model-view-controller/)
+- [ASP.NET MVC vs. ASP.NET Web Forms](/posts/introducing-aspnet-mvc-part-2-aspnet-mvc-vs-webforms/)
+- [Installing the Prerequisites](/posts/introducing-aspnet-mvc-part-3-installing-prerequisites/)
+- [Your First ASP.NET MVC Project](/posts/introducing-aspnet-mvc-part-4-first-aspnet-mvc-project/)
+- [The Model](/posts/introducing-aspnet-mvc-part-5-the-model/)
+- [The View](/posts/introducing-aspnet-mvc-part-6-the-view/)
+- [The Controller](/posts/introducing-aspnet-mvc-part-7-the-controller/)
 
 |  |  |
 | --- | --- |

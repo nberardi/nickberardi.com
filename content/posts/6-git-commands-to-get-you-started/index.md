@@ -91,4 +91,4 @@ git remote add origin git@github.com:managedfusion/coderjournal.git
 git push origin master
 ```
 
-Hope this helps you get started with Git. If you are interested in some of the more advanced ways of working with Git there is an excellent tutorial put together by GitHub at <http://learn.github.com/>.  Also don’t forget to [setup your .gitignore file](http://www.coderjournal.com/2010/05/gitignore-config-file-for-net-projects/).  Happy coding.
+Hope this helps you get started with Git. If you are interested in some of the more advanced ways of working with Git there is an excellent tutorial put together by GitHub at <http://learn.github.com/>.  Also don’t forget to [setup your .gitignore file](/posts/gitignore-config-file-for-net-projects/).  Happy coding.

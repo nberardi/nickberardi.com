@@ -28,7 +28,7 @@ Today I decided to release a toolkit that I have been building over the past cou
 - **ExceptionHandlerAttribute**
   Handles any exceptions thrown from an action, and redirects it to another page, or another action.
 - **CaptchaAttribute**
-  I did a whole post on [providing a CAPTCHA for your MVC action](http://www.coderjournal.com/2008/03/actionfilterattribute-aspnet-mvc-captcha/ "ASP.NET MVC Preview 2 CAPTCHA using ActionFilterAttribute").
+  I did a whole post on [providing a CAPTCHA for your MVC action](/posts/actionfilterattribute-aspnet-mvc-captcha/ "ASP.NET MVC Preview 2 CAPTCHA using ActionFilterAttribute").
 - **AllowedHttpMethodsAttribute**
   Only the HTTP methods entered in to this filter are allowed for your action. Available HTTP methods are `OPTIONS`, `GET`, `HEAD`, `POST`, `PUT`, `DELETE`, `TRACE`, and `CONNECT`.
 
@@ -40,12 +40,12 @@ Today I decided to release a toolkit that I have been building over the past cou
 ### Route's
 
 - **LowercaseRoute**
-  I did a [whole post on why I needed this](http://www.coderjournal.com/2008/03/force-mvc-route-url-lowercase/ "http://www.coderjournal.com/2008/03/force-mvc-route-url-lowercase/") in my toolkit. Mostly because of my obsessions to have all URL's in lowercase.
+  I did a [whole post on why I needed this](/posts/force-mvc-route-url-lowercase/ "/posts/force-mvc-route-url-lowercase/) in my toolkit. Mostly because of my obsessions to have all URL's in lowercase.
 
 ### Method Extensions
 
 - **Redirect** extends **HttpResponse**
-  I have had a long standing discontent with the Redirect method of the ASP.NET. I have talked about [good use of HTTP Status Codes](http://www.coderjournal.com/2007/04/world-of-http11-status-codes/ "World Of HTTP/1.1 Status Codes") before. There are at least 3 status codes that you want to consider before choosing a response status code of 302. Just to reiterate my post on the subject use 303 to redirect from a form POST, use 307 when you want to redirect to a page that is going to change with each request, use 301 if you want to permanently redirect one URL to another.I created the, Redirect, extension method on HttpResponse so that the status code could be set for the redirect.
+  I have had a long standing discontent with the Redirect method of the ASP.NET. I have talked about [good use of HTTP Status Codes](/posts/world-of-http11-status-codes/ "World Of HTTP/1.1 Status Codes") before. There are at least 3 status codes that you want to consider before choosing a response status code of 302. Just to reiterate my post on the subject use 303 to redirect from a form POST, use 307 when you want to redirect to a page that is going to change with each request, use 301 if you want to permanently redirect one URL to another.I created the, Redirect, extension method on HttpResponse so that the status code could be set for the redirect.
 
 **View Source:** [Coder Journal MVC Toolkit Source](http://code.google.com/p/coderjournal/source/browse/trunk/ManagedFusion/Source/)   
 **Download Binary:** [Coder Journal MVC Toolkit Binary](/images/2008/04/coder-journal-mvc-toolkit1.zip)

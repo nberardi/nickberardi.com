@@ -19,9 +19,9 @@ cover:
 
 As part of my 4 part series in creating the app I described in my prior posts, I am going to be creating an online planning poker application for distributed teams using AngularJS, SignalR, and TypeScript. In case you missed the prior posts in the series here they are:
 
-1. [SignalR + TypeScript](http://nickberardi.com/signalr-and-typescript/)
-2. [AngularJS + TypeScript](http://nickberardi.com/angularjs-and-typescript/)
-3. [SignalR + AngularJS](http://nickberardi.com/signalr-and-angularjs/)
+1. [SignalR + TypeScript](/posts/signalr-and-typescript/)
+2. [AngularJS + TypeScript](/posts/angularjs-and-typescript/)
+3. [SignalR + AngularJS](/posts/signalr-and-angularjs/)
 
 As we saw with **SignalR + TypeScript** it is rather trivial to define the interfaces for the SignalR client in TypeScript, and by doing this it makes sure that your JavaScript code never suffers from the development angst that happens when as action methods change in your SignalR hub.
 

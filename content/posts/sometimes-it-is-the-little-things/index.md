@@ -15,7 +15,7 @@ cover:
   hiddenInList: false
 ---
 
-About 2 weeks ago I wrote about [What I loved about Google Adsense](http://coderjournal.com/2010/08/what-i-love-about-google-adsense/).  And today I just wanted to show you the results that I have received over the past two weeks with my little experiment.  Well it was an experiment on my part, because I didn’t know the outcome.  But to Google it was a pure measure of analytics, and I am happy they sent me the email.
+About 2 weeks ago I wrote about [What I loved about Google Adsense](/posts/what-i-love-about-google-adsense/).  And today I just wanted to show you the results that I have received over the past two weeks with my little experiment.  Well it was an experiment on my part, because I didn’t know the outcome.  But to Google it was a pure measure of analytics, and I am happy they sent me the email.
 
 ![Estimated earnings](/images/2010/09/image.png "Estimated earnings")
 

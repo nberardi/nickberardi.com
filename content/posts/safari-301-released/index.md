@@ -12,7 +12,7 @@ tags:
 description: "Steve Jobs must have been kicking ass and taking names. Because only 3 days after the initial release, of Apple's Safari Web Browser for Windows that had..."
 ---
 
-Steve Jobs must have been kicking ass and taking names. Because only 3 days after the initial release, of Apple's Safari Web Browser for Windows that had [6 security bugs](http://www.coderjournal.com/2007/06/safari-browser-welcomed-to-real-world-with-6-zero-day-exploits/ "Apple Safari Browser Welcomed To Real World With 6 Zero Day Exploits") known as of this article, Apple has released an updated version, version of the Safari software. According to [Engadet](http://www.engadget.com/2007/06/14/apple-releases-windows-safari-3-0-1-squishes-security-bugs/ "Apple releases Windows Safari 3.0.1, squishes security bugs") the following bugs have been fixed with this new release.
+Steve Jobs must have been kicking ass and taking names. Because only 3 days after the initial release, of Apple's Safari Web Browser for Windows that had [6 security bugs](/posts/safari-browser-welcomed-to-real-world-with-6-zero-day-exploits/ "Apple Safari Browser Welcomed To Real World With 6 Zero Day Exploits") known as of this article, Apple has released an updated version, version of the Safari software. According to [Engadet](http://www.engadget.com/2007/06/14/apple-releases-windows-safari-3-0-1-squishes-security-bugs/ "Apple releases Windows Safari 3.0.1, squishes security bugs") the following bugs have been fixed with this new release.
 
 > CVE-ID: CVE-2007-3186
 > Available for: Windows XP or Vista

@@ -10,7 +10,7 @@ tags:
 description: "As I announced earlier in the month, Philly Code Camp was searching for qualified speakers for many different topics surrounding .NET specifically .NET..."
 ---
 
-As [I announced earlier in the month](http://www.coderjournal.com/2010/03/call-for-speakers-for-philly-net-code-camp-2010-1/), Philly Code Camp was searching for qualified speakers for many different topics surrounding .NET specifically .NET 4.0 and Visual Studio 2010.  Now, in this post, I have the pleasure to announce to you that we are going to be looking for sponsors for Philly Code Camp.  If you have a product that you would like to present to over 500 targeted, attentive, and actively engaged .NET developers, [please contact us today](http://www.managedfusion.com/).
+As [I announced earlier in the month](/posts/call-for-speakers-for-philly-net-code-camp-2010-1/), Philly Code Camp was searching for qualified speakers for many different topics surrounding .NET specifically .NET 4.0 and Visual Studio 2010.  Now, in this post, I have the pleasure to announce to you that we are going to be looking for sponsors for Philly Code Camp.  If you have a product that you would like to present to over 500 targeted, attentive, and actively engaged .NET developers, [please contact us today](http://www.managedfusion.com/).
 
 ---
 

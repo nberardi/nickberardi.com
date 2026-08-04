@@ -10,7 +10,7 @@ tags:
 description: "This morning I wrote about the problems I had installing the newly released iTunes for Windows Vista Ultimate x64. I just recently found a solution to the..."
 ---
 
-This morning I [wrote about the problems](http://www.coderjournal.com/2007/03/apple-itunes-71-released-for-windows-vista/) I had installing the newly released iTunes for Windows Vista Ultimate x64. I just recently found a solution to the problem error that iTunes was giving me when I tried to install it this morning. The error was:
+This morning I [wrote about the problems](/posts/apple-itunes-71-released-for-windows-vista/) I had installing the newly released iTunes for Windows Vista Ultimate x64. I just recently found a solution to the problem error that iTunes was giving me when I tried to install it this morning. The error was:
 
 > iTunes could not be installed because Visual Basic Script (VBScript) is not installed or has been disabled. Make sure VBScript is installed, turn off script blocking in anti-virus and personal firewall software, re-register VBScript, and then install iTunes.
 
@@ -24,7 +24,7 @@ And the solution is to simple register the `vbscript.dll`. To do this you just n
 
 If the above didn't work for you, you may be using a 32-bit version of Windows. Please check out the [Apple Support #304405](http://docs.info.apple.com/article.html?artnum=304405 "iTunes and QuickTime for Windows cannot be installed without Visual Basic Script (VBScript)"), which will walk you through the process to enabled VBScript on Windows 32-bit.
 
-Please read more if you would like to hear my rant against Apple and the security vulnerability this opens up in the Windows Operating System. On a side note Apple should be congratulated, I guess, for fixing [a bug I documented almost 3 months ago](http://www.coderjournal.com/2007/02/setting-up-itunes-on-windows-vista-64-bit/) when trying to install iTunes on Vista x64.
+Please read more if you would like to hear my rant against Apple and the security vulnerability this opens up in the Windows Operating System. On a side note Apple should be congratulated, I guess, for fixing [a bug I documented almost 3 months ago](/posts/setting-up-itunes-on-windows-vista-64-bit/) when trying to install iTunes on Vista x64.
 
 **Rant**
 
@@ -34,6 +34,6 @@ According to this commercial Apple leads you to believe it is much more secure t
 
 **Update:** I have been getting many thanks for these easy 5 steps to getting iTunes working on their Windows Vista machines. If you would really like to do something for me, please visit one of the sponsors to the right or the left. They are how I support this site and keep it running.
 
-**Update (2007-07-24):** Many people have also found this [article helpful](http://www.coderjournal.com/2007/02/setting-up-itunes-on-windows-vista-64-bit/ "Setting up iTunes on Windows Vista 64 bit") in installing iTunes on Windows Vista x64, it is an easy hack that allows you to fool QuickTime in to working correctly.
+**Update (2007-07-24):** Many people have also found this [article helpful](/posts/setting-up-itunes-on-windows-vista-64-bit/ "Setting up iTunes on Windows Vista 64 bit") in installing iTunes on Windows Vista x64, it is an easy hack that allows you to fool QuickTime in to working correctly.
 
 **Update (2007-09-19):** A couple people have reported being able to get the iPhone working on Windows Vista x64 with the steps listed up above. If you have luck with this please let me know, I personally do not own an iPhone to confirm this, however if this is actually true it would be major breaking news.

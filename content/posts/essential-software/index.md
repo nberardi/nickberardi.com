@@ -20,7 +20,7 @@ Every developer has their favorite tool collection that they must have in order 
 
 The goal of my list is to keep the tool list up to date with my current tool set. So if I stop using a tool it will drop to the bottom of the list in a section called *Not Using Anymore*.
 
-> [![Creative Commons License](creative-commons-license.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) This list is licensed under a slightly different license than the rest of my site. So please do not reproduce this work in it's entirety. I would rather you link to <http://www.coderjournal.com/essential-software/>, because work like this takes much of my time. And I am going to do everything that I can to make sure the links stay relevant and up to date. You have this pledge from me, because the links below are also my source for downloading these tools.
+> [![Creative Commons License](creative-commons-license.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/us/) This list is licensed under a slightly different license than the rest of my site. So please do not reproduce this work in it's entirety. I would rather you link to </posts/essential-software/>, because work like this takes much of my time. And I am going to do everything that I can to make sure the links stay relevant and up to date. You have this pledge from me, because the links below are also my source for downloading these tools.
 
 ### Development Tools
 
@@ -95,7 +95,7 @@ The goal of my list is to keep the tool list up to date with my current tool set
 
 ### Other Software That Makes My Life Easy
 
-- [Mozy](http://mozy.com/) **\*\*\* [My Review](http://www.coderjournal.com/2007/04/mozy-backup-review/ "Mozy Backup Review") \*\*\***
+- [Mozy](http://mozy.com/) **\*\*\* [My Review](/posts/mozy-backup-review/ "Mozy Backup Review") \*\*\***
   Everybody should back up their computer, and Mozy provides unlimited backup for $4.95 per month. Also Mozy Pro allows you to backup your SQL Server and Exchange installs.
 - [Skype](http://www.skype.com/)
   Great for making VOIP calls to your friends and family. Also many contractors are starting to use this as their primary communication especially over seas.

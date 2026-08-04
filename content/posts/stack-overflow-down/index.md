@@ -15,7 +15,7 @@ cover:
   hiddenInList: false
 ---
 
-I woke up this morning, showered, and checked [Stack Overflow](http://www.stackoverflow.com). Like I do every morning except this morning was different, Stack Overflow is down.  What am I going to do to waste time on the computer today, now I really have to focus and have nothing to procrastinate on.  I guess I am going to get [more of my book done today](http://www.coderjournal.com/2008/10/asp-net-mvc-has-changed-my-life/).
+I woke up this morning, showered, and checked [Stack Overflow](http://www.stackoverflow.com). Like I do every morning except this morning was different, Stack Overflow is down.  What am I going to do to waste time on the computer today, now I really have to focus and have nothing to procrastinate on.  I guess I am going to get [more of my book done today](/posts/asp-net-mvc-has-changed-my-life/).
 
 The weird thing I observed durring this rare outage is something the team probably wants to look in to.  But I received the Yellow Screen of Death for my Firefox and Chrome browsers and their cute kitten for my IE browser.  No matter how many times I refereshed and on how many different computers the same breakdown always happened.  I have included a couple screen shots below to demonstrate.
 

@@ -15,7 +15,7 @@ tags:
 description: "Since my last article I have updated the OS on my cell phone to AKU 3 for Windows Mobile 5.0. This has been a huge productivity increase, since there is..."
 ---
 
-Since [my last article](http://www.coderjournal.com/2007/02/cell-phone-usb-modem-driver-for-windows-vista/ "Cell Phone USB Modem Driver for Windows Vista") I have updated the OS on my cell phone to AKU 3 for Windows Mobile 5.0. This has been a huge productivity increase, since there is no longer a need to have a modem driver, and you can browse the internet and take calls on your cell phone at the same time.
+Since [my last article](/posts/cell-phone-usb-modem-driver-for-windows-vista/ "Cell Phone USB Modem Driver for Windows Vista") I have updated the OS on my cell phone to AKU 3 for Windows Mobile 5.0. This has been a huge productivity increase, since there is no longer a need to have a modem driver, and you can browse the internet and take calls on your cell phone at the same time.
 
 **Requirements:**
 

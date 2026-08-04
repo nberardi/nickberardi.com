@@ -22,7 +22,7 @@ cover:
   hiddenInList: false
 ---
 
-I received a ton of nice comments from [Rob](http://blog.wekeroad.com/), [John](http://weblogs.asp.net/jgalloway), [Scott](http://www.hanselman.com/), and [Phil](http://www.haacked.com/) related to my previous post, [What Software Bloggers Do Girls Like Better?](http://www.coderjournal.com/2008/06/bloggers-girls-like-best-google-ad-planer/) Phil even did a nice [follow up post](http://haacked.com/archive/2008/06/27/oh-yes-itrsquos-ladies-night.aspx), with some good humor gloating, until the end where his wife let the air out of his sails; like only a wife can do.
+I received a ton of nice comments from [Rob](http://blog.wekeroad.com/), [John](http://weblogs.asp.net/jgalloway), [Scott](http://www.hanselman.com/), and [Phil](http://www.haacked.com/) related to my previous post, [What Software Bloggers Do Girls Like Better?](/posts/bloggers-girls-like-best-google-ad-planer/) Phil even did a nice [follow up post](http://haacked.com/archive/2008/06/27/oh-yes-itrsquos-ladies-night.aspx), with some good humor gloating, until the end where his wife let the air out of his sails; like only a wife can do.
 
 The day I posted the article, Scott instant messaged me to say good job on the article. During the conversation he mentioned that I should compare the stats to Oprah.com as a base point for the other statistics. So naturally I thought this would be a good follow up article.
 

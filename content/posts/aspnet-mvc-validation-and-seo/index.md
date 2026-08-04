@@ -13,7 +13,7 @@ tags:
 description: "Recently I have been using the ASP.NET MVC framework for a project at work. And one of the requirements was that certain data inputed in to the URL be..."
 ---
 
-Recently I have been [using the ASP.NET MVC framework](http://www.coderjournal.com/2008/02/microsoft-mvc-day-one/) for a project at work. And one of the requirements was that certain data inputed in to the URL be tightly verified. I originally thought that data was verified by the type specified in the *ControllerAction*, however I came to find out that it wasn't. So if you have say a page number and the user enters a letter in the URL the application just proceeds on it's marry way. For example on the [Kigg](http://kigg.dotnetslackers.com) site:
+Recently I have been [using the ASP.NET MVC framework](/posts/microsoft-mvc-day-one/) for a project at work. And one of the requirements was that certain data inputed in to the URL be tightly verified. I originally thought that data was verified by the type specified in the *ControllerAction*, however I came to find out that it wasn't. So if you have say a page number and the user enters a letter in the URL the application just proceeds on it's marry way. For example on the [Kigg](http://kigg.dotnetslackers.com) site:
 
 1. <http://kigg.dotnetslackers.com/Story.mvc/Category/Lifestyle/1>
 2. <http://kigg.dotnetslackers.com/Story.mvc/Category/Lifestyle/a>

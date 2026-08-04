@@ -17,7 +17,7 @@ cover:
   hiddenInList: false
 ---
 
-Recently I decided it was important to get away from [Google App Engine as my CDN](http://coderjournal.com/2008/06/turn-google-app-engine-into-a-content-delivery-network-cdn/), mostly because I have encountered personally and have been told that many internal corporate networks are blocking Google App Engine IP’s.  And since most of my content posted to this blog is relevant to developers, who typically work in the corporate world, I decided to make the move.  And boy am I glad I did.
+Recently I decided it was important to get away from [Google App Engine as my CDN](/posts/turn-google-app-engine-into-a-content-delivery-network-cdn/), mostly because I have encountered personally and have been told that many internal corporate networks are blocking Google App Engine IP’s.  And since most of my content posted to this blog is relevant to developers, who typically work in the corporate world, I decided to make the move.  And boy am I glad I did.
 
 If you already know the purpose of a CDN please skip ahead.
 

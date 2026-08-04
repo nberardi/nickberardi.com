@@ -13,7 +13,7 @@ tags:
 description: "I found a setup that I like even better than my previous one. I have highlighted the main differences, in red, below. To set it up as repeater do the..."
 ---
 
-I found [a setup](http://airfart.blogspot.com/2008/04/how-to-set-repeater-mode-on-dd-wrt.html) that I like even better than [my previous one](http://www.coderjournal.com/2008/12/creating-a-wireless-access-point-using-dd-wrt/).  I have highlighted the main differences, in red, below.
+I found [a setup](http://airfart.blogspot.com/2008/04/how-to-set-repeater-mode-on-dd-wrt.html) that I like even better than [my previous one](/posts/creating-a-wireless-access-point-using-dd-wrt/).  I have highlighted the main differences, in red, below.
 
 To set it up as repeater do the following:
 

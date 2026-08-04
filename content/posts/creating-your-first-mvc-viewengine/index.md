@@ -107,7 +107,7 @@ protected void Application_Start()
 }
 ```
 
-So we are now done. You have created a new view engines, defined your own routes, and registered this view engine with the MVC framework. Some other types of paths you may want to consider trying for your applications, using a custom ViewEngine, are special folders for your mobile or [Facebook](http://www.coderjournal.com/2008/06/mvc-facebook-wonderful-development-platform/) versions of your website.
+So we are now done. You have created a new view engines, defined your own routes, and registered this view engine with the MVC framework. Some other types of paths you may want to consider trying for your applications, using a custom ViewEngine, are special folders for your mobile or [Facebook](/posts/mvc-facebook-wonderful-development-platform/) versions of your website.
 
 - **Mobile:** *~/Views/{1}/**Mobile**/{0}.aspx*- **Facebook:** *~/Views/{1}/**Facebook**/{0}.aspx*
 

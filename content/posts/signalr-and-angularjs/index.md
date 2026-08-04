@@ -8,10 +8,10 @@ tags:
 description: "As part of my 4 part series in creating the app I described in my prior post, I am going to be creating an online planning poker application for..."
 ---
 
-As part of my 4 part series in creating [the app I described in my prior post](http://coderjournal.com/2013/07/planning-poker-project/), I am going to be creating an online planning poker application for distributed teams using AngularJS, SignalR, and TypeScript. In case you missed the prior posts in the series here they are:
+As part of my 4 part series in creating [the app I described in my prior post](/posts/planning-poker-project/), I am going to be creating an online planning poker application for distributed teams using AngularJS, SignalR, and TypeScript. In case you missed the prior posts in the series here they are:
 
-1. [SignalR + TypeScript](http://coderjournal.com/2013/07/signalr-and-typescript/)
-2. [AngularJS + TypeScript](http://coderjournal.com/2013/07/angularjs-and-typescript/)
+1. [SignalR + TypeScript](/posts/signalr-and-typescript/)
+2. [AngularJS + TypeScript](/posts/angularjs-and-typescript/)
 
 As we have seen in the prior posts when working with TypeScript is that most of the work is around strongly typing the already defined contracts in SignalR and AngularJS. However a part of the integration we haven't yet discussed is how SignalR and AngularJS play together, and as we are about to see they play together rather nicely.
 
@@ -83,4 +83,4 @@ As you can see getting AngularJS and SignalR working together is a lot more stra
 
 There is no source code to post this time, everything will be brought together in the final 2 posts in the series, and the full project will be available for viewing on GitHub.
 
-1. [Bringing it all together](http://nickberardi.com/consensus-bringing-it-all-together/)
+1. [Bringing it all together](/posts/consensus-bringing-it-all-together/)

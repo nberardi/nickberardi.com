@@ -20,4 +20,4 @@ To kick off this announcement I created a group so that my readers can share and
 
 This site is still new and like any new site you will probably have suggestions on how to improve the site or the architecture, so please submit them to: <http://www.ideapipe.com/groups/pipeline>
 
-If you happen to find any bugs, please send them to [[bugs@ideapipe.com](mailto:bugs@ideapipe.com)](mailto:<a href='mailto:bugs@ideapipe.com'>bugs@ideapipe.com</a>).
+If you happen to find any bugs, please send them to [bugs@ideapipe.com](mailto:bugs@ideapipe.com).

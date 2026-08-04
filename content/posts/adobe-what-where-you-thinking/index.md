@@ -31,6 +31,6 @@ At this point you are probably wondering why I am posting this to Coder Journal,
 
 So I will leave you with this basic rule, don't invade the user's personal space. It will make them uneasy and they will go out and find another application that may or may not work as well as yours, but they will find one that doesn't invade their personal space.
 
-**Update:** (2007-1-4) Adobe [sent me an e-mail](http://www.coderjournal.com/2007/01/update-from-adobe/) saying this shouldn't be there, but it wasn't a mistake.
+**Update:** (2007-1-4) Adobe [sent me an e-mail](/posts/update-from-adobe/) saying this shouldn't be there, but it wasn't a mistake.
 
-**Update:** (2007-2-20) I have found a way to [change the temp folder](http://www.coderjournal.com/2007/02/remove-updater5-from-my-documents-folder/) that Adobe updates to.
+**Update:** (2007-2-20) I have found a way to [change the temp folder](/posts/remove-updater5-from-my-documents-folder/) that Adobe updates to.

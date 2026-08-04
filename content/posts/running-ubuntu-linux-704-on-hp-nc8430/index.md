@@ -18,26 +18,26 @@ I have to preface this with I did not write the following it is just a mirror of
 
 |  |  |
 | --- | --- |
-| hp nc8430 | The hp nc8430 is a powerful notebook for the business user with a lot of hardware and gadgets. This guide aims to help users who want to run Linux on this hardware while achieving feature-parity with a comparable setup of competing operating systems. The guide does not only cover the several hardware-components, but also tackels the typical software-functionality an average business-user might need. Additional input welcome at [[airflow.2007@gmail.com](mailto:airflow.2007@gmail.com)](mailto:<a href='mailto:airflow.2007@gmail.com'>airflow.2007@gmail.com</a>). |
+| hp nc8430 | The hp nc8430 is a powerful notebook for the business user with a lot of hardware and gadgets. This guide aims to help users who want to run Linux on this hardware while achieving feature-parity with a comparable setup of competing operating systems. The guide does not only cover the several hardware-components, but also tackels the typical software-functionality an average business-user might need. Additional input welcome at [airflow.2007@gmail.com](mailto:airflow.2007@gmail.com). |
 
 # contents
 
-1. [initial install](#install)
-2. [enabling 3d-desktop functionality (with xgl and compiz)](#xgl)
-3. [wireless lan (802.11b/g) supporting wpa2](#wpa2)
-4. [enterprise security using 802.1x (peap using ms-chapv2)](#dot1x)
-5. [cisco (compatible) client vpn](#vpn)
-6. [umts/gprs pcmcia datacard](#umts)
-7. [enable laptop mode (for power saving)](#power)
-8. [replacement for microsoft outlook](#evo)
-9. [migrating mails from microsoft outlook to evolution](#migrate)
-10. [signing and encrypting mails using evolution](#crypto)
-11. [terminal server sessions (rdp, citrix, vnc)](#ts)
-12. [creating custom keyboard shortcuts in gnome](#sc)
-13. [alternative method of accessing network-shares: fusesmb](#share)
-14. [cosmetic stuff](#stuff)
-15. [hardware](#hw)
-16. [caveats](#probs)
+1. [initial install](#initial-install)
+2. [enabling 3d-desktop functionality (with xgl and compiz)](#enabling-3d-desktop-functionality-with-xgl-and-compiz)
+3. [wireless lan (802.11b/g) supporting wpa2](#wireless-lan-80211bg-supporting-wpa2)
+4. [enterprise security using 802.1x (peap using ms-chapv2)](#enterprise-security-using-8021x-peap-using-ms-chapv2)
+5. [cisco (compatible) client vpn](#cisco-compatible-client-vpn)
+6. [umts/gprs pcmcia datacard](#umtsgprs-pcmcia-datacard)
+7. [enable laptop mode (for power saving)](#enable-laptop-mode-for-power-saving)
+8. [replacement for microsoft outlook](#replacement-for-microsoft-outlook)
+9. [migrating mails from microsoft outlook to evolution](#migrating-mails-from-microsoft-outlook-to-evolution)
+10. [signing and encrypting mails using evolution](#signing-and-encrypting-mails-using-evolution)
+11. [terminal server sessions (rdp, citrix, vnc)](#terminal-server-sessions-rdp-citrix-vnc)
+12. [creating custom keyboard shortcuts in gnome](#creating-custom-keyboard-shortcuts-in-gnome)
+13. [alternative method of accessing network-shares: fusesmb](#alternative-method-of-accessing-network-shares-fusesmb)
+14. [cosmetic stuff](#cosmetic-stuff)
+15. [hardware](#hardware)
+16. [caveats](#caveats)
 
 # initial install
 

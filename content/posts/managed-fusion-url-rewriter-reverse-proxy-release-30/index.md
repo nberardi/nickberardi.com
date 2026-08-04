@@ -10,7 +10,7 @@ tags:
 description: "I am happy to announce the 3.0 release of the Managed Fusion URL Rewriter &amp; Reverse Proxy. Since my previous release in February I have been working..."
 ---
 
-I am happy to announce the 3.0 release of the *Managed Fusion URL Rewriter & Reverse Proxy*. Since my [previous release in February](http://www.coderjournal.com/2009/02/managed-fusion-url-rewriter-reverse-proxy-release-25/) I have been working hard on a significant rewrite of the core, that to be honest really needed refactoring if I hoped to extend the rewriter is some interesting ways in the future.
+I am happy to announce the 3.0 release of the *Managed Fusion URL Rewriter & Reverse Proxy*. Since my [previous release in February](/posts/managed-fusion-url-rewriter-reverse-proxy-release-25/) I have been working hard on a significant rewrite of the core, that to be honest really needed refactoring if I hoped to extend the rewriter is some interesting ways in the future.
 
 **Download:** [Binary Release](http://urlrewriter.codeplex.com/Release/ProjectReleases.aspx)   
 **View:** [Source Code](http://urlrewriter.codeplex.com/SourceControl/ListDownloadableCommits.aspx)   

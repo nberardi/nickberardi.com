@@ -11,7 +11,7 @@ tags:
 description: "Last time I demonstrated how to create your first Fluent Cassandra app. After we finished learning about how to create records and save them to the..."
 ---
 
-Last time I demonstrated how to create [your first Fluent Cassandra app](http://www.coderjournal.com/2010/06/your-first-fluent-cassandra-application/).  After we finished learning about how to create records and save them to the database, I issued a challenge to implement comments for our command line blog app we created.  I hinted at how I would have done it with this column family configuration:
+Last time I demonstrated how to create [your first Fluent Cassandra app](/posts/your-first-fluent-cassandra-application/).  After we finished learning about how to create records and save them to the database, I issued a challenge to implement comments for our command line blog app we created.  I hinted at how I would have done it with this column family configuration:
 
 ```
 <ColumnFamily Name="Comments"  

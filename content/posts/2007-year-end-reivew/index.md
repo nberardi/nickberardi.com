@@ -15,9 +15,9 @@ As you can see from the graph above everybody has helped make this a very succes
 
 Top 3 Posts:
 
-1. [Setting up iTunes on Windows Vista 64-bit](http://www.coderjournal.com/2007/02/setting-up-itunes-on-windows-vista-64-bit/)
-2. [5 Easy Steps To Get iTunes Working On Windows Vista x64](http://www.coderjournal.com/2007/03/apple-wants-vista-to-run-un-secured-to-install-itunes/)
-3. [Remove Updater5 from My Documents Folder](http://www.coderjournal.com/2007/02/remove-updater5-from-my-documents-folder/)
+1. [Setting up iTunes on Windows Vista 64-bit](/posts/setting-up-itunes-on-windows-vista-64-bit/)
+2. [5 Easy Steps To Get iTunes Working On Windows Vista x64](/posts/apple-wants-vista-to-run-un-secured-to-install-itunes/)
+3. [Remove Updater5 from My Documents Folder](/posts/remove-updater5-from-my-documents-folder/)
 
 The majority of my daily readers use Internet Explorer with Firefox being a close second, and of that 87% are new users that have never visited my site before. The majority of people find my site via organic results through Google, but about 9% come from Digg.com and Direct links.
 

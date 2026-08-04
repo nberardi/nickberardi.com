@@ -23,4 +23,4 @@ These are the following links that got me started designing my very first MVC ap
 - [Microsoft ASP.NET 3.5 Extensions](http://www.microsoft.com/downloads/details.aspx?FamilyId=A9C6BC06-B894-4B11-8300-35BD2F8FC908&displaylang=en)
 - [MVC Toolkit](http://www.coderjournal.com/wp-admin/post-new.php# http://asp.net/downloads/3.5-extensions/MVCToolkit.zip)
 
-Keep a watch on my blog about for my posts about Unit Testing MVC and using Validators in the Routing table.  Also I am currently exploring if it is possible for my [URL Rewriter and](http://www.coderjournal.com/2008/02/url-rewriter-reverse-proxy-iis-wordpress/) [Reverse Proxy](http://www.managedfusion.com/products/url-rewriter/) to be used in combination with the MVC Routing table.  I will keep you informed.
+Keep a watch on my blog about for my posts about Unit Testing MVC and using Validators in the Routing table.  Also I am currently exploring if it is possible for my [URL Rewriter and](/posts/url-rewriter-reverse-proxy-iis-wordpress/) [Reverse Proxy](http://www.managedfusion.com/products/url-rewriter/) to be used in combination with the MVC Routing table.  I will keep you informed.

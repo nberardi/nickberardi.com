@@ -24,7 +24,7 @@ description: "As I alluded in a post a couple of weeks ago, I have been a bad bl
 
 [![Anything For Sale By Owner Logo](/images/2007/10/logoafsbo1.png)](/images/2007/10/logoafsbo1.png "Anything For Sale By Owner Logo")
 
-As I alluded in a post a couple of weeks ago, [I have been a bad blogger](http://www.coderjournal.com/2007/09/i-have-been-a-bad-blogger/ "I have Been A Bad Blogger"). And I have neglected my community of readers. However I would like to tell you what I have been doing in the last couple of months while I have been neglecting my blog.
+As I alluded in a post a couple of weeks ago, [I have been a bad blogger](/posts/i-have-been-a-bad-blogger/ "I have Been A Bad Blogger"). And I have neglected my community of readers. However I would like to tell you what I have been doing in the last couple of months while I have been neglecting my blog.
 
 I recently got involved in creating a startup as the lead developer for an online classifieds site called [Anything For Sale By Owner](http://anythingforsalebyowner.com). From the ground up this was conceived as a middle-ground between craigslist and ebay where every listing would be charged at a static rate of $1.00/month. The $1.00 is a way to week out the crap from craigslist and the death-by-fees from ebay.
 
@@ -40,7 +40,7 @@ We choose MySQL for a whole host of reasons mostly based around the costs associ
 
 **REST Web Services/AJAX**
 
-We followed the Digg Model for exposing web services and each web service could be changed around to provide output through JSON, RSS, ATOM, KML (where applicable), and XML. I even did a write up about a month ago on the [JSON Serializer](http://www.coderjournal.com/2007/08/creating-a-more-accurate-json-net-serializer/) that I developed for this website. This was very important for the AJAX we needed to control many aspects of the user experience.
+We followed the Digg Model for exposing web services and each web service could be changed around to provide output through JSON, RSS, ATOM, KML (where applicable), and XML. I even did a write up about a month ago on the [JSON Serializer](/posts/creating-a-more-accurate-json-net-serializer/) that I developed for this website. This was very important for the AJAX we needed to control many aspects of the user experience.
 
 **Open Search**
 

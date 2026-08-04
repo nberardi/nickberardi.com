@@ -12,9 +12,9 @@ tags:
 description: "Note: Most recent update for MVC Release Candidate 3 is out. So my MVC application that I have been working on required a CAPTCHA today. The problem is..."
 ---
 
-**Note:**  Most recent update for [MVC Release Candidate 3](http://www.coderjournal.com/2008/06/mvc-captcha-for-preview-release-3/) is out.
+**Note:**  Most recent update for [MVC Release Candidate 3](/posts/mvc-captcha-for-preview-release-3/) is out.
 
-So my [MVC application that I have been working](http://www.coderjournal.com/2008/02/microsoft-mvc-day-one/ "Microsoft MVC Day One") on required a [CAPTCHA](http://en.wikipedia.org/wiki/Captcha) today. The problem is that all of the solutions out there, that I could find for ASP.NET, are control based and I wanted a more MVC approach. I know I could have easily implemented one of them using the *Html.RenderControl()*, however I want to use a MVC approach to the CAPTCHA authentication box. So I started out with [Jeff Atwood's CAPTCHA Control](http://www.codinghorror.com/blog/2004/10/an-aspnet-captcha-server-control.html "An ASP.NET CAPTCHA Server Control") made for ASP.NET 2.0 in VB.NET 2005. I then converted it to C# and modified and expanded on it for the MVC framework. The following is the result of my work.
+So my [MVC application that I have been working](/posts/microsoft-mvc-day-one/ "Microsoft MVC Day One") on required a [CAPTCHA](http://en.wikipedia.org/wiki/Captcha) today. The problem is that all of the solutions out there, that I could find for ASP.NET, are control based and I wanted a more MVC approach. I know I could have easily implemented one of them using the *Html.RenderControl()*, however I want to use a MVC approach to the CAPTCHA authentication box. So I started out with [Jeff Atwood's CAPTCHA Control](http://www.codinghorror.com/blog/2004/10/an-aspnet-captcha-server-control.html "An ASP.NET CAPTCHA Server Control") made for ASP.NET 2.0 in VB.NET 2005. I then converted it to C# and modified and expanded on it for the MVC framework. The following is the result of my work.
 
 The following creates the CAPTCHA image on the page, that looks like the image below the code:
 
@@ -140,4 +140,4 @@ The rest of the source can be downloaded, if you are interested:
 
 I have tested this to work with in the guidelines that I need, which are pretty broad. However if you find a circumstance where this won't work please let me know and I would be happy to integrate it in to this code.
 
-**Update (2008-3-9):** The latest refresh of my [ASP.NET MVC CAPTCHA](http://www.coderjournal.com/2008/03/actionfilterattribute-aspnet-mvc-captcha/) control for Preview 2 of the MVC framework using *ActionFilterAttribute*.
+**Update (2008-3-9):** The latest refresh of my [ASP.NET MVC CAPTCHA](/posts/actionfilterattribute-aspnet-mvc-captcha/) control for Preview 2 of the MVC framework using *ActionFilterAttribute*.

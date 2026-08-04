@@ -15,7 +15,7 @@ tags:
 description: "Wow that is a long title. Recently I have been looking for quick posts that I can put out each day to keep my blog relevant and also so I don't feel like..."
 ---
 
-Wow that is a long title. Recently I have been looking for quick posts that I can put out each day to keep my blog relevant and also so I don't feel like I am slacking off too much. Today I want to post about a little known feature in my [.NET URL Rewriter and Reverse Proxy](http://www.codeplex.com/urlrewriter) (aka. Managed Fusion URL Rewriter) that I have developed in my spare time, [mostly out of necessity](http://www.coderjournal.com/2008/02/url-rewriter-reverse-proxy-iis-wordpress/) for this blog and other projects I have worked on.  Here is a quick run through of what it does.
+Wow that is a long title. Recently I have been looking for quick posts that I can put out each day to keep my blog relevant and also so I don't feel like I am slacking off too much. Today I want to post about a little known feature in my [.NET URL Rewriter and Reverse Proxy](http://www.codeplex.com/urlrewriter) (aka. Managed Fusion URL Rewriter) that I have developed in my spare time, [mostly out of necessity](/posts/url-rewriter-reverse-proxy-iis-wordpress/) for this blog and other projects I have worked on.  Here is a quick run through of what it does.
 
 > Managed Fusion URL Rewriter is a powerful URL manipulation engine based on the Apache [mod\_rewrite](http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html) extension. It is designed, from the ground up to bring all the features of Apache mod\_rewrite to IIS 6.0 and IIS 7.0. Managed Fusion Url Rewriter works with ASP.NET on Microsoft's Internet Information Server (IIS) 6.0 and Mono XPS Server and is fully supported, for all languages, in IIS 7.0, including ASP.NET and PHP. Managed Fusion Url Rewriter gives you the freedom to go beyond the standard URL schemes and develop your own scheme.
 
@@ -112,7 +112,7 @@ You can test out the above conditions by using the following URL's that all redi
 
 1. <http://www.coderjournal.com/?p=372>
 2. <http://www.coderjournal.com/2008/12/9/creating-extension-module-net-url-rewriter-reverse-proxy.html>
-3. <http://www.coderjournal.com/2008/12/9/creating-extension-module-net-url-rewriter-reverse-proxy/>
+3. </posts/creating-extension-module-net-url-rewriter-reverse-proxy/>
 
 The code as always is available on my SVN server at Google Code.
 

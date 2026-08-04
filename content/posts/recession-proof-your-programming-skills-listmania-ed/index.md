@@ -9,7 +9,7 @@ tags:
 description: "Found this great new, well new to me, service on Amazon called Listmania. It allows you to bundle Amazon products in to a list for easy consumption. So..."
 ---
 
-Found this great new, well new to me, service on Amazon called Listmania. It allows you to bundle Amazon products in to a list for easy consumption. So the first list of Amazon items I thought of trying out as a Listmania list was a post a I did a while ago titled "[Recession Proof Your Programming Skills](http://www.coderjournal.com/2009/04/recession-proof-your-programming-skills/)"
+Found this great new, well new to me, service on Amazon called Listmania. It allows you to bundle Amazon products in to a list for easy consumption. So the first list of Amazon items I thought of trying out as a Listmania list was a post a I did a while ago titled "[Recession Proof Your Programming Skills](/posts/recession-proof-your-programming-skills/)"
 
 > In this economy you have to do everything to keep your skills fresh and current so that employers find you a desirable hire. I really though the tips provided in [8 Ways to Recession-Proof Your Programming Career](http://www.softwarebyrob.com/2008/12/10/8-ways-to-recession-proof-your-programming-career/) where spot on when this article came out last year. And now that the TechRepublic has released [10 kills developers will need in the next 5 years](http://blogs.techrepublic.com.com/10things/?p=643). I have decided to give you some of my favorite Wrox books that align very well to this TechRepublic article.
 
