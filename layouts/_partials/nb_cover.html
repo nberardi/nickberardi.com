@@ -8,10 +8,12 @@
 
   Treatment is a property of what the image IS (its class), not of where it
   sits — see nb_image_class.html and the post-images redline. Only a
-  photograph may be cropped, and only a photograph/screenshot gets a print
-  treatment; a rail plate only ever appears for a photograph, and only when
-  its source aspect is 2.4:1 or narrower (a sliver of a panorama says
-  nothing). "mark" is not a valid cover class — reject at build.
+  photograph is ever cropped or gets a print (.cmyk) treatment; every other
+  class (including screenshot — .halftone is not used anywhere on the site
+  any more, r5) renders clean. A rail plate only ever appears for a
+  photograph, and only when its source aspect is 2.4:1 or narrower (a sliver
+  of a panorama says nothing). "mark" is not a valid cover class — reject at
+  build.
 */ -}}
 {{- $page := .page -}}
 {{- $part := .part -}}
@@ -37,7 +39,7 @@
   </figure>
   {{- else -}}
   {{- $h := math.Max 200 (math.Min 420 (div 1120.0 $aspect)) -}}
-  <figure class="nb-cover-band nb-cover-band-fit{{ if eq $class "screenshot" }} halftone{{ end }}" style="--nb-band-h:{{ $h }}px" data-nb-cover-band>
+  <figure class="nb-cover-band nb-cover-band-fit" style="--nb-band-h:{{ $h }}px" data-nb-cover-band>
     <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $cover.alt }}">
   </figure>
   {{- end -}}

@@ -21,7 +21,7 @@
     </div>
   </figure>
   {{- else if ne $coverClass "mark" }}
-  <figure class="nb-post-row-cover nb-post-row-cover-fit{{ if eq $coverClass "screenshot" }} halftone{{ end }}">
+  <figure class="nb-post-row-cover nb-post-row-cover-fit">
     <img src="{{ (.Resize "1800x q82").RelPermalink }}" alt="">
   </figure>
   {{- end }}
