@@ -13,7 +13,7 @@ cover:
   hiddenInList: false
 ---
 
-Today I just noticed that [my blog’s CDN (Google AppEngine)](http://www.coderjournal.com/2008/06/turn-google-app-engine-into-a-content-delivery-network-cdn/) was failing to resolve.  After a little research I realized that [WebSense](http://www.websense.com/content/home.aspx), a corporate web filtering software and scourge of intranet users that need to be productive, had decided that the IP Address range that Google AppEngine uses should be completely blocked.  And because most corporate IT departments just blindly apply the WebSense rules that they are sent, with out first verifying that they make sense; my blog is completely without JavaScript and CSS on these corporate networks.
+Today I just noticed that [my blog’s CDN (Google AppEngine)](/posts/turn-google-app-engine-into-a-content-delivery-network-cdn/) was failing to resolve.  After a little research I realized that [WebSense](http://www.websense.com/content/home.aspx), a corporate web filtering software and scourge of intranet users that need to be productive, had decided that the IP Address range that Google AppEngine uses should be completely blocked.  And because most corporate IT departments just blindly apply the WebSense rules that they are sent, with out first verifying that they make sense; my blog is completely without JavaScript and CSS on these corporate networks.
 
 The good news however is that I now know that my blog gracefully downgrades and is still very readable without JavaScript or CSS running.
 

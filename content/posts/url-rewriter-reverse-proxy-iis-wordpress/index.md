@@ -26,7 +26,7 @@ cover:
   hiddenInList: false
 ---
 
-First off I would like to say that many of my readers are very intelligent, they picked up on a one line sentence in [my last post](http://www.coderjournal.com/2008/01/new-year-makeover-wordpress-seo-sem/ "Coder Journal’s New Year Make Over") about my new design and Coder Journal switching from Linux to Windows.
+First off I would like to say that many of my readers are very intelligent, they picked up on a one line sentence in [my last post](/posts/new-year-makeover-wordpress-seo-sem/ "Coder Journal’s New Year Make Over") about my new design and Coder Journal switching from Linux to Windows.
 
 > I also moved hosts from GoDaddy’s shared Linux hosting. To GoDaddy’s virtual dedicated hosting on Windows. This proved difficult since URL Rewriting isn’t currently built in to IIS 6.0 like it is in Apache. I will talk a little about this setup in a later post.
 

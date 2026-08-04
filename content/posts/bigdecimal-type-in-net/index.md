@@ -9,7 +9,7 @@ tags:
 description: "Similar to the situation I previously posted about in my last blog entry on ZLIB Compression in .NET. I needed to support a byte array coming from Java's..."
 ---
 
-Similar to the situation I previously posted about in my last blog entry on [ZLIB Compression in .NET](http://coderjournal.com/2012/05/zlib-compression-in-net/). I needed to support a byte array coming from Java's [BigDecimal type](http://docs.oracle.com/javase/1.4.2/docs/api/java/math/BigDecimal.html).
+Similar to the situation I previously posted about in my last blog entry on [ZLIB Compression in .NET](/posts/zlib-compression-in-net/). I needed to support a byte array coming from Java's [BigDecimal type](http://docs.oracle.com/javase/1.4.2/docs/api/java/math/BigDecimal.html).
 
 To understand why I can't just use the decimal type in .NET you have to understand that BigDecimal is designed to scale way beyond typical numbers that anybody would realistically use in their day to day programming. And supporting one of these types as a standard type, would eat up much more memory than a typical programmer would want to use for a single number.
 

@@ -8,7 +8,7 @@ tags:
 description: "As part of my 4 part series in creating the app I described in my prior post, I am going to be creating an online planning poker application for..."
 ---
 
-As part of my 4 part series in creating [the app I described in my prior post](http://coderjournal.com/2013/07/planning-poker-project), I am going to be creating an online planning poker application for distributed teams using AngularJS, SignalR, and TypeScript.
+As part of my 4 part series in creating [the app I described in my prior post](/posts/planning-poker-project/), I am going to be creating an online planning poker application for distributed teams using AngularJS, SignalR, and TypeScript.
 
 In this first post, I would like to talk about bringing **SignalR and TypeScript** together to create a solution that follows the best practices of both frameworks. To get started we are first going to need to make sure we have the TypeScript definition for SignalR added to our project, and to do this you need to run the following on NuGet.
 
@@ -188,6 +188,6 @@ As you can see getting SignalR and TypeScript working together isn't as straight
 
 If you would like to view all the source for this post, you can find it here at the GitHub Gist I setup. <https://gist.github.com/nberardi/5904129>. Best of luck and stay tuned for the next 3 posts in the series.
 
-1. [AngularJS + TypeScript](http://coderjournal.com/2013/07/angularjs-and-typescript/)
-2. [SignalR + AngularJS](http://coderjournal.com/2013/07/signalr-and-angularjs/)
-3. [Bringing it all together](http://nickberardi.com/consensus-bringing-it-all-together/)
+1. [AngularJS + TypeScript](/posts/angularjs-and-typescript/)
+2. [SignalR + AngularJS](/posts/signalr-and-angularjs/)
+3. [Bringing it all together](/posts/consensus-bringing-it-all-together/)

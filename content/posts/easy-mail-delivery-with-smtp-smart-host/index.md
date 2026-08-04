@@ -89,4 +89,4 @@ And here is my favorite part, the emails show up on the graph.
 
 *Note: If you have never setup a localhost SMTP server on Windows before. Make sure that you grant “127.0.0.1” or “localhost” the ability to relay mail through the localhost server. Sounds odd, but this is a necessary step in my experience. To do this click the Access tab, click the Relay button, click the Add button, and then enter the IP address “127.0.0.1” in to the IP Address text box, and click OK. Then just keep clicking OK to exit out of the properties screen.*
 
-**Update (2010-10-25):** If you find that your SMTP Relay is being blocked by your residential service provider or GoDaddy please read my updated post on how you can get around this [using alternative outbound ports in the smart host](http://coderjournal.com/2010/10/how-to-send-smtp-email-through-godaddy/).
+**Update (2010-10-25):** If you find that your SMTP Relay is being blocked by your residential service provider or GoDaddy please read my updated post on how you can get around this [using alternative outbound ports in the smart host](/posts/how-to-send-smtp-email-through-godaddy/).

@@ -20,9 +20,9 @@ cover:
   hiddenInList: false
 ---
 
-It is almost 1 year to the date of when I first posted [JSON.NET Strong Naming And NuGet Woes](http://coderjournal.com/2012/04/json-net-strong-naming-and-nuget-woes/) and the NuGet compatibility issues have stabilized  This stabilization hasn't happened through a change from Microsoft, but a change in how publishers of NuGet packages version their libraries.
+It is almost 1 year to the date of when I first posted [JSON.NET Strong Naming And NuGet Woes](/posts/json-net-strong-naming-and-nuget-woes/) and the NuGet compatibility issues have stabilized  This stabilization hasn't happened through a change from Microsoft, but a change in how publishers of NuGet packages version their libraries.
 
-I am writing this post, because even after one year I am getting very passionate comments on one side of the issue or not, people don't seem to take a middle road on the strong naming issue. If you don't believe me [take a look at the comments](http://coderjournal.com/2012/04/json-net-strong-naming-and-nuget-woes/#comments).
+I am writing this post, because even after one year I am getting very passionate comments on one side of the issue or not, people don't seem to take a middle road on the strong naming issue. If you don't believe me [take a look at the comments](/posts/json-net-strong-naming-and-nuget-woes/).
 
 Lucky for us, most developers who choose to strongly name their assemblies now are using a versioning mechanism that reduces the chances of breaking referencing assemblies in NuGet.  This "new" versioning technique is actually a non-technique.  Let me explain, instead of changing the version of the assembly with each release, you leave the version of the assembly set, until it is necessary to communicate a major release.
 
@@ -32,7 +32,7 @@ Lets look at JSON.NET again as our standard bearer.  Mostly do to the fact that
 
 As I talked about in my previous post the main difference between strongly named assemblies and plain assemblies is that when you strongly name an assembly the versions have to match for any referencing assembly, for plain assemblies there is no requirement.  If you put out a new release of a strongly named assembly and don't change the version, the assemblies that reference it don't know the difference and are happy to keep using it.
 
-At the time when I posted my previous post, I hadn't realized that James Newton-King had changed the policy to what I had described above, which is commonly referred to as SemVer.  He pointed this [out to me in the comments](http://coderjournal.com/2012/04/json-net-strong-naming-and-nuget-woes/comment-page-1/#comment-67222).
+At the time when I posted my previous post, I hadn't realized that James Newton-King had changed the policy to what I had described above, which is commonly referred to as SemVer.  He pointed this [out to me in the comments](/posts/json-net-strong-naming-and-nuget-woes/).
 
 > ![](http://0.gravatar.com/avatar/e43cefbb045bbe6e800589876dc5677b?s=60&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&r=PG) FYI I discussed strong naming a couple of weeks ago –<http://james.newtonking.com/archive/2012/03/20/json-net-4-5-release-1-iso-dates-async-metro-build.aspx>
 > No one seems to have read it.

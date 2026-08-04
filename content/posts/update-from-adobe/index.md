@@ -10,7 +10,7 @@ tags:
 description: "Recently I posted about the bad user experience that the Adobe Update Manager provided. On the same day that I posted that entry I also sent a note to..."
 ---
 
-Recently I [posted](http://www.coderjournal.com/2007/01/adobe-what-where-you-thinking/) about the bad user experience that the Adobe Update Manager provided. On the same day that I posted that entry I also sent a note to Adobe about my disappointment in their product. I am happy to say I received a positive response from Adobe, and with the e-mail below, my respect for their QA team has gone up a couple notches. I say this because it takes a level of humility that is required in software development to admit you are wrong, something that not many companies have anymore.
+Recently I [posted](/posts/adobe-what-where-you-thinking/) about the bad user experience that the Adobe Update Manager provided. On the same day that I posted that entry I also sent a note to Adobe about my disappointment in their product. I am happy to say I received a positive response from Adobe, and with the e-mail below, my respect for their QA team has gone up a couple notches. I say this because it takes a level of humility that is required in software development to admit you are wrong, something that not many companies have anymore.
 
 > Date: Thu, 4 Jan 2007 16:33:58 -0500
 > Subject: Bug Report Form

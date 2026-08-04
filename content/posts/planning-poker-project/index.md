@@ -43,9 +43,9 @@ You can find a working copy of the Consensus software at: <http://consensus.azu
 
 I am going to break this application into a 4 part series of blog posts, that deals with integrating just two components at a time. I believe this is the best approach, because not only does a combination of two of these technologies expand how relative the post will be to the audience, over all three technologies at the same time. But it also breaks up a very long topic into 4 easily digestible posts, instead of just throwing it together in one large post that is too long for anybody but the most die-hard to care about reading.
 
-1. [SignalR + TypeScript](http://coderjournal.com/2013/07/signalr-and-typescript/)
-2. [AngularJS + TypeScript](http://coderjournal.com/2013/07/angularjs-and-typescript/)
-3. [SignalR + AngularJS](http://coderjournal.com/2013/07/signalr-and-angularjs/)
-4. [Bringing it all together](http://nickberardi.com/consensus-bringing-it-all-together/)
+1. [SignalR + TypeScript](/posts/signalr-and-typescript/)
+2. [AngularJS + TypeScript](/posts/angularjs-and-typescript/)
+3. [SignalR + AngularJS](/posts/signalr-and-angularjs/)
+4. [Bringing it all together](/posts/consensus-bringing-it-all-together/)
 
 Stay tuned the posts should start rolling out soon.

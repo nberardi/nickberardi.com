@@ -74,7 +74,7 @@ One of my favorite features of the Mozy service is the level of configuration an
 
 ## Customer Support:
 
-Mozy customer support is great, they are very responsive to any problems you might have. I will not do them justice by writing about it. So I thought I would include an e-mail they sent out January 24, 2007 that really sums up how they treat their customers. If you are a long time reader you know how much I love to hear stories about [companies doing right by their customers](http://www.coderjournal.com/2007/01/update-from-adobe/ "Update from Adobe").
+Mozy customer support is great, they are very responsive to any problems you might have. I will not do them justice by writing about it. So I thought I would include an e-mail they sent out January 24, 2007 that really sums up how they treat their customers. If you are a long time reader you know how much I love to hear stories about [companies doing right by their customers](/posts/update-from-adobe/ "Update from Adobe").
 
 > Date: Wed, 24 Jan 2007 14:07:19 -0700
 > From: Josh Coates (\*\*\*\*@mozy.com)

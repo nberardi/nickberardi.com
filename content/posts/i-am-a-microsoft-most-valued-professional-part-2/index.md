@@ -17,4 +17,4 @@ cover:
 
 ![Microsoft Most Valued Professional](/images/2012/07/mvp_horizontal_fullcolor.png)
 
-Last year was [my first year being involved in the Microsoft MVP program](http://coderjournal.com/2012/07/i-am-a-microsoft-most-valued-professional/).  Over the past year, I have met many great developers through the MVP program and at the Summit, and  I am happy to say that my MVP for ASP.NET/IIS has been renewed for a 2nd year.
+Last year was [my first year being involved in the Microsoft MVP program](/posts/i-am-a-microsoft-most-valued-professional/).  Over the past year, I have met many great developers through the MVP program and at the Summit, and  I am happy to say that my MVP for ASP.NET/IIS has been renewed for a 2nd year.

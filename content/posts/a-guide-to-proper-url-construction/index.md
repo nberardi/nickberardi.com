@@ -41,7 +41,7 @@ Well the very same goes for the URL of your website, if it is ugly and looks lik
    Just like what we previously went over about Duplicate URLs the same applies to domain names. So it is wise to also do a 301 Redirect from the domains. In the case of this blog I have the .net and .org domains doing a 301 redirect to my .com domain name.
   
 3. **Increasing Your Surface Area With Keywords in URLs**
-   If you do most any [search on Google](http://www.google.com/search?hl=en&q=journal&btnG=Search), you will notice that Google also highlights the keywords that show up in the URL. So a URL that looks like this <http://www.coderjournal.com/2007/04/new-novell-ad-campaign-mac-vs-pc-vs-linux-continued/> is going to attract a lot more attention on keyword searches than a URL that looks like <http://www.coderjournal.com/2007/04/new-novell-ad-campaign-mac-vs-pc-vs-linux-continued/>
+   If you do most any [search on Google](http://www.google.com/search?hl=en&q=journal&btnG=Search), you will notice that Google also highlights the keywords that show up in the URL. So a URL that looks like this </posts/new-novell-ad-campaign-mac-vs-pc-vs-linux-continued/> is going to attract a lot more attention on keyword searches than a URL that looks like </posts/new-novell-ad-campaign-mac-vs-pc-vs-linux-continued/>
   
 
   

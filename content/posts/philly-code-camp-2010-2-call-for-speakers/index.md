@@ -13,7 +13,7 @@ We have a great line up of tracks this year, even a new one led by our very own,
 
 - Alt.NET
 - Architecture
-- ASP.NET ([more info about what sessions I hope to have in this track](http://coderjournal.com/2010/08/philly-code-camp-2010-2-asp-net-track/))
+- ASP.NET ([more info about what sessions I hope to have in this track](/posts/philly-code-camp-2010-2-asp-net-track/))
 - Silverlight
 - SharePoint
 - Visual Studio

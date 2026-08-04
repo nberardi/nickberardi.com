@@ -22,7 +22,7 @@ To accomplish this goal, this year I am going to put out a game plan that will f
 - Couple intro topics
 - Couple mid-level topics
 - And at least one what's new topic
-- **[Please no WebMatrix talks](http://coderjournal.com/2010/08/with-each-step-forward-microsoft-takes-two-back/)**
+- **[Please no WebMatrix talks](/posts/with-each-step-forward-microsoft-takes-two-back/)**
 
 Topics I will be looking for to satisfy the game plan:
 
@@ -31,7 +31,7 @@ Topics I will be looking for to satisfy the game plan:
 3. Intro to HTTP (seems weird but most web developers don’t understand HTTP or the difference between GET and POST)
 4. Intro to Ruby On Rails
 5. Transitioning from WebForms to MVC
-6. [What’s New In MVC 3 (w/ a Razor Overview)](http://coderjournal.com/2010/08/philly-net-presentation/)
+6. [What’s New In MVC 3 (w/ a Razor Overview)](/posts/philly-net-presentation/)
 7. Techniques to create a functional Web 2.0 site
 8. The programmable web and how that fits in to your websites.  (Think effective use of REST)
 9. Entrepreneurship and the web

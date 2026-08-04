@@ -14,7 +14,7 @@ Fluent Cassandra is now available via NuGet.
 
 If you have never heard of FluentCassandra then go here to learn more:
 
-<http://coderjournal.com/2010/06/your-first-fluent-cassandra-application/>
+</posts/your-first-fluent-cassandra-application/>
 
 If you have never heard of NuGet then go here to learn more:
 

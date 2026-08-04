@@ -13,7 +13,7 @@ description: "Recently I just got out of a contract in the beginning of June, th
 
 Recently I just got out of a contract in the beginning of June, that unfortunately I stayed at way too long in. That is another story.  But, I have nothing bad to say about the company because the work was interesting, just management at the company had different views of the contract between the two of us. The management wanted an employee and I always maintained that I wanted to stay an independent contractor.
 
-When I left the job on Thursday, June 2nd, I received a handshake on the way out and thought everything was going to end like every other job I have left. In that we maintain a friendly but separate relationship and I secretly root in the background for the companies success moving forward.  [Same way I did when I was a contractor for the company](http://coderjournal.com/2010/10/easy-mail-delivery-with-smtp-smart-host/).
+When I left the job on Thursday, June 2nd, I received a handshake on the way out and thought everything was going to end like every other job I have left. In that we maintain a friendly but separate relationship and I secretly root in the background for the companies success moving forward.  [Same way I did when I was a contractor for the company](/posts/easy-mail-delivery-with-smtp-smart-host/).
 
 I continue to this day to do this for a couple companies that I loved working at and that I have stayed in constant contact with. One company that comes to mind and that I loved work for is [Voveo](http://www.voveo.com/).
 

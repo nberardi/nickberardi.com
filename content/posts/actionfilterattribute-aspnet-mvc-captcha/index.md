@@ -13,7 +13,7 @@ tags:
 description: "My last article on ASP.NET MVC CAPTCHA was very well received by many of my readers and it even caught the eye of the DotNetKicks crowd. Now that MVC..."
 ---
 
-My last article on [ASP.NET MVC CAPTCHA](http://www.coderjournal.com/2008/03/aspnet-mvc-captcha/) was very well received by many of my readers and it [even caught the eye of the DotNetKicks crowd](http://www.dotnetkicks.com/aspnet/ASP_NET_MVC_CAPTCHA). Now that [MVC Preview 2](http://www.microsoft.com/downloads/details.aspx?FamilyId=38CC4CF1-773A-47E1-8125-BA3369BF54A3&displaylang=en) was released last week, many new features make encapsulating my CAPTCHA control even easier. Most notably is the *ActionFilterAttribute* which allows you to override the Pre and Post action events for any action the attribute is applied to.
+My last article on [ASP.NET MVC CAPTCHA](/posts/aspnet-mvc-captcha/) was very well received by many of my readers and it [even caught the eye of the DotNetKicks crowd](http://www.dotnetkicks.com/aspnet/ASP_NET_MVC_CAPTCHA). Now that [MVC Preview 2](http://www.microsoft.com/downloads/details.aspx?FamilyId=38CC4CF1-773A-47E1-8125-BA3369BF54A3&displaylang=en) was released last week, many new features make encapsulating my CAPTCHA control even easier. Most notably is the *ActionFilterAttribute* which allows you to override the Pre and Post action events for any action the attribute is applied to.
 
 Basically everything works the same as it did in the previous article. I just modified things for MVC Preview 2. To validate the CAPTCHA you add the attribute *CaptchaValidation* to the action.
 

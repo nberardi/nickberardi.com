@@ -9,7 +9,7 @@ tags:
 description: "As promised to the people of my last post for CodeRush Xpress 9.1, here is the updated scripts for CodeRush Xpress 9.2, which was released last week. The..."
 ---
 
-As promised to the people of my [last post for CodeRush Xpress 9.1](http://www.coderjournal.com/2009/08/show-coderush-xpress-menu-in-visual-studio/), here is the updated scripts for CodeRush Xpress 9.2, which was [released last week](http://www.devexpress.com/Products/Visual_Studio_Add-in/CodeRushX/).
+As promised to the people of my [last post for CodeRush Xpress 9.1](/posts/show-coderush-xpress-menu-in-visual-studio/), here is the updated scripts for CodeRush Xpress 9.2, which was [released last week](http://www.devexpress.com/Products/Visual_Studio_Add-in/CodeRushX/).
 
 The Keyboard Command Way
 

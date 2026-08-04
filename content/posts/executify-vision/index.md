@@ -8,7 +8,7 @@ tags:
 description: "As I explained about a month ago when I introduced Executify, I have launched a new website that works a lot like Azure Mobile Service Jobs except that..."
 ---
 
-As I explained [about a month ago when I introduced Executify](http://coderjournal.com/2012/12/welcome-to-executify/), I have launched a [new website](http://executify.com) [that works a lot like Azure Mobile Service Jobs](http://coderjournal.com/2012/12/azure-mobile-service-jobs/) except that you have more control over the jobs and you can create them in the .NET 4.5 Framework.
+As I explained [about a month ago when I introduced Executify](/posts/welcome-to-executify/), I have launched a [new website](http://executify.com) [that works a lot like Azure Mobile Service Jobs](/posts/azure-mobile-service-jobs/) except that you have more control over the jobs and you can create them in the .NET 4.5 Framework.
 
 Since then I have wanted to explain the vision behind it. Executify's vision is to make cloud code easier and more affordable to develop and execute. Traditionally if you want to execute code in the cloud as a background task, you are left with very few affordable options and you have to pay a monthly fee even if you only use the code a few times a month.
 

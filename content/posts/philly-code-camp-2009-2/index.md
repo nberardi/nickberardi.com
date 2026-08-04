@@ -28,7 +28,7 @@ All of this is made possible by the Gold partners (**Component One, Hosting.com,
 
 ### My First Presentation at 10:00
 
-I have been asked back to do [my presentation from April](http://www.coderjournal.com/2009/4/code-camp) again in the newly expanded *Beginner I* track at 10:00 AM.  The abstract for this talk is as follows:
+I have been asked back to do [my presentation from April](/posts/code-camp/) again in the newly expanded *Beginner I* track at 10:00 AM.  The abstract for this talk is as follows:
 
 > This session explores the Microsoft Visual Studio development environment and how it is used to develop Web and Windows applications.  The topics include:
 >

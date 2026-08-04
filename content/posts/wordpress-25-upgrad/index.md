@@ -23,4 +23,4 @@ I have upgraded my blog to [WordPress 2.5](http://wordpress.org/development/2008
 10. Friendlier visual post editor
 11. Built-in galleries
 
-The upgrade this weekend turned up a Cookie bug in my URL Rewriter and Reverse Proxy software, that [I use to host WordPress on my Windows 2003 server](http://www.coderjournal.com/2008/02/url-rewriter-reverse-proxy-iis-wordpress/ "How to use the .NET URL Rewriter and Reverse Proxy to run WordPress on IIS"). There will be an updating to the URL Rewriter coming soon to [MSDN Code](http://code.msdn.microsoft.com/urlrewriter) and [Codeplex](http://codeplex.com/urlrewriter) as well as a release on my companies website.
+The upgrade this weekend turned up a Cookie bug in my URL Rewriter and Reverse Proxy software, that [I use to host WordPress on my Windows 2003 server](/posts/url-rewriter-reverse-proxy-iis-wordpress/ "How to use the .NET URL Rewriter and Reverse Proxy to run WordPress on IIS"). There will be an updating to the URL Rewriter coming soon to [MSDN Code](http://code.msdn.microsoft.com/urlrewriter) and [Codeplex](http://codeplex.com/urlrewriter) as well as a release on my companies website.

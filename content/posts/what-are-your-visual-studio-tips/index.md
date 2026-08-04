@@ -18,7 +18,7 @@ cover:
   hiddenInList: false
 ---
 
-As I announced yesterday I will be [speaking at the Philly Code Camp 2009.1](http://www.coderjournal.com/2009/03/speaking-at-philly-code-camp-20091/) on Visual Studio 2008 for beginners.  As part of this presentation I want to be able to provide the 10 most valuable tips for beginners using Visual Studio.
+As I announced yesterday I will be [speaking at the Philly Code Camp 2009.1](/posts/speaking-at-philly-code-camp-20091/) on Visual Studio 2008 for beginners.  As part of this presentation I want to be able to provide the 10 most valuable tips for beginners using Visual Studio.
 
 I did a quick search of the internet last night, on this subject, and everything seemed to point to [Sara Ford as the defacto standard on Visual Studio tips](http://blogs.msdn.com/saraford/archive/tags/Visual+Studio+2008+Tip+of+the+Day/default.aspx).  She even has a best selling [book on the subject](http://www.amazon.com/gp/product/0735626405?tag=coderjournal-20), appropriately called **Microsoft Visual Studio Tips**.
 
