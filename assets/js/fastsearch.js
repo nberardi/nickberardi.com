@@ -137,11 +137,11 @@ const renderResults = (results) => {
 
 const setEmptyMessage = (query) => {
     emptyMsg.textContent = '';
-    emptyMsg.appendChild(document.createTextNode('Nothing in the index matches '));
+    emptyMsg.appendChild(document.createTextNode('No posts match '));
     const em = document.createElement('em');
     em.textContent = query;
     emptyMsg.appendChild(em);
-    emptyMsg.appendChild(document.createTextNode('. The index covers titles, summaries and topics — try a shorter word, or browse '));
+    emptyMsg.appendChild(document.createTextNode('. Try a shorter word, or browse '));
     const link = document.createElement('a');
     link.href = '/archive/';
     link.textContent = 'the archive by year';
