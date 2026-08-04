@@ -5,7 +5,7 @@
 {{- with .Params.cover -}}
 {{- $coverImg = $.Resources.GetMatch .image -}}
 {{- $ext := strings.TrimPrefix "." (path.Ext .image) -}}
-{{- $coverClass = partial "nb_image_class.html" (dict "override" .class "ext" $ext) -}}
+{{- $coverClass = partial "nb_image_class.html" (dict "override" .class "ext" $ext "img" $coverImg) -}}
 {{- end -}}
 <a class="nb-post-row{{ if $coverImg }} nb-post-row--cover{{ end }}" href="{{ .RelPermalink }}">
   <span class="nb-post-date">{{ .Date | time.Format "2006·01·02" }}</span>

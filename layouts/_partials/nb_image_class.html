@@ -2,21 +2,41 @@
   Broadsheet image class — decides treatment for any image on the site.
   One of: photograph | screenshot | line-art | diagram | mark.
 
-  Call with (dict "override" $override "ext" $ext):
+  Call with (dict "override" $override "ext" $ext "img" $img):
     override — an explicit class string (front matter cover.class, or a body
                image's {class="..."} attribute); empty string if none given.
     ext      — the file extension, no leading dot (e.g. "png", "jpg").
+    img      — the image resource, for the EXIF signal below; optional —
+               pass empty/nil for an external URL with no local resource,
+               and the signal is simply skipped.
 
-  Default-by-extension: .jpg/.jpeg -> photograph; everything else -> line-art.
+  Three signals, in order, stopping at the first that decides:
+    1. Explicit override — always wins.
+    2. Camera EXIF — a Make or Model tag means a camera wrote the file, so
+       it's a photograph regardless of extension. Only real camera output
+       carries these tags; a screenshot or export has none.
+    3. File extension (default) — .jpg/.jpeg -> photograph; everything else
+       -> line-art.
   A wrong guess must fail toward NO treatment — an untreated photograph is
   a plain picture, a treated diagram is a defect — so anything that isn't
   unambiguously a photograph defaults to the untreated line-art class.
 */ -}}
 {{- $override := .override -}}
 {{- $ext := lower (.ext | default "") -}}
+{{- $img := .img -}}
+{{- $hasExif := false -}}
+{{- with $img -}}
+  {{- with .Exif -}}
+    {{- if or .Tags.Make .Tags.Model -}}
+      {{- $hasExif = true -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $class := "line-art" -}}
 {{- if $override -}}
   {{- $class = $override -}}
+{{- else if $hasExif -}}
+  {{- $class = "photograph" -}}
 {{- else if or (eq $ext "jpg") (eq $ext "jpeg") -}}
   {{- $class = "photograph" -}}
 {{- end -}}

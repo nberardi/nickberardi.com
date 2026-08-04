@@ -18,9 +18,11 @@
 */ -}}
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
+{{- $imgRes := "" -}}
 {{- if not $u.IsAbs -}}
   {{- $path := strings.TrimPrefix "./" $u.Path }}
   {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $imgRes = . -}}
     {{- $src = .RelPermalink -}}
     {{- with $u.RawQuery -}}
       {{- $src = printf "%s?%s" $src . -}}
@@ -33,7 +35,7 @@
 
 {{- $ext := strings.TrimPrefix "." (path.Ext $u.Path) -}}
 {{- $override := index .Attributes "class" -}}
-{{- $class := partial "nb_image_class.html" (dict "override" $override "ext" $ext) -}}
+{{- $class := partial "nb_image_class.html" (dict "override" $override "ext" $ext "img" $imgRes) -}}
 {{- $bleed := and (eq $class "photograph") (eq (index .Attributes "bleed") "true") -}}
 
 {{- $caption := "" -}}
