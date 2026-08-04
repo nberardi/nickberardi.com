@@ -18,18 +18,18 @@
 
 <main id="main-content" class="nb-shell nb-search">
   <h2 class="nb-page-title">Search</h2>
-  <p class="nb-search-lede">Fuzzy match across every title, summary and topic &mdash; {{ $total }} posts, 2007 to now. Results narrow as you type.</p>
+  <p class="nb-search-lede">Find a post by title, summary, or topic &mdash; everything from 2007 to now. Results update as you type.</p>
 
   <div class="nb-search-rail">
     <div>
       <div id="searchbox">
         <input id="searchInput" class="input" type="search" disabled
-          placeholder="{{ .Params.placeholder | default (printf "%s ↵" .Title) }}"
+          placeholder="{{ printf "Search %d posts" $total }}"
           aria-label="Search posts" autocomplete="off" maxlength="64">
 
         <div class="nb-section-head" id="searchStatus" hidden>
           <div class="nb-kicker" id="searchCount"></div>
-          <span class="nb-section-note" id="searchRankNote">Ranked by match, then date</span>
+          <span class="nb-section-note" id="searchRankNote">Best matches first</span>
         </div>
         <div class="nb-rule-heavy" id="searchRule" hidden></div>
         <ul id="searchResults" class="nb-post-rows" aria-label="Search results"></ul>
@@ -38,14 +38,14 @@
     </div>
 
     <div>
-      <div class="nb-kicker nb-kicker-accent">Try a topic instead</div>
+      <div class="nb-kicker nb-kicker-accent">Or browse by topic</div>
       <div class="nb-tag-row nb-tag-row-wrap">
         {{- range $topTags }}
         <a class="tag tag-neutral" href="{{ .url }}">{{ .name }} {{ .count }}</a>
         {{- end }}
       </div>
-      <div class="nb-kicker nb-kicker-accent nb-search-kicker-spaced">Nothing matching?</div>
-      <p class="nb-search-note">The index covers titles, summaries and topics &mdash; not full post bodies. For those, the <a href="{{ "/archive/" | relLangURL }}">year archive</a> is often faster.</p>
+      <div class="nb-kicker nb-kicker-accent nb-search-kicker-spaced">Still looking?</div>
+      <p class="nb-search-note">Search checks titles, summaries, and topics &mdash; not the full text of each post. If that misses something, the <a href="{{ "/archive/" | relLangURL }}">year archive</a> is often faster.</p>
     </div>
   </div>
 </main>
