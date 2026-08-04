@@ -21,7 +21,7 @@ Cassandra is mainly developed by Linux developers so very little attention has b
 
 ### Step 1
 
-If you haven’t done so already please read my [jump start for Windows users on install Cassandra](http://coderjournal.com/2010/03/cassandra-jump-start-for-the-windows-developer/), this guide will get you ready for the next steps.
+If you haven’t done so already please read my [jump start for Windows users on install Cassandra](/posts/cassandra-jump-start-for-the-windows-developer/), this guide will get you ready for the next steps.
 
 ### Step 2
 

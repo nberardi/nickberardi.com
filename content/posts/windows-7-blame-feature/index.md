@@ -14,7 +14,7 @@ Over this past weekend I installed Windows 7 (64-bit), and I have to say that it
 
 > It's Microsofts fault that Windows blue screens every time I try to play a game on my graphics card.
 
-What this uneducated user doesn't understand is that Microsoft isn't really at fault, it is the fault of the hardware manufacurer that poorly developed the drivers.  But up until Windows 7 a poorly programmed driver would result in a blue screen and Windows would have no way of letting the user know what was going on until the [operating system had been restarted](http://www.coderjournal.com/2007/02/windows-vista-blue-screen-of-death/).  Now in Windows 7 bad programming by hardware manufactures are caught in real time with out rebooting.  **Windows 7 gracefully handles the error**, and displays a "blame message" line the one listed below.
+What this uneducated user doesn't understand is that Microsoft isn't really at fault, it is the fault of the hardware manufacurer that poorly developed the drivers.  But up until Windows 7 a poorly programmed driver would result in a blue screen and Windows would have no way of letting the user know what was going on until the [operating system had been restarted](/posts/windows-vista-blue-screen-of-death/).  Now in Windows 7 bad programming by hardware manufactures are caught in real time with out rebooting.  **Windows 7 gracefully handles the error**, and displays a "blame message" line the one listed below.
 
 ![windows-7-blame](/images/2009/05/windows-7-blame1.png "windows-7-blame")
 

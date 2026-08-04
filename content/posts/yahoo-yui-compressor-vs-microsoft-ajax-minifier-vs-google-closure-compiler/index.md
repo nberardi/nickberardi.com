@@ -16,7 +16,7 @@ tags:
 description: "A little more than a year and half ago I created a MSBuild Task for the YUI Compressor that was very well received, and even highlighted on the YUI..."
 ---
 
-A little more than a year and half ago I created a [MSBuild Task for the YUI Compressor](http://www.coderjournal.com/2008/05/how-to-create-a-yui-compressor-msbuild-task/) that was very well received, and even highlighted on the [YUI Compressor site](http://developer.yahoo.com/yui/compressor/).  At the time of writing that article YUI Compressor was king of the hill, and for the most part the only game in town that was really designed for production level use.  Since then a number of new competitors have been released by Google and Microsoft, and I wanted to see how they stacked up against the YUI Compressor.
+A little more than a year and half ago I created a [MSBuild Task for the YUI Compressor](/posts/how-to-create-a-yui-compressor-msbuild-task/) that was very well received, and even highlighted on the [YUI Compressor site](http://developer.yahoo.com/yui/compressor/).  At the time of writing that article YUI Compressor was king of the hill, and for the most part the only game in town that was really designed for production level use.  Since then a number of new competitors have been released by Google and Microsoft, and I wanted to see how they stacked up against the YUI Compressor.
 
 ### 
 

@@ -11,11 +11,11 @@ tags:
 description: "As your are probably aware by now if you follow my Twitter status or have looked in to some of my recent posts.&#160; I am developing a library called..."
 ---
 
-As your are probably aware by now if you [follow my Twitter status](http://twitter.com/nberardi) or have looked in to [some of my recent posts](http://www.coderjournal.com/2010/04/creating-a-time-uuid-guid-in-net/).  I am developing a library called [FluentCassandra](http://github.com/managedfusion/fluentcassandra) which is a .NET library for using the [Cassandra database](http://cassandra.apache.org/) in a .NETty way.  The project has [progressed quite nicely in the last couple of months](http://twitter.com/fluentcassandra) and I am finally ready to start talking about it and giving examples on how it can be used in your applications.  So lets gets started…
+As your are probably aware by now if you [follow my Twitter status](http://twitter.com/nberardi) or have looked in to [some of my recent posts](/posts/creating-a-time-uuid-guid-in-net/).  I am developing a library called [FluentCassandra](http://github.com/managedfusion/fluentcassandra) which is a .NET library for using the [Cassandra database](http://cassandra.apache.org/) in a .NETty way.  The project has [progressed quite nicely in the last couple of months](http://twitter.com/fluentcassandra) and I am finally ready to start talking about it and giving examples on how it can be used in your applications.  So lets gets started…
 
 #### Step 1)
 
-The first thing we need to do is make sure that your machine is properly setup to run Cassandra.  Back in March I put together [a jump start for Windows developers](http://www.coderjournal.com/2010/03/cassandra-jump-start-for-the-windows-developer/) to do just that.  So if you don’t have it running on your machine already, start there.
+The first thing we need to do is make sure that your machine is properly setup to run Cassandra.  Back in March I put together [a jump start for Windows developers](/posts/cassandra-jump-start-for-the-windows-developer/) to do just that.  So if you don’t have it running on your machine already, start there.
 
 #### Step 2)
 
@@ -180,4 +180,4 @@ As a follow up exercise, see if you can add comments.  Hint you will need a new
 
 Hope this was an interesting exercise, and if you see any way to improve the interface or want to help out on the project please start by going to [http://github.com/managedfusion/fluentcassandra](http://github.com/managedfusion/fluentcassandra "http://github.com/managedfusion/fluentcassandra").
 
-> Don't forget to check out [part 2 of this series](http://coderjournal.com/2010/06/your-first-fluent-cassandra-application-part-2/).
+> Don't forget to check out [part 2 of this series](/posts/your-first-fluent-cassandra-application-part-2/).

@@ -11,7 +11,7 @@ tags:
 description: "The Managed Fusion URL Rewriter, that I work on and that runs this blog, was featured in PDC 2008 by CJ Saretto (Senior Program Manager for Microsoft Home..."
 ---
 
-The [Managed Fusion URL Rewriter](http://urlrewriter.codeplex.com), that I work on and that [runs this blog](http://www.coderjournal.com/2008/02/url-rewriter-reverse-proxy-iis-wordpress/), was featured in PDC 2008 by [CJ Saretto](http://channel9.msdn.com/pdc2008/ES12/) (Senior Program Manager for Microsoft Home Server). He used it as a reverse proxy to demonstrate streaming video and music from Windows Home Server to the internet from a simulated internal home network.
+The [Managed Fusion URL Rewriter](http://urlrewriter.codeplex.com), that I work on and that [runs this blog](/posts/url-rewriter-reverse-proxy-iis-wordpress/), was featured in PDC 2008 by [CJ Saretto](http://channel9.msdn.com/pdc2008/ES12/) (Senior Program Manager for Microsoft Home Server). He used it as a reverse proxy to demonstrate streaming video and music from Windows Home Server to the internet from a simulated internal home network.
 
 I have cut down the [actual video presentation](http://channel9.msdn.com/pdc2008/ES12/) to the segment that mentioned the Managed Fusion URL Rewriter. If you want to skip to the good parts in this segmented video, I recommend:
 

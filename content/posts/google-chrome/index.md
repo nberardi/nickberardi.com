@@ -29,7 +29,7 @@ However after a quick inspection of the user-agent I soon realized that they did
 
 [![](/images/2008/09/chrome-user-agent1.png "chrome-user-agent")](/images/2008/09/chrome-user-agent1.png)
 
-It is Safari with just a more standard Windows interface, something Apple should have really done. They even copied it all the way down to [the great XML support that Safari has](http://www.coderjournal.com/2008/04/safari-developers-no-common-courtesy/).
+It is Safari with just a more standard Windows interface, something Apple should have really done. They even copied it all the way down to [the great XML support that Safari has](/posts/safari-developers-no-common-courtesy/).
 
 [![](/images/2008/09/chrome-screenshot-xml1.png "chrome-screenshot-xml")](/images/2008/09/chrome-screenshot-xml1.png)
 

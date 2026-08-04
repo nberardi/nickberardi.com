@@ -12,9 +12,9 @@ tags:
 description: "Since my last release of the MVC toolkit some major changes have taken place in the MVC Framework. I am going to do a quick run through of how they..."
 ---
 
-Since my [last release of the MVC toolkit](http://www.coderjournal.com/2008/04/mvc-toolkit/) some major changes have taken place in the MVC Framework. I am going to do a quick run through of how they changed the MVC CAPTCHA for the better.
+Since my [last release of the MVC toolkit](/posts/mvc-toolkit/) some major changes have taken place in the MVC Framework. I am going to do a quick run through of how they changed the MVC CAPTCHA for the better.
 
-Originally in [MVC Preview Release 1 for the MVC CAPTCHA](http://www.coderjournal.com/2008/03/aspnet-mvc-captcha/) many of you remember that the indicator for a valid CAPTCHA was passed through the parameters of the action method like so:
+Originally in [MVC Preview Release 1 for the MVC CAPTCHA](/posts/aspnet-mvc-captcha/) many of you remember that the indicator for a valid CAPTCHA was passed through the parameters of the action method like so:
 
 ```
 [ControllerAction]  
@@ -25,7 +25,7 @@ public void Register(bool captchaValid, string otherParameters)
 }
 ```
 
-However when [Preview Release 2](http://www.coderjournal.com/2008/03/actionfilterattribute-aspnet-mvc-captcha/) came out the ability to pass the parameter through the action method was broken. So I had to create a hack around this:
+However when [Preview Release 2](/posts/actionfilterattribute-aspnet-mvc-captcha/) came out the ability to pass the parameter through the action method was broken. So I had to create a hack around this:
 
 ```
 [CaptchaValidation("captcha")]  

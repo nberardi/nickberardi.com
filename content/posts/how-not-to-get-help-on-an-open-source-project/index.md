@@ -24,7 +24,7 @@ So over the past couple of weeks I have been helping a user get up and running o
 > All I want it to do it fucking work.
 > Ugh
 
-I mean how do you respond to this?  The guy basically has started freaking out on me, because he doesn't understand the basic premis of what my open source project is trying to accomplish and is unwilling to spend the time to learn about the [mod\_rewrite](http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html) syntax. Plus none of what he is saying is true, [I eat my own dog food on this project](http://www.coderjournal.com/2008/02/url-rewriter-reverse-proxy-iis-wordpress/).  So I imidiatly know about simple problems such as query strings are not working.
+I mean how do you respond to this?  The guy basically has started freaking out on me, because he doesn't understand the basic premis of what my open source project is trying to accomplish and is unwilling to spend the time to learn about the [mod\_rewrite](http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html) syntax. Plus none of what he is saying is true, [I eat my own dog food on this project](/posts/url-rewriter-reverse-proxy-iis-wordpress/).  So I imidiatly know about simple problems such as query strings are not working.
 
 Basically the whole problem came down to the fact that this guy was in a crunch, didn't understand the basics of the internet, and thought it would be easier to use a new technology instead of one that is proven for him such as ISA server.  None of this is my problem so it is inappropriate to swear at a person just trying to help you out.  I understood he was frustrated with a technology he has never used before, but I wasn't going to continue a conversation with a guy who was proven to be unstable and irrational.  So I just replied with:
 

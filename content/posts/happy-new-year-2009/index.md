@@ -10,6 +10,6 @@ tags:
 description: "I hope your have a Happy New Year! Over the next year I plan to increasing my rate of posting to my blog and keep it growing in the right direction. Be on..."
 ---
 
-I hope your have a Happy New Year! Over the next year I plan to increasing my rate of posting to my blog and keep it growing in the right direction.   Be on the look out for a new design, new logo, and in a couple days my 2008 Year End Review, like [what I did last year](http://www.coderjournal.com/2008/01/2007-year-end-reivew/).
+I hope your have a Happy New Year! Over the next year I plan to increasing my rate of posting to my blog and keep it growing in the right direction.   Be on the look out for a new design, new logo, and in a couple days my 2008 Year End Review, like [what I did last year](/posts/2007-year-end-reivew/).
 
-**Update:** Got in trouble with the wife for not saying in this post that she also wishes you guys a Happy New Year, like [last year](http://www.coderjournal.com/2008/01/happy-new-year-2008/).
+**Update:** Got in trouble with the wife for not saying in this post that she also wishes you guys a Happy New Year, like [last year](/posts/happy-new-year-2008/).

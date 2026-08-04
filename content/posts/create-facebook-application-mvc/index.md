@@ -18,7 +18,7 @@ My focus today isn't on how to develop your first Facebook application in ASP.NE
 
 - [Facebook Developers](http://developers.facebook.com/)
 - [Facebook Developers Wiki](http://wiki.developers.facebook.com/)
-- [And Also My Getting Started With MVC Guide](http://www.coderjournal.com/2008/02/microsoft-mvc-day-one/)
+- [And Also My Getting Started With MVC Guide](/posts/microsoft-mvc-day-one/)
 
 So now that, that is out of the way lets start looking at what we need to make your MVC application in to a Facebook compatible application. The first thing you will need is the [Facebook Developers Toolkit](http://www.codeplex.com/FacebookToolkit) which is free on CodePlex. The second thing you will need is my [Facebook MVC Web Controls](/images/2008/04/facebookmvcwebcontrols1.zip) which is a modification of the tookit's Facebook.WebControls.dll made specifically for MVC. The third thing you need is [ASP.NET MVC Preview 2](http://www.codeplex.com/aspnet) which is also available for free on CodePlex.
 

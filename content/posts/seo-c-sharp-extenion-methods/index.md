@@ -10,7 +10,7 @@ tags:
 description: "I previously talked about the importance of using the correct kind of redirect to optimize your website for search engines in an article titled. World Of..."
 ---
 
-I previously talked about the importance of using the correct kind of redirect to optimize your website for search engines in an article titled. [World Of HTTP/1.1 Status Codes](http://www.coderjournal.com/2007/04/world-of-http11-status-codes/). I just recently decided to create a C# Utility class to help me in this endeavor and to extended the far from complete HttpResponse.Redirect method. I am using a new C# 3.0 language extension called [Extension Methods](http://msdn2.microsoft.com/en-us/library/bb308966.aspx#csharp3.0overview_topic3). Basically what the extension method does is, it allows you to, add methods to types that you don't have the ability to modify, in my case the HttpResponse class.
+I previously talked about the importance of using the correct kind of redirect to optimize your website for search engines in an article titled. [World Of HTTP/1.1 Status Codes](/posts/world-of-http11-status-codes/). I just recently decided to create a C# Utility class to help me in this endeavor and to extended the far from complete HttpResponse.Redirect method. I am using a new C# 3.0 language extension called [Extension Methods](http://msdn2.microsoft.com/en-us/library/bb308966.aspx#csharp3.0overview_topic3). Basically what the extension method does is, it allows you to, add methods to types that you don't have the ability to modify, in my case the HttpResponse class.
 
 I have created the following code to give me better control over my redirects in the HttpResponse class.
 

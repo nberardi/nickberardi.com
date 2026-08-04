@@ -21,7 +21,7 @@ cover:
 
 I was having a conversation with [my best friend](http://www.codingsmarter.com) a few days ago and we got on the subject of our preferences for how URL's are rendered for blogs.
 
-I fall on the side of [lowercase letters and hyphens splitting the words](http://www.coderjournal.com/2008/03/force-mvc-route-url-lowercase/):
+I fall on the side of [lowercase letters and hyphens splitting the words](/posts/force-mvc-route-url-lowercase/):
 
 ```
 http://www.somesite.com/2008/05/my-url-preference-is-like-this/

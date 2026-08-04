@@ -11,7 +11,7 @@ tags:
 description: "As you may all know I have Windows Vista Ultimate x64 and last post I talked about upgrading to SQL Server 2005 SP2. However while starting my first..."
 ---
 
-As you may all know I have Windows Vista Ultimate x64 and last post I talked about [upgrading to](http://www.coderjournal.com/2007/02/microsoft-sql-server-2005-sp2-for-vista/) [SQL Server 2005 SP2](http://www.coderjournal.com/2007/02/microsoft-sql-server-2005-sp2-for-vista/). However while starting my first Database Project I encountered the following error.
+As you may all know I have Windows Vista Ultimate x64 and last post I talked about [upgrading to](/posts/microsoft-sql-server-2005-sp2-for-vista/) [SQL Server 2005 SP2](/posts/microsoft-sql-server-2005-sp2-for-vista/). However while starting my first Database Project I encountered the following error.
 
 > ---------------------------
 > Microsoft Visual Studio

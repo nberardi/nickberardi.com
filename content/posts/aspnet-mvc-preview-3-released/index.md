@@ -14,7 +14,7 @@ description: "The ASP.NET MVC Team has released an refresh of MVC. To all those 
 The ASP.NET MVC Team has released an refresh of MVC. To all those that are interested the new Preview Release is posted at:   
  [<http://www.codeplex.com/aspnet/Release/ProjectReleases.aspx?ReleaseId=13792>](http://www.codeplex.com/aspnet/Release/ProjectReleases.aspx?ReleaseId=13792)
 
-The new release contains many new features over the 2nd Preview Release and the [Interim Release](http://www.coderjournal.com/2008/04/aspnet-mvc-interim-released/) from a month a half ago. In this post I am going to outline the features that are new from the Interim Release to Preview Release 3.
+The new release contains many new features over the 2nd Preview Release and the [Interim Release](/posts/aspnet-mvc-interim-released/) from a month a half ago. In this post I am going to outline the features that are new from the Interim Release to Preview Release 3.
 
 ### Action Method and Result Changes
 

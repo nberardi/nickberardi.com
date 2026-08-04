@@ -18,7 +18,7 @@ description: "Note I cannot endorse the SocketLabs service anymore. Everything b
 > - [Postmark](http://postmarkapp.com) a try for transaction email
 > - or if you need to send bulk email please try out [SendGrid](http://sendgrid.com)
 
-So you have a GoDaddy server and you want to send email through your newly acquired [SMTP Relay](http://coderjournal.com/2010/10/easy-mail-delivery-with-smtp-smart-host/). Well “[you can’t](http://stackoverflow.com/questions/4005929/unable-to-send-mail-using-system-net-mail-and-godaddy-smtp)” is probably what you are going to find if you do some poking around Google.
+So you have a GoDaddy server and you want to send email through your newly acquired [SMTP Relay](/posts/easy-mail-delivery-with-smtp-smart-host/). Well “[you can’t](http://stackoverflow.com/questions/4005929/unable-to-send-mail-using-system-net-mail-and-godaddy-smtp)” is probably what you are going to find if you do some poking around Google.
 
 If you poke around a little more you will probably find GoDaddy’s official solution is to [use their internal mail relay](http://help.godaddy.com/article/122).  This is not ideal, because of arbitrary barriers they have set, such as this one:
 
@@ -26,7 +26,7 @@ If you poke around a little more you will probably find GoDaddy’s official sol
 
 I shouldn’t have to justify my use cases and business to a company that I am paying over $200 a month for a dedicated server.
 
-But all is not lost, and I could still use the free email relay I created in my [previous post](http://coderjournal.com/2010/10/easy-mail-delivery-with-smtp-smart-host/). As I was searching around the SocketLabs support site I discovered the solution I was looking for and found that alternative ports have been opened to get past the port 25 filtering that a lot of residential cable companies and internet service providers force upon you.  I found this in the SocketLabs support system:
+But all is not lost, and I could still use the free email relay I created in my [previous post](/posts/easy-mail-delivery-with-smtp-smart-host/). As I was searching around the SocketLabs support site I discovered the solution I was looking for and found that alternative ports have been opened to get past the port 25 filtering that a lot of residential cable companies and internet service providers force upon you.  I found this in the SocketLabs support system:
 
 > ##### Using SocketLabs Email On-Demand With a Residential Internet Cable Service and Alternate SMTP Ports
 >
@@ -34,7 +34,7 @@ But all is not lost, and I could still use the free email relay I created in my 
 
 This seemed to be exactly what I was looking for.
 
-To start, we need to pick up where we left off in my previous [smart host blog post](http://coderjournal.com/2010/10/easy-mail-delivery-with-smtp-smart-host/), we need to configure the outgoing port that our smart host will connect to.  By doing this we accomplish the exact same goal as when I first setout of not having to change a single thing in your already functioning and setup applications.  To configuration the alternative port, follow these 4 steps:
+To start, we need to pick up where we left off in my previous [smart host blog post](/posts/easy-mail-delivery-with-smtp-smart-host/), we need to configure the outgoing port that our smart host will connect to.  By doing this we accomplish the exact same goal as when I first setout of not having to change a single thing in your already functioning and setup applications.  To configuration the alternative port, follow these 4 steps:
 
 1.  In **IIS Manager**, **right-click** the SMTP virtual server, and then **click Properties**.
 
