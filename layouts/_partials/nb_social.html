@@ -1,4 +1,4 @@
-{{- /* Three social icons: GitHub, X (Twitter bird), LinkedIn. Call with (dict "size" 24|18) */ -}}
+{{- /* Three social icons: GitHub, X, LinkedIn. Call with (dict "size" 24|18) */ -}}
 {{- $size := .size | default 24 }}
 {{- $pad := 8 }}
 {{- if ge $size 24 }}{{ $pad = 10 }}{{ end }}
@@ -7,7 +7,7 @@
   {{- $name := .name }}
   {{- $icon := $name }}
   {{- $label := $name | title }}
-  {{- if eq $name "twitter" }}{{ $icon = "twitter" }}{{ $label = "X, formerly Twitter" }}{{ end }}
+  {{- if eq $name "x" }}{{ $label = "X" }}{{ end }}
   {{- if eq $name "github" }}{{ $label = "GitHub" }}{{ end }}
   {{- if eq $name "linkedin" }}{{ $label = "LinkedIn" }}{{ end }}
   <a href="{{ .url }}" aria-label="{{ $label }}" title="{{ $label }}" style="padding:{{ $pad }}px" target="_blank" rel="noopener noreferrer me">{{ partial "svg.html" (dict "name" $icon) }}</a>
