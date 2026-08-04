@@ -20,9 +20,10 @@
 {{- with $page.Params.cover -}}
 {{- $cover := . -}}
 {{- with $page.Resources.GetMatch $cover.image -}}
+{{- $orig := . -}}
 {{- $img := .Resize "1800x q82" -}}
 {{- $ext := strings.TrimPrefix "." (path.Ext $cover.image) -}}
-{{- $class := partial "nb_image_class.html" (dict "override" $cover.class "ext" $ext) -}}
+{{- $class := partial "nb_image_class.html" (dict "override" $cover.class "ext" $ext "img" $orig) -}}
 {{- if eq $class "mark" -}}
   {{- warnf "%s: cover.class is %q — a mark is not a cover; no cover rendered" $page.File.Path $class -}}
 {{- else -}}
