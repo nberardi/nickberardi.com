@@ -15,7 +15,7 @@
 <title>{{ site.Title }}</title>
 {{- $tokens := resources.Get "css/extended/broadsheet.css" }}
 {{- $card := resources.Get "css/og-card.css" }}
-{{- $css := (slice $tokens $card) | resources.Concat "css/ogcard-default.css" | resources.Minify }}
+{{- $css := (slice $tokens $card) | resources.Concat "css/ogcard-default.css" | resources.Minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 {{- $pp := resources.Get "js/print-plates.js" | minify | fingerprint }}
 <script src="{{ $pp.RelPermalink }}"></script>
