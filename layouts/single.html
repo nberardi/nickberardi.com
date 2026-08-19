@@ -40,7 +40,17 @@
       {{- $titleLen := len .Title -}}
       {{- $headRung := cond (le $titleLen 28) "1" (cond (le $titleLen 44) "2" (cond (le $titleLen 62) "3" "4")) -}}
       <h2 class="nb-post-heading nb-post-heading--{{ $headRung }}">{{ .Title }}</h2>
-      {{- with .Description }}<div class="nb-post-lede">{{ . }}</div>{{- end }}
+      {{- $dek := strings.TrimSpace .Description -}}
+      {{- if $dek -}}
+        {{- $plainNorm := strings.ToLower (replaceRE `\s+` " " (strings.TrimSpace .Plain)) -}}
+        {{- $dekNorm := strings.ToLower (replaceRE `\s+` " " $dek) -}}
+        {{- if and (not (strings.HasPrefix $plainNorm $dekNorm)) (not (strings.HasPrefix $dekNorm $plainNorm)) -}}
+      <div class="nb-post-dek">
+        <span class="nb-post-dek-mark" aria-hidden="true">&#8220;</span>
+        <p>{{ $dek }}</p>
+      </div>
+        {{- end -}}
+      {{- end -}}
       <div class="nb-post-body">
         {{ .Content }}
       </div>

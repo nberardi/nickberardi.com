@@ -203,12 +203,27 @@ main.nb-single-has-cover { padding-top: 0; }
    wrapped a 60-char/46px title to four lines and a 91-char/40px title to
    five. Each rung's ch value is sized to its own bucket's longest real
    title, same fix shape as the OG card ladder in the OG redline. */
-.nb-post-heading { letter-spacing: -0.026em; margin: 0 0 14px; }
+.nb-post-heading { letter-spacing: -0.026em; margin: 0; }
 .nb-post-heading--1 { font-size: 62px; line-height: 1.04; max-width: 20ch; }
 .nb-post-heading--2 { font-size: 54px; line-height: 1.06; max-width: 24ch; }
 .nb-post-heading--3 { font-size: 46px; line-height: 1.09; max-width: 24ch; }
 .nb-post-heading--4 { font-size: 40px; line-height: 1.12; max-width: 32ch; }
-.nb-post-lede { font-size: 18px; line-height: 1.5; max-width: 34em; margin-bottom: 26px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
+/* Post Redline sheet 6: full description as dek, italic 13.5px, accent-2 quote.
+   Never truncated. 16px under the headline, 34px before the body. */
+.nb-post-dek { position: relative; padding-left: 24px; margin: 16px 0 34px; max-width: 42em; }
+.nb-post-dek p {
+  font: italic 400 13.5px / 1.5 var(--font-body);
+  color: color-mix(in srgb, var(--color-text) 60%, transparent);
+  margin: 0;
+}
+.nb-post-dek-mark {
+  position: absolute; left: -4px; top: -11px;
+  font: 600 40px / 1 var(--font-heading);
+  color: var(--color-accent-2); opacity: 0.8;
+  pointer-events: none; user-select: none;
+}
+/* No dek: body starts 34px below the headline. */
+.nb-post-heading + .nb-post-body { margin-top: 34px; }
 
 /* Measure lives on the text elements themselves, never on .nb-post-body — an em value
    set on the wrapper would resolve against the wrapper's own (inherited, smaller) font-size. */
@@ -509,7 +524,7 @@ main.nb-search { padding-top: 38px; }
   .nb-post-grid { grid-template-columns: 1fr; gap: 0; }
   .nb-post-rail { position: static; order: 2; margin-top: 34px; }
   .nb-post-main { order: 1; }
-  .nb-post-lede,
+  .nb-post-dek,
   .nb-post-body > p, .nb-post-body > ul, .nb-post-body > ol,
   .nb-post-body > h2, .nb-post-body > h3, .nb-post-body > h4,
   .nb-post-body > blockquote {
