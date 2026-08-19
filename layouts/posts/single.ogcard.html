@@ -24,7 +24,7 @@
 <title>{{ .Title }}</title>
 {{- $tokens := resources.Get "css/extended/broadsheet.css" }}
 {{- $card := resources.Get "css/og-card.css" }}
-{{- $css := (slice $tokens $card) | resources.Concat "css/ogcard-post.css" | resources.Minify }}
+{{- $css := (slice $tokens $card) | resources.Concat "css/ogcard-post.css" | resources.Minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 {{- $pp := resources.Get "js/print-plates.js" | minify | fingerprint }}
 <script src="{{ $pp.RelPermalink }}"></script>
@@ -70,8 +70,8 @@
     </div>
     {{- with .GetTerms "tags" }}
     <div class="og-tags">
-      {{- range $i, $t := first 3 . }}
-      <span class="tag {{ if eq $i 0 }}tag-accent{{ else }}tag-neutral{{ end }}">{{ $t.Title }}</span>
+      {{- range first 3 . }}
+      <span class="tag tag-neutral">{{ .Title }}</span>
       {{- end }}
     </div>
     {{- end }}

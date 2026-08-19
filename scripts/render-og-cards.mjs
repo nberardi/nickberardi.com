@@ -129,6 +129,9 @@ async function main() {
         // doesn't guarantee either, so wait for them explicitly.
         await page.waitForSelector('#broadsheet-print-plates', { state: 'attached', timeout: 5000 });
         await page.evaluate(() => document.fonts.ready);
+        // nb-og-fit.js waits for the 600 face, then picks a rung. Screenshot
+        // before that lands on fallback-font metrics (and a four-line title).
+        await page.waitForSelector('[data-og-fit="done"]', { timeout: 5000 });
         const shot = await page.screenshot({ clip: { x: 0, y: 0, width: 1200, height: 630 } });
         await page.close();
         // sRGB PNG per requirement #1; palette-quantize since these are flat
@@ -166,8 +169,10 @@ async function main() {
   for (const slug of slugs) {
     await rm(path.join(PUBLIC_DIR, 'posts', slug, 'ogcard.html'), { force: true });
   }
-  for (const f of ['ogcard-post.min.css', 'ogcard-default.min.css']) {
-    await rm(path.join(PUBLIC_DIR, 'css', f), { force: true }).catch(() => {});
+  for (const f of await readdir(path.join(PUBLIC_DIR, 'css')).catch(() => [])) {
+    if (f.startsWith('ogcard-') && f.endsWith('.css')) {
+      await rm(path.join(PUBLIC_DIR, 'css', f), { force: true });
+    }
   }
 
   console.log(`[og] ${slugs.length} posts — ${rendered} rendered, ${cached} cached, ${fellBack} fell back to default`);
