@@ -40,14 +40,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Cache Playwright browser
         id: playwright-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ms-playwright
           key: playwright-chromium-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
@@ -68,7 +68,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Cache Open Graph card renders
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .og-cache
           key: og-cards-${{ github.run_id }}
