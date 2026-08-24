@@ -7,6 +7,11 @@ tags:
   - "AI"
   - "Personal"
 description: "Every week another model ships. This one doesn't show up on any charts"
+cover:
+  image: "hero.png"
+  alt: "Human development in an AI world"
+  hiddenInSingle: false
+  hiddenInList: false
 ---
 
 Each day we get bombarded by new models and headlines about the latest jump in capability. Benchmarks move. Context windows swell. Someone posts a screenshot of an agent booking a flight while they sleep. Fine. Useful, even. But the one model that still barely shows up in those threads is U.ai 2.3, one of the most ambitious, underrepresented systems in active development. It has been sliding under the headlines for years and remains one of the most important models shipping today.
