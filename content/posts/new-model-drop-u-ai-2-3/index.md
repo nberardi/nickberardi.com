@@ -20,27 +20,27 @@ Your brain is the model. Your body is the harness. Personal growth is the actual
 
 ## The mind
 
-I keep coming back to a boring scoreboard. Not how many tools I tried last week. What I can still notice, decide, and finish when the room is noisy.
+Model quality, for me, is not how many tools I tried last week. It is what I can still notice, decide, and finish when the room is noisy.
 
-The upgrades that stuck for me look small up close. Clearer writing. Reading a messy situation without panicking. Getting through a hard conversation without flinching. One skill practiced weekly for a quarter has beaten more half-started courses than I want to admit.
+The upgrades that actually stuck look small. Clearer writing. Getting through a hard conversation without flinching. Reading a messy situation without panicking. One skill practiced every week for a quarter has beaten more half-started courses than I want to admit.
 
-Judgment is where agents still fall over. Fluent garbage still sounds fluent. Gamed metrics still look like numbers. "Ship it" is sometimes courage and sometimes laziness. The only training that has worked for me is ordinary and a little uncomfortable: make the call with incomplete information, write down what I expected, check later. Agents speed up a draft. They do not own the call.
+Judgment is still the gap. Agents will hand you fluent nonsense with a straight face. Metrics will look fine when they are gamed. "Ship it" is sometimes the right call and sometimes laziness wearing confidence. The training that has worked for me is ordinary: make the call with incomplete information, write down what I expected, check later. Agents can speed up a draft. They do not own the call.
 
-Attention is the scarce input, and boredom is part of how you get it back. Idle time is not always a scheduling failure. Creative work leans on the brain's default mode network, the circuitry that lights up when you are not glued to a task. Disrupt that network and ideas get less original, not more efficient.[^1] Fill every spare minute with a feed, a chat, or another "quick" generation and you starve the part that connects distant ideas. The blank page feels awkward for thirty seconds, so it is easy to hand the heavy lift to a model. Convenient. Also how originality and taste thin out.
+Boredom matters more than I used to think. Idle time is not always a scheduling failure. Creative work leans on the brain's default mode network, the circuitry that lights up when you are not glued to a task. Disrupt that network and ideas get less original, not more efficient.[^1] Fill every spare minute with a feed, a chat, or another "quick" generation and you starve the part that connects distant ideas. The blank page feels awkward for thirty seconds, so it is easy to hand the heavy lift to a model. Convenient. Also how originality and taste thin out.
 
 None of this is an anti-AI argument. I use the agents. I use them hard. I just stopped mistaking their throughput for my capability.
 
 ## The body
 
-I used to treat the body like a side quest because I "work with my mind." Sleep, food, movement, and stress load still decide whether a long thought holds or collapses at 2 p.m.
+I used to treat the body like optional equipment because I "work with my mind." Sleep, food, movement, and stress load still decide whether a long thought holds or falls apart at 2 p.m.
 
-This is also an aging problem. Neglect the body long enough and it becomes a ceiling on the mind: less stamina for deep work, worse mood, softer memory, fewer years at full capacity. Cut sleep short and you do not get a noble martyrdom. You get short temper, soft memory, and clever excuses for bad decisions. A consistent sleep window is not lifestyle content. It is recovery.
+This is also an aging problem. Neglect the body long enough and it becomes a ceiling on the mind: less stamina for deep work, worse mood, softer memory, fewer years at full capacity. Cut sleep short and you do not get credit for toughness. You get a short temper, soft memory, and clever excuses for bad decisions. A consistent sleep window is not lifestyle content. It is recovery.
 
-Movement does not need a brand. Walk. Lift something heavier than a laptop bag a few times a week. Living on caffeine and spite works until it doesn't. The point is not a meet PR. It is a power supply that still works in a decade, not just until Friday.
+Movement does not need a brand. Walk. Lift something heavier than a laptop bag a few times a week. Living on caffeine and spite works until it does not. The point is not a race or a meet. It is a body that still works in a decade, not just until Friday.
 
 What keeps any of this alive in a busy month is boring on purpose: same wake time, a short strength session that survives travel, a default meal that is not a negotiation, an evening shutdown so work stops eating sleep. When the basics are automatic, willpower is free for harder problems.
 
-Mind and body run on the same clock. Let one slip and the other pays for it later, with interest as the years stack up.
+Mind and body run on the same clock. Let one slip and the other pays for it later, especially as the years stack up.
 
 ## What to ship this quarter
 
@@ -48,11 +48,11 @@ I keep the list small enough that I will actually run it.
 
 One skill with a weekly rep: a page written, a system diagrammed, a decision journaled. One filter on inputs: fewer feeds, more primary sources, more quiet. One standing rule for agents: they draft, I decide. If I cannot explain the call without the chat log, I do not own it yet.
 
-A sleep floor most nights. A minimum movement dose that does not depend on feeling motivated. A stress valve that is not only scrolling: walk, stretch, talk to a human, sit quietly. Deliberate downtime where nothing is optimizing me.
+A sleep floor most nights. A minimum of movement that does not depend on feeling motivated. A stress valve that is not only scrolling: walk, stretch, talk to a human, sit quietly. Real downtime where nothing is optimizing me.
 
-Once a month, a short review written when I am tired enough to be honest: what improved, what quietly regressed, what I am pretending is fine. Ambient hope does not compound. Small repeated patches do, especially when I keep a changelog I can still read when I would rather lie to myself.
+Once a month, a short review written when I am tired enough to be honest: what improved, what quietly got worse, what I am pretending is fine. Hope without a note does not compound. Small repeated patches do, especially when I keep a record I can still read when I would rather lie to myself.
 
-If that sounds less glamorous than a keynote demo, good. Most real upgrades are.
+Most of this is less glamorous than a product demo. That is fine. Most real upgrades are.
 
 ## Close
 
