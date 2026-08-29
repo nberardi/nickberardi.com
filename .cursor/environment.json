@@ -1,0 +1,13 @@
+{
+  "name": "nickberardi.com",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "hugo-server",
+      "command": "hugo server -D --bind 0.0.0.0 --port 1313"
+    }
+  ],
+  "ports": [
+    1313
+  ]
+}
